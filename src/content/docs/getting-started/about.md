@@ -17,8 +17,9 @@ The following systems are present in the reviewed development source. This overv
 | Cooking and processing | Cookware, heated cooking, oven processing, blending, mixing, and grinding |
 | Recipe Book | Recipe entries, discovery, pinned recipe planning, and bulk cooking support |
 | Recipe Notes | Recipe Note items that identify recipes |
-| Kitchen storage | Counters, cabinets, fridge and freezer blocks, and ingredient lookup |
+| Kitchen storage | Counters, cabinets, fridge and freezer blocks, connected ingredient lookup, and pinned-recipe loading |
 | Agriculture | Crops, cultivated soil, seasonal and environmental growth factors, pollination factors, and crop vigor |
+| Freshness and spoilage | Perishable food aging, refrigerated storage, frozen storage, and recipe freshness propagation |
 | Fermentation | Fermentation Crock recipes and timed processing |
 | Environment | Calendar, solar time, seasonal daylight, and weather systems |
 
@@ -37,6 +38,6 @@ The preparation actions available depend on the ingredient. This list does not m
 
 ## Development Status
 
-Features and recipes may change before the first playtest build. Food spoilage, additional livestock, and expanded horticulture belong to the [planned development areas](/development/planned-features/).
+Features and recipes may change before the first playtest build. The current development line already includes freshness/spoilage and cold-storage modifiers. Additional livestock, expanded horticulture, and broader preservation methods remain part of the [planned development areas](/development/planned-features/).
 
 See [Documentation Status](/reference/documentation-status/) for how this wiki distinguishes current implementation, development work, and future plans.

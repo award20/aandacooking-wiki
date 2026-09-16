@@ -9,13 +9,14 @@ The following areas are planned for future development. They describe the intend
 
 | Area | Direction |
 |---|---|
-| Food spoilage | Storage conditions affecting how long food remains usable |
-| Refrigeration and freezing | Fridge and freezer storage interacting with future spoilage mechanics |
-| Preservation | Broader preservation systems, including preserves and sealed food storage |
+| Preservation expansion | Broader preservation methods such as sealed storage, drying, smoking, and additional salting systems |
 | Livestock | Additional animals, meat sources, milk types, and distinct dairy or cheese chains |
 | Horticulture | Fruit trees, bushes, vines, root crops, orchards, and perennial plants |
+| Cold-storage expansion | Additional presentation, equipment progression, and balancing around the existing fridge/freezer freshness system |
 
-Fridge and freezer blocks already exist. Their presence does not mean food spoilage has been implemented. Fermentation and pickling content also exist; future preservation work would expand those systems.
+Core food freshness/spoilage, refrigerated aging, frozen storage, and modular Fridge/Freezer inventories are already implemented in the current development line. See [Cold Storage](/storage/cold-storage/) for the documented behavior.
+
+Fermentation and pickling content also exist. Future preservation work would expand the number of techniques and production chains rather than introducing the first spoilage system.
 
 ## Ideas Under Consideration
 
@@ -26,4 +27,6 @@ Specific future crops, livestock, food states, processing times, and release dat
 ## Related Pages
 
 - [About A & A Cooking](/getting-started/about/) describes the current systems.
+- [Kitchen Storage](/storage/overview/) covers the connected storage network.
+- [Cold Storage](/storage/cold-storage/) covers current Fridge and Freezer behavior.
 - [Documentation Status](/reference/documentation-status/) explains how feature status is recorded.

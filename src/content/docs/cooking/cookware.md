@@ -56,7 +56,7 @@ The oven side of the Stovetop/Oven supports cookware requirements separate from 
 - **Iron Baking Sheet**
 - **Iron Baking Dish**
 
-An oven recipe can require a baking sheet, baking dish, a bare rack, or accept any supported rack arrangement. See [Stovetop/Oven](/stations/stovetop-oven/) for the current rack and cookware requirement types.
+An oven recipe can require a baking sheet, baking dish, a bare rack, or accept any supported rack arrangement. See [Oven Bakeware](/cooking/oven-bakeware/) for the dedicated Iron Baking Sheet and Iron Baking Dish guide, and [Stovetop/Oven](/stations/stovetop-oven/) for the oven controls and rack system.
 
 ## Recipe Book integration
 
@@ -73,10 +73,12 @@ The cookware-wide behavior stays on this page, while the individual guides now c
 - [Skillet](/cooking/skillet/) for four-slot dry-heat cooking and fast thermal response
 - [Wok](/cooking/wok/) for five-slot high-heat cooking, heat zones, toss counts, and toss streaks
 
-Baking Sheet and Baking Dish usage and material/equipment-tier differences will receive their own reference coverage as those parts of the content catalog settle.
+- [Oven Bakeware](/cooking/oven-bakeware/) for Iron Baking Sheet and Iron Baking Dish requirements, rack placement, and Recipe Book loading
 
 ## Related pages
 
 - [Cooking Overview](/cooking/overview/)
 - [Stovetop/Oven](/stations/stovetop-oven/)
+- [Oven Bakeware](/cooking/oven-bakeware/)
+- [Kitchen Storage](/storage/overview/)
 - [Recipe Book](/recipe-book/overview/)

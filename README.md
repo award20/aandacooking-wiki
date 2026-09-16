@@ -30,7 +30,7 @@ The documentation is organized around:
 - Commands, configuration, and technical information
 - Development status and planned features
 
-The current core release contains the project overview, first-steps guide, ingredient-preparation guide, cooking overview, Recipe Book overview, documentation status, planned development pages, dedicated Kitchen Sink, Cutting Board, Blender, Mixing Bowl, Mortar and Pestle, and Stovetop/Oven station guides, and the first Cookware Overview. Additional station, recipe, ingredient, agriculture, command, and configuration pages will be added as their behavior is verified.
+The current core documentation includes the project overview, first-steps and ingredient-preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, documentation status, and planned development pages. Recipe, ingredient, agriculture, command, configuration, fermentation, and other production-system references will continue to expand as their behavior is verified.
 
 ## Development
 
@@ -60,6 +60,6 @@ The current A & A Cooking source is the authority when it conflicts with earlier
 Maintained by [Haxuslate](https://haxuslate.com).
 
 
-## Current cookware guides
+## Current system guides
 
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, and Wok in addition to the shared Cookware Overview.
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, connected kitchen storage, Cabinets/Counters, and modular Fridge/Freezer cold storage in addition to the shared overview pages.

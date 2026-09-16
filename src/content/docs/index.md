@@ -3,7 +3,7 @@ title: A & A Cooking Wiki
 description: Documentation for A & A Cooking, a Fabric cooking and agriculture mod for Minecraft 1.21.10.
 ---
 
-A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft. It includes ingredient preparation, cookware, kitchen stations, crop systems, and recipe discovery. The mod is currently in pre-alpha development.
+A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft. It includes ingredient preparation, cookware, kitchen stations, connected storage, freshness and spoilage, crop systems, and recipe discovery. The mod is currently in pre-alpha development.
 
 <div class="page-summary">
     <p><strong>Minecraft 1.21.10 · Fabric · Pre-alpha</strong></p>
@@ -29,13 +29,19 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Saucepan](/cooking/saucepan/) | Small-volume liquid cooking, evaporation, and reductions |
 | [Skillet](/cooking/skillet/) | Fast-response direct-heat cooking with four ingredient slots |
 | [Wok](/cooking/wok/) | High-heat cooking, heat zones, tossing, and toss streaks |
+| [Oven Bakeware](/cooking/oven-bakeware/) | Iron Baking Sheet, Iron Baking Dish, rack requirements, and automatic loading |
+| [Kitchen Storage](/storage/overview/) | Connected storage, exact ingredient matching, autofill, and freshness conditions |
+| [Cabinets & Counters](/storage/cabinets-counters/) | Ambient storage capacities and kitchen-network connectivity |
+| [Cold Storage](/storage/cold-storage/) | Small/Large Fridges and Freezers, mixed layouts, and freshness rates |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
 | [Documentation Status](/reference/documentation-status/) | Version coverage, verification, and the meaning of feature status labels |
 | [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, a basic player workflow, ingredient preparation, cooking behavior, the Recipe Book, development status, dedicated station guides for the Kitchen Sink, Cutting Board, Blender, Mixing Bowl, Mortar and Pestle, and Stovetop/Oven, plus dedicated guides for the Stockpot, Saucepan, Skillet, and Wok. Oven bakeware, recipes, agriculture references, commands, and configuration pages will be added as their behavior is checked against the source.
+The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, and the connected kitchen-storage system. Storage coverage includes Cabinets, Counters, standalone Fridges and Freezers, all current 1×2 cold-storage layouts, and the current refrigerator/freezer freshness behavior.
+
+Large recipe catalogs, agriculture references, commands, configuration, fermentation details, and more specialized production chains will be added as their behavior is checked against the current development line.
 
 Recipe quantities, processing times, and controls will be documented on their relevant pages. General systems will have a central explanation that other pages link to.
 

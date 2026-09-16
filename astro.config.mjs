@@ -35,7 +35,8 @@ export default defineConfig({
                         { label: 'Stockpot', slug: 'cooking/stockpot' },
                         { label: 'Saucepan', slug: 'cooking/saucepan' },
                         { label: 'Skillet', slug: 'cooking/skillet' },
-                        { label: 'Wok', slug: 'cooking/wok' }
+                        { label: 'Wok', slug: 'cooking/wok' },
+                        { label: 'Oven Bakeware', slug: 'cooking/oven-bakeware' }
                     ]
                 },
                 {
@@ -47,6 +48,14 @@ export default defineConfig({
                         { label: 'Mixing Bowl', slug: 'stations/mixing-bowl' },
                         { label: 'Mortar and Pestle', slug: 'stations/mortar-and-pestle' },
                         { label: 'Stovetop/Oven', slug: 'stations/stovetop-oven' }
+                    ]
+                },
+                {
+                    label: 'Kitchen Storage',
+                    items: [
+                        { label: 'Storage Overview', slug: 'storage/overview' },
+                        { label: 'Cabinets & Counters', slug: 'storage/cabinets-counters' },
+                        { label: 'Cold Storage', slug: 'storage/cold-storage' }
                     ]
                 },
                 {
