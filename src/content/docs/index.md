@@ -48,6 +48,8 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy Stockpot dish reference |
 | [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, focaccia, pancakes, cookies, and other oven foods |
 | [Pasta & Noodles](/recipes/pasta-noodles/) | Noodle foundations, pasta dishes, and noodle stir fries |
+| [Eggs & Dairy](/recipes/eggs-dairy/) | Egg preparations, omelettes, cheese, cream, butter, custard, and dairy dishes |
+| [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned Wok dishes, seared proteins, and related direct heat foods |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
 | [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |

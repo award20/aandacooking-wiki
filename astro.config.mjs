@@ -86,6 +86,8 @@ export default defineConfig({
                         { label: 'Soups & Stews', slug: 'recipes/soups-stews' },
                         { label: 'Breads & Baked Foods', slug: 'recipes/breads-baked-foods' },
                         { label: 'Pasta & Noodles', slug: 'recipes/pasta-noodles' },
+                        { label: 'Eggs & Dairy', slug: 'recipes/eggs-dairy' },
+                        { label: 'Stir Fries & Seared Foods', slug: 'recipes/stir-fries-seared-foods' },
                         { label: 'Sauces & Intermediates', slug: 'recipes/sauces-intermediates' },
                         { label: 'Fermentation & Preservation', slug: 'recipes/fermentation-preservation' }
                     ]
