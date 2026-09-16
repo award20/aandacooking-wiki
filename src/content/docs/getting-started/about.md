@@ -1,0 +1,42 @@
+---
+title: About A & A Cooking
+description: An overview of the cooking, ingredient preparation, agriculture, and storage systems in A & A Cooking.
+---
+
+A & A Cooking adds cooking and agriculture systems to Minecraft. Recipes can involve preparing ingredients, using specific equipment, and processing ingredients through more than one station.
+
+The current source targets Minecraft **1.21.10** with **Fabric**. It is under active pre-alpha development.
+
+## Current Systems
+
+The following systems are present in the reviewed development source. This overview confirms their presence; detailed rules and controls will be covered in separate guides.
+
+| System | Scope |
+|---|---|
+| Ingredient preparation | Washing and preparation actions such as slicing, dicing, mincing, peeling, and shredding |
+| Cooking and processing | Cookware, heated cooking, oven processing, blending, mixing, and grinding |
+| Recipe Book | Recipe entries, discovery, pinned recipe planning, and bulk cooking support |
+| Recipe Notes | Recipe Note items that identify recipes |
+| Kitchen storage | Counters, cabinets, fridge and freezer blocks, and ingredient lookup |
+| Agriculture | Crops, cultivated soil, seasonal and environmental growth factors, pollination factors, and crop vigor |
+| Fermentation | Fermentation Crock recipes and timed processing |
+| Environment | Calendar, solar time, seasonal daylight, and weather systems |
+
+## Equipment
+
+Equipment registered in the current source includes:
+
+- Oak Kitchen Sink and Oak Cutting Board
+- Blender, Mixing Bowl, and Mortar and Pestle
+- Iron Saucepan, Iron Stockpot, Iron Skillet, and Iron Wok
+- Fermentation Crock and Stovetop Oven
+- Small Stainless Steel Fridge and Small Stainless Steel Freezer
+- Recipe Book
+
+The preparation actions available depend on the ingredient. This list does not mean every ingredient supports every action or station.
+
+## Development Status
+
+Features and recipes may change before the first playtest build. Food spoilage, additional livestock, and expanded horticulture belong to the [planned development areas](/development/planned-features/).
+
+See [Documentation Status](/reference/documentation-status/) for how this wiki distinguishes current implementation, development work, and future plans.

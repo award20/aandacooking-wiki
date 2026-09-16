@@ -1,0 +1,20 @@
+{
+    "name": "aandacooking-wiki",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "engines": {
+        "node": ">=24.13.0 <25"
+    },
+    "dependencies": {
+        "@astrojs/markdown-remark": "7.3.0",
+        "@astrojs/starlight": "0.42.1",
+        "astro": "7.2.10"
+    }
+}

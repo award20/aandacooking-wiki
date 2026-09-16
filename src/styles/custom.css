@@ -1,0 +1,117 @@
+:root,
+:root[data-theme='dark'] {
+    color-scheme: dark;
+    --background: #122738;
+    --surface: #191e20;
+    --text: #f2f3ef;
+    --muted: #b4bfbd;
+    --line: #35403f;
+    --accent: #ffc600;
+    --green: #9ed092;
+    --blue: #9ac1d6;
+
+    --sl-color-white: var(--text);
+    --sl-color-gray-1: var(--text);
+    --sl-color-gray-2: var(--muted);
+    --sl-color-gray-3: var(--muted);
+    --sl-color-gray-4: var(--line);
+    --sl-color-gray-5: var(--line);
+    --sl-color-gray-6: var(--surface);
+    --sl-color-black: var(--background);
+    --sl-color-accent-low: var(--surface);
+    --sl-color-accent: var(--accent);
+    --sl-color-accent-high: var(--accent);
+    --sl-color-text: var(--text);
+    --sl-color-text-accent: var(--accent);
+    --sl-color-text-invert: var(--background);
+    --sl-color-bg: var(--background);
+    --sl-color-bg-nav: var(--background);
+    --sl-color-bg-sidebar: var(--surface);
+    --sl-color-bg-inline-code: var(--surface);
+    --sl-color-hairline: var(--line);
+    --sl-color-hairline-light: var(--line);
+    --sl-color-hairline-shade: var(--line);
+    --sl-content-width: 52rem;
+    --sl-text-5xl: 2.75rem;
+    --sl-text-4xl: 2.25rem;
+    --sl-font: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --sl-font-mono: 'Cascadia Code', Consolas, monospace;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: -0.025em;
+}
+
+:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
+}
+
+::selection {
+    background: var(--accent);
+    color: var(--background);
+}
+
+.sl-markdown-content a {
+    text-underline-offset: 0.2em;
+}
+
+.sl-markdown-content table {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.sl-markdown-content th {
+    background: var(--surface);
+    color: var(--text);
+}
+
+.sl-markdown-content td,
+.sl-markdown-content th {
+    border-color: var(--line);
+}
+
+.sl-markdown-content :not(pre) > code {
+    color: var(--text);
+    border: 1px solid var(--line);
+}
+
+.page-summary {
+    margin-block: 1.5rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    background: var(--surface);
+}
+
+.page-summary p {
+    margin: 0;
+}
+
+.page-summary p + p {
+    margin-top: 0.5rem;
+    color: var(--muted);
+}
+
+.pagefind-ui {
+    --pagefind-ui-primary: var(--accent);
+    --pagefind-ui-text: var(--text);
+    --pagefind-ui-background: var(--surface);
+    --pagefind-ui-border: var(--line);
+    --pagefind-ui-tag: var(--background);
+}
+
+@media (max-width: 50rem) {
+    :root {
+        --sl-text-5xl: 2rem;
+        --sl-text-4xl: 1.75rem;
+    }
+}
