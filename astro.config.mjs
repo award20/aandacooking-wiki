@@ -83,6 +83,8 @@ export default defineConfig({
                         { label: 'Ingredients Overview', slug: 'ingredients/overview' },
                         { label: 'Rice & Soybean', slug: 'ingredients/rice-soybean' },
                         { label: 'Recipe Catalog', slug: 'recipes/overview' },
+                        { label: 'Soups & Stews', slug: 'recipes/soups-stews' },
+                        { label: 'Sauces & Intermediates', slug: 'recipes/sauces-intermediates' },
                         { label: 'Fermentation & Preservation', slug: 'recipes/fermentation-preservation' }
                     ]
                 },

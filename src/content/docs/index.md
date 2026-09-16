@@ -45,6 +45,8 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Ingredients Overview](/ingredients/overview/) | Ingredient families, prepared states, intermediates, and naming structure |
 | [Rice & Soybean](/ingredients/rice-soybean/) | Rice, Soybean, tofu, Soy Sauce, and related production chains |
 | [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing Recipe Book catalog |
+| [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy Stockpot dish reference |
+| [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
 | [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
 | [Configuration](/reference/configuration/) | Confirmed day-length, daylight, latitude, temperature-unit, and calendar settings |
@@ -55,7 +57,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient/recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, and implemented fermentation/preservation behavior.
+The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient/recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, implemented fermentation/preservation behavior, soups and stews, and the first dedicated sauces/intermediates reference.
 
 The retained Batch 22 content snapshot contained 230 discoverable Recipe Book entries, so the wiki is intentionally organizing recipes into expandable groups instead of one giant static table. Complete per-recipe quantities and durations, the full weather-condition catalog, exact configuration-file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
 

@@ -32,11 +32,11 @@ This means the configured duration changes **real-time day speed** while keeping
 
 The retained duration parser accepts:
 
-- `s` — seconds
-- `m` — minutes
-- `h` — hours
-- `d` — days
-- `w` — weeks
+- `s`: seconds
+- `m`: minutes
+- `h`: hours
+- `d`: days
+- `w`: weeks
 
 Values can contain decimals, and duration tokens can be combined after whitespace is removed. Examples of parser-compatible shapes include:
 

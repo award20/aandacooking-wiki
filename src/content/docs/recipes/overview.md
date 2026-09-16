@@ -13,13 +13,13 @@ Recipes will be grouped primarily by the role of the finished food rather than b
 
 | Group | Typical contents |
 |---|---|
-| Soups & stews | Stockpot soups, stews, chowders and creamy variants |
+| [Soups & Stews](/recipes/soups-stews/) | Stockpot soups, stews, chowders and creamy variants |
 | Breads & baked foods | Bread, toast, cookies, focaccia, oven dishes and baked produce |
 | Pasta & noodles | Pasta sauces, creamy pasta, boiled noodles and stir-fried noodles |
 | Rice & soybean | Fried rice, rice bowls, porridge, tofu and soy-based dishes |
 | Eggs & dairy | Omelettes, scrambled eggs, cheese, butter, cream, custard and dairy dishes |
 | Stir fries & seared foods | Wok/skillet recipes, seasoned meats, vegetables and seafood |
-| Sauces & intermediates | Sauces, purees, pastes, batters, doughs, oils and prerequisite components |
+| [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, pastes, batters, doughs, oils and prerequisite components |
 | Drinks | Juices, teas, smoothies, hot chocolate and related beverages |
 | Fermented & preserved | Vinegar, brines, fermented soy products, pickled ingredients and related prerequisites |
 
@@ -71,5 +71,7 @@ Recipes are intended to be discovered rather than exposed as a complete unlocked
 
 - [Recipe Book](/recipe-book/overview/)
 - [Ingredients Overview](/ingredients/overview/)
+- [Soups & Stews](/recipes/soups-stews/)
+- [Sauces & Intermediates](/recipes/sauces-intermediates/)
 - [Rice & Soybean](/ingredients/rice-soybean/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
