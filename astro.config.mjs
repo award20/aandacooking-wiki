@@ -59,6 +59,24 @@ export default defineConfig({
                     ]
                 },
                 {
+                    label: 'Agriculture',
+                    items: [
+                        { label: 'Agriculture Overview', slug: 'agriculture/overview' },
+                        { label: 'Cultivated Soil', slug: 'agriculture/cultivated-soil' },
+                        { label: 'Crop Growth & Vigor', slug: 'agriculture/crop-growth' },
+                        { label: 'Current Crops', slug: 'agriculture/crops' },
+                        { label: 'Compost & Fertility', slug: 'agriculture/compost-fertility' }
+                    ]
+                },
+                {
+                    label: 'Environment',
+                    items: [
+                        { label: 'Calendar & Seasons', slug: 'environment/calendar-seasons' },
+                        { label: 'Solar Time & Daylight', slug: 'environment/solar-daylight' },
+                        { label: 'Weather & Climate', slug: 'environment/weather-climate' }
+                    ]
+                },
+                {
                     label: 'Recipe Book',
                     items: [{ label: 'Overview', slug: 'recipe-book/overview' }]
                 },

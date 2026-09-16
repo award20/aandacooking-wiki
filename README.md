@@ -30,7 +30,7 @@ The documentation is organized around:
 - Commands, configuration, and technical information
 - Development status and planned features
 
-The current core documentation includes the project overview, first-steps and ingredient-preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, documentation status, and planned development pages. Recipe, ingredient, agriculture, command, configuration, fermentation, and other production-system references will continue to expand as their behavior is verified.
+The current core documentation includes the project overview, first-steps and ingredient-preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. Recipe, ingredient, configuration, fermentation, and other production-system references will continue to expand as their behavior is verified.
 
 ## Development
 
@@ -62,4 +62,4 @@ Maintained by [Haxuslate](https://haxuslate.com).
 
 ## Current system guides
 
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, connected kitchen storage, Cabinets/Counters, and modular Fridge/Freezer cold storage in addition to the shared overview pages.
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, and weather/climate systems in addition to the shared overview pages.

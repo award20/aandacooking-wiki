@@ -33,15 +33,23 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Kitchen Storage](/storage/overview/) | Connected storage, exact ingredient matching, autofill, and freshness conditions |
 | [Cabinets & Counters](/storage/cabinets-counters/) | Ambient storage capacities and kitchen-network connectivity |
 | [Cold Storage](/storage/cold-storage/) | Small/Large Fridges and Freezers, mixed layouts, and freshness rates |
+| [Agriculture Overview](/agriculture/overview/) | Soil, crop profiles, vigor, pollination, and harvest quality |
+| [Cultivated Soil](/agriculture/cultivated-soil/) | 0.0–2.0 soil saturation, hydration targets, flooding, and fertility |
+| [Crop Growth & Vigor](/agriculture/crop-growth/) | Growth probability, vigor, lifecycle states, pollination, yield, and quality |
+| [Current Crops](/agriculture/crops/) | Tomato and Onion crop profiles, season preferences, yields, and regrowth |
+| [Compost & Fertility](/agriculture/compost-fertility/) | Restoring fertility and current composting behavior |
+| [Calendar & Seasons](/environment/calendar-seasons/) | Dates, weekdays, seasons, year progress, and calendar diagnostics |
+| [Solar Time & Daylight](/environment/solar-daylight/) | Configurable day length, seasonal daylight, latitude, sunrise, and sunset |
+| [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow-surface behavior |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
 | [Documentation Status](/reference/documentation-status/) | Version coverage, verification, and the meaning of feature status labels |
 | [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, and the connected kitchen-storage system. Storage coverage includes Cabinets, Counters, standalone Fridges and Freezers, all current 1×2 cold-storage layouts, and the current refrigerator/freezer freshness behavior.
+The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, and the environment system. Agriculture coverage now includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics.
 
-Large recipe catalogs, agriculture references, commands, configuration, fermentation details, and more specialized production chains will be added as their behavior is checked against the current development line.
+Large recipe catalogs, configuration details, fermentation references, complete weather-condition catalogs, and more specialized production chains will be added as their behavior is checked against the current development line.
 
 Recipe quantities, processing times, and controls will be documented on their relevant pages. General systems will have a central explanation that other pages link to.
 
