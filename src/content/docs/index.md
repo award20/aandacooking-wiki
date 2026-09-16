@@ -3,10 +3,10 @@ title: A & A Cooking Wiki
 description: Documentation for A & A Cooking, a Fabric cooking and agriculture mod for Minecraft 1.21.10.
 ---
 
-A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft. It includes ingredient preparation, cookware, kitchen stations, connected storage, freshness and spoilage, crop systems, and recipe discovery. The mod is currently in pre-alpha development.
+A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft. It includes ingredient preparation, cookware, kitchen stations, connected storage, freshness and spoilage, crop systems, and recipe discovery. The mod is currently in pre alpha development.
 
 <div class="page-summary">
-    <p><strong>Minecraft 1.21.10 · Fabric · Pre-alpha</strong></p>
+    <p><strong>Minecraft 1.21.10 · Fabric · Pre alpha</strong></p>
     <p>This wiki is being built as development continues. Its current pages describe the development source, with planned features identified separately.</p>
 </div>
 
@@ -23,16 +23,16 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Mixing Bowl](/stations/mixing-bowl/) | Mix, Whisk, and Fold processing with six ingredient inputs |
 | [Mortar and Pestle](/stations/mortar-and-pestle/) | Crush and Grind processing with manual pestle actions |
 | [Stovetop/Oven](/stations/stovetop-oven/) | Independent heat controls, oven racks, cookware, and autofill |
-| [Fermentation Crock](/stations/fermentation-crock/) | Persistent time-based fermentation, blocked-output handling, and Recipe Book integration |
+| [Fermentation Crock](/stations/fermentation-crock/) | Persistent timed fermentation, blocked output handling, and Recipe Book integration |
 | [Cooking Overview](/cooking/overview/) | Recipe matching, station families, modes, and temperature presets |
 | [Cookware Overview](/cooking/cookware/) | Stovetop vessels, oven bakeware, thermal behavior, and cookware requirements |
 | [Stockpot](/cooking/stockpot/) | Soups, stews, freeform cooking, potions, serving, and quality |
-| [Saucepan](/cooking/saucepan/) | Small-volume liquid cooking, evaporation, and reductions |
-| [Skillet](/cooking/skillet/) | Fast-response direct-heat cooking with four ingredient slots |
-| [Wok](/cooking/wok/) | High-heat cooking, heat zones, tossing, and toss streaks |
+| [Saucepan](/cooking/saucepan/) | Small volume liquid cooking, evaporation, and reductions |
+| [Skillet](/cooking/skillet/) | Fast response direct heat cooking with four ingredient slots |
+| [Wok](/cooking/wok/) | High heat cooking, heat zones, tossing, and toss streaks |
 | [Oven Bakeware](/cooking/oven-bakeware/) | Iron Baking Sheet, Iron Baking Dish, rack requirements, and automatic loading |
 | [Kitchen Storage](/storage/overview/) | Connected storage, exact ingredient matching, autofill, and freshness conditions |
-| [Cabinets & Counters](/storage/cabinets-counters/) | Ambient storage capacities and kitchen-network connectivity |
+| [Cabinets & Counters](/storage/cabinets-counters/) | Ambient storage capacities and kitchen network connectivity |
 | [Cold Storage](/storage/cold-storage/) | Small/Large Fridges and Freezers, mixed layouts, and freshness rates |
 | [Agriculture Overview](/agriculture/overview/) | Soil, crop profiles, vigor, pollination, and harvest quality |
 | [Cultivated Soil](/agriculture/cultivated-soil/) | 0.0–2.0 soil saturation, hydration targets, flooding, and fertility |
@@ -41,15 +41,17 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Compost & Fertility](/agriculture/compost-fertility/) | Restoring fertility and current composting behavior |
 | [Calendar & Seasons](/environment/calendar-seasons/) | Dates, weekdays, seasons, year progress, and calendar diagnostics |
 | [Solar Time & Daylight](/environment/solar-daylight/) | Configurable day length, seasonal daylight, latitude, sunrise, and sunset |
-| [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow-surface behavior |
+| [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow surface behavior |
 | [Ingredients Overview](/ingredients/overview/) | Ingredient families, prepared states, intermediates, and naming structure |
 | [Rice & Soybean](/ingredients/rice-soybean/) | Rice, Soybean, tofu, Soy Sauce, and related production chains |
 | [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing Recipe Book catalog |
 | [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy Stockpot dish reference |
+| [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, focaccia, pancakes, cookies, and other oven foods |
+| [Pasta & Noodles](/recipes/pasta-noodles/) | Noodle foundations, pasta dishes, and noodle stir fries |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
 | [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
-| [Configuration](/reference/configuration/) | Confirmed day-length, daylight, latitude, temperature-unit, and calendar settings |
+| [Configuration](/reference/configuration/) | Confirmed day length, daylight, latitude, temperature unit, and calendar settings |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
 | [Recipe Notes & Discovery](/recipe-book/notes-discovery/) | Generic Recipe Notes, copying, sharing, and discovery validation |
 | [Documentation Status](/reference/documentation-status/) | Version coverage, verification, and the meaning of feature status labels |
@@ -57,9 +59,9 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient/recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, implemented fermentation/preservation behavior, soups and stews, and the first dedicated sauces/intermediates reference.
+The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient and recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar time/daylight, temperature, and local weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, implemented fermentation/preservation behavior, soups and stews, and the first dedicated sauces and intermediates reference, Breads & Baked Foods, and Pasta & Noodles.
 
-The retained Batch 22 content snapshot contained 230 discoverable Recipe Book entries, so the wiki is intentionally organizing recipes into expandable groups instead of one giant static table. Complete per-recipe quantities and durations, the full weather-condition catalog, exact configuration-file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
+The retained Batch 22 content snapshot contained 230 discoverable Recipe Book entries, so the wiki is intentionally organizing recipes into expandable groups instead of one giant static table. Complete recipe quantities and durations, the full weather condition catalog, exact configuration file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
 
 Recipe quantities, processing times, and controls will be documented on their relevant pages. General systems will have a central explanation that other pages link to.
 

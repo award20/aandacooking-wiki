@@ -2,7 +2,7 @@
 
 Documentation for A & A Cooking, a Fabric mod for Minecraft 1.21.10.
 
-The mod expands cooking and agriculture with ingredient preparation, cookware, dedicated kitchen stations, recipe discovery, storage, farming, fermentation, and related food production systems. A & A Cooking is currently in pre-alpha development, so the wiki changes as the implementation changes.
+The mod expands cooking and agriculture with ingredient preparation, cookware, dedicated kitchen stations, recipe discovery, storage, farming, fermentation, and related food production systems. A & A Cooking is currently in pre alpha development, so the wiki changes as the implementation changes.
 
 The published wiki is available at [aandacooking.haxuslate.com](https://aandacooking.haxuslate.com).
 
@@ -26,11 +26,11 @@ The documentation is organized around:
 - Ingredients, recipes, and preparation states
 - Agriculture, seasons, soil, and crop behavior
 - Kitchen storage and food production systems
-- Fermentation and other preservation-related systems
+- Fermentation and other preservation systems
 - Commands, configuration, and technical information
 - Development status and planned features
 
-The current core documentation includes the project overview, first-steps and ingredient-preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. The wiki now also includes a central `/aacooking` command reference, a configuration guide for the currently established time/calendar/climate settings, an ingredient-reference layer, Rice/Soybean production-chain coverage, Recipe Notes and discovery, the implemented Fermentation Crock/preservation foundation, a Soups & Stews catalog, and a Sauces & Intermediates catalog. The retained Batch 22 content snapshot contained 230 Recipe Book entries, so individual recipe documentation will expand by category rather than as one monolithic page.
+The current core documentation includes the project overview, First Steps and Ingredient Preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. The wiki now also includes a central `/aacooking` command reference, a configuration guide for the currently established time/calendar/climate settings, an ingredient reference layer, Rice/Soybean production chain coverage, Recipe Notes and discovery, the implemented Fermentation Crock/preservation foundation, Soups & Stews, Breads & Baked Foods, Pasta & Noodles, and Sauces & Intermediates catalogs. The retained Batch 22 content snapshot contained 230 Recipe Book entries, so individual recipe documentation will expand by category rather than as one monolithic page.
 
 ## Development
 
@@ -62,4 +62,4 @@ Maintained by [Haxuslate](https://haxuslate.com).
 
 ## Current system guides
 
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Sauces & Intermediates, Recipe Notes, fermentation/preservation, `/aacooking` commands, and configuration areas in addition to the shared overview pages.
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Pasta & Noodles, Sauces & Intermediates, Recipe Notes, fermentation/preservation, `/aacooking` commands, and configuration areas in addition to the shared overview pages.

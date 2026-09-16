@@ -84,6 +84,8 @@ export default defineConfig({
                         { label: 'Rice & Soybean', slug: 'ingredients/rice-soybean' },
                         { label: 'Recipe Catalog', slug: 'recipes/overview' },
                         { label: 'Soups & Stews', slug: 'recipes/soups-stews' },
+                        { label: 'Breads & Baked Foods', slug: 'recipes/breads-baked-foods' },
+                        { label: 'Pasta & Noodles', slug: 'recipes/pasta-noodles' },
                         { label: 'Sauces & Intermediates', slug: 'recipes/sauces-intermediates' },
                         { label: 'Fermentation & Preservation', slug: 'recipes/fermentation-preservation' }
                     ]
