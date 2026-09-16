@@ -69,6 +69,8 @@ Season is only one growth factor. Soil moisture, fertility, light, pollination, 
 
 ## Related pages
 
+- [Commands](/reference/commands/)
+- [Configuration](/reference/configuration/)
 - [Agriculture Overview](/agriculture/overview/)
 - [Current Crops](/agriculture/crops/)
 - [Solar Time & Daylight](/environment/solar-daylight/)

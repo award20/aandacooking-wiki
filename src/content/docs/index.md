@@ -41,6 +41,8 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Calendar & Seasons](/environment/calendar-seasons/) | Dates, weekdays, seasons, year progress, and calendar diagnostics |
 | [Solar Time & Daylight](/environment/solar-daylight/) | Configurable day length, seasonal daylight, latitude, sunrise, and sunset |
 | [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow-surface behavior |
+| [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
+| [Configuration](/reference/configuration/) | Confirmed day-length, daylight, latitude, temperature-unit, and calendar settings |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
 | [Documentation Status](/reference/documentation-status/) | Version coverage, verification, and the meaning of feature status labels |
 | [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
@@ -49,7 +51,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 
 The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, and the environment system. Agriculture coverage now includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics.
 
-Large recipe catalogs, configuration details, fermentation references, complete weather-condition catalogs, and more specialized production chains will be added as their behavior is checked against the current development line.
+Large recipe catalogs, fermentation references, complete weather-condition catalogs, exact configuration-file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
 
 Recipe quantities, processing times, and controls will be documented on their relevant pages. General systems will have a central explanation that other pages link to.
 

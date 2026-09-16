@@ -91,6 +91,8 @@ The accepted condition names come from the current `WeatherCondition` registry a
 
 ## Related pages
 
+- [Commands](/reference/commands/)
+- [Configuration](/reference/configuration/)
 - [Calendar & Seasons](/environment/calendar-seasons/)
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Agriculture Overview](/agriculture/overview/)

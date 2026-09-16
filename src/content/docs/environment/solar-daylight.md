@@ -56,6 +56,8 @@ This is especially useful when tuning agriculture, weather, surface heating, and
 
 ## Related pages
 
+- [Commands](/reference/commands/)
+- [Configuration](/reference/configuration/)
 - [Calendar & Seasons](/environment/calendar-seasons/)
 - [Weather & Climate](/environment/weather-climate/)
 - [Agriculture Overview](/agriculture/overview/)

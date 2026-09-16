@@ -81,6 +81,13 @@ export default defineConfig({
                     items: [{ label: 'Overview', slug: 'recipe-book/overview' }]
                 },
                 {
+                    label: 'Commands & Configuration',
+                    items: [
+                        { label: 'Commands', slug: 'reference/commands' },
+                        { label: 'Configuration', slug: 'reference/configuration' }
+                    ]
+                },
+                {
                     label: 'Reference & Support',
                     items: [{ label: 'Documentation Status', slug: 'reference/documentation-status' }]
                 },
