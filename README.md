@@ -30,7 +30,7 @@ The documentation is organized around:
 - Commands, configuration, and technical information
 - Development status and planned features
 
-The current core documentation includes the project overview, first-steps and ingredient-preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. Recipe, ingredient, fermentation, and other production-system references will continue to expand as their behavior is verified. The wiki now also includes a central `/aacooking` command reference and a configuration guide for the currently established time/calendar/climate settings.
+The current core documentation includes the project overview, first-steps and ingredient-preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. The wiki now also includes a central `/aacooking` command reference, a configuration guide for the currently established time/calendar/climate settings, an ingredient-reference layer, Rice/Soybean production-chain coverage, Recipe Notes and discovery, and the implemented Fermentation Crock/preservation foundation. The retained Batch 22 content snapshot contained 230 Recipe Book entries, so individual recipe documentation will expand by category rather than as one monolithic page.
 
 ## Development
 
@@ -62,4 +62,4 @@ Maintained by [Haxuslate](https://haxuslate.com).
 
 ## Current system guides
 
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, `/aacooking` commands, and configuration areas in addition to the shared overview pages.
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Recipe Notes, fermentation/preservation, `/aacooking` commands, and configuration areas in addition to the shared overview pages.

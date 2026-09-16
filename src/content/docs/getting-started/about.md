@@ -40,4 +40,4 @@ The preparation actions available depend on the ingredient. This list does not m
 
 Features and recipes may change before the first playtest build. The current development line already includes freshness/spoilage and cold-storage modifiers. Additional livestock, expanded horticulture, and broader preservation methods remain part of the [planned development areas](/development/planned-features/).
 
-See [Agriculture Overview](/agriculture/overview/) and [Weather & Climate](/environment/weather-climate/) for the current farming and environment references. See [Documentation Status](/reference/documentation-status/) for how this wiki distinguishes current implementation, development work, and future plans.
+See [Ingredients Overview](/ingredients/overview/) and [Recipe Catalog](/recipes/overview/) for the expanding content reference. See [Agriculture Overview](/agriculture/overview/) and [Weather & Climate](/environment/weather-climate/) for the current farming and environment references. See [Documentation Status](/reference/documentation-status/) for how this wiki distinguishes current implementation, development work, and future plans.

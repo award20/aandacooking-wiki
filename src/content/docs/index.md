@@ -23,6 +23,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Mixing Bowl](/stations/mixing-bowl/) | Mix, Whisk, and Fold processing with six ingredient inputs |
 | [Mortar and Pestle](/stations/mortar-and-pestle/) | Crush and Grind processing with manual pestle actions |
 | [Stovetop/Oven](/stations/stovetop-oven/) | Independent heat controls, oven racks, cookware, and autofill |
+| [Fermentation Crock](/stations/fermentation-crock/) | Persistent time-based fermentation, blocked-output handling, and Recipe Book integration |
 | [Cooking Overview](/cooking/overview/) | Recipe matching, station families, modes, and temperature presets |
 | [Cookware Overview](/cooking/cookware/) | Stovetop vessels, oven bakeware, thermal behavior, and cookware requirements |
 | [Stockpot](/cooking/stockpot/) | Soups, stews, freeform cooking, potions, serving, and quality |
@@ -41,17 +42,22 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Calendar & Seasons](/environment/calendar-seasons/) | Dates, weekdays, seasons, year progress, and calendar diagnostics |
 | [Solar Time & Daylight](/environment/solar-daylight/) | Configurable day length, seasonal daylight, latitude, sunrise, and sunset |
 | [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow-surface behavior |
+| [Ingredients Overview](/ingredients/overview/) | Ingredient families, prepared states, intermediates, and naming structure |
+| [Rice & Soybean](/ingredients/rice-soybean/) | Rice, Soybean, tofu, Soy Sauce, and related production chains |
+| [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing Recipe Book catalog |
+| [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
 | [Configuration](/reference/configuration/) | Confirmed day-length, daylight, latitude, temperature-unit, and calendar settings |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
+| [Recipe Notes & Discovery](/recipe-book/notes-discovery/) | Generic Recipe Notes, copying, sharing, and discovery validation |
 | [Documentation Status](/reference/documentation-status/) | Version coverage, verification, and the meaning of feature status labels |
 | [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, and the environment system. Agriculture coverage now includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics.
+The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient/recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar-time/daylight, temperature, and local-weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, and implemented fermentation/preservation behavior.
 
-Large recipe catalogs, fermentation references, complete weather-condition catalogs, exact configuration-file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
+The retained Batch 22 content snapshot contained 230 discoverable Recipe Book entries, so the wiki is intentionally organizing recipes into expandable groups instead of one giant static table. Complete per-recipe quantities and durations, the full weather-condition catalog, exact configuration-file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
 
 Recipe quantities, processing times, and controls will be documented on their relevant pages. General systems will have a central explanation that other pages link to.
 

@@ -19,6 +19,8 @@ The current source also defines discovery and loot integrations. Their exact loc
 
 ## Browsing recipes
 
+The retained Batch 22 content snapshot contained **230 discoverable Recipe Book entries**. That number is a development snapshot and can increase as content batches are added.
+
 The Recipe Book interface provides:
 
 - Category filtering
@@ -42,7 +44,7 @@ The output quantity depends on the recipe. For example, a recipe that produces f
 
 ## Recipe Notes
 
-The current system uses a generic **Recipe Note** item that stores a recipe ID.
+The current system uses a generic **Recipe Note** item that stores a recipe ID. See [Recipe Notes & Discovery](/recipe-book/notes-discovery/) for the dedicated discovery and sharing guide.
 
 To copy a discovered recipe to a note, keep Paper in the inventory and use the copy action while within 8 blocks of the placed Recipe Book. The generated note can be given to another player. Using a valid note on a Recipe Book transfers the recipe to that book's discovery progress.
 
@@ -66,4 +68,6 @@ Tier progression changes the book's available appearance. It does not replace th
 
 - [First Steps](/getting-started/first-steps/) gives the basic preparation and cooking workflow.
 - [Cooking Overview](/cooking/overview/) explains matching, station behavior, and temperature presets.
+- [Recipe Catalog](/recipes/overview/) explains how the growing recipe library is organized.
+- [Recipe Notes & Discovery](/recipe-book/notes-discovery/) covers copying, sharing, and discovering recipes.
 - [Documentation Status](/reference/documentation-status/) explains how source-confirmed and unverified information is labeled.

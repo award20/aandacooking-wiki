@@ -47,7 +47,8 @@ export default defineConfig({
                         { label: 'Blender', slug: 'stations/blender' },
                         { label: 'Mixing Bowl', slug: 'stations/mixing-bowl' },
                         { label: 'Mortar and Pestle', slug: 'stations/mortar-and-pestle' },
-                        { label: 'Stovetop/Oven', slug: 'stations/stovetop-oven' }
+                        { label: 'Stovetop/Oven', slug: 'stations/stovetop-oven' },
+                        { label: 'Fermentation Crock', slug: 'stations/fermentation-crock' }
                     ]
                 },
                 {
@@ -77,8 +78,20 @@ export default defineConfig({
                     ]
                 },
                 {
+                    label: 'Ingredients & Recipes',
+                    items: [
+                        { label: 'Ingredients Overview', slug: 'ingredients/overview' },
+                        { label: 'Rice & Soybean', slug: 'ingredients/rice-soybean' },
+                        { label: 'Recipe Catalog', slug: 'recipes/overview' },
+                        { label: 'Fermentation & Preservation', slug: 'recipes/fermentation-preservation' }
+                    ]
+                },
+                {
                     label: 'Recipe Book',
-                    items: [{ label: 'Overview', slug: 'recipe-book/overview' }]
+                    items: [
+                        { label: 'Overview', slug: 'recipe-book/overview' },
+                        { label: 'Recipe Notes & Discovery', slug: 'recipe-book/notes-discovery' }
+                    ]
                 },
                 {
                     label: 'Commands & Configuration',
