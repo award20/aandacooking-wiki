@@ -30,7 +30,7 @@ The documentation is organized around:
 - Commands, configuration, and technical information
 - Development status and planned features
 
-The initial release contains the project overview, documentation status, and planned development pages. Detailed station, recipe, ingredient, agriculture, command, and configuration pages will be added as their behavior is verified.
+The current starter release contains the project overview, first-steps guide, ingredient-preparation guide, cooking overview, Recipe Book overview, documentation status, and planned development pages. Detailed station, recipe, ingredient, agriculture, command, and configuration pages will be added as their behavior is verified.
 
 ## Development
 

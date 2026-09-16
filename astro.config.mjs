@@ -21,7 +21,19 @@ export default defineConfig({
                 { label: 'Wiki Home', slug: '' },
                 {
                     label: 'Getting Started',
-                    items: [{ label: 'About A & A Cooking', slug: 'getting-started/about' }]
+                    items: [
+                        { label: 'About A & A Cooking', slug: 'getting-started/about' },
+                        { label: 'First Steps', slug: 'getting-started/first-steps' },
+                        { label: 'Ingredient Preparation', slug: 'getting-started/ingredient-preparation' }
+                    ]
+                },
+                {
+                    label: 'Cooking',
+                    items: [{ label: 'Cooking Overview', slug: 'cooking/overview' }]
+                },
+                {
+                    label: 'Recipe Book',
+                    items: [{ label: 'Overview', slug: 'recipe-book/overview' }]
                 },
                 {
                     label: 'Reference & Support',
