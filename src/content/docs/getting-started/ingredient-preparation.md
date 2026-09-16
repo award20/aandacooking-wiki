@@ -9,13 +9,13 @@ Ingredient profiles decide whether an item can be washed and which cut styles it
 
 ## Washing
 
-Hold an ingredient and use it on an **Oak Kitchen Sink**. If the item has a washable profile and is not already washed, the held stack receives its washed state without consuming the item.
+Hold an ingredient and use it on an **Oak Kitchen Sink**. See the dedicated [Kitchen Sink](/stations/kitchen-sink/) guide for the full station behavior. If the item has a washable profile and is not already washed, the held stack receives its washed state without consuming the item.
 
 The sink also exchanges a bucket for a water bucket and a water bucket for a bucket. Items that do not have a washable profile pass through to the normal block action.
 
 ## Using the cutting board
 
-The Oak Cutting Board holds one item at a time.
+The Oak Cutting Board holds one item at a time. See the dedicated [Cutting Board](/stations/cutting-board/) guide for the full interaction flow.
 
 1. Wash the ingredient first when its profile requires washing.
 2. Use the washed ingredient on an empty board. One item is placed on the board and one item is removed from the held stack, except in Creative mode.

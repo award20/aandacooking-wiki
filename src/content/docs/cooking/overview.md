@@ -45,8 +45,14 @@ The Stovetop/Oven currently exposes these temperature presets:
 
 Heated recipes can define their own acceptable temperature range. The Stovetop/Oven and heated cookware pages will document the interaction between presets, heat sources, cookware, liquids, and recipe ranges as those rules are verified in-game.
 
+## Freshness and spoilage
+
+Current food-processing and cooking recipes use freshness as part of the shared food pipeline. Spoiled ingredients are rejected when they are no longer valid inputs, and completed food can inherit freshness from the ingredients used to make it instead of automatically becoming completely fresh again.
+
+This matters most for multi-step recipes, where an ingredient can move through preparation, processing, and heating without losing its accumulated food age.
+
 ## Recipe pages
 
 Each recipe page should list the station, item quantities, preparation states, temperature, duration, mode, output, and any special control. Central mechanics belong on this page so individual recipes can link to them without repeating the full explanation.
 
-See [First Steps](/getting-started/first-steps/) for the basic workflow and [Ingredient Preparation](/getting-started/ingredient-preparation/) for washing and board interactions.
+See [Cookware Overview](/cooking/cookware/) for the shared cookware model and [First Steps](/getting-started/first-steps/) for the basic workflow, [Ingredient Preparation](/getting-started/ingredient-preparation/) for preparation paths, and the dedicated [Kitchen Sink](/stations/kitchen-sink/), [Cutting Board](/stations/cutting-board/), [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), and [Stovetop/Oven](/stations/stovetop-oven/) guides for station-specific behavior.

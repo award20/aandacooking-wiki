@@ -30,7 +30,7 @@ The documentation is organized around:
 - Commands, configuration, and technical information
 - Development status and planned features
 
-The current starter release contains the project overview, first-steps guide, ingredient-preparation guide, cooking overview, Recipe Book overview, documentation status, and planned development pages. Detailed station, recipe, ingredient, agriculture, command, and configuration pages will be added as their behavior is verified.
+The current core release contains the project overview, first-steps guide, ingredient-preparation guide, cooking overview, Recipe Book overview, documentation status, planned development pages, dedicated Kitchen Sink, Cutting Board, Blender, Mixing Bowl, Mortar and Pestle, and Stovetop/Oven station guides, and the first Cookware Overview. Additional station, recipe, ingredient, agriculture, command, and configuration pages will be added as their behavior is verified.
 
 ## Development
 
@@ -58,3 +58,8 @@ The workflow in `.github/workflows/deploy.yml` builds and publishes the wiki thr
 The current A & A Cooking source is the authority when it conflicts with earlier notes or summaries. The wiki does not present planned features as implemented. Exact release and installation information will be expanded when it has been confirmed for public playtesting.
 
 Maintained by [Haxuslate](https://haxuslate.com).
+
+
+## Current cookware guides
+
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, and Wok in addition to the shared Cookware Overview.

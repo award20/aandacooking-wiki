@@ -29,7 +29,7 @@ An implemented feature can still be part of a pre-alpha mod. The status does not
 
 ## Verification
 
-Source review establishes what the code defines. Gameplay testing checks how that behavior works in the game. The initial overview has been checked against source; it has not been independently playtested for this wiki.
+Source review and the current development record establish what the project defines. Gameplay testing checks how that behavior works in the game. The current core station pass includes the Kitchen Sink, Cutting Board, Blender, Mixing Bowl, Mortar and Pestle, and Stovetop/Oven. Individual cookware coverage now includes the Stockpot, Saucepan, Skillet, and Wok; individual recipes and presentation details continue to be verified as the playable build changes.
 
 Exact recipes, quantities, controls, commands, and configuration options will be verified as their pages are written. Information that cannot be confirmed will be marked **Needs verification**.
 

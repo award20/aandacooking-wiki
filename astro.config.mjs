@@ -29,7 +29,25 @@ export default defineConfig({
                 },
                 {
                     label: 'Cooking',
-                    items: [{ label: 'Cooking Overview', slug: 'cooking/overview' }]
+                    items: [
+                        { label: 'Cooking Overview', slug: 'cooking/overview' },
+                        { label: 'Cookware Overview', slug: 'cooking/cookware' },
+                        { label: 'Stockpot', slug: 'cooking/stockpot' },
+                        { label: 'Saucepan', slug: 'cooking/saucepan' },
+                        { label: 'Skillet', slug: 'cooking/skillet' },
+                        { label: 'Wok', slug: 'cooking/wok' }
+                    ]
+                },
+                {
+                    label: 'Stations',
+                    items: [
+                        { label: 'Kitchen Sink', slug: 'stations/kitchen-sink' },
+                        { label: 'Cutting Board', slug: 'stations/cutting-board' },
+                        { label: 'Blender', slug: 'stations/blender' },
+                        { label: 'Mixing Bowl', slug: 'stations/mixing-bowl' },
+                        { label: 'Mortar and Pestle', slug: 'stations/mortar-and-pestle' },
+                        { label: 'Stovetop/Oven', slug: 'stations/stovetop-oven' }
+                    ]
                 },
                 {
                     label: 'Recipe Book',
