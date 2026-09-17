@@ -32,14 +32,14 @@ An implemented feature can still receive balance changes, visual improvements, b
 The wiki currently documents the main cooking and agriculture systems, including:
 
 - ingredient washing, cutting, peeling, and preparation states
-- Blender, Mixing Bowl, Mortar and Pestle, Fermentation Crock, and other kitchen stations
+- Blender, Mixing Bowl, Mortar and Pestle, Fermentation Crock, Jar Sealer, and other kitchen stations
 - Stockpot, Saucepan, Skillet, Wok, oven bakeware, and Stovetop/Oven behavior
-- connected Cabinets, Counters, Fridges, Freezers, and freshness handling
+- connected Cabinets, Counters, Fridges, Freezers, freshness handling, and jar sealing
 - Recipe Book progression, pinning, prerequisite planning, Recipe Notes, and discovery
 - Cultivated Soil, fertility, crop vigor, pollination, harvest quality, and current crops
 - calendar, seasons, solar time, seasonal daylight, temperature, weather, and climate systems
 - commands and player facing configuration areas
-- ingredient families, fermentation, Rice and Soybean production chains, and the growing recipe catalog
+- ingredient families, fermentation, preservation, Rice and Soybean production chains, and the growing recipe catalog
 
 Recipe catalog pages are organized by food family so new dishes can be added without turning the wiki into one very large table.
 

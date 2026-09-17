@@ -29,7 +29,7 @@ The catalog includes a broad seared protein line:
 | `rabbit_seared` | Seared Rabbit |
 | `mutton_seared` | Seared Mutton |
 
-The content line also includes `chicken_seared_herb` (Herb Seared Chicken), which connects direct heat cooking with the herb and seasoning systems.
+The catalog also includes `chicken_seared_herb` (Herb Seared Chicken), which connects direct heat cooking with the herb and seasoning systems. Exact station times and broader protein dishes are documented on [Meat & Fish Dishes](/recipes/meat-fish-dishes/).
 
 ## Seasoned stir fries
 
@@ -99,3 +99,4 @@ This page covers the established direct heat food families. Exact ingredients, q
 - [Rice & Soybean](/ingredients/rice-soybean/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
 - [Eggs & Dairy](/recipes/eggs-dairy/)
+- [Meat & Fish Dishes](/recipes/meat-fish-dishes/)

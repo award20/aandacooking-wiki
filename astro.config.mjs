@@ -48,7 +48,8 @@ export default defineConfig({
                         { label: 'Mixing Bowl', slug: 'stations/mixing-bowl' },
                         { label: 'Mortar and Pestle', slug: 'stations/mortar-and-pestle' },
                         { label: 'Stovetop/Oven', slug: 'stations/stovetop-oven' },
-                        { label: 'Fermentation Crock', slug: 'stations/fermentation-crock' }
+                        { label: 'Fermentation Crock', slug: 'stations/fermentation-crock' },
+                        { label: 'Jar Sealer', slug: 'stations/jar-sealer' }
                     ]
                 },
                 {
@@ -92,6 +93,7 @@ export default defineConfig({
                         { label: 'Potato & Vegetable Dishes', slug: 'recipes/potato-vegetable-dishes' },
                         { label: 'Eggs & Dairy', slug: 'recipes/eggs-dairy' },
                         { label: 'Stir Fries & Seared Foods', slug: 'recipes/stir-fries-seared-foods' },
+                        { label: 'Meat & Fish Dishes', slug: 'recipes/meat-fish-dishes' },
                         { label: 'Drinks', slug: 'recipes/drinks' },
                         { label: 'Herbs & Seasonings', slug: 'recipes/herbs-seasonings' },
                         { label: 'Sauces & Intermediates', slug: 'recipes/sauces-intermediates' },

@@ -24,6 +24,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Mortar and Pestle](/stations/mortar-and-pestle/) | Crush and Grind processing with manual pestle actions |
 | [Stovetop/Oven](/stations/stovetop-oven/) | Independent heat controls, oven racks, cookware, and autofill |
 | [Fermentation Crock](/stations/fermentation-crock/) | Persistent timed fermentation, blocked output handling, and Recipe Book integration |
+| [Jar Sealer](/stations/jar-sealer/) | Seal filled food jars with Glass Jar Lids to extend preservation time |
 | [Cooking Overview](/cooking/overview/) | Recipe matching, station families, modes, and temperature presets |
 | [Cookware Overview](/cooking/cookware/) | Stovetop vessels, oven bakeware, thermal behavior, and cookware requirements |
 | [Stockpot](/cooking/stockpot/) | Soups, stews, freeform cooking, potions, serving, and quality |
@@ -54,6 +55,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Potato & Vegetable Dishes](/recipes/potato-vegetable-dishes/) | Potato dishes, roasted and glazed vegetables, sauteed produce, and mixed vegetable foods |
 | [Eggs & Dairy](/recipes/eggs-dairy/) | Egg preparations, omelettes, cheese, cream, butter, custard, and dairy dishes |
 | [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned Wok dishes, seared proteins, and related direct heat foods |
+| [Meat & Fish Dishes](/recipes/meat-fish-dishes/) | Seared, baked, breaded, glazed, roasted, and mixed protein dishes |
 | [Drinks](/recipes/drinks/) | Juices, smoothies, teas, hot chocolate, and Soybean drinks |
 | [Herbs & Seasonings](/recipes/herbs-seasonings/) | Fresh herbs, processed herb forms, seasoning blends, teas, and herb foods |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
@@ -69,7 +71,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 
 The wiki currently covers the main player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, seasons, weather, climate, commands, configuration, and an expanding ingredient and recipe reference.
 
-Recipe documentation is organized by food family, including soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, potato and vegetable dishes, eggs, dairy, stir fries, drinks, herbs, sauces, intermediates, fermentation, and preservation. This structure lets the catalog grow without turning the wiki into one large static list.
+Recipe documentation is organized by food family, including soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, potato and vegetable dishes, eggs, dairy, stir fries, meat and fish, drinks, herbs, sauces, intermediates, fermentation, jar sealing, and preservation. This structure lets the catalog grow without turning the wiki into one large static list.
 
 Exact recipe quantities, processing times, cooking temperatures, the complete weather condition catalog, finalized configuration keys/defaults, and more specialized production chains will be added as those details become ready for public documentation.
 

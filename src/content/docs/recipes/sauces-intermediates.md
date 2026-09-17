@@ -1,61 +1,92 @@
 ---
 title: Sauces & Intermediates
-description: Sauces, purees, powders, doughs, batters, and other prerequisite foods used by larger A & A Cooking recipes.
+description: Sauces, condiments, purees, powders, oils, doughs, batters, and other prerequisite foods used by larger A & A Cooking recipes.
 ---
 
-Many A & A Cooking dishes are built from intermediate foods instead of raw ingredients alone. Sauces, purees, powders, doughs, batters, dairy products, and other prepared components create dependency chains that the [Recipe Book](/recipe-book/overview/) can track and plan.
+Many A & A Cooking dishes are built from prepared components instead of raw ingredients alone. Sauces, purees, condiments, powders, oils, doughs, batters, dairy products, and other intermediates create dependency chains that the [Recipe Book](/recipe-book/overview/) can track and plan.
 
-This page records established cooking intermediates. Exact station recipes, quantities, and processing times will be expanded as individual recipes receive dedicated documentation.
+## Tomato sauces and concentrates
 
-## Sauces and savory components
+| Recipe ID | Product | Station | Processing |
+|---|---|---|---|
+| `tomato_sauce` | Tomato Sauce | Saucepan | 12 seconds after reducing, gentle boil |
+| `tomato_puree` | Tomato Puree | Blender | 1 Blend cycle |
+| `tomato_paste` | Tomato Paste | Saucepan | 16 seconds at 88 to 102 °C |
+| `tomato_ketchup` | Ketchup | Saucepan | 12 seconds at 82 to 96 °C |
+| `tomato_sauce_herb` | Herb Tomato Sauce | Saucepan | 10 seconds at 80 to 95 °C |
 
-| Item ID | Display name | Role |
+Tomato Sauce and its later derivatives are used across pasta, pizza, glazed dishes, and other savory recipes.
+
+## Condiments and dressings
+
+| Recipe ID | Product | Station | Processing |
+|---|---|---|---|
+| `salsa_fresh` | Fresh Salsa | Mixing Bowl | 8 Mix actions |
+| `egg_mayonnaise` | Mayonnaise | Mixing Bowl | 12 Whisk actions |
+| `onion_relish` | Onion Relish | Saucepan | 14 seconds at 90 to 103 °C, at least 45% reduction |
+| `sweet_berry_sauce` | Sweet Berry Sauce | Saucepan | 10 seconds at 75 to 90 °C |
+| `apple_vinegar_dressing_herb` | Herb Apple Vinaigrette | Mixing Bowl | 8 Whisk actions |
+| `soybean_sauce_sweet` | Sweet Soy Glaze | Saucepan | 8 seconds at 70 to 90 °C |
+
+Soy Sauce itself is fermented and is documented under [Fermentation & Preservation](/recipes/fermentation-preservation/).
+
+## Savory sauces
+
+| Recipe ID | Product | Station | Processing |
+|---|---|---|---|
+| `mushroom_sauce_creamy` | Creamy Mushroom Sauce | Saucepan | 14 seconds on low heat |
+| `onion_gravy` | Onion Gravy | Saucepan | 16 seconds at a gentle simmer |
+| `milk_cheese_sauce` | Cheese Sauce | Saucepan | 10 seconds at 72 to 88 °C |
+| `garlic_paste` | Garlic Paste | Mortar and Pestle | 10 Grind actions |
+
+These components can feed later meals without requiring each final recipe to repeat the full preparation chain.
+
+## Purees
+
+| Recipe ID | Product | Station |
 |---|---|---|
-| `tomato_sauce` | Tomato Sauce | Tomato-based sauce |
-| `salsa_fresh` | Fresh Salsa | Fresh prepared sauce |
-| `mushroom_sauce_creamy` | Creamy Mushroom Sauce | Creamy savory sauce |
-| `onion_gravy` | Onion Gravy | Savory gravy |
-| `garlic_paste` | Garlic Paste | Concentrated Garlic component |
-| `breadcrumbs` | Breadcrumbs | Coating / recipe prerequisite |
-| `breadcrumbs_seasoned` | Seasoned Breadcrumbs | Seasoned coating component |
+| `tomato_puree` | Tomato Puree | Blender |
+| `carrot_puree` | Carrot Puree | Blender |
+| `beetroot_puree` | Beetroot Puree | Blender |
+| `pumpkin_puree` | Pumpkin Puree | Blender |
+| `apple_puree` | Apple Puree | Blender |
+| `soybean_puree` | Soybean Puree | Blender |
 
-These items can be used as prerequisites for larger dishes rather than requiring every final recipe to repeat their full preparation chain.
+A recipe that calls for a puree requires the processed ingredient, not merely the original produce.
 
-## Purees and fruit preparations
+## Powders and dry seasonings
 
-| Item ID | Display name | Role |
-|---|---|---|
-| `tomato_puree` | Tomato Puree | Tomato intermediate |
-| `pumpkin_puree` | Pumpkin Puree | Baking and cooking intermediate |
-| `apple_puree` | Apple Puree | Fruit intermediate |
-| `applesauce` | Applesauce | Processed Apple food |
-
-Purees are useful examples of why the ingredient system distinguishes raw produce from a processed derivative. A recipe asking for Pumpkin Puree is not simply asking for Pumpkin in another inventory slot.
-
-## Powders and dry ingredients
-
-Confirmed dry intermediates include:
+Current dry intermediates include:
 
 - `cocoa_powder` (Cocoa Powder)
 - `wheat_flour` (Wheat Flour)
+- `garlic_powder` (Garlic Powder)
+- `onion_powder` (Onion Powder)
+- `kelp_powder` (Kelp Powder)
+- `sugar_powdered` (Powdered Sugar)
+- `seasoning_savory` (Savory Seasoning)
+- `herb_seasoning` (Herb Seasoning)
 - `breadcrumbs` (Breadcrumbs)
 - `breadcrumbs_seasoned` (Seasoned Breadcrumbs)
 
-Additional powders and seasonings will be added here as those recipe families receive dedicated documentation.
+Garlic Powder, Onion Powder, and Kelp Powder are combined in the Mixing Bowl to produce Savory Seasoning.
 
-## Dairy and egg intermediates
+## Oils, butter, and dairy components
 
-| Item ID | Display name | Role |
+| Item ID | Product | Role |
 |---|---|---|
-| `milk_cream` | Cream | Creamy dishes and baking prerequisite |
+| `seed_oil` | Seed Oil | Cooking fat and recipe prerequisite |
 | `milk_butter` | Butter | Cooking and baking prerequisite |
-| `egg_beaten` | Beaten Egg | Mixed/baking prerequisite |
+| `milk_butter_garlic` | Garlic Butter | Savory spread and recipe prerequisite |
+| `milk_butter_herb` | Herb Butter | Herb spread and recipe prerequisite |
+| `milk_cream` | Cream | Dairy prerequisite |
+| `egg_beaten` | Beaten Egg | Mixed and baking prerequisite |
 
-These components are deliberately separate from their base ingredients so recipes can require preparation before final assembly or cooking.
+Seed Oil is produced in the Blender using Pulse mode.
 
 ## Doughs, batters, and mixtures
 
-| Item ID | Display name | Role |
+| Item ID | Product | Role |
 |---|---|---|
 | `wheat_bread_dough` | Bread Dough | Bread prerequisite |
 | `wheat_pancake_batter` | Pancake Batter | Pancake prerequisite |
@@ -63,45 +94,44 @@ These components are deliberately separate from their base ingredients so recipe
 | `chocolate_cookie_dough` | Chocolate Cookie Dough | Cookie prerequisite |
 | `pumpkin_bread_batter` | Pumpkin Bread Batter | Pumpkin Bread prerequisite |
 | `apple_crumble_mixture` | Apple Crumble Mixture | Apple Crumble prerequisite |
+| `rice_pancake_batter` | Rice Pancake Batter | Rice Pancake prerequisite |
+| `rice_cake_dough` | Rice Cake Dough | Rice Cake prerequisite |
 
-These chains are where the dedicated processing stations become especially important. A final oven recipe can depend on a mixture or dough that was already produced elsewhere in the kitchen.
+These chains are where the dedicated processing stations become especially important. A final oven or skillet recipe can depend on a mixture or dough that was already produced elsewhere in the kitchen.
+
+## Preserved intermediates
+
+Fermentation and preservation add another component family, including:
+
+- Apple Vinegar
+- Salt Brine
+- Soy Sauce Mash
+- Soy Sauce
+- Sweet Soy Glaze
+- pickled vegetables
+- Sweet Berry Jam
+
+Those chains are documented under [Fermentation & Preservation](/recipes/fermentation-preservation/) and [Rice & Soybean](/ingredients/rice-soybean/).
 
 ## Why intermediates matter
 
-A multi-stage recipe can look roughly like this:
+A recipe chain can involve several stages:
 
 1. wash or otherwise prepare the base ingredient
 2. cut, peel, grind, blend, or mix it into the required form
-3. create an intermediate such as a puree, sauce, batter, dough, or seasoning
+3. create an intermediate such as a puree, sauce, batter, dough, seasoning, or preserved ingredient
 4. load the final recipe at its cooking station
-5. cook, bake, fry, or ferment the final dish
+5. cook, bake, fry, ferment, or assemble the final dish
 
-The Recipe Book prerequisite planner exists to make those dependency chains manageable. When a required intermediate is missing, the pinned-recipe system can expose the preparation chain rather than only reporting that the final ingredient is absent.
-
-## Processing stations
-
-Different intermediate families can involve different stations:
-
-- [Blender](/stations/blender/) for applicable blended products
-- [Mixing Bowl](/stations/mixing-bowl/) for applicable mixtures, batters, and doughs
-- [Mortar and Pestle](/stations/mortar-and-pestle/) for applicable powders and ground ingredients
-- [Saucepan](/cooking/saucepan/) for applicable liquid cooking and reductions
-- [Fermentation Crock](/stations/fermentation-crock/) for fermented prerequisites
-
-Individual recipe pages provide the exact station requirements. This overview does not assign a station to an item based only on its name.
-
-## Fermented intermediates
-
-Fermentation adds another prerequisite family, including brines, fermented Soybean products, and Soy Sauce production. Those chains are documented separately under [Fermentation & Preservation](/recipes/fermentation-preservation/) and [Rice & Soybean](/ingredients/rice-soybean/).
-
-## Documentation coverage
-
-The items listed here are part of the current cooking catalog. Some exact station assignments, quantities, temperatures, and processing times are not published yet because those details are still being finalized.
+The Recipe Book prerequisite planner makes those dependency chains easier to follow. When a required intermediate is missing, the pinned recipe system can expose the earlier preparation work instead of only reporting that the final ingredient is absent.
 
 ## Related pages
 
 - [Recipe Catalog](/recipes/overview/)
+- [Meat & Fish Dishes](/recipes/meat-fish-dishes/)
 - [Soups & Stews](/recipes/soups-stews/)
-- [Ingredients Overview](/ingredients/overview/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
-- [Recipe Book](/recipe-book/overview/)
+- [Blender](/stations/blender/)
+- [Mixing Bowl](/stations/mixing-bowl/)
+- [Mortar and Pestle](/stations/mortar-and-pestle/)
+- [Saucepan](/cooking/saucepan/)

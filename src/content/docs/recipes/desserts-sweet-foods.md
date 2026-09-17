@@ -47,12 +47,16 @@ The broader bread and oven systems are documented on [Breads & Baked Foods](/rec
 
 Sweet Berries are used across several sweet recipe branches. The current catalog includes:
 
+- `sweet_berry_compote` (Sweet Berry Compote)
 - `sweet_berry_jam` (Sweet Berry Jam)
+- `sweet_berry_sauce` (Sweet Berry Sauce)
 - `bread_toast_sweet_berry` (Sweet Berry Toast)
 - `sweet_berry_juice` (Sweet Berry Juice)
 - `sweet_berry_smoothie` (Sweet Berry Smoothie)
 
-Jam belongs to the preservation side of the food catalog, while the drinks are covered on the [Drinks](/recipes/drinks/) page.
+Sweet Berry Jam is cooked in a Saucepan from Sweet Berry Compote, Powdered Sugar, and a Glass Jar. It is produced as a filled open jar and uses the Sugared preservation method. The jar can then be sealed at the [Jar Sealer](/stations/jar-sealer/) for an additional preservation effect.
+
+The drinks are covered on the [Drinks](/recipes/drinks/) page.
 
 ## Dairy and dessert components
 
@@ -77,4 +81,5 @@ Exact quantities, processing times, oven temperatures, and output counts are doc
 - [Eggs & Dairy](/recipes/eggs-dairy/)
 - [Drinks](/recipes/drinks/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
+- [Jar Sealer](/stations/jar-sealer/)
 - [Oven Bakeware](/cooking/oven-bakeware/)

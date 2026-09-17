@@ -1,19 +1,19 @@
 ---
 title: Fermentation Crock
-description: Time-based fermentation station behavior and Recipe Book integration.
+description: Timed fermentation station behavior and Recipe Book integration.
 ---
 
-The Fermentation Crock is A & A Cooking's dedicated time-based fermentation station. Unlike direct processing stations, it is intended for recipes that must remain in progress over time before producing their output.
+The Fermentation Crock is A & A Cooking's dedicated timed fermentation station. Unlike direct processing stations, it is intended for recipes that must remain in progress over time before producing their output.
 
 ## Processing behavior
 
 The Fermentation Crock:
 
 - tracks fermentation progress persistently
-- resumes after save/load
+- resumes after save and load
 - pauses instead of discarding work when its output is blocked
 - uses executable fermentation recipes
-- participates in the shared station recipe-selection infrastructure
+- participates in the shared station recipe selection infrastructure
 
 The exact slot count, all recipe durations, and some presentation details are still **Needs verification** and will be added as the Fermentation Crock guide is expanded.
 
@@ -30,7 +30,7 @@ Queued fermentation still processes one valid execution at a time and must satis
 
 ## Ingredient admission
 
-Recipe-only intermediates must be accepted when an executable Fermentation Crock recipe explicitly requires them. This prevents a mismatch where Recipe Book autofill can insert an intermediate but manual insertion rejects the same valid recipe ingredient.
+Recipe only intermediates must be accepted when an executable Fermentation Crock recipe explicitly requires them. This prevents a mismatch where Recipe Book autofill can insert an intermediate but manual insertion rejects the same valid recipe ingredient.
 
 ## Output blocking
 
@@ -38,7 +38,7 @@ If a completed result cannot be placed into the output destination, fermentation
 
 ## Current product families
 
-Implemented fermentation/preservation content includes Apple Vinegar, Fermented Soybeans, Salt Brine, Soy Sauce Mash, Soy Sauce, brine-fermented vegetables, and related preserved ingredients.
+Implemented fermentation content includes Apple Vinegar, Fermented Soybeans, Soy Sauce, and brine fermented vegetables. Salt Brine and Soy Sauce Mash are prerequisite intermediates in those preservation chains.
 
 See [Fermentation & Preservation](/recipes/fermentation-preservation/) for the content overview.
 
@@ -48,3 +48,4 @@ See [Fermentation & Preservation](/recipes/fermentation-preservation/) for the c
 - [Kitchen Storage](/storage/overview/)
 - [Rice & Soybean](/ingredients/rice-soybean/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
+- [Jar Sealer](/stations/jar-sealer/)

@@ -18,6 +18,7 @@ Current recipe references include:
 - [Potato & Vegetable Dishes](/recipes/potato-vegetable-dishes/)
 - [Eggs & Dairy](/recipes/eggs-dairy/)
 - [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/)
+- [Meat & Fish Dishes](/recipes/meat-fish-dishes/)
 - [Drinks](/recipes/drinks/)
 - [Herbs & Seasonings](/recipes/herbs-seasonings/)
 - [Sauces & Intermediates](/recipes/sauces-intermediates/)
@@ -53,11 +54,12 @@ The current catalog includes broad families such as:
 - desserts, jam, sweet breads, and fruit preparations
 - pasta, noodles, and noodle stir fries
 - dairy, cheese, egg, and omelette dishes
+- meat and fish dishes across the Skillet, Wok, Oven, soups, Rice, and pasta
 - vegetable sides, potato dishes, stir fries, and seared proteins
 - herb foods, seasonings, teas, juices, and smoothies
 - Rice, porridge, pancakes, rice cakes, fried Rice, and bowls
 - Soybean, tofu, Soy Sauce, glazed foods, and preserved ingredients
-- fermentation, brines, and pickled foods
+- fermentation, brines, pickled foods, sugared preserves, and sealed jars
 - Blender, Mixing Bowl, Mortar and Pestle, and other processing intermediates
 
 ## Recipe discovery
