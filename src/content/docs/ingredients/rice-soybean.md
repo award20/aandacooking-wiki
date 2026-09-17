@@ -3,7 +3,7 @@ title: Rice & Soybean
 description: Current Rice and Soybean crop and processing foundations in A & A Cooking.
 ---
 
-Rice and Soybean form one of A & A Cooking's largest connected ingredient families. They are not single-purpose crops: both feed into processing chains, cooked components, fermented ingredients, and complete dishes.
+Rice and Soybean form one of A & A Cooking's largest connected ingredient families. They are not single purpose crops: both feed into processing chains, cooked components, fermented ingredients, and complete dishes.
 
 ## Rice chain
 
@@ -17,7 +17,7 @@ The retained content snapshot confirms a Rice foundation that includes:
 - Rice Cake Dough and Seared Rice Cake
 - Rice bowls
 - Rice bread
-- multiple fried-rice dishes
+- multiple fried Rice dishes
 
 Rice therefore acts as a staple ingredient, a flour source, a cooked base, and a prerequisite for more complex meals.
 
@@ -39,7 +39,7 @@ The Soybean foundation includes:
 
 The Soybean chain spans the Blender, direct cooking stations, and the [Fermentation Crock](/stations/fermentation-crock/).
 
-## Soy-based Batch 22 recipes
+## Soy recipes from Batch 22
 
 The retained Batch 22 content snapshot added these ten Recipe Book entries:
 
@@ -60,11 +60,13 @@ These entries demonstrate why the ingredient catalog is organized as production 
 
 ## Recipe Book integration
 
-Rice and Soybean recipes participate in the same discovery, dependency, pinning, and station-autofill systems as the rest of the Recipe Book. See [Recipe Catalog](/recipes/overview/) for how the wiki will expand individual recipe coverage.
+Rice and Soybean recipes participate in the same discovery, dependency, pinning, and station autofill systems as the rest of the Recipe Book. See [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) and [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) for the dedicated finished food references.
 
 ## Related pages
 
 - [Current Crops](/agriculture/crops/)
 - [Blender](/stations/blender/)
 - [Fermentation Crock](/stations/fermentation-crock/)
+- [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/)
+- [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)

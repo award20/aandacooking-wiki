@@ -86,6 +86,8 @@ export default defineConfig({
                         { label: 'Soups & Stews', slug: 'recipes/soups-stews' },
                         { label: 'Breads & Baked Foods', slug: 'recipes/breads-baked-foods' },
                         { label: 'Pasta & Noodles', slug: 'recipes/pasta-noodles' },
+                        { label: 'Rice Dishes & Bowls', slug: 'recipes/rice-dishes-bowls' },
+                        { label: 'Soybean & Tofu Foods', slug: 'recipes/soybean-tofu-foods' },
                         { label: 'Eggs & Dairy', slug: 'recipes/eggs-dairy' },
                         { label: 'Stir Fries & Seared Foods', slug: 'recipes/stir-fries-seared-foods' },
                         { label: 'Drinks', slug: 'recipes/drinks' },

@@ -5,7 +5,7 @@ description: Ingredient families, preparation states, intermediates, and naming 
 
 A & A Cooking treats ingredients as more than interchangeable crafting inputs. Recipes can depend on the ingredient itself, its preparation state, and intermediate products made at other kitchen stations.
 
-The ingredient catalog is large and continues to expand during pre-alpha development. This page establishes the structure used by the wiki rather than attempting to freeze every item into one enormous list.
+The ingredient catalog is large and continues to expand during pre alpha development. This page establishes the structure used by the wiki rather than attempting to freeze every item into one enormous list.
 
 ## Ingredient families
 
@@ -39,7 +39,7 @@ Recipes can require a specific prepared form instead of accepting the unprepared
 
 The exact state matters to recipe matching. For example, a recipe that calls for a diced ingredient is not merely asking for the same raw item in a different slot.
 
-## Ingredient-first naming
+## Ingredient first naming
 
 A & A Cooking generally uses the parent or primary ingredient first in internal IDs, followed by the resulting form or preparation. Examples include:
 
@@ -56,13 +56,13 @@ This keeps related content grouped together in the registry and makes long produ
 
 ## Intermediates and dependencies
 
-Many recipes are multi-stage. A finished dish may depend on one or more intermediate recipes, which can themselves depend on prepared ingredients.
+Many recipes use multiple stages. A finished dish may depend on one or more intermediate recipes, which can themselves depend on prepared ingredients.
 
 For example, a larger recipe may need:
 
 1. a crop ingredient to be washed
 2. a prepared form such as diced or minced
-3. a station-made intermediate such as a sauce, batter, cooked grain, brine, or fermented product
+3. a station made intermediate such as a sauce, batter, cooked grain, brine, or fermented product
 4. a final cooking step
 
 The [Recipe Book](/recipe-book/overview/) and its prerequisite planner are designed around these dependency chains instead of treating every recipe as an isolated craft.
@@ -75,6 +75,8 @@ Perishable ingredients participate in the freshness/spoilage system documented u
 
 - [Ingredient Preparation](/getting-started/ingredient-preparation/)
 - [Rice & Soybean](/ingredients/rice-soybean/)
+- [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/)
+- [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/)
 - [Drinks](/recipes/drinks/)
 - [Herbs & Seasonings](/recipes/herbs-seasonings/)
 - [Recipe Catalog](/recipes/overview/)

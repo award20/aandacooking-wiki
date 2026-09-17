@@ -16,7 +16,8 @@ Recipes will be grouped primarily by the role of the finished food rather than b
 | [Soups & Stews](/recipes/soups-stews/) | Stockpot soups, stews, chowders and creamy variants |
 | [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, cookies, focaccia, oven dishes and baked produce |
 | [Pasta & Noodles](/recipes/pasta-noodles/) | Pasta sauces, creamy pasta, boiled noodles and stir fry noodles |
-| Rice & soybean | Fried rice, rice bowls, porridge, tofu and soy dishes |
+| [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) | Cooked Rice, porridge, pancakes, rice cakes, fried Rice and Rice bowls |
+| [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) | Soybean processing, tofu, Soy Sauce, fermented ingredients and soy dishes |
 | [Eggs & Dairy](/recipes/eggs-dairy/) | Omelettes, scrambled eggs, cheese, butter, cream, custard and dairy dishes |
 | [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Wok and Skillet recipes, seasoned meats, vegetables and seafood |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, pastes, batters, doughs, oils and prerequisite components |
@@ -76,6 +77,8 @@ Recipes are intended to be discovered rather than exposed as a complete unlocked
 - [Soups & Stews](/recipes/soups-stews/)
 - [Breads & Baked Foods](/recipes/breads-baked-foods/)
 - [Pasta & Noodles](/recipes/pasta-noodles/)
+- [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/)
+- [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/)
 - [Eggs & Dairy](/recipes/eggs-dairy/)
 - [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/)
 - [Drinks](/recipes/drinks/)
