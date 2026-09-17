@@ -20,7 +20,8 @@ Recipes will be grouped primarily by the role of the finished food rather than b
 | [Eggs & Dairy](/recipes/eggs-dairy/) | Omelettes, scrambled eggs, cheese, butter, cream, custard and dairy dishes |
 | [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Wok and Skillet recipes, seasoned meats, vegetables and seafood |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, pastes, batters, doughs, oils and prerequisite components |
-| Drinks | Juices, teas, smoothies, hot chocolate and related beverages |
+| [Drinks](/recipes/drinks/) | Juices, teas, smoothies, hot chocolate and related beverages |
+| [Herbs & Seasonings](/recipes/herbs-seasonings/) | Fresh herbs, processed herb forms, seasoning blends and herb based foods |
 | Fermented & preserved | Vinegar, brines, fermented soy products, pickled ingredients and related prerequisites |
 
 ## Recipe entries are more than ingredient lists
@@ -77,6 +78,8 @@ Recipes are intended to be discovered rather than exposed as a complete unlocked
 - [Pasta & Noodles](/recipes/pasta-noodles/)
 - [Eggs & Dairy](/recipes/eggs-dairy/)
 - [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/)
+- [Drinks](/recipes/drinks/)
+- [Herbs & Seasonings](/recipes/herbs-seasonings/)
 - [Sauces & Intermediates](/recipes/sauces-intermediates/)
 - [Rice & Soybean](/ingredients/rice-soybean/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)

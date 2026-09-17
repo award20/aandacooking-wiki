@@ -75,5 +75,7 @@ Perishable ingredients participate in the freshness/spoilage system documented u
 
 - [Ingredient Preparation](/getting-started/ingredient-preparation/)
 - [Rice & Soybean](/ingredients/rice-soybean/)
+- [Drinks](/recipes/drinks/)
+- [Herbs & Seasonings](/recipes/herbs-seasonings/)
 - [Recipe Catalog](/recipes/overview/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)

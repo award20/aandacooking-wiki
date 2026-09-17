@@ -50,6 +50,8 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Pasta & Noodles](/recipes/pasta-noodles/) | Noodle foundations, pasta dishes, and noodle stir fries |
 | [Eggs & Dairy](/recipes/eggs-dairy/) | Egg preparations, omelettes, cheese, cream, butter, custard, and dairy dishes |
 | [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned Wok dishes, seared proteins, and related direct heat foods |
+| [Drinks](/recipes/drinks/) | Juices, smoothies, teas, hot chocolate, and Soybean drinks |
+| [Herbs & Seasonings](/recipes/herbs-seasonings/) | Fresh herbs, processed herb forms, seasoning blends, teas, and herb foods |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
 | [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
@@ -61,7 +63,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient and recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar time/daylight, temperature, and local weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, implemented fermentation/preservation behavior, soups and stews, and the first dedicated sauces and intermediates reference, Breads & Baked Foods, and Pasta & Noodles.
+The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient and recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar time/daylight, temperature, and local weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, implemented fermentation/preservation behavior, soups and stews, and the first dedicated sauces and intermediates reference, Breads & Baked Foods, Pasta & Noodles, Eggs & Dairy, Stir Fries & Seared Foods, Drinks, and Herbs & Seasonings.
 
 The retained Batch 22 content snapshot contained 230 discoverable Recipe Book entries, so the wiki is intentionally organizing recipes into expandable groups instead of one giant static table. Complete recipe quantities and durations, the full weather condition catalog, exact configuration file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
 
