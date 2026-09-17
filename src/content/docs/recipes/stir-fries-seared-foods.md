@@ -5,7 +5,7 @@ description: Stir fries, seasoned wok dishes, seared meats, seafood, and other d
 
 Stir fries and seared foods are the main direct heat recipe families in A & A Cooking. They make use of the Skillet and Wok systems, prepared ingredients, temperature ranges, and, for applicable Wok recipes, manual tossing.
 
-This page records confirmed outputs from the retained project content. Exact quantities, temperatures, cooking durations, and toss requirements will be added when each current Recipe Book definition is verified.
+This page records the current direct heat food families. Exact quantities, temperatures, cooking durations, and toss requirements will be added as individual recipes receive dedicated documentation.
 
 ## Basic vegetable dishes
 
@@ -15,13 +15,13 @@ Confirmed early direct heat foods include:
 - `vegetable_stir_fry` (Vegetable Stir Fry)
 - `mushroom_stir_fry` (Mushroom Stir Fry)
 
-These recipes demonstrate the difference between smaller Skillet style foods and larger Wok focused stir fries. The current recipe definition determines which station is required for each output.
+These recipes demonstrate the difference between smaller Skillet style foods and larger Wok focused stir fries. Individual recipe pages provide the exact station requirement for each output.
 
 ## Seared meats and seafood
 
-The retained catalog includes a broad seared protein line:
+The catalog includes a broad seared protein line:
 
-| Internal ID | Display name |
+| Item ID | Display name |
 |---|---|
 | `beef_steak_seared` | Seared Beef Steak |
 | `salmon_seared` | Seared Salmon |
@@ -66,7 +66,7 @@ The Wok has its own heat zone and toss systems. Applicable recipes can care abou
 - toss count or streak behavior
 - recipe progress while the correct conditions are maintained
 
-The [Wok](/cooking/wok/) page documents those shared mechanics. This catalog page does not assign an exact toss count or temperature to a food until its current recipe definition has been checked.
+The [Wok](/cooking/wok/) page documents those shared mechanics. Exact toss counts and temperature requirements belong on the individual recipe pages.
 
 ## Skillet cooking
 
@@ -86,9 +86,9 @@ Direct heat foods frequently depend on earlier preparation steps:
 
 This is why the Recipe Book exposes prerequisite chains instead of treating each finished dish as one flat recipe.
 
-## Documentation status
+## Documentation coverage
 
-The output identities and broad recipe families on this page are confirmed from retained A & A Cooking content history. Exact ingredients, quantities, heat targets, durations, toss requirements, and station assignments still need to be verified against the latest detailed recipe entries.
+This page covers the established direct heat food families. Exact ingredients, quantities, heat targets, durations, toss requirements, and station assignments will be added as individual recipes receive dedicated documentation.
 
 ## Related pages
 

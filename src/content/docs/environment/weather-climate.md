@@ -7,7 +7,7 @@ A & A Cooking includes a local weather and climate system that goes beyond Minec
 
 <div class="page-summary">
     <p><strong>Status: Implemented and actively developing</strong></p>
-    <p>The current source/command snapshot exposes local pressure, humidity, clouds, precipitation, storm energy, wind, weather temperature offsets, ambient/surface climate calculations, local weather overrides, weather searching, and snow-surface state.</p>
+    <p>The weather and climate systems include local pressure, humidity, clouds, precipitation, storm energy, wind, weather temperature offsets, ambient and surface climate calculations, local weather overrides, weather searching, and snow surface state.</p>
 </div>
 
 ## Local weather sample
@@ -87,7 +87,7 @@ This is primarily a development/testing command for reaching a target weather st
 
 ## Weather condition names
 
-The accepted condition names come from the current `WeatherCondition` registry and are offered by command suggestions. Because that list is still part of active weather development, this page does not freeze a condition catalog until the registry itself is reviewed alongside the next source snapshot.
+Accepted condition names are offered through command suggestions. The condition catalog is still expanding, so this page does not publish a fixed list yet.
 
 ## Related pages
 

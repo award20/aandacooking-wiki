@@ -5,11 +5,11 @@ description: Sauces, purees, powders, doughs, batters, and other prerequisite fo
 
 Many A & A Cooking dishes are built from intermediate foods instead of raw ingredients alone. Sauces, purees, powders, doughs, batters, dairy products, and other prepared components create dependency chains that the [Recipe Book](/recipe-book/overview/) can track and plan.
 
-This page records established intermediates from the retained content snapshots. Exact station recipes, quantities, and processing times will be expanded as the current entries are verified.
+This page records established cooking intermediates. Exact station recipes, quantities, and processing times will be expanded as individual recipes receive dedicated documentation.
 
 ## Sauces and savory components
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `tomato_sauce` | Tomato Sauce | Tomato-based sauce |
 | `salsa_fresh` | Fresh Salsa | Fresh prepared sauce |
@@ -23,7 +23,7 @@ These items can be used as prerequisites for larger dishes rather than requiring
 
 ## Purees and fruit preparations
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `tomato_puree` | Tomato Puree | Tomato intermediate |
 | `pumpkin_puree` | Pumpkin Puree | Baking and cooking intermediate |
@@ -41,11 +41,11 @@ Confirmed dry intermediates include:
 - `breadcrumbs` (Breadcrumbs)
 - `breadcrumbs_seasoned` (Seasoned Breadcrumbs)
 
-The broader content roadmap also contains additional powders and seasonings. Those will be added here as their current definitions are checked against the latest development source.
+Additional powders and seasonings will be added here as those recipe families receive dedicated documentation.
 
 ## Dairy and egg intermediates
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `milk_cream` | Cream | Creamy dishes and baking prerequisite |
 | `milk_butter` | Butter | Cooking and baking prerequisite |
@@ -55,7 +55,7 @@ These components are deliberately separate from their base ingredients so recipe
 
 ## Doughs, batters, and mixtures
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `wheat_bread_dough` | Bread Dough | Bread prerequisite |
 | `wheat_pancake_batter` | Pancake Batter | Pancake prerequisite |
@@ -88,15 +88,15 @@ Different intermediate families can involve different stations:
 - [Saucepan](/cooking/saucepan/) for applicable liquid cooking and reductions
 - [Fermentation Crock](/stations/fermentation-crock/) for fermented prerequisites
 
-The exact current recipe definition is authoritative for station choice. This page does not assign an unverified station to every item based only on its name.
+Individual recipe pages provide the exact station requirements. This overview does not assign a station to an item based only on its name.
 
 ## Fermented intermediates
 
 Fermentation adds another prerequisite family, including brines, fermented Soybean products, and Soy Sauce production. Those chains are documented separately under [Fermentation & Preservation](/recipes/fermentation-preservation/) and [Rice & Soybean](/ingredients/rice-soybean/).
 
-## Documentation status
+## Documentation coverage
 
-The item identities listed here are confirmed from retained project content. Some exact station assignments, quantities, temperatures, and processing times still need to be checked against the latest recipe definitions before they are presented as fixed values.
+The items listed here are part of the current cooking catalog. Some exact station assignments, quantities, temperatures, and processing times are not published yet because those details are still being finalized.
 
 ## Related pages
 

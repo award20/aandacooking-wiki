@@ -1,40 +1,61 @@
 ---
-title: Documentation Status
-description: How this wiki records source coverage, feature status, and information that still needs verification.
+title: Documentation Coverage
+description: What the A & A Cooking wiki currently covers and which areas still need more detail.
 ---
 
-This wiki currently describes a pre alpha development snapshot. It will be updated against a named playtest build when that build is available.
+A & A Cooking is still in pre alpha development, so the wiki grows alongside the mod. Implemented systems are documented separately from features that are still being developed or planned for later.
 
 ## Version Coverage
 
-| Field | Current basis |
+| Field | Current coverage |
 |---|---|
 | Minecraft target | 1.21.10 |
 | Mod loader | Fabric |
-| Development stage | Pre-alpha |
-| Source snapshot | A & A Cooking source archive reviewed on September 16, 2026 |
-| Exact packaged mod version | Not established from this source archive |
+| Development stage | Pre alpha |
+| Public release version | Not published yet |
 
-The first playtest build is currently expected to use a version such as `0.2.0-alpha.1`. This is a development target, not a released version or a promised release date.
+Installation requirements, release downloads, and migration notes will be added when public builds are available.
 
 ## Feature Status
 
 | Label | Meaning |
 |---|---|
-| Implemented | Present in the source or build covered by the page |
-| In development | Partially implemented or actively being changed, with remaining work identified |
-| Planned | Future work that is not available in the documented version |
+| Implemented | Available in the currently documented version of the mod |
+| In development | Present or actively being built, but still subject to changes |
+| Planned | Intended for a future update and not currently available |
+| Needs verification | A detail exists, but the wiki does not yet publish an exact value or behavior for it |
 
-An implemented feature can still be part of a pre alpha mod. The status does not mean it has passed every gameplay test.
+An implemented feature can still receive balance changes, visual improvements, bug fixes, or additional recipes while the mod remains in pre alpha development.
 
-## Verification
+## Current Coverage
 
-Source review and the current development record establish what the project defines. Gameplay testing checks how that behavior works in the game. The current core station pass includes the Kitchen Sink, Cutting Board, Blender, Mixing Bowl, Mortar and Pestle, and Stovetop/Oven. Individual cookware coverage includes the Stockpot, Saucepan, Skillet, and Wok. Oven bakeware and connected kitchen storage are documented, including Cabinets, Counters, modular Fridge/Freezer layouts, and the current refrigerated/frozen freshness behavior. Agriculture coverage now includes Cultivated Soil, fertility, crop growth/vigor, pollination, harvest quality, and the current Tomato and Onion profiles. The environment pass uses the later calendar/weather command snapshot for solar time, seasonal daylight, temperature, local weather, and weather testing commands. A central Commands page documents the current `/aacooking` command tree, and the Configuration page records the configuration areas established by the retained source while leaving exact current keys/defaults marked for verification. The content reference pass uses the retained Batch 22 handoff, which records 230 Recipe Book entries, the generic Recipe Note system, the Rice/Soybean foundation, and implemented Fermentation Crock behavior. Dedicated catalog pages now cover soups and stews, sauces and intermediate foods, breads and baked foods, pasta and noodles, eggs and dairy, stir fries and seared foods, drinks, herbs and seasonings, Rice dishes and bowls, and Soybean and tofu foods. Tomato Soup has a complete retained Recipe Book entry, while the other catalog items remain at confirmed output level until their latest detailed definitions are checked.
+The wiki currently documents the main cooking and agriculture systems, including:
 
-Exact recipe quantities, cooking/fermentation times, and station presentation details will be verified as individual recipe pages are written. The current recipe catalog pages intentionally document confirmed families and chains without pretending to reconstruct all 230 entries from partial snapshots. Environment command behavior is documented where the current source establishes it. The exact current configuration file path, property names/defaults, complete weather condition registry, and changing snow thresholds still need verification. Information that cannot be confirmed will be marked **Needs verification**.
+- ingredient washing, cutting, peeling, and preparation states
+- Blender, Mixing Bowl, Mortar and Pestle, Fermentation Crock, and other kitchen stations
+- Stockpot, Saucepan, Skillet, Wok, oven bakeware, and Stovetop/Oven behavior
+- connected Cabinets, Counters, Fridges, Freezers, and freshness handling
+- Recipe Book progression, pinning, prerequisite planning, Recipe Notes, and discovery
+- Cultivated Soil, fertility, crop vigor, pollination, harvest quality, and current crops
+- calendar, seasons, solar time, seasonal daylight, temperature, weather, and climate systems
+- commands and player facing configuration areas
+- ingredient families, fermentation, Rice and Soybean production chains, and the growing recipe catalog
 
-The supplied archive contains the `src` directory, but does not include the Gradle build configuration or a packaged release. Complete build instructions, release downloads, and exact installation requirements remain to be verified.
+Recipe catalog pages are organized by food family so new dishes can be added without turning the wiki into one very large table.
+
+## Areas Still Expanding
+
+Some sections are intentionally broader than individual recipe pages. Future documentation work will continue adding:
+
+- exact ingredient quantities and output counts for more recipes
+- cooking temperatures, processing times, toss requirements, and bakeware requirements
+- additional crop and ingredient pages as agriculture expands
+- more detailed weather condition and climate references
+- finalized configuration keys and defaults once those settings are stable for players
+- release, installation, and upgrade information when public builds are available
+
+If a detail is still changing or has not been fully documented, the page will say so instead of presenting a guessed value as final.
 
 ## Corrections
 
-When reporting a documentation discrepancy, include the wiki page, the mod build you are using, and what you observed. A screenshot or the relevant log message can help establish whether the issue is in the documentation or the mod.
+If something in the wiki does not match the mod, include the page name, the build you are using, and what you observed. Screenshots or relevant log messages can also help identify whether the issue is in the documentation or the mod.

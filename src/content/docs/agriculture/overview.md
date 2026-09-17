@@ -7,7 +7,7 @@ A & A Cooking's agriculture system treats crop growth as the result of several e
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
-    <p>The reviewed agriculture source includes Cultivated Soil, crop-specific growth profiles, vigor and lifecycle states, pollination bonuses, fertility consumption, harvest yield/quality, and current Tomato and Onion crops.</p>
+    <p>The agriculture system includes Cultivated Soil, crop specific growth profiles, vigor and lifecycle states, pollination bonuses, fertility consumption, harvest yield and quality, and current Tomato and Onion crops.</p>
 </div>
 
 ## Agriculture loop
@@ -75,7 +75,7 @@ Harvested produce starts unwashed and keeps that calculated quality when it ente
 
 ## Current crop profiles
 
-The reviewed agriculture source defines dedicated profiles for:
+Current dedicated crop profiles include:
 
 - Tomato
 - Onion

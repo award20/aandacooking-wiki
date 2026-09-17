@@ -14,7 +14,7 @@ The following areas are planned for future development. They describe the intend
 | Horticulture | Fruit trees, bushes, vines, root crops, orchards, perennial plants, and later greenhouse support |
 | Cold-storage expansion | Additional presentation, equipment progression, and balancing around the existing fridge/freezer freshness system |
 
-Core food freshness/spoilage, refrigerated aging, frozen storage, and modular Fridge/Freezer inventories are already implemented in the current development line. See [Cold Storage](/storage/cold-storage/) for the documented behavior.
+Core food freshness, spoilage, refrigerated aging, frozen storage, and modular Fridge/Freezer inventories are already implemented. See [Cold Storage](/storage/cold-storage/) for the documented behavior.
 
 Fermentation and pickling content also exist. Future preservation work would expand the number of techniques and production chains rather than introducing the first spoilage system.
 
@@ -31,4 +31,4 @@ Specific future crops, livestock, food states, processing times, and release dat
 - [About A & A Cooking](/getting-started/about/) describes the current systems.
 - [Kitchen Storage](/storage/overview/) covers the connected storage network.
 - [Cold Storage](/storage/cold-storage/) covers current Fridge and Freezer behavior.
-- [Documentation Status](/reference/documentation-status/) explains how feature status is recorded.
+- [Documentation Coverage](/reference/documentation-status/) explains how feature status is recorded.

@@ -27,7 +27,7 @@ The established herb content also includes seed items for the herb crops:
 - Parsley Seeds
 - Mint Seeds
 
-The complete planting, season preference, vigor, and harvest values are not frozen on this page because the current crop profile source for these herbs still needs a dedicated verification pass.
+The complete planting, season preference, vigor, and harvest values are not published on this page yet. Those details will be added with the dedicated herb crop documentation.
 
 ## Processed herb forms
 
@@ -41,7 +41,7 @@ Several herbs have prepared forms used by later recipes:
 | `mint_crushed` | Crushed Mint | Crushed herb |
 | `herb_seasoning` | Herb Seasoning | Seasoning blend |
 
-The [Mortar and Pestle](/stations/mortar-and-pestle/) is the primary reference page for Crush and Grind processing. Exact action counts for each herb preparation will be added when the current recipe definitions are checked.
+The [Mortar and Pestle](/stations/mortar-and-pestle/) is the primary reference page for Crush and Grind processing. Exact action counts for each herb preparation will be added as the herb recipes receive dedicated documentation.
 
 ## Herb drinks
 

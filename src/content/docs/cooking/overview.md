@@ -20,7 +20,7 @@ This means an unrelated extra ingredient can prevent a batch recipe from matchin
 
 ## Station families
 
-| Family | Stations | Source-confirmed behavior |
+| Family | Stations | Current behavior |
 |---|---|---|
 | Preparation | Oak Kitchen Sink, Oak Cutting Board | Washing, cutting, peeling, shredding, and cracking paths are handled through block interactions. |
 | Processing | Blender | Blend, Pulse, and Chop modes. Blend, Pulse, and Chop use 100, 40, and 60 game ticks per cycle respectively. |

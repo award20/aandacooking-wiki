@@ -9,17 +9,17 @@ The Recipe Book is a placed block that stores discovered recipes, progression, a
 
 Place the Recipe Book on top of either a full solid support or a kitchen-connecting block. Use the placed book to open its recipe interface.
 
-The book stores its progress with the block. In Survival mode, breaking a placed book drops a book item carrying that progress. The current source does not define a separate installation or crafting guide for the book yet.
+The book stores its progress with the block. In Survival mode, breaking a placed book drops a book item carrying that progress. Crafting and acquisition details will be documented separately.
 
 ## Discovering recipes
 
 Discovery adds a recipe ID to the placed book. A valid Recipe Note can be used on the book to discover its recipe, and the note is consumed after a successful discovery. A recipe that is already known is not discovered again.
 
-The current source also defines discovery and loot integrations. Their exact locations and conditions will be documented when they are verified in a playtest build.
+Recipe discovery and loot integrations are part of the Recipe Book system. Exact locations and conditions will be documented on the discovery pages as those systems are expanded.
 
 ## Browsing recipes
 
-The retained Batch 22 content snapshot contained **230 discoverable Recipe Book entries**. That number is a development snapshot and can increase as content batches are added.
+The Recipe Book contains a large and growing catalog of discoverable recipes. New recipe families can be added without changing the underlying discovery and prerequisite systems.
 
 The Recipe Book interface provides:
 
@@ -48,11 +48,11 @@ The current system uses a generic **Recipe Note** item that stores a recipe ID. 
 
 To copy a discovered recipe to a note, keep Paper in the inventory and use the copy action while within 8 blocks of the placed Recipe Book. The generated note can be given to another player. Using a valid note on a Recipe Book transfers the recipe to that book's discovery progress.
 
-The source still contains older fixed recipe-note items for compatibility with existing saves. New documentation uses the generic Recipe Note system.
+Older fixed Recipe Note items remain for compatibility with existing saves. New recipes use the generic Recipe Note system.
 
 ## Book tiers
 
-Book tier is based on the proportion of discoverable recipes in the current source. The exact recipe count can change as recipes are added.
+Book tier is based on the proportion of discoverable recipes learned by the player. The total catalog can grow as new recipes are added.
 
 | Tier | Required completion |
 |---|---:|
@@ -70,4 +70,4 @@ Tier progression changes the book's available appearance. It does not replace th
 - [Cooking Overview](/cooking/overview/) explains matching, station behavior, and temperature presets.
 - [Recipe Catalog](/recipes/overview/) explains how the growing recipe library is organized.
 - [Recipe Notes & Discovery](/recipe-book/notes-discovery/) covers copying, sharing, and discovering recipes.
-- [Documentation Status](/reference/documentation-status/) explains how source-confirmed and unverified information is labeled.
+- [Documentation Coverage](/reference/documentation-status/) explains what is currently documented and how unfinished details are labeled.

@@ -7,7 +7,7 @@ A & A Cooking uses modular **Small Stainless Steel Fridge** and **Small Stainles
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Standalone 18-slot storage, 36-slot vertical pairing, mixed fridge/freezer layouts, per-half freshness behavior, and connected-kitchen access are part of the current development line.</p>
+    <p>Standalone 18 slot storage, 36 slot vertical pairing, mixed Fridge/Freezer layouts, per half freshness behavior, and connected kitchen access are currently implemented.</p>
 </div>
 
 ## Standalone blocks

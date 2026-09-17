@@ -3,11 +3,11 @@ title: Configuration
 description: Confirmed A & A Cooking configuration areas for time, seasons, climate, and temperature display.
 ---
 
-A & A Cooking centralizes environment-facing settings through `AACookingConfig`. The retained source confirms the configuration areas below and shows them being consumed by the solar clock, daylight, calendar, temperature, and command systems.
+A & A Cooking centralizes environment settings used by the solar clock, daylight, calendar, temperature, and command systems.
 
 <div class="page-summary">
-    <p><strong>Status: Configuration behavior confirmed, exact file schema still needs a current source check</strong></p>
-    <p>The settings themselves are established in the retained source. The exact current config-file path, property names, default values, and accepted calendar-preset names are not frozen here because the current <code>AACookingConfig.java</code> file is not present in the available source snapshot.</p>
+    <p><strong>Status: Core configuration behavior documented, exact file schema still being finalized</strong></p>
+    <p>The exact configuration file path, property names, default values, and accepted calendar preset names are not published here yet because those details are still being finalized for player facing documentation.</p>
 </div>
 
 ## Confirmed configuration areas
@@ -30,7 +30,7 @@ This means the configured duration changes **real-time day speed** while keeping
 
 ### Duration syntax
 
-The retained duration parser accepts:
+Duration values accept:
 
 - `s`: seconds
 - `m`: minutes
@@ -68,7 +68,7 @@ The environment system reads a configured **climate latitude** when calculating 
 
 `/aacooking daylight` displays the configured latitude directly. `/aacooking temperature` also reports the latitude used by the climate calculation at the sampled position.
 
-The retained source does not establish the current user-facing config key or validated numeric range, so those details remain **Needs verification** until the current configuration class is available.
+The player facing config key and validated numeric range are not published here yet, so those details remain **Needs verification**.
 
 ## Temperature unit
 
@@ -76,7 +76,7 @@ A shared temperature-unit setting is used by environment diagnostics. The select
 
 This matters because A & A Cooking is intended to use one coherent unit preference instead of having climate diagnostics and cooking interfaces disagree about temperature presentation.
 
-The exact selectable unit names in the current config schema remain **Needs verification** from the latest `TemperatureUnit` and configuration source.
+The exact selectable unit names remain **Needs verification** until the player facing configuration format is finalized.
 
 ## Calendar preset
 
@@ -87,11 +87,11 @@ The newer Game Calendar reports an active **calendar preset**, and the preset de
 - total days in the year
 - resulting day-of-year and seasonal progress
 
-Because the retained command source only exposes the selected preset's display name, this wiki does not yet list the complete preset catalog or exact configuration key.
+The complete preset catalog and exact configuration key are not published here yet.
 
 ## Applying configuration changes
 
-The retained source confirms that A & A Cooking loads its configuration during mod initialization. It does **not** provide enough current-source evidence in this wiki snapshot to promise which options hot-reload, which require a world/server restart, or which are synchronized to clients.
+A & A Cooking loads its configuration during mod initialization. The wiki does not yet promise which options can reload immediately, which require a world or server restart, or which are synchronized to clients.
 
 Until the latest `AACookingConfig.java` is reviewed, treat restart/reload behavior as **Needs verification**.
 

@@ -7,7 +7,7 @@ Kitchen storage in A & A Cooking is more than a collection of inventories. Compa
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Cabinets, Counters, Fridges, Freezers, connected ingredient lookup, exact-state matching, and selected-recipe ingredient loading are part of the current development line.</p>
+    <p>Cabinets, Counters, Fridges, Freezers, connected ingredient lookup, exact state matching, and selected recipe ingredient loading are currently implemented.</p>
 </div>
 
 ## Storage blocks

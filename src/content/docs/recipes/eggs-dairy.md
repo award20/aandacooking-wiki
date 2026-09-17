@@ -5,13 +5,13 @@ description: Egg preparations, cheese, cream, butter, custard, dairy drinks, and
 
 Eggs and dairy form several connected preparation chains in A & A Cooking. Some outputs are finished foods, while others are prerequisites used by pasta, baking, sauces, sandwiches, and larger cooked dishes.
 
-This page records egg and dairy outputs confirmed by the retained project content. Exact quantities, station assignments, temperatures, durations, and output counts will be added as their current Recipe Book entries are verified.
+This page records the current egg and dairy food families. Exact quantities, station assignments, temperatures, durations, and output counts will be added as individual recipes receive dedicated documentation.
 
 ## Egg preparation chain
 
 Confirmed egg preparations include:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `egg_cracked` | Cracked Egg | Basic egg preparation |
 | `beaten_egg` | Beaten Egg | Mixing and cooking prerequisite |
@@ -22,20 +22,20 @@ The preparation system treats these as distinct states or outputs rather than al
 
 ## Omelettes
 
-The retained catalog includes several omelette variants:
+The catalog includes several omelette variants:
 
 - `egg_omelette_cheese` (Cheese Omelette)
 - `egg_omelette_vegetable` (Vegetable Omelette)
 - `egg_omelette_herb` (Herb Omelette)
 - `egg_omelette_mushroom` (Mushroom Omelette)
 
-These dishes connect the egg chain with cheese, prepared vegetables, herbs, and mushrooms. Their current recipe definitions determine the exact station and preparation requirements.
+These dishes connect the egg chain with cheese, prepared vegetables, herbs, and mushrooms. Individual recipe pages provide the exact station and preparation requirements.
 
 ## Cheese chain
 
 The established cheese line includes:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `milk_cheese_fresh` | Fresh Cheese | Base cheese ingredient |
 | `milk_cheese_shredded` | Shredded Cheese | Prepared cheese ingredient |
@@ -58,7 +58,7 @@ The raw and finished variants allow assembly and final heating to remain separat
 
 Confirmed dairy intermediates include:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `milk_cream` | Cream | Creamy dishes and baking prerequisite |
 | `milk_butter` | Butter | Cooking and baking prerequisite |
@@ -71,7 +71,7 @@ Cream and butter are shared prerequisites rather than isolated foods. They conne
 
 ## Dairy drinks
 
-The retained catalog also includes:
+The catalog also includes:
 
 - `milk_hot_chocolate` (Hot Chocolate)
 - `milk_hot_chocolate_mint` (Mint Hot Chocolate)
@@ -88,11 +88,11 @@ Egg and dairy recipes can depend on several established systems:
 - [Stovetop/Oven](/stations/stovetop-oven/) for heated cookware and baked cheese dishes
 - [Sauces & Intermediates](/recipes/sauces-intermediates/) for shared dairy prerequisites
 
-The exact current recipe definition remains authoritative for station, quantity, and time requirements.
+Individual recipe pages provide the exact station, quantity, and time requirements.
 
-## Documentation status
+## Documentation coverage
 
-The item identities and broad preparation chains on this page are confirmed from retained A & A Cooking content history. Exact ingredient counts, temperatures, durations, output counts, and station assignments still need to be checked against the latest Recipe Book definitions.
+This page covers the established egg and dairy families and their preparation chains. Exact ingredient counts, temperatures, durations, output counts, and station assignments will be added as individual recipes receive dedicated documentation.
 
 ## Related pages
 

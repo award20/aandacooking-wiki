@@ -5,11 +5,11 @@ description: An overview of the cooking, ingredient preparation, agriculture, an
 
 A & A Cooking adds cooking and agriculture systems to Minecraft. Recipes can involve preparing ingredients, using specific equipment, and processing ingredients through more than one station.
 
-The current source targets Minecraft **1.21.10** with **Fabric**. It is under active pre-alpha development.
+A & A Cooking currently targets Minecraft **1.21.10** with **Fabric**. It is under active pre alpha development.
 
 ## Current Systems
 
-The following systems are present in the reviewed development source. This overview confirms their presence; detailed rules and controls will be covered in separate guides.
+The following systems are currently part of A & A Cooking. Detailed rules and controls are covered in their dedicated guides.
 
 | System | Scope |
 |---|---|
@@ -25,7 +25,7 @@ The following systems are present in the reviewed development source. This overv
 
 ## Equipment
 
-Equipment registered in the current source includes:
+Current equipment includes:
 
 - Oak Kitchen Sink and Oak Cutting Board
 - Blender, Mixing Bowl, and Mortar and Pestle
@@ -38,6 +38,6 @@ The preparation actions available depend on the ingredient. This list does not m
 
 ## Development Status
 
-Features and recipes may change before the first playtest build. The current development line already includes freshness/spoilage and cold-storage modifiers. Additional livestock, expanded horticulture, and broader preservation methods remain part of the [planned development areas](/development/planned-features/).
+Features and recipes may change before release. Freshness, spoilage, and cold storage modifiers are already implemented. Additional livestock, expanded horticulture, and broader preservation methods remain part of the [planned development areas](/development/planned-features/).
 
-See [Ingredients Overview](/ingredients/overview/) and [Recipe Catalog](/recipes/overview/) for the expanding content reference. See [Agriculture Overview](/agriculture/overview/) and [Weather & Climate](/environment/weather-climate/) for the current farming and environment references. See [Documentation Status](/reference/documentation-status/) for how this wiki distinguishes current implementation, development work, and future plans.
+See [Ingredients Overview](/ingredients/overview/) and [Recipe Catalog](/recipes/overview/) for the expanding content reference. See [Agriculture Overview](/agriculture/overview/) and [Weather & Climate](/environment/weather-climate/) for the current farming and environment references. See [Documentation Coverage](/reference/documentation-status/) for how this wiki distinguishes current implementation, development work, and future plans.

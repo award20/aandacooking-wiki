@@ -7,7 +7,7 @@ Rice and Soybean form one of A & A Cooking's largest connected ingredient famili
 
 ## Rice chain
 
-The retained content snapshot confirms a Rice foundation that includes:
+The Rice foundation includes:
 
 - Rice and Rice Seeds
 - Cooked Rice
@@ -39,11 +39,11 @@ The Soybean foundation includes:
 
 The Soybean chain spans the Blender, direct cooking stations, and the [Fermentation Crock](/stations/fermentation-crock/).
 
-## Soy recipes from Batch 22
+## Soy Sauce recipe branch
 
-The retained Batch 22 content snapshot added these ten Recipe Book entries:
+The Soy Sauce branch includes these Recipe Book entries:
 
-| Display name | Internal ID |
+| Display name | Recipe ID |
 |---|---|
 | Sweet Soy Glaze | `soybean_sauce_sweet` |
 | Soy Glazed Chicken | `chicken_glazed_soy_sauce` |

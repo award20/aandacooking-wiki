@@ -7,7 +7,7 @@ The **Stovetop/Oven** is the central heated kitchen station in A & A Cooking. It
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Independent heat controls, temperature presets, oven preheating, rack cookware requirements, thermal cooking behavior, recipe locking, and Recipe Book loading are present in the current development line.</p>
+    <p>Independent heat controls, temperature presets, oven preheating, rack cookware requirements, thermal cooking behavior, recipe locking, and Recipe Book loading are currently implemented.</p>
 </div>
 
 ## Independent heat controls

@@ -7,7 +7,7 @@ A & A Cooking's newer environment system includes a dedicated **Game Calendar** 
 
 <div class="page-summary">
     <p><strong>Status: Implemented environment system</strong></p>
-    <p>The current command/source snapshot exposes Spring, Summer, Autumn, and Winter through the Game Calendar and provides both compact season information and full calendar diagnostics.</p>
+    <p>The Game Calendar uses Spring, Summer, Autumn, and Winter and provides both compact season information and full calendar diagnostics.</p>
 </div>
 
 ## Calendar information

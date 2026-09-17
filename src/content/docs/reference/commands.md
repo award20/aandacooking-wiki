@@ -8,7 +8,7 @@ A & A Cooking provides `/aacooking` commands for inspecting the calendar, solar 
 
 <div class="page-summary">
     <p><strong>Status: Implemented development commands</strong></p>
-    <p>This page follows the newer command snapshot that includes the Game Calendar, climate diagnostics, local weather overrides, and weather searching.</p>
+    <p>The command reference includes the Game Calendar, climate diagnostics, local weather overrides, and weather searching.</p>
 </div>
 
 ## Command overview
@@ -148,7 +148,7 @@ Current command behavior:
 - uses command suggestions from the current `WeatherCondition` registry
 - reports the selected condition, region size, and region center after applying the override
 
-The exact condition catalog is intentionally not frozen into this page until the current `WeatherCondition` source is reviewed alongside a newer source package.
+The exact condition catalog is not published here yet because weather conditions are still expanding.
 
 ## Clear local weather
 

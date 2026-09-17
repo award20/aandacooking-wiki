@@ -5,7 +5,7 @@ description: Cooked Rice, porridge, pancakes, rice cakes, fried Rice, and Rice b
 
 Rice is both a staple ingredient and the foundation for several finished meal families in A & A Cooking. The current content includes simple cooked Rice, porridge, pancakes, rice cakes, multiple fried Rice dishes, and later Soy Sauce Rice bowls.
 
-This page records the established outputs and confirmed internal IDs where they are available. Exact ingredient quantities, processing times, temperatures, and station requirements will be added as the latest detailed recipe definitions are verified.
+This page records the established Rice dishes and their item IDs where available. Exact ingredient quantities, processing times, temperatures, and station requirements will be added as individual recipes receive dedicated documentation.
 
 ## Rice foundation
 
@@ -68,7 +68,7 @@ These recipes connect the Rice branch with the fermented Soybean chain documente
 
 ## Rice bowls
 
-Batch 22 also established two Soy Sauce Rice bowls:
+The Soy Sauce branch also includes two Rice bowls:
 
 | ID | Display name |
 |---|---|
@@ -83,7 +83,7 @@ Rice dishes use the same Recipe Book dependency and station loading systems as t
 
 ## Recipe detail status
 
-The outputs and internal IDs listed on this page are part of the established Rice content. Exact quantities, temperatures, processing times, and station modes will be added during the detailed recipe verification pass.
+The outputs and item IDs listed on this page are part of the current Rice content. Exact quantities, temperatures, processing times, and station modes will be added as those recipes receive dedicated documentation.
 
 ## Related pages
 

@@ -27,7 +27,7 @@ Use an empty hand to retrieve the held item. Sneaking with an empty hand also re
 
 ## Registered preparation paths
 
-The following paths are registered in the current source. The values in the last column are required interactions, not game ticks.
+The following preparation paths are currently available. The values in the last column are required interactions, not game ticks.
 
 | Input | Input ID | Preparation | Output | Output ID | Required interactions |
 |---|---|---|---|---|---:|
@@ -49,7 +49,7 @@ The following paths are registered in the current source. The values in the last
 | A & A Cooking Egg | `aandacooking:egg` | Crack | Cracked Egg | `aandacooking:egg_cracked` | 1 cutting-board-edge use |
 | Fresh Cheese | `aandacooking:milk_cheese_fresh` | Shred | Shredded Cheese | `aandacooking:milk_cheese_shredded` | 4 knife uses |
 
-The source also defines preparation action types for future or other station work, but only the paths listed above are registered here. Processing recipes such as grinding or mixing are documented with their station rather than treated as cutting-board actions.
+Additional preparation actions can be used by other stations, but only the paths listed above are Cutting Board preparations. Processing recipes such as grinding or mixing are documented with their station rather than treated as Cutting Board actions.
 
 ## Preparation and recipe matching
 

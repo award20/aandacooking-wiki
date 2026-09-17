@@ -15,7 +15,7 @@ The current drink catalog includes three established fruit and vegetable juices:
 | `apple_juice` | Apple Juice | Fruit juice |
 | `tomato_juice` | Tomato Juice | Vegetable juice |
 
-Juices are useful examples of ingredients becoming both finished consumables and possible prerequisites for later recipes. Their exact current processing definitions will be added when the latest detailed recipe entries are checked.
+Juices are useful examples of ingredients becoming both finished consumables and possible prerequisites for later recipes. Exact processing steps will be added as individual drink recipes receive dedicated documentation.
 
 ## Smoothies
 

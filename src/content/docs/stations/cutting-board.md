@@ -7,7 +7,7 @@ The **Oak Cutting Board** is an in-world preparation station that holds one ingr
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The interaction flow below is source-confirmed. Individual preparation paths remain centralized on the Ingredient Preparation page.</p>
+    <p>The interaction flow below covers the current Cutting Board behavior. Individual preparation paths remain centralized on the Ingredient Preparation page.</p>
 </div>
 
 ## Placing an ingredient

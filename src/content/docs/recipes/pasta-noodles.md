@@ -5,13 +5,13 @@ description: Pasta, boiled noodles, creamy pasta, herb pasta, and noodle stir fr
 
 Pasta and noodle dishes connect several A & A Cooking systems. A finished dish can depend on flour or noodles, a prepared sauce, vegetables or meat, herbs, cheese, and a final heated cooking step.
 
-This page records pasta and noodle outputs confirmed by the retained project content. Exact quantities, cooking temperatures, and processing times will be added as their current Recipe Book entries are verified.
+This page records the current pasta and noodle families. Exact quantities, cooking temperatures, and processing times will be added as individual recipes receive dedicated documentation.
 
 ## Noodle foundation
 
 The established wheat noodle chain begins with:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `wheat_noodles_raw` | Raw Wheat Noodles | Uncooked noodle intermediate |
 | `wheat_noodles_boiled` | Boiled Wheat Noodles | Cooked noodle intermediate |
@@ -22,7 +22,7 @@ Keeping raw and boiled noodles separate lets later recipes require the correct p
 
 Confirmed pasta outputs include:
 
-| Internal ID | Display name | Family |
+| Item ID | Display name | Family |
 |---|---|---|
 | `tomato_pasta` | Tomato Pasta | Tomato pasta |
 | `mushroom_pasta_creamy` | Creamy Mushroom Pasta | Creamy pasta |
@@ -38,7 +38,7 @@ These dishes demonstrate why sauces and intermediates have their own recipe laye
 
 ## Noodle stir fries
 
-The retained catalog includes several wheat noodle stir fries:
+The catalog includes several wheat noodle stir fries:
 
 - `wheat_noodles_stir_fry_vegetable` (Vegetable Noodle Stir Fry)
 - `wheat_noodles_stir_fry_mushroom` (Mushroom Noodle Stir Fry)
@@ -66,14 +66,14 @@ The [Sauces & Intermediates](/recipes/sauces-intermediates/) page documents many
 
 Different pasta and noodle recipes can finish at different cooking stations. Boiling, sauce cooking, and stir frying are not treated as one universal action.
 
-The exact current recipe definition determines the station. Relevant station guides include:
+Different pasta and noodle recipes use different stations. Relevant station guides include:
 
 - [Saucepan](/cooking/saucepan/) for applicable liquid cooking and reductions
 - [Stockpot](/cooking/stockpot/) for applicable larger liquid recipes
 - [Skillet](/cooking/skillet/) for applicable direct heat dishes
 - [Wok](/cooking/wok/) for applicable stir fries
 
-A station is not assigned on this page unless it has been checked against the current recipe data.
+Exact station assignments are documented on individual recipe pages.
 
 ## Relationship to recipe planning
 
@@ -81,9 +81,9 @@ Pasta and noodle dishes are good examples of why the Recipe Book prerequisite pl
 
 When those prerequisites are missing, the Recipe Book can expose the dependency chain rather than reducing the recipe to one flat ingredient list.
 
-## Documentation status
+## Documentation coverage
 
-The output identities and broad chains on this page are confirmed from retained A & A Cooking content history. Exact quantities, station assignments, temperatures, durations, and output counts still need to be verified against the latest detailed recipe entries.
+This page covers the established pasta and noodle families and their preparation chains. Exact quantities, station assignments, temperatures, durations, and output counts will be added as individual recipes receive dedicated documentation.
 
 ## Related pages
 

@@ -100,7 +100,7 @@ cook dish
 serve finished portions
 ```
 
-The exact serving-container catalog is still being expanded alongside the larger content phase, so individual recipe pages will document serving expectations where they matter.
+The serving container catalog can expand with new recipes, so individual recipe pages document serving expectations where they matter.
 
 ## Visual behavior
 

@@ -7,7 +7,7 @@ The **Mixing Bowl** is a manual processing station for recipes that combine ingr
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The six-input layout, manual processing modes, persistent progress, recipe-driven outputs, and shared freshness handling are part of the current development line.</p>
+    <p>The six input layout, manual processing modes, persistent progress, recipe driven outputs, and shared freshness handling are currently implemented.</p>
 </div>
 
 ## Inventory layout

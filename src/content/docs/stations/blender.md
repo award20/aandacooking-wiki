@@ -7,7 +7,7 @@ The **Blender** is a dedicated processing station for recipes that transform ing
 
 <div class="page-summary">
     <p><strong>Status: Implemented, with pre-alpha behavior still subject to playtesting</strong></p>
-    <p>The station, its processing modes, Recipe Book integration, and stacked/surplus ingredient processing are present in the current development line.</p>
+    <p>The station, its processing modes, Recipe Book integration, and stacked or surplus ingredient processing are currently implemented.</p>
 </div>
 
 ## Processing modes
@@ -60,7 +60,7 @@ Recipe Book quantities represent **recipe executions**, not the raw number of ou
 
 ## Verification notes
 
-The wiki currently documents the source-defined processing times and the latest completed stacked-processing behavior. Exact screen layout, animation timing, sound presentation, and every individual Blender recipe will be documented as their dedicated references are checked against the playable build.
+The wiki documents the Blender processing model and stacked ingredient behavior. Exact screen layout, animation timing, sound presentation, and individual Blender recipes will be expanded as those parts of the station receive dedicated documentation.
 
 ## Related pages
 

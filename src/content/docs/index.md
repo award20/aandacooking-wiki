@@ -7,14 +7,14 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 
 <div class="page-summary">
     <p><strong>Minecraft 1.21.10 · Fabric · Pre alpha</strong></p>
-    <p>This wiki is being built as development continues. Its current pages describe the development source, with planned features identified separately.</p>
+    <p>This wiki grows alongside the mod. Current mechanics, features still in development, and planned systems are identified separately.</p>
 </div>
 
 ## Start Here
 
 | Page | Contents |
 |---|---|
-| [About A & A Cooking](/getting-started/about/) | Overview of the systems present in the current source |
+| [About A & A Cooking](/getting-started/about/) | Overview of the mod and its major systems |
 | [First Steps](/getting-started/first-steps/) | A basic sequence for washing, preparing, and cooking ingredients |
 | [Ingredient Preparation](/getting-started/ingredient-preparation/) | Preparation paths, ingredient states, and technical IDs |
 | [Kitchen Sink](/stations/kitchen-sink/) | Washing ingredients and bucket interaction |
@@ -46,10 +46,12 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Rice & Soybean](/ingredients/rice-soybean/) | Rice, Soybean, tofu, Soy Sauce, and related production chains |
 | [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing Recipe Book catalog |
 | [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy Stockpot dish reference |
-| [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, focaccia, pancakes, cookies, and other oven foods |
+| [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, focaccia, pancakes, and other oven foods |
+| [Desserts & Sweet Foods](/recipes/desserts-sweet-foods/) | Cookies, fruit desserts, sweet breads, jam, and dessert components |
 | [Pasta & Noodles](/recipes/pasta-noodles/) | Noodle foundations, pasta dishes, and noodle stir fries |
 | [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) | Cooked Rice, porridge, pancakes, rice cakes, fried Rice, and Rice bowls |
 | [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) | Soybean processing, tofu, fermentation, Soy Sauce, and finished soy dishes |
+| [Potato & Vegetable Dishes](/recipes/potato-vegetable-dishes/) | Potato dishes, roasted and glazed vegetables, sauteed produce, and mixed vegetable foods |
 | [Eggs & Dairy](/recipes/eggs-dairy/) | Egg preparations, omelettes, cheese, cream, butter, custard, and dairy dishes |
 | [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned Wok dishes, seared proteins, and related direct heat foods |
 | [Drinks](/recipes/drinks/) | Juices, smoothies, teas, hot chocolate, and Soybean drinks |
@@ -60,16 +62,16 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Configuration](/reference/configuration/) | Confirmed day length, daylight, latitude, temperature unit, and calendar settings |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
 | [Recipe Notes & Discovery](/recipe-book/notes-discovery/) | Generic Recipe Notes, copying, sharing, and discovery validation |
-| [Documentation Status](/reference/documentation-status/) | Version coverage, verification, and the meaning of feature status labels |
+| [Documentation Coverage](/reference/documentation-status/) | What the wiki currently covers and the meaning of feature status labels |
 | [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
 
 ## Documentation Coverage
 
-The current core pass covers the mod overview, player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, the environment system, and the first scalable ingredient and recipe reference layer. Agriculture coverage includes Cultivated Soil, crop growth/vigor, current Tomato and Onion profiles, pollination, fertility, and Compost. Environment coverage includes the newer calendar, solar time/daylight, temperature, and local weather diagnostics. The content reference now covers ingredient families, the Rice/Soybean production foundation, Recipe Notes, implemented fermentation/preservation behavior, soups and stews, and the first dedicated sauces and intermediates reference, Breads & Baked Foods, Pasta & Noodles, Eggs & Dairy, Stir Fries & Seared Foods, Drinks, Herbs & Seasonings, Rice Dishes & Bowls, and Soybean & Tofu Foods.
+The wiki currently covers the main player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, seasons, weather, climate, commands, configuration, and an expanding ingredient and recipe reference.
 
-The retained Batch 22 content snapshot contained 230 discoverable Recipe Book entries, so the wiki is intentionally organizing recipes into expandable groups instead of one giant static table. Complete recipe quantities and durations, the full weather condition catalog, exact configuration file keys/defaults, and more specialized production chains will be added as their behavior is checked against the current development line.
+Recipe documentation is organized by food family, including soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, potato and vegetable dishes, eggs, dairy, stir fries, drinks, herbs, sauces, intermediates, fermentation, and preservation. This structure lets the catalog grow without turning the wiki into one large static list.
 
-Recipe quantities, processing times, and controls will be documented on their relevant pages. General systems will have a central explanation that other pages link to.
+Exact recipe quantities, processing times, cooking temperatures, the complete weather condition catalog, finalized configuration keys/defaults, and more specialized production chains will be added as those details become ready for public documentation.
 
 ## Related Projects
 

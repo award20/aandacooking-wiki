@@ -6,15 +6,15 @@ The mod expands cooking and agriculture with ingredient preparation, cookware, d
 
 The published wiki is available at [aandacooking.haxuslate.com](https://aandacooking.haxuslate.com).
 
-## Documentation status
+## Documentation coverage
 
 Wiki pages use the following status categories:
 
-- **Implemented**: behavior confirmed in the current project source
+- **Implemented**: available in the currently documented version of the mod
 - **In development**: active work is present, but behavior or presentation may still change
 - **Planned**: future content that is not currently available
 
-Planned systems are kept separate from implemented mechanics. Details that cannot be confirmed from the source or gameplay testing are marked for verification.
+Planned systems are kept separate from implemented mechanics. Details that are still changing or not yet fully documented are marked for verification.
 
 ## Wiki contents
 
@@ -28,9 +28,9 @@ The documentation is organized around:
 - Kitchen storage and food production systems
 - Fermentation and other preservation systems
 - Commands, configuration, and technical information
-- Development status and planned features
+- Documentation coverage and planned features
 
-The current core documentation includes the project overview, First Steps and Ingredient Preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. The wiki now also includes a central `/aacooking` command reference, a configuration guide for the currently established time/calendar/climate settings, an ingredient reference layer, Rice/Soybean production chain coverage, Recipe Notes and discovery, the implemented Fermentation Crock/preservation foundation, Soups & Stews, Breads & Baked Foods, Pasta & Noodles, Eggs & Dairy, Stir Fries & Seared Foods, Drinks, Herbs & Seasonings, Rice Dishes & Bowls, Soybean & Tofu Foods, and Sauces & Intermediates catalogs. The retained Batch 22 content snapshot contained 230 Recipe Book entries, so individual recipe documentation will expand by category rather than as one monolithic page.
+The current documentation includes the project overview, First Steps and Ingredient Preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. The wiki also includes a central `/aacooking` command reference, configuration guidance, an ingredient reference layer, Rice/Soybean production chain coverage, Recipe Notes and discovery, the Fermentation Crock and preservation foundation, plus category based recipe references for soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, vegetables, eggs, dairy, stir fries, drinks, herbs, sauces, and intermediates.
 
 ## Development
 
@@ -53,13 +53,13 @@ npm run build
 
 The workflow in `.github/workflows/deploy.yml` builds and publishes the wiki through GitHub Pages when changes are pushed to the `main` branch. The repository's Pages settings and custom domain configuration determine the public deployment.
 
-## Source and verification
+## Documentation approach
 
-The current A & A Cooking source is the authority when it conflicts with earlier notes or summaries. The wiki does not present planned features as implemented. Exact release and installation information will be expanded when it has been confirmed for public playtesting.
+The wiki is updated alongside A & A Cooking and keeps planned features separate from implemented mechanics. Exact release and installation information will be added when public playtest builds are available.
 
 Maintained by [Haxuslate](https://haxuslate.com).
 
 
 ## Current system guides
 
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Pasta & Noodles, Eggs & Dairy, Stir Fries & Seared Foods, Drinks, Herbs & Seasonings, Rice Dishes & Bowls, Soybean & Tofu Foods, Sauces & Intermediates, Recipe Notes, fermentation/preservation, `/aacooking` commands, and configuration areas in addition to the shared overview pages.
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Desserts & Sweet Foods, Pasta & Noodles, Rice Dishes & Bowls, Soybean & Tofu Foods, Potato & Vegetable Dishes, Eggs & Dairy, Stir Fries & Seared Foods, Drinks, Herbs & Seasonings, Sauces & Intermediates, Recipe Notes, fermentation/preservation, `/aacooking` commands, and configuration areas in addition to the shared overview pages.

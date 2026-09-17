@@ -5,13 +5,13 @@ description: Bread, toast, pancakes, cookies, focaccia, baked produce, and other
 
 A & A Cooking separates baking into preparation stages instead of treating every baked food as a single crafting recipe. Flour, doughs, batters, toppings, and other intermediates can be prepared before the final food reaches the oven.
 
-This page records baked foods and baking intermediates confirmed by the retained project content. Exact quantities, oven temperatures, bake times, and bakeware requirements will be added as their latest Recipe Book entries are verified.
+This page records the current baked foods and baking intermediates. Exact quantities, oven temperatures, bake times, and bakeware requirements will be added as individual recipes receive dedicated documentation.
 
 ## Bread and dough chain
 
 The established wheat bread chain includes:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `wheat_flour` | Wheat Flour | Dry intermediate |
 | `wheat_bread_dough` | Bread Dough | Bread intermediate |
@@ -23,7 +23,7 @@ This structure allows the Recipe Book to treat Bread Dough as a real prerequisit
 
 Confirmed batter and dough based foods include:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `wheat_pancake_batter` | Pancake Batter | Pancake intermediate |
 | `wheat_pancake` | Wheat Pancake | Finished food |
@@ -35,7 +35,7 @@ The current catalog also contains the finished foods associated with these prepa
 
 ## Toast and prepared bread
 
-The retained content includes several prepared bread variants:
+The bread catalog includes several prepared bread variants:
 
 - `bread_toast_garlic` (Garlic Toast)
 - `bread_toast_butter` (Butter Toast)
@@ -49,7 +49,7 @@ These foods show how an already baked bread can become a prerequisite for anothe
 
 The herb content line includes:
 
-| Internal ID | Display name | Role |
+| Item ID | Display name | Role |
 |---|---|---|
 | `wheat_focaccia_dough` | Focaccia Dough | Dough intermediate |
 | `wheat_focaccia_herb` | Herb Focaccia | Finished baked food |
@@ -58,7 +58,7 @@ Focaccia is a useful example of the wider herb system feeding directly into baki
 
 ## Other baked and roasted foods
 
-The retained food catalog also includes oven focused dishes such as:
+The food catalog also includes oven focused dishes such as:
 
 - `apple_baked` (Baked Apple)
 - `carrot_roasted` (Roasted Carrot)
@@ -69,13 +69,13 @@ The retained food catalog also includes oven focused dishes such as:
 - `potato_baked_cheese_raw` (Raw Cheese Baked Potato)
 - `potato_baked_cheese` (Cheese Baked Potato)
 
-These dishes use the same larger cooking framework as other recipes, so the current recipe definition can specify required preparation, cookware, temperature, and cooking time.
+These dishes use the same larger cooking framework as other recipes, with recipe specific preparation, cookware, temperature, and cooking time requirements.
 
 ## Oven bakeware
 
 A baked recipe can require a specific rack arrangement or piece of cookware. The Stovetop/Oven supports three oven racks, while the current bakeware system includes the Iron Baking Sheet and Iron Baking Dish.
 
-See [Oven Bakeware](/cooking/oven-bakeware/) for the shared rack and bakeware behavior. Individual recipes will list a specific requirement only after that requirement has been checked against the current recipe definition.
+See [Oven Bakeware](/cooking/oven-bakeware/) for the shared rack and bakeware behavior. Individual recipe pages will list their specific bakeware requirements.
 
 ## Preparation dependencies
 
@@ -88,9 +88,9 @@ Baking commonly depends on other parts of the kitchen:
 
 The exact recipe remains authoritative. This page does not assign an unverified station or bakeware requirement just because an item appears to be baked.
 
-## Documentation status
+## Documentation coverage
 
-The item identities and broad food chains on this page come from retained A & A Cooking content history. Exact quantities, temperatures, cooking times, output counts, and bakeware requirements remain to be verified recipe by recipe against the latest definitions.
+This page covers the established baked food families and preparation chains. Exact quantities, temperatures, cooking times, output counts, and bakeware requirements will be added as individual recipes receive dedicated documentation.
 
 ## Related pages
 

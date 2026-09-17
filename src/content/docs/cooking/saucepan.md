@@ -89,7 +89,7 @@ The recipe-storage layer can account for ingredients already inserted into the S
 
 ## Recipe catalog
 
-The Saucepan framework is designed for a growing reduction and small-volume recipe catalog. Because the content phase is still expanding quickly, individual recipe pages will be the authoritative place for exact ingredient, water, reduction, and temperature requirements.
+The Saucepan supports a growing catalog of reduction and small volume recipes. Individual recipe pages provide exact ingredient, water, reduction, and temperature requirements.
 
 ## Related pages
 

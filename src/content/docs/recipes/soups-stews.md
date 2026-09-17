@@ -5,11 +5,11 @@ description: Soup, stew, chowder, and creamy stockpot dishes currently represent
 
 Soups and stews are one of the largest established food groups in A & A Cooking. They are primarily associated with the [Stockpot](/cooking/stockpot/), which supports liquid cooking, recipe matching, freeform outcomes, serving, and finished-dish quality.
 
-This page records the soup and stew outputs confirmed by the retained content snapshots. Exact ingredient quantities and cooking times will be added recipe by recipe as each current Recipe Book entry is verified.
+This page records the current soup and stew families. Exact ingredient quantities and cooking times will be added as individual recipes receive dedicated documentation.
 
 ## Current soup and stew outputs
 
-| Internal ID | Display name | Type |
+| Item ID | Display name | Type |
 |---|---|---|
 | `tomato_soup` | Tomato Soup | Soup |
 | `onion_soup` | Onion Soup | Soup |
@@ -27,11 +27,11 @@ This page records the soup and stew outputs confirmed by the retained content sn
 | `tomato_soup_creamy` | Creamy Tomato Soup | Creamy soup |
 | `potato_soup_creamy` | Creamy Potato Soup | Creamy soup |
 
-The recipe catalog continues to expand during development, so this table is a documented content snapshot rather than a permanent upper limit.
+The recipe catalog continues to expand during development, so this list will grow as more dishes are added.
 
 ## Verified example: Tomato Soup
 
-The retained Recipe Book source contains a complete Tomato Soup entry. It uses:
+Tomato Soup currently has a fully documented Recipe Book entry. It uses:
 
 - 2 diced Tomatoes
 - 1 diced Onion
@@ -75,9 +75,9 @@ The exact recipe still determines which prepared ingredients, liquids, temperatu
 
 Freeform output should not be treated as a replacement for discovered recipes. Canonical recipes can define more specific ingredients, preparation states, temperatures, durations, and final properties.
 
-## Documentation status
+## Documentation coverage
 
-The output list above is confirmed from retained project content. Tomato Soup has a complete retained Recipe Book entry, including ingredient quantities and cooking information. The remaining dishes are currently documented by confirmed item identity and family while their latest detailed recipe definitions are verified.
+Tomato Soup currently includes full ingredient quantities and cooking information. The remaining dishes are documented by food family for now, with exact quantities and cooking details to be added as their individual pages are expanded.
 
 ## Related pages
 

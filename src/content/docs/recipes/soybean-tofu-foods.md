@@ -22,7 +22,7 @@ Soybean Puree and Soy Milk demonstrate how the crop can move through processing 
 
 ## Tofu
 
-The established Soybean chain includes both Fresh Tofu and Seared Tofu. Their latest exact internal IDs still need verification against the detailed content source, so this page does not invent registry names for them.
+The Soybean chain includes both Fresh Tofu and Seared Tofu. Their exact item IDs are not published on this page yet.
 
 Tofu then feeds into later dishes, including the confirmed `soybean_tofu_stir_fry_pickled` recipe.
 
@@ -47,13 +47,13 @@ The established fermentation branch includes:
 - Soy Sauce
 - `soybean_sauce_sweet` (Sweet Soy Glaze)
 
-The first three outputs are established content, but their latest exact internal IDs will be added only after the detailed definitions are checked. Sweet Soy Glaze has a confirmed Batch 22 ID.
+The first three outputs are established parts of the Soybean chain, but their exact item IDs are not published on this page yet. Sweet Soy Glaze is registered as `soybean_sauce_sweet`.
 
 The fermentation branch is important because its outputs become prerequisites for multiple recipe families instead of remaining isolated preserved foods.
 
 ## Soy glazed foods
 
-Batch 22 added two confirmed glazed protein dishes:
+The Sweet Soy Glaze branch includes two glazed protein dishes:
 
 | ID | Display name |
 |---|---|
@@ -81,7 +81,7 @@ The Soybean chain is a strong example of Recipe Book prerequisites. A final dish
 
 ## Recipe detail status
 
-The food families and confirmed IDs on this page come from the established Soybean content and retained Batch 22 catalog. Exact quantities, fermentation times, cooking temperatures, action counts, and the latest internal IDs for a few earlier Soybean outputs still need recipe level verification.
+This page covers the established Soybean food families and published item IDs. Exact quantities, fermentation times, cooking temperatures, action counts, and a few remaining item IDs will be added as those recipes receive dedicated documentation.
 
 ## Related pages
 

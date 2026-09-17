@@ -51,7 +51,7 @@ Current values include:
 
 ## Composting compatibility
 
-The reviewed source also registers several A & A Cooking ingredients with Minecraft's composter:
+Several A & A Cooking ingredients can also be used with Minecraft's composter:
 
 | Item | Composting chance |
 |---|---:|

@@ -3,7 +3,7 @@ title: Current Crops
 description: Current Tomato and Onion crop profiles, stages, seasonal multipliers, moisture preferences, yields, and regrowth.
 ---
 
-The reviewed agriculture source contains dedicated crop profiles for **Tomato** and **Onion**. Profiles define semantic growth stages and the environmental preferences used by the shared growth system.
+A & A Cooking currently includes dedicated crop profiles for **Tomato** and **Onion**. Profiles define semantic growth stages and the environmental preferences used by the shared growth system.
 
 <div class="page-summary">
     <p><strong>Status: Implemented crop profiles</strong></p>
@@ -72,9 +72,9 @@ Onion does not regrow after harvest. A mature harvested plant also drops its see
 
 Crop rendering uses vigor and lifecycle condition to communicate stress. Healthy crops interpolate from a stressed brownish tint toward the normal full-color texture as vigor improves, while Dying and Dead crops use dedicated darker tints.
 
-## Source-version note
+## Calendar integration
 
-The agriculture profile snapshot predates the expanded `GameCalendar` environment code. Its crop profile multipliers are still useful and implemented behavior, while exact calendar length and date progression should follow the newer [Calendar & Seasons](/environment/calendar-seasons/) system rather than the earlier temporary fixed-season clock.
+Crop profile season multipliers work with the current [Calendar & Seasons](/environment/calendar-seasons/) system. Calendar length and date progression are documented there rather than repeated on each crop page.
 
 ## Related pages
 

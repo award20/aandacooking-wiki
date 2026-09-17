@@ -7,7 +7,7 @@ The **Oak Kitchen Sink** is the first preparation station used by many A & A Coo
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The washing interaction and bucket exchange described here are present in the documented source.</p>
+    <p>The washing interaction and bucket exchange described here are part of the current Kitchen Sink behavior.</p>
 </div>
 
 ## Washing ingredients

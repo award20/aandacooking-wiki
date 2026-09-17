@@ -41,7 +41,7 @@ The exact state matters to recipe matching. For example, a recipe that calls for
 
 ## Ingredient first naming
 
-A & A Cooking generally uses the parent or primary ingredient first in internal IDs, followed by the resulting form or preparation. Examples include:
+A & A Cooking generally uses the parent or primary ingredient first in item IDs, followed by the resulting form or preparation. Examples include:
 
 ```text
  tomato_sauce

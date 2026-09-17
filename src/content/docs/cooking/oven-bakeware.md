@@ -7,7 +7,7 @@ A & A Cooking's oven can distinguish between food cooked directly on a rack and 
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Both iron bakeware items, per-rack cookware slots, recipe cookware requirements, and pinned-recipe cookware loading are part of the current development line.</p>
+    <p>Both iron bakeware items, per rack cookware slots, recipe cookware requirements, and pinned recipe cookware loading are currently implemented.</p>
 </div>
 
 ## Current bakeware

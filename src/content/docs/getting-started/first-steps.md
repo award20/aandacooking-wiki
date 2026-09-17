@@ -27,8 +27,8 @@ The [Ingredient Preparation](/getting-started/ingredient-preparation/) guide des
 | Recipe Book | Stores discovered recipes and provides recipe planning features. |
 | Cooking stations | Process or cook ingredients using station-specific modes, heat, time, or cookware. |
 
-The current source registers additional stations and cookware. Their individual pages will document controls and recipe lists after each behavior is checked in the game.
+Additional stations and cookware are documented on their own pages as their controls and recipe families are expanded.
 
 ## Current release status
 
-A & A Cooking is in pre-alpha development for Minecraft 1.21.10 on Fabric. The exact installation steps and packaged playtest version are still being verified. See [Documentation Status](/reference/documentation-status/) for the source coverage used by this wiki.
+A & A Cooking is in pre alpha development for Minecraft 1.21.10 on Fabric. Public installation steps and packaged playtest information will be added when those builds are available. See [Documentation Coverage](/reference/documentation-status/) for the current wiki scope.

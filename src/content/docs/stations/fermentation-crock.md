@@ -7,7 +7,7 @@ The Fermentation Crock is A & A Cooking's dedicated time-based fermentation stat
 
 ## Processing behavior
 
-The retained implementation confirms that the Crock:
+The Fermentation Crock:
 
 - tracks fermentation progress persistently
 - resumes after save/load
@@ -15,7 +15,7 @@ The retained implementation confirms that the Crock:
 - uses executable fermentation recipes
 - participates in the shared station recipe-selection infrastructure
 
-The exact slot count, all current recipe durations, and presentation details are **Needs verification** until the complete current Crock source/UI is available to the wiki project.
+The exact slot count, all recipe durations, and some presentation details are still **Needs verification** and will be added as the Fermentation Crock guide is expanded.
 
 ## Recipe Book integration
 

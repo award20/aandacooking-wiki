@@ -34,7 +34,7 @@ This makes Recipe Notes both a progression mechanic and a multiplayer knowledge-
 
 ## Discovery routes
 
-Every Recipe Book recipe in the retained content snapshot has a survival discovery-note route organized by category. The exact structures, loot tables, and per-category locations will be documented separately as those routes are verified in gameplay.
+Recipe Book recipes can use survival discovery routes organized by category. Exact structures, loot tables, and category locations will be documented separately as the discovery system is expanded.
 
 ## Compatibility items
 
@@ -44,4 +44,4 @@ Older fixed per-recipe note items remain registered for save compatibility. They
 
 - [Recipe Book](/recipe-book/overview/)
 - [Recipe Catalog](/recipes/overview/)
-- [Documentation Status](/reference/documentation-status/)
+- [Documentation Coverage](/reference/documentation-status/)

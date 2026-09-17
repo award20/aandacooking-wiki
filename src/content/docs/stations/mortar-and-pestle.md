@@ -7,7 +7,7 @@ The **Mortar and Pestle** is a manual processing station for crushing and grindi
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The three-input layout, Crush and Grind modes, persistent progress, visible ingredients, recipe-driven outputs, and shared freshness handling are part of the current development line.</p>
+    <p>The three input layout, Crush and Grind modes, persistent progress, visible ingredients, recipe driven outputs, and shared freshness handling are currently implemented.</p>
 </div>
 
 ## Inventory layout
