@@ -78,7 +78,7 @@ Salt itself is a pantry ingredient obtained through structure loot. Drawing wate
 
 ## Sugared preserves
 
-Sweet Berry Jam uses the Sugared preservation method. It is cooked in a [Saucepan](/cooking/saucepan/) from Sweet Berry Compote, Powdered Sugar, and a Glass Jar.
+Sweet Berry Jam uses the Sugared preservation method. It is cooked in a [Saucepan](/cooking/saucepan/) from Sweet Berry Compote, [Powdered Sugar](/recipes/details/powdered-sugar/), and a Glass Jar.
 
 The result is a filled open jar. It can then be sealed at the [Jar Sealer](/stations/jar-sealer/) for an additional preservation effect.
 

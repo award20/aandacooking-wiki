@@ -39,7 +39,7 @@ Several herbs have prepared forms used by later recipes:
 | `rosemary_ground` | Ground Rosemary | Ground herb |
 | `thyme_ground` | Ground Thyme | Ground herb |
 | `mint_crushed` | Crushed Mint | Crushed herb |
-| `herb_seasoning` | Herb Seasoning | Seasoning blend |
+| `herb_seasoning` | [Herb Seasoning](/recipes/details/herb-seasoning/) | Seasoning blend |
 
 The [Mortar and Pestle](/stations/mortar-and-pestle/) is the primary reference page for Crush and Grind processing. Exact action counts for each herb preparation will be added as the herb recipes receive dedicated documentation.
 
@@ -76,7 +76,7 @@ This list shows how herbs feed multiple recipe families rather than forming an i
 
 ## Seasoning role
 
-`herb_seasoning` acts as a reusable intermediate for recipes that call for a prepared herb blend. It belongs with the broader [Sauces & Intermediates](/recipes/sauces-intermediates/) system because the blend can sit between raw herbs and the finished dish.
+[Herb Seasoning](/recipes/details/herb-seasoning/) acts as a reusable intermediate for recipes that call for a prepared herb blend. It belongs with the broader [Sauces & Intermediates](/recipes/sauces-intermediates/) system because the blend can sit between raw herbs and the finished dish.
 
 ## Recipe detail status
 

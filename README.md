@@ -65,3 +65,8 @@ Maintained by [Haxuslate](https://haxuslate.com).
 ## Current system guides
 
 Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Desserts & Sweet Foods, Pasta & Noodles, Rice Dishes & Bowls, Soybean & Tofu Foods, Potato & Vegetable Dishes, Eggs & Dairy, Stir Fries & Seared Foods, Meat & Fish Dishes, Drinks, Herbs & Seasonings, Sauces & Intermediates, Recipe Notes, fermentation and preservation, the Jar Sealer, `/aacooking` commands, and configuration areas in addition to the shared overview pages. Detailed recipe references currently include Tomato Soup, Tomato Sauce, Wheat Flour, Bread Dough, Wheat Bread, Cooked Rice, Fresh Tofu, Beaten Egg, Seed Oil, Tomato Paste, Ketchup, Mayonnaise, Fresh Cheese, Cheese Sauce, Tomato Puree, Garlic Powder, Onion Powder, Cream, Butter, Shredded Cheese, and Savory Seasoning.
+
+
+## World integration roadmap
+
+Current structure loot and planned Salt, Shipwreck cargo, and recipe discovery expansion are documented on the **World Generation & Discovery** wiki page.

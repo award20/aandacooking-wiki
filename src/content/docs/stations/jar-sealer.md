@@ -65,7 +65,7 @@ Sweet Berry Jam is the current cooking recipe that directly consumes a Glass Jar
 The jam recipe uses:
 
 - Sweet Berry Compote
-- Powdered Sugar
+- [Powdered Sugar](/recipes/details/powdered-sugar/)
 - 1 Glass Jar
 
 It cooks in a [Saucepan](/cooking/saucepan/) for 12 seconds at 90 to 103 °C with no added water.

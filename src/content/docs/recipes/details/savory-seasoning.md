@@ -3,7 +3,7 @@ title: Savory Seasoning
 description: Recipe reference for Savory Seasoning in A & A Cooking.
 ---
 
-Savory Seasoning is a blended dry seasoning made from [Garlic Powder](/recipes/details/garlic-powder/), [Onion Powder](/recipes/details/onion-powder/), and Kelp Powder in the [Mixing Bowl](/stations/mixing-bowl/). It is used by several seasoned skillet and wok recipes.
+Savory Seasoning is a blended dry seasoning made from [Garlic Powder](/recipes/details/garlic-powder/), [Onion Powder](/recipes/details/onion-powder/), and [Kelp Powder](/recipes/details/kelp-powder/) in the [Mixing Bowl](/stations/mixing-bowl/). It is used by several seasoned skillet and wok recipes.
 
 ## Recipe
 
@@ -11,7 +11,7 @@ Savory Seasoning is a blended dry seasoning made from [Garlic Powder](/recipes/d
 |---|---:|
 | [Garlic Powder](/recipes/details/garlic-powder/) | 1 |
 | [Onion Powder](/recipes/details/onion-powder/) | 1 |
-| Kelp Powder | 1 |
+| [Kelp Powder](/recipes/details/kelp-powder/) | 1 |
 
 **Station:** [Mixing Bowl](/stations/mixing-bowl/)  
 **Mode:** Mix  

@@ -59,3 +59,5 @@ If a detail is still changing or has not been fully documented, the page will sa
 ## Corrections
 
 If something in the wiki does not match the mod, include the page name, the build you are using, and what you observed. Screenshots or relevant log messages can also help identify whether the issue is in the documentation or the mod.
+
+- [World Generation & Discovery](/development/world-generation-discovery/) documents current structure loot and planned world integration

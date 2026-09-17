@@ -13,12 +13,15 @@ The following areas are planned for future development. They describe the intend
 | Livestock | Additional animals, meat sources, milk types, and distinct dairy or cheese chains |
 | Horticulture | Fruit trees, bushes, vines, root crops, orchards, perennial plants, and later greenhouse support |
 | Cold storage expansion | Additional presentation, equipment progression, and balancing around the existing fridge/freezer freshness system |
+| World integration | Broader structure loot, themed recipe discovery, expanded Salt distribution, Shipwreck cargo, and later natural Salt generation |
 
 Core food freshness, spoilage, refrigerated aging, frozen storage, and modular Fridge/Freezer inventories are already implemented. See [Cold Storage](/storage/cold-storage/) for the documented behavior.
 
 Fermentation, pickling, sugared preserves, and sealed jars already exist. Future preservation work would expand the number of techniques, foods, and production chains rather than introducing the first preservation system.
 
 The current [Jar Sealer](/stations/jar-sealer/) can seal compatible filled jars with Glass Jar Lids. Drying, smoking, additional salting mechanics, and broader jarred food support remain possible future expansions.
+
+See [World Generation & Discovery](/development/world-generation-discovery/) for the current structure loot and the planned Shipwreck, Salt, and structure discovery expansion.
 
 ## Ideas Under Consideration
 
@@ -33,4 +36,5 @@ Specific future crops, livestock, food states, processing times, and release dat
 - [Cold Storage](/storage/cold-storage/) covers current Fridge and Freezer behavior.
 - [Jar Sealer](/stations/jar-sealer/) covers the implemented sealing station.
 - [Fermentation & Preservation](/recipes/fermentation-preservation/) covers current preservation methods.
+- [World Generation & Discovery](/development/world-generation-discovery/) covers current and planned structure integration.
 - [Documentation Coverage](/reference/documentation-status/) explains how feature status is recorded.

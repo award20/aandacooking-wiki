@@ -121,7 +121,14 @@ export default defineConfig({
                                 { label: 'Cream', slug: 'recipes/details/cream' },
                                 { label: 'Butter', slug: 'recipes/details/butter' },
                                 { label: 'Shredded Cheese', slug: 'recipes/details/shredded-cheese' },
-                                { label: 'Savory Seasoning', slug: 'recipes/details/savory-seasoning' }
+                                { label: 'Savory Seasoning', slug: 'recipes/details/savory-seasoning' },
+                                { label: 'Kelp Powder', slug: 'recipes/details/kelp-powder' },
+                                { label: 'Powdered Sugar', slug: 'recipes/details/powdered-sugar' },
+                                { label: 'Garlic Paste', slug: 'recipes/details/garlic-paste' },
+                                { label: 'Breadcrumbs', slug: 'recipes/details/breadcrumbs' },
+                                { label: 'Seasoned Breadcrumbs', slug: 'recipes/details/seasoned-breadcrumbs' },
+                                { label: 'Herb Seasoning', slug: 'recipes/details/herb-seasoning' },
+                                { label: 'Fresh Salsa', slug: 'recipes/details/fresh-salsa' }
                             ]
                         }
                     ]
@@ -146,7 +153,10 @@ export default defineConfig({
                 },
                 {
                     label: 'Development & Roadmap',
-                    items: [{ label: 'Planned Features', slug: 'development/planned-features' }]
+                    items: [
+                        { label: 'Planned Features', slug: 'development/planned-features' },
+                        { label: 'World Generation & Discovery', slug: 'development/world-generation-discovery' }
+                    ]
                 },
                 { label: 'Haxuslate Website', link: 'https://haxuslate.com/' }
             ],

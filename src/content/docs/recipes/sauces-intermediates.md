@@ -21,7 +21,7 @@ Many A & A Cooking dishes are built from prepared components instead of raw ingr
 
 | Recipe ID | Product | Station | Processing |
 |---|---|---|---|
-| `salsa_fresh` | Fresh Salsa | [Mixing Bowl](/stations/mixing-bowl/) | 8 Mix actions |
+| `salsa_fresh` | [Fresh Salsa](/recipes/details/fresh-salsa/) | [Mixing Bowl](/stations/mixing-bowl/) | 8 Mix actions |
 | `egg_mayonnaise` | [Mayonnaise](/recipes/details/mayonnaise/) | [Mixing Bowl](/stations/mixing-bowl/) | 12 Whisk actions |
 | `onion_relish` | Onion Relish | [Saucepan](/cooking/saucepan/) | 14 seconds at 90 to 103 °C, at least 45% reduction |
 | `sweet_berry_sauce` | Sweet Berry Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 75 to 90 °C |
@@ -37,7 +37,7 @@ Soy Sauce itself is fermented and is documented under [Fermentation & Preservati
 | `mushroom_sauce_creamy` | Creamy Mushroom Sauce | [Saucepan](/cooking/saucepan/) | 14 seconds on low heat |
 | `onion_gravy` | Onion Gravy | [Saucepan](/cooking/saucepan/) | 16 seconds at a gentle simmer |
 | `milk_cheese_sauce` | [Cheese Sauce](/recipes/details/cheese-sauce/) | [Saucepan](/cooking/saucepan/) | 10 seconds at 72 to 88 °C |
-| `garlic_paste` | Garlic Paste | [Mortar and Pestle](/stations/mortar-and-pestle/) | 10 Grind actions |
+| `garlic_paste` | [Garlic Paste](/recipes/details/garlic-paste/) | [Mortar and Pestle](/stations/mortar-and-pestle/) | 10 Grind actions |
 
 These components can feed later meals without requiring each final recipe to repeat the full preparation chain.
 
@@ -62,14 +62,14 @@ Current dry intermediates include:
 - `wheat_flour` ([Wheat Flour](/recipes/details/wheat-flour/))
 - `garlic_powder` ([Garlic Powder](/recipes/details/garlic-powder/))
 - `onion_powder` ([Onion Powder](/recipes/details/onion-powder/))
-- `kelp_powder` (Kelp Powder)
-- `sugar_powdered` (Powdered Sugar)
+- `kelp_powder` ([Kelp Powder](/recipes/details/kelp-powder/))
+- `sugar_powdered` ([Powdered Sugar](/recipes/details/powdered-sugar/))
 - `seasoning_savory` ([Savory Seasoning](/recipes/details/savory-seasoning/))
-- `herb_seasoning` (Herb Seasoning)
-- `breadcrumbs` (Breadcrumbs)
-- `breadcrumbs_seasoned` (Seasoned Breadcrumbs)
+- `herb_seasoning` ([Herb Seasoning](/recipes/details/herb-seasoning/))
+- `breadcrumbs` ([Breadcrumbs](/recipes/details/breadcrumbs/))
+- `breadcrumbs_seasoned` ([Seasoned Breadcrumbs](/recipes/details/seasoned-breadcrumbs/))
 
-[Garlic Powder](/recipes/details/garlic-powder/), [Onion Powder](/recipes/details/onion-powder/), and Kelp Powder are combined in the [Mixing Bowl](/stations/mixing-bowl/) to produce [Savory Seasoning](/recipes/details/savory-seasoning/).
+[Garlic Powder](/recipes/details/garlic-powder/), [Onion Powder](/recipes/details/onion-powder/), and [Kelp Powder](/recipes/details/kelp-powder/) are combined in the [Mixing Bowl](/stations/mixing-bowl/) to produce [Savory Seasoning](/recipes/details/savory-seasoning/).
 
 ## Oils, butter, and dairy components
 
