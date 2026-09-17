@@ -7,13 +7,13 @@ Recipe discovery is a core part of A & A Cooking progression. The current forwar
 
 ## Discovering a recipe
 
-Using a valid Recipe Note on a placed Recipe Book adds that recipe to the book's discovered set when it is not already known. Successful discovery consumes the note.
+Using a valid Recipe Note on a placed [Recipe Book](/recipe-book/overview/) adds that recipe to the book's discovered set when it is not already known. Successful discovery consumes the note.
 
 The server validates that the referenced recipe exists before adding it to the book.
 
 ## Generating a Recipe Note
 
-A player can create a note for a recipe their placed Recipe Book already knows.
+A player can create a note for a recipe their placed [Recipe Book](/recipe-book/overview/) already knows.
 
 In Survival mode, copying a recipe costs **1 Paper**. In Creative mode, the copy does not consume Paper.
 
@@ -24,17 +24,17 @@ The server re-validates:
 - that the player is close enough to the book
 - that the player can pay the Paper cost when required
 
-The current interaction uses an 8-block distance check from the placed Recipe Book.
+The current interaction uses an 8-block distance check from the placed [Recipe Book](/recipe-book/overview/).
 
 ## Sharing recipes
 
-Because the recipe ID is stored on the Recipe Note item, the note can be handed to another player. The receiving player can use it on their own Recipe Book to discover the recipe without independently repeating the original discovery route.
+Because the recipe ID is stored on the Recipe Note item, the note can be handed to another player. The receiving player can use it on their own [Recipe Book](/recipe-book/overview/) to discover the recipe without independently repeating the original discovery route.
 
 This makes Recipe Notes both a progression mechanic and a multiplayer knowledge-sharing system.
 
 ## Discovery routes
 
-Recipe Book recipes can use survival discovery routes organized by category. Exact structures, loot tables, and category locations will be documented separately as the discovery system is expanded.
+[Recipe Book](/recipe-book/overview/) recipes can use survival discovery routes organized by category. Exact structures, loot tables, and category locations will be documented separately as the discovery system is expanded.
 
 ## Compatibility items
 

@@ -10,7 +10,7 @@ Rice and Soybean form one of A & A Cooking's largest connected ingredient famili
 The Rice foundation includes:
 
 - Rice and Rice Seeds
-- Cooked Rice
+- [Cooked Rice](/recipes/details/cooked-rice/)
 - Rice Flour
 - Rice Porridge variants
 - Rice Pancake Batter and Rice Pancakes
@@ -29,7 +29,7 @@ The Soybean foundation includes:
 - Soybean Puree
 - Soy Milk
 - Sweet Soy Milk
-- Fresh Tofu
+- [Fresh Tofu](/recipes/details/fresh-tofu/)
 - Seared Tofu
 - Fermented Soybeans
 - Soy Sauce Mash
@@ -37,11 +37,11 @@ The Soybean foundation includes:
 - Sweet Soy Glaze
 - fermented and pickled ingredients used by later dishes
 
-The Soybean chain spans the Blender, direct cooking stations, and the [Fermentation Crock](/stations/fermentation-crock/).
+The Soybean chain spans the [Blender](/stations/blender/), direct cooking stations, and the [Fermentation Crock](/stations/fermentation-crock/).
 
 ## Soy Sauce recipe branch
 
-The Soy Sauce branch includes these Recipe Book entries:
+The Soy Sauce branch includes these [Recipe Book](/recipe-book/overview/) entries:
 
 | Display name | Recipe ID |
 |---|---|
@@ -60,7 +60,7 @@ These entries demonstrate why the ingredient catalog is organized as production 
 
 ## Recipe Book integration
 
-Rice and Soybean recipes participate in the same discovery, dependency, pinning, and station autofill systems as the rest of the Recipe Book. See [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) and [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) for the dedicated finished food references.
+Rice and Soybean recipes participate in the same discovery, dependency, pinning, and station autofill systems as the rest of the [Recipe Book](/recipe-book/overview/). See [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) and [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) for the dedicated finished food references.
 
 ## Related pages
 

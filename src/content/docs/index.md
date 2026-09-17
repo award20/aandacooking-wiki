@@ -19,11 +19,11 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Ingredient Preparation](/getting-started/ingredient-preparation/) | Preparation paths, ingredient states, and technical IDs |
 | [Kitchen Sink](/stations/kitchen-sink/) | Washing ingredients and bucket interaction |
 | [Cutting Board](/stations/cutting-board/) | Cutting, peeling, preparation progress, and retrieval |
-| [Blender](/stations/blender/) | Processing modes, stacked inputs, and Recipe Book integration |
+| [Blender](/stations/blender/) | Processing modes, stacked inputs, and [Recipe Book](/recipe-book/overview/) integration |
 | [Mixing Bowl](/stations/mixing-bowl/) | Mix, Whisk, and Fold processing with six ingredient inputs |
 | [Mortar and Pestle](/stations/mortar-and-pestle/) | Crush and Grind processing with manual pestle actions |
 | [Stovetop/Oven](/stations/stovetop-oven/) | Independent heat controls, oven racks, cookware, and autofill |
-| [Fermentation Crock](/stations/fermentation-crock/) | Persistent timed fermentation, blocked output handling, and Recipe Book integration |
+| [Fermentation Crock](/stations/fermentation-crock/) | Persistent timed fermentation, blocked output handling, and [Recipe Book](/recipe-book/overview/) integration |
 | [Jar Sealer](/stations/jar-sealer/) | Seal filled food jars with Glass Jar Lids to extend preservation time |
 | [Cooking Overview](/cooking/overview/) | Recipe matching, station families, modes, and temperature presets |
 | [Cookware Overview](/cooking/cookware/) | Stovetop vessels, oven bakeware, thermal behavior, and cookware requirements |
@@ -31,7 +31,7 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Saucepan](/cooking/saucepan/) | Small volume liquid cooking, evaporation, and reductions |
 | [Skillet](/cooking/skillet/) | Fast response direct heat cooking with four ingredient slots |
 | [Wok](/cooking/wok/) | High heat cooking, heat zones, tossing, and toss streaks |
-| [Oven Bakeware](/cooking/oven-bakeware/) | Iron Baking Sheet, Iron Baking Dish, rack requirements, and automatic loading |
+| [Oven Bakeware](/cooking/oven-bakeware/) | [Iron Baking Sheet](/cooking/oven-bakeware/), [Iron Baking Dish](/cooking/oven-bakeware/), rack requirements, and automatic loading |
 | [Kitchen Storage](/storage/overview/) | Connected storage, exact ingredient matching, autofill, and freshness conditions |
 | [Cabinets & Counters](/storage/cabinets-counters/) | Ambient storage capacities and kitchen network connectivity |
 | [Cold Storage](/storage/cold-storage/) | Small/Large Fridges and Freezers, mixed layouts, and freshness rates |
@@ -45,31 +45,38 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow surface behavior |
 | [Ingredients Overview](/ingredients/overview/) | Ingredient families, prepared states, intermediates, and naming structure |
 | [Rice & Soybean](/ingredients/rice-soybean/) | Rice, Soybean, tofu, Soy Sauce, and related production chains |
-| [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing Recipe Book catalog |
-| [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy Stockpot dish reference |
+| [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing [Recipe Book](/recipe-book/overview/) catalog |
+| [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy [Stockpot](/cooking/stockpot/) dish reference |
 | [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, focaccia, pancakes, and other oven foods |
 | [Desserts & Sweet Foods](/recipes/desserts-sweet-foods/) | Cookies, fruit desserts, sweet breads, jam, and dessert components |
 | [Pasta & Noodles](/recipes/pasta-noodles/) | Noodle foundations, pasta dishes, and noodle stir fries |
-| [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) | Cooked Rice, porridge, pancakes, rice cakes, fried Rice, and Rice bowls |
+| [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) | [Cooked Rice](/recipes/details/cooked-rice/), porridge, pancakes, rice cakes, fried Rice, and Rice bowls |
 | [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) | Soybean processing, tofu, fermentation, Soy Sauce, and finished soy dishes |
 | [Potato & Vegetable Dishes](/recipes/potato-vegetable-dishes/) | Potato dishes, roasted and glazed vegetables, sauteed produce, and mixed vegetable foods |
 | [Eggs & Dairy](/recipes/eggs-dairy/) | Egg preparations, omelettes, cheese, cream, butter, custard, and dairy dishes |
-| [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned Wok dishes, seared proteins, and related direct heat foods |
+| [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned [Wok](/cooking/wok/) dishes, seared proteins, and related direct heat foods |
 | [Meat & Fish Dishes](/recipes/meat-fish-dishes/) | Seared, baked, breaded, glazed, roasted, and mixed protein dishes |
 | [Drinks](/recipes/drinks/) | Juices, smoothies, teas, hot chocolate, and Soybean drinks |
 | [Herbs & Seasonings](/recipes/herbs-seasonings/) | Fresh herbs, processed herb forms, seasoning blends, teas, and herb foods |
 | [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
 | [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
+| [Tomato Soup](/recipes/details/tomato-soup/) | Detailed [Stockpot](/cooking/stockpot/) recipe with preparation, temperature, time, and servings |
+| [Tomato Sauce](/recipes/details/tomato-sauce/) | Detailed [Saucepan](/cooking/saucepan/) reduction recipe and prerequisite preparation |
+| [Wheat Flour](/recipes/details/wheat-flour/) | Foundational [Mortar and Pestle](/stations/mortar-and-pestle/) baking intermediate |
+| [Bread Dough](/recipes/details/bread-dough/) | [Mixing Bowl](/stations/mixing-bowl/) prerequisite for [Wheat Bread](/recipes/details/wheat-bread/) |
+| [Wheat Bread](/recipes/details/wheat-bread/) | [Stovetop/Oven](/stations/stovetop-oven/) recipe using [Bread Dough](/recipes/details/bread-dough/) and an [iron baking dish](/cooking/oven-bakeware/) |
+| [Cooked Rice](/recipes/details/cooked-rice/) | Foundational [Saucepan](/cooking/saucepan/) starch used by many Rice dishes |
+| [Fresh Tofu](/recipes/details/fresh-tofu/) | Soy Milk and Apple Vinegar tofu recipe |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
 | [Configuration](/reference/configuration/) | Confirmed day length, daylight, latitude, temperature unit, and calendar settings |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
-| [Recipe Notes & Discovery](/recipe-book/notes-discovery/) | Generic Recipe Notes, copying, sharing, and discovery validation |
+| [Recipe Notes & Discovery](/recipe-book/notes-discovery/) | Generic [Recipe Notes](/recipe-book/notes-discovery/), copying, sharing, and discovery validation |
 | [Documentation Coverage](/reference/documentation-status/) | What the wiki currently covers and the meaning of feature status labels |
 | [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
 
 ## Documentation Coverage
 
-The wiki currently covers the main player workflow, ingredient preparation, cooking behavior, Recipe Book, station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, seasons, weather, climate, commands, configuration, and an expanding ingredient and recipe reference.
+The wiki currently covers the main player workflow, ingredient preparation, cooking behavior, [Recipe Book](/recipe-book/overview/), station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, seasons, weather, climate, commands, configuration, and an expanding ingredient and recipe reference.
 
 Recipe documentation is organized by food family, including soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, potato and vegetable dishes, eggs, dairy, stir fries, meat and fish, drinks, herbs, sauces, intermediates, fermentation, jar sealing, and preservation. This structure lets the catalog grow without turning the wiki into one large static list.
 

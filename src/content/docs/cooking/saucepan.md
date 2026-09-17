@@ -3,7 +3,7 @@ title: Saucepan
 description: Small-volume stovetop cooking, liquids, evaporation, and reduction in the Iron Saucepan.
 ---
 
-The **Iron Saucepan** is a smaller stovetop vessel focused on liquid cooking, reductions, and recipes that do not need the Stockpot's larger-volume workflow.
+The **Iron Saucepan** is a smaller stovetop vessel focused on liquid cooking, reductions, and recipes that do not need the [Stockpot](/cooking/stockpot/)'s larger-volume workflow.
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>

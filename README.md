@@ -57,9 +57,11 @@ The workflow in `.github/workflows/deploy.yml` builds and publishes the wiki thr
 
 The wiki is updated alongside A & A Cooking and keeps planned features separate from implemented mechanics. Exact release and installation information will be added when public playtest builds are available.
 
+Cross references should link to the relevant wiki page whenever a dedicated page exists. If an entry does not have its own page yet, it remains plain text until that page is added.
+
 Maintained by [Haxuslate](https://haxuslate.com).
 
 
 ## Current system guides
 
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Desserts & Sweet Foods, Pasta & Noodles, Rice Dishes & Bowls, Soybean & Tofu Foods, Potato & Vegetable Dishes, Eggs & Dairy, Stir Fries & Seared Foods, Meat & Fish Dishes, Drinks, Herbs & Seasonings, Sauces & Intermediates, Recipe Notes, fermentation and preservation, the Jar Sealer, `/aacooking` commands, and configuration areas in addition to the shared overview pages.
+Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Desserts & Sweet Foods, Pasta & Noodles, Rice Dishes & Bowls, Soybean & Tofu Foods, Potato & Vegetable Dishes, Eggs & Dairy, Stir Fries & Seared Foods, Meat & Fish Dishes, Drinks, Herbs & Seasonings, Sauces & Intermediates, Recipe Notes, fermentation and preservation, the Jar Sealer, `/aacooking` commands, and configuration areas in addition to the shared overview pages. Detailed recipe references have also started with Tomato Soup, Tomato Sauce, Wheat Flour, Bread Dough, Wheat Bread, Cooked Rice, and Fresh Tofu.

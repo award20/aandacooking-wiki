@@ -3,7 +3,7 @@ title: Kitchen Storage
 description: Connected kitchen storage, ingredient lookup, recipe loading, and the roles of counters, cabinets, fridges, and freezers.
 ---
 
-Kitchen storage in A & A Cooking is more than a collection of inventories. Compatible kitchen furniture can form a **connected storage network** that Recipe Book planning and supported stations can search for exact ingredients.
+Kitchen storage in A & A Cooking is more than a collection of inventories. Compatible kitchen furniture can form a **connected storage network** that [Recipe Book](/recipe-book/overview/) planning and supported stations can search for exact ingredients.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
@@ -14,8 +14,8 @@ Kitchen storage in A & A Cooking is more than a collection of inventories. Compa
 
 | Storage | Capacity | Storage condition |
 |---|---:|---|
-| Oak Kitchen Counter | 18 slots | Ambient |
-| Oak Kitchen Cabinet | 27 slots | Ambient |
+| [Oak Kitchen Counter](/storage/cabinets-counters/) | 18 slots | Ambient |
+| [Oak Kitchen Cabinet](/storage/cabinets-counters/) | 27 slots | Ambient |
 | Small Stainless Steel Fridge | 18 slots | Refrigerated |
 | Small Stainless Steel Freezer | 18 slots | Frozen |
 | Paired cold storage | 36 slots | Determined by the physical half owning each slot |
@@ -32,7 +32,7 @@ For example:
 
 can participate in the same kitchen network.
 
-The Stovetop/Oven can also bridge nearby kitchen furniture, allowing stovetop cookware to reach ingredient storage through the appliance and adjacent counters or cabinets.
+The [Stovetop/Oven](/stations/stovetop-oven/) can also bridge nearby kitchen furniture, allowing stovetop cookware to reach ingredient storage through the appliance and adjacent counters or cabinets.
 
 ## What the network matches
 
@@ -48,7 +48,7 @@ This prevents a raw or incorrectly prepared ingredient from silently satisfying 
 
 ## Pinned recipe loading
 
-Supported stations can use the currently pinned Recipe Book entry to calculate what is still missing from the station and pull only those requirements from connected storage.
+Supported stations can use the currently pinned [Recipe Book](/recipe-book/overview/) entry to calculate what is still missing from the station and pull only those requirements from connected storage.
 
 The loading process is designed around several rules:
 

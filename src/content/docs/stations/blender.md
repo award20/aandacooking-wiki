@@ -7,7 +7,7 @@ The **Blender** is a dedicated processing station for recipes that transform ing
 
 <div class="page-summary">
     <p><strong>Status: Implemented, with pre-alpha behavior still subject to playtesting</strong></p>
-    <p>The station, its processing modes, Recipe Book integration, and stacked or surplus ingredient processing are currently implemented.</p>
+    <p>The station, its processing modes, [Recipe Book](/recipe-book/overview/) integration, and stacked or surplus ingredient processing are currently implemented.</p>
 </div>
 
 ## Processing modes
@@ -44,7 +44,7 @@ For a recipe requiring three seeds per execution:
 
 Each execution consumes only one recipe's requirements. Repeated processing continues while another valid execution can be made and the output can be accepted.
 
-This keeps stacked manual processing compatible with the same execution model used by Recipe Book bulk quantities.
+This keeps stacked manual processing compatible with the same execution model used by [Recipe Book](/recipe-book/overview/) bulk quantities.
 
 ## Unrelated extra ingredients
 
@@ -54,9 +54,9 @@ This preserves exact recipe identity while allowing normal Minecraft stacks to b
 
 ## Recipe Book integration
 
-The Blender is part of the Recipe Book preparation-plan and station-selection systems. A pinned Blender recipe can expose its exact ingredient requirements through the pinned HUD, and the selected recipe can be used by the station loading/autofill workflow.
+The Blender is part of the [Recipe Book](/recipe-book/overview/) preparation-plan and station-selection systems. A pinned Blender recipe can expose its exact ingredient requirements through the pinned HUD, and the selected recipe can be used by the station loading/autofill workflow.
 
-Recipe Book quantities represent **recipe executions**, not the raw number of output items. When a bulk quantity is active, the queue stops after the requested number of executions even if additional compatible ingredients remain available.
+[Recipe Book](/recipe-book/overview/) quantities represent **recipe executions**, not the raw number of output items. When a bulk quantity is active, the queue stops after the requested number of executions even if additional compatible ingredients remain available.
 
 ## Verification notes
 

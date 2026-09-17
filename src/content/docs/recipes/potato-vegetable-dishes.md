@@ -3,7 +3,7 @@ title: Potato & Vegetable Dishes
 description: Potato dishes, roasted and glazed vegetables, sauteed produce, and other vegetable focused foods in A & A Cooking.
 ---
 
-Vegetables in A & A Cooking appear in several cooking styles instead of one generic recipe group. They can be roasted, sauteed, glazed, mashed, baked, added to soups and stews, or used as part of larger Wok and Skillet dishes.
+Vegetables in A & A Cooking appear in several cooking styles instead of one generic recipe group. They can be roasted, sauteed, glazed, mashed, baked, added to soups and stews, or used as part of larger [Wok](/cooking/wok/) and [Skillet](/cooking/skillet/) dishes.
 
 ## Potato dishes
 
@@ -76,11 +76,11 @@ These dishes are cross listed on their main cooking family pages so players can 
 
 Vegetable dishes can use several stations and cookware types depending on the recipe:
 
-- Stovetop/Oven for roasted and baked vegetables
-- Skillet for sauteed and pan cooked foods
-- Wok for stir fries
-- Stockpot or Saucepan for applicable soups, stews, purees, and reductions
-- Mixing Bowl or Blender for applicable intermediates
+- [Stovetop/Oven](/stations/stovetop-oven/) for roasted and baked vegetables
+- [Skillet](/cooking/skillet/) for sauteed and pan cooked foods
+- [Wok](/cooking/wok/) for stir fries
+- [Stockpot](/cooking/stockpot/) or [Saucepan](/cooking/saucepan/) for applicable soups, stews, purees, and reductions
+- [Mixing Bowl](/stations/mixing-bowl/) or [Blender](/stations/blender/) for applicable intermediates
 
 The individual recipe determines the required station, preparation state, temperature, time, and cookware.
 

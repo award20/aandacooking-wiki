@@ -42,7 +42,7 @@ The established cheese line includes:
 | `milk_cheese_sauce` | Cheese Sauce | Sauce and dish prerequisite |
 | `milk_cheese_pasta` | Cheese Pasta | Finished pasta dish |
 
-Fresh Cheese can be shredded through the ingredient preparation system. The current Cutting Board documentation records Fresh Cheese to Shredded Cheese as a supported preparation path.
+Fresh Cheese can be shredded through the ingredient preparation system. The current [Cutting Board](/stations/cutting-board/) documentation records Fresh Cheese to Shredded Cheese as a supported preparation path.
 
 Cheese also feeds into other established dishes, including:
 

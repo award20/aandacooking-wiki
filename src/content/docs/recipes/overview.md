@@ -3,7 +3,7 @@ title: Recipe Catalog
 description: Structure and current scope of the A & A Cooking recipe catalog.
 ---
 
-A & A Cooking uses a large and growing Recipe Book catalog built around preparation chains and specialized kitchen stations. Recipes are organized by food family so the wiki can expand without becoming one enormous list.
+A & A Cooking uses a large and growing [Recipe Book](/recipe-book/overview/) catalog built around preparation chains and specialized kitchen stations. Recipes are organized by food family so the wiki can expand without becoming one enormous list.
 
 ## Catalog sections
 
@@ -37,7 +37,7 @@ Recipes can depend on other recipes and preparation actions. A finished dish may
 - fermented or pickled ingredients
 - specific cookware, temperature, or station modes
 
-The Recipe Book can show these dependencies as prerequisites rather than forcing players to memorize every intermediate step.
+The [Recipe Book](/recipe-book/overview/) can show these dependencies as prerequisites rather than forcing players to memorize every intermediate step.
 
 ## Recipe executions and quantities
 
@@ -49,22 +49,36 @@ Compatible repeated processing is handled as sequential recipe executions so nor
 
 The current catalog includes broad families such as:
 
-- soups, stews, chowders, and creamy soups
-- breads, doughs, batters, toast, cookies, and baked foods
-- desserts, jam, sweet breads, and fruit preparations
-- pasta, noodles, and noodle stir fries
-- dairy, cheese, egg, and omelette dishes
-- meat and fish dishes across the Skillet, Wok, Oven, soups, Rice, and pasta
-- vegetable sides, potato dishes, stir fries, and seared proteins
-- herb foods, seasonings, teas, juices, and smoothies
-- Rice, porridge, pancakes, rice cakes, fried Rice, and bowls
-- Soybean, tofu, Soy Sauce, glazed foods, and preserved ingredients
-- fermentation, brines, pickled foods, sugared preserves, and sealed jars
-- Blender, Mixing Bowl, Mortar and Pestle, and other processing intermediates
+- [soups, stews, chowders, and creamy soups](/recipes/soups-stews/)
+- [breads, doughs, batters, toast, cookies, and baked foods](/recipes/breads-baked-foods/)
+- [desserts, jam, sweet breads, and fruit preparations](/recipes/desserts-sweet-foods/)
+- [pasta, noodles, and noodle stir fries](/recipes/pasta-noodles/)
+- [dairy, cheese, egg, and omelette dishes](/recipes/eggs-dairy/)
+- [meat and fish dishes](/recipes/meat-fish-dishes/) across the [Skillet](/cooking/skillet/), [Wok](/cooking/wok/), [Stovetop/Oven](/stations/stovetop-oven/), soups, Rice, and pasta
+- [vegetable sides, potato dishes, and vegetable meals](/recipes/potato-vegetable-dishes/) alongside [stir fries and seared foods](/recipes/stir-fries-seared-foods/)
+- [herb foods and seasonings](/recipes/herbs-seasonings/) alongside [teas, juices, smoothies, and other drinks](/recipes/drinks/)
+- [Rice, porridge, pancakes, rice cakes, fried Rice, and bowls](/recipes/rice-dishes-bowls/)
+- [Soybean, tofu, Soy Sauce, glazed foods, and related dishes](/recipes/soybean-tofu-foods/)
+- [fermentation, brines, pickled foods, sugared preserves, and sealed jars](/recipes/fermentation-preservation/)
+- [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), and other processing intermediates
+
+## Detailed recipe references
+
+Dedicated recipe pages currently include:
+
+- [Tomato Soup](/recipes/details/tomato-soup/)
+- [Tomato Sauce](/recipes/details/tomato-sauce/)
+- [Wheat Flour](/recipes/details/wheat-flour/)
+- [Bread Dough](/recipes/details/bread-dough/)
+- [Wheat Bread](/recipes/details/wheat-bread/)
+- [Cooked Rice](/recipes/details/cooked-rice/)
+- [Fresh Tofu](/recipes/details/fresh-tofu/)
+
+More recipe names will become links as dedicated pages are added.
 
 ## Recipe discovery
 
-Recipes are intended to be discovered rather than exposed as a fully unlocked catalog from the start. The [Recipe Notes & Discovery](/recipe-book/notes-discovery/) page explains Recipe Notes and sharing behavior.
+Recipes are intended to be discovered rather than exposed as a fully unlocked catalog from the start. The [Recipe Notes & Discovery](/recipe-book/notes-discovery/) page explains [Recipe Notes](/recipe-book/notes-discovery/) and sharing behavior.
 
 ## Related pages
 

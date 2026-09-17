@@ -7,14 +7,14 @@ The **Iron Skillet** is A & A Cooking's fast-response, direct-contact stovetop c
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
-    <p>The Skillet currently supports four ingredient slots, fast thermal response, visible ingredients, shared heated-recipe execution, ingredient cooking-state progression, content drops when broken, and Recipe Book integration.</p>
+    <p>The Skillet currently supports four ingredient slots, fast thermal response, visible ingredients, shared heated-recipe execution, ingredient cooking-state progression, content drops when broken, and [Recipe Book](/recipe-book/overview/) integration.</p>
 </div>
 
 ## Capacity
 
 The current Skillet has **4 ingredient slots**.
 
-Its role is deliberately different from the Saucepan and Stockpot: it focuses on direct heat and comparatively fast temperature response instead of water volume or reduction.
+Its role is deliberately different from the [Saucepan](/cooking/saucepan/) and [Stockpot](/cooking/stockpot/): it focuses on direct heat and comparatively fast temperature response instead of water volume or reduction.
 
 ## Fast thermal response
 

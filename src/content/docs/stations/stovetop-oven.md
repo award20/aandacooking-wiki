@@ -7,7 +7,7 @@ The **Stovetop/Oven** is the central heated kitchen station in A & A Cooking. It
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Independent heat controls, temperature presets, oven preheating, rack cookware requirements, thermal cooking behavior, recipe locking, and Recipe Book loading are currently implemented.</p>
+    <p>Independent heat controls, temperature presets, oven preheating, rack cookware requirements, thermal cooking behavior, recipe locking, and [Recipe Book](/recipe-book/overview/) loading are currently implemented.</p>
 </div>
 
 ## Independent heat controls
@@ -73,7 +73,7 @@ Current cookware requirement types include:
 | `BAKING_SHEET` | A baking sheet is required |
 | `BAKING_DISH` | A baking dish is required |
 
-The **Iron Baking Sheet** and **Iron Baking Dish** are implemented cookware options for these requirements.
+The **[Iron Baking Sheet](/cooking/oven-bakeware/)** and **[Iron Baking Dish](/cooking/oven-bakeware/)** are implemented cookware options for these requirements.
 
 ## Cooking progress and recipe locking
 

@@ -13,7 +13,7 @@ The book stores its progress with the block. In Survival mode, breaking a placed
 
 ## Discovering recipes
 
-Discovery adds a recipe ID to the placed book. A valid Recipe Note can be used on the book to discover its recipe, and the note is consumed after a successful discovery. A recipe that is already known is not discovered again.
+Discovery adds a recipe ID to the placed book. A valid [Recipe Note](/recipe-book/notes-discovery/) can be used on the book to discover its recipe, and the note is consumed after a successful discovery. A recipe that is already known is not discovered again.
 
 Recipe discovery and loot integrations are part of the Recipe Book system. Exact locations and conditions will be documented on the discovery pages as those systems are expanded.
 
@@ -44,11 +44,11 @@ The output quantity depends on the recipe. For example, a recipe that produces f
 
 ## Recipe Notes
 
-The current system uses a generic **Recipe Note** item that stores a recipe ID. See [Recipe Notes & Discovery](/recipe-book/notes-discovery/) for the dedicated discovery and sharing guide.
+The current system uses a generic **[Recipe Note](/recipe-book/notes-discovery/)** item that stores a recipe ID. See [Recipe Notes & Discovery](/recipe-book/notes-discovery/) for the dedicated discovery and sharing guide.
 
 To copy a discovered recipe to a note, keep Paper in the inventory and use the copy action while within 8 blocks of the placed Recipe Book. The generated note can be given to another player. Using a valid note on a Recipe Book transfers the recipe to that book's discovery progress.
 
-Older fixed Recipe Note items remain for compatibility with existing saves. New recipes use the generic Recipe Note system.
+Older fixed [Recipe Note](/recipe-book/notes-discovery/) items remain for compatibility with existing saves. New recipes use the generic [Recipe Note](/recipe-book/notes-discovery/) system.
 
 ## Book tiers
 

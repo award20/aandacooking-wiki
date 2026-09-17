@@ -22,9 +22,14 @@ Soybean Puree and Soy Milk demonstrate how the crop can move through processing 
 
 ## Tofu
 
-The Soybean chain includes both Fresh Tofu and Seared Tofu. Their exact item IDs are not published on this page yet.
+The Soybean chain includes:
 
-Tofu then feeds into later dishes, including the confirmed `soybean_tofu_stir_fry_pickled` recipe.
+| Item ID | Display name | Role |
+|---|---|---|
+| `soybean_tofu_fresh` | [Fresh Tofu](/recipes/details/fresh-tofu/) | Tofu intermediate |
+| `soybean_tofu_seared` | Seared Tofu | Finished tofu side |
+
+[Fresh Tofu](/recipes/details/fresh-tofu/) is made from Soy Milk and Apple Vinegar in the [Saucepan](/cooking/saucepan/). Tofu then feeds into later dishes, including `soybean_tofu_stir_fry_pickled`.
 
 ## Soybean stir fries
 
@@ -77,7 +82,7 @@ See [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) and [Pasta & Noodles](/re
 
 ## Recipe Book behavior
 
-The Soybean chain is a strong example of Recipe Book prerequisites. A final dish can depend on an earlier Soybean preparation, a fermented product, cooked Rice or noodles, and another prepared ingredient. The preparation planner can represent those dependencies instead of treating the final dish as a single isolated recipe.
+The Soybean chain is a strong example of [Recipe Book](/recipe-book/overview/) prerequisites. A final dish can depend on an earlier Soybean preparation, a fermented product, cooked Rice or noodles, and another prepared ingredient. The preparation planner can represent those dependencies instead of treating the final dish as a single isolated recipe.
 
 ## Recipe detail status
 

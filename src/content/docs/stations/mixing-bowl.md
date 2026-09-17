@@ -61,7 +61,7 @@ Exact animation timing and every recipe-specific presentation remain subject to 
 
 ## Recipe Book integration
 
-The Mixing Bowl participates in the Recipe Book station-selection and preparation workflow. A pinned recipe can identify the Mixing Bowl as its required station and expose the exact input requirements needed for the selected recipe quantity.
+The Mixing Bowl participates in the [Recipe Book](/recipe-book/overview/) station-selection and preparation workflow. A pinned recipe can identify the Mixing Bowl as its required station and expose the exact input requirements needed for the selected recipe quantity.
 
 Recipe quantities are counted as recipe executions. When bulk preparation is used, the station consumes one execution's requirements at a time while valid ingredients and output space remain available.
 

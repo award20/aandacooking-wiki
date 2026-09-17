@@ -27,7 +27,7 @@ For food that needs longer-term preservation, use [Cold Storage](/storage/cold-s
 
 ## Network connectivity
 
-Counters and Cabinets can connect to one another and to other kitchen-compatible blocks. The network can traverse functional blocks such as the Kitchen Sink instead of stopping whenever storage furniture is separated by a station.
+Counters and Cabinets can connect to one another and to other kitchen-compatible blocks. The network can traverse functional blocks such as the [Kitchen Sink](/stations/kitchen-sink/) instead of stopping whenever storage furniture is separated by a station.
 
 A simple connected run can look like:
 
@@ -41,7 +41,7 @@ Countertop processing stations can enter the kitchen network through the Counter
 
 ## Stovetop cookware
 
-Skillet, Wok, and Saucepan recipe loading can reach kitchen storage through the Stovetop/Oven and adjacent compatible kitchen furniture.
+[Skillet](/cooking/skillet/), [Wok](/cooking/wok/), and [Saucepan](/cooking/saucepan/) recipe loading can reach kitchen storage through the [Stovetop/Oven](/stations/stovetop-oven/) and adjacent compatible kitchen furniture.
 
 See the individual cookware guides for station-specific behavior:
 
@@ -51,7 +51,7 @@ See the individual cookware guides for station-specific behavior:
 
 ## Recipe Book integration
 
-The pinned Recipe Book system can count exact matching items stored in Cabinets and Counters. Supported station loading can then remove only the missing requirements for the explicitly selected recipe.
+The pinned [Recipe Book](/recipe-book/overview/) system can count exact matching items stored in Cabinets and Counters. Supported station loading can then remove only the missing requirements for the explicitly selected recipe.
 
 The operation is atomic at the recipe-storage layer: if the complete missing requirement set cannot be supplied, the kitchen is not supposed to lose a partial set of ingredients.
 

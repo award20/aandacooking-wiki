@@ -32,16 +32,16 @@ An implemented feature can still receive balance changes, visual improvements, b
 The wiki currently documents the main cooking and agriculture systems, including:
 
 - ingredient washing, cutting, peeling, and preparation states
-- Blender, Mixing Bowl, Mortar and Pestle, Fermentation Crock, Jar Sealer, and other kitchen stations
-- Stockpot, Saucepan, Skillet, Wok, oven bakeware, and Stovetop/Oven behavior
+- [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), [Fermentation Crock](/stations/fermentation-crock/), [Jar Sealer](/stations/jar-sealer/), and other kitchen stations
+- [Stockpot](/cooking/stockpot/), [Saucepan](/cooking/saucepan/), [Skillet](/cooking/skillet/), [Wok](/cooking/wok/), oven bakeware, and [Stovetop/Oven](/stations/stovetop-oven/) behavior
 - connected Cabinets, Counters, Fridges, Freezers, freshness handling, and jar sealing
-- Recipe Book progression, pinning, prerequisite planning, Recipe Notes, and discovery
-- Cultivated Soil, fertility, crop vigor, pollination, harvest quality, and current crops
+- [Recipe Book](/recipe-book/overview/) progression, pinning, prerequisite planning, [Recipe Notes](/recipe-book/notes-discovery/), and discovery
+- [Cultivated Soil](/agriculture/cultivated-soil/), fertility, crop vigor, pollination, harvest quality, and current crops
 - calendar, seasons, solar time, seasonal daylight, temperature, weather, and climate systems
 - commands and player facing configuration areas
-- ingredient families, fermentation, preservation, Rice and Soybean production chains, and the growing recipe catalog
+- ingredient families, [Fermentation & Preservation](/recipes/fermentation-preservation/), [Rice & Soybean](/ingredients/rice-soybean/) production chains, and the growing [Recipe Catalog](/recipes/overview/)
 
-Recipe catalog pages are organized by food family so new dishes can be added without turning the wiki into one very large table.
+Recipe catalog pages are organized by food family so new dishes can be added without turning the wiki into one very large table. Dedicated recipe references currently cover [Tomato Soup](/recipes/details/tomato-soup/), [Tomato Sauce](/recipes/details/tomato-sauce/), [Wheat Flour](/recipes/details/wheat-flour/), [Bread Dough](/recipes/details/bread-dough/), [Wheat Bread](/recipes/details/wheat-bread/), [Cooked Rice](/recipes/details/cooked-rice/), and [Fresh Tofu](/recipes/details/fresh-tofu/).
 
 ## Areas Still Expanding
 

@@ -11,7 +11,7 @@ This page records the current soup and stew families. Exact ingredient quantitie
 
 | Item ID | Display name | Type |
 |---|---|---|
-| `tomato_soup` | Tomato Soup | Soup |
+| `tomato_soup` | [Tomato Soup](/recipes/details/tomato-soup/) | Soup |
 | `onion_soup` | Onion Soup | Soup |
 | `potato_soup` | Potato Soup | Soup |
 | `vegetable_stew` | Vegetable Stew | Stew |
@@ -29,20 +29,11 @@ This page records the current soup and stew families. Exact ingredient quantitie
 
 The recipe catalog continues to expand during development, so this list will grow as more dishes are added.
 
-## Verified example: Tomato Soup
+## Detailed recipe: Tomato Soup
 
-Tomato Soup currently has a fully documented Recipe Book entry. It uses:
+[Tomato Soup](/recipes/details/tomato-soup/) has a dedicated recipe reference with its current ingredient quantities, preparation requirements, cooking temperature, cooking time, and output count.
 
-- 2 diced Tomatoes
-- 1 diced Onion
-- 1 minced Garlic
-- 2 cups Water
-
-The preparation sequence requires the produce to be washed, the Tomatoes and Onion to be diced, and the Garlic to be peeled and minced.
-
-The Recipe Book describes the final cooking step as a **20 minute gentle simmer** in the Stockpot. The prepared ingredients and water are added to the pot, brought to a gentle simmer, and cooked until the vegetables soften and the soup thickens.
-
-This is a useful example of how A & A Cooking recipes can depend on several preparation chains before the final cooking stage.
+The current recipe uses 2 diced Tomatoes, 1 diced Onion, 1 minced Garlic, and 2 L of Water. It cooks for 20 seconds at 90 to 98 °C in the [Stockpot](/cooking/stockpot/) and produces 4 servings.
 
 ## Creamy variants
 
@@ -54,30 +45,30 @@ Several soups and stews have creamy variants, including:
 - Creamy Pumpkin Soup
 - Creamy Chicken Stew
 
-Cream is an established intermediate item in the current food catalog. The wiki will document the exact cream requirement for each dish when its current Recipe Book entry is checked.
+Cream is an established intermediate item in the current food catalog. The wiki will document the exact cream requirement for each dish when its current [Recipe Book](/recipe-book/overview/) entry is checked.
 
 ## Stockpot behavior
 
-Soup and stew recipes benefit from the Stockpot systems documented on the [Stockpot](/cooking/stockpot/) page, including:
+Soup and stew recipes benefit from the [Stockpot](/cooking/stockpot/) systems documented on the [Stockpot](/cooking/stockpot/) page, including:
 
 - liquid-based recipe matching
 - ingredient temperature simulation
 - serving finished dishes
 - freeform cooking when no exact recipe matches
 - finished-dish quality calculations where supported
-- pinned Recipe Book integration
+- pinned [Recipe Book](/recipe-book/overview/) integration
 
 The exact recipe still determines which prepared ingredients, liquids, temperature range, and cooking duration are required.
 
 ## Mysterious Stew
 
-`mysterious_stew` is part of the mod's freeform cooking direction. It provides an outcome for ingredient combinations that do not resolve to a more specific canonical recipe under the applicable Stockpot logic.
+`mysterious_stew` is part of the mod's freeform cooking direction. It provides an outcome for ingredient combinations that do not resolve to a more specific canonical recipe under the applicable [Stockpot](/cooking/stockpot/) logic.
 
 Freeform output should not be treated as a replacement for discovered recipes. Canonical recipes can define more specific ingredients, preparation states, temperatures, durations, and final properties.
 
 ## Documentation coverage
 
-Tomato Soup currently includes full ingredient quantities and cooking information. The remaining dishes are documented by food family for now, with exact quantities and cooking details to be added as their individual pages are expanded.
+[Tomato Soup](/recipes/details/tomato-soup/) currently includes full ingredient quantities and cooking information. The remaining dishes are documented by food family for now, with exact quantities and cooking details to be added as their individual pages are expanded.
 
 ## Related pages
 

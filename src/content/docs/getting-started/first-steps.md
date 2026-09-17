@@ -8,8 +8,8 @@ A & A Cooking uses preparation steps, dedicated stations, and recipe requirement
 ## Basic workflow
 
 1. Obtain the ingredients for a recipe.
-2. Wash ingredients that require washing at an **Oak Kitchen Sink**.
-3. Prepare the washed ingredients on an **Oak Cutting Board** when the recipe requires a particular cut or preparation state.
+2. Wash ingredients that require washing at an **Oak [Kitchen Sink](/stations/kitchen-sink/)**.
+3. Prepare the washed ingredients on an **Oak [Cutting Board](/stations/cutting-board/)** when the recipe requires a particular cut or preparation state.
 4. Place the prepared ingredients in a compatible cooking or processing station.
 5. Set the required mode, temperature, cookware, or other station control.
 6. Use the [Recipe Book](/recipe-book/overview/) to check requirements, discover recipes, and plan prerequisites when the recipe is known to the book.
@@ -21,10 +21,10 @@ The [Ingredient Preparation](/getting-started/ingredient-preparation/) guide des
 
 | Equipment | Role |
 |---|---|
-| Oak Kitchen Sink | Washes ingredients that have a washable ingredient profile. It also exchanges buckets and water buckets. |
-| Oak Cutting Board | Holds one ingredient while it is cut, peeled, shredded, or otherwise prepared by a registered preparation. |
+| Oak [Kitchen Sink](/stations/kitchen-sink/) | Washes ingredients that have a washable ingredient profile. It also exchanges buckets and water buckets. |
+| Oak [Cutting Board](/stations/cutting-board/) | Holds one ingredient while it is cut, peeled, shredded, or otherwise prepared by a registered preparation. |
 | Kitchen Knife | Advances registered cutting or shredding preparations and selects the cut style on an occupied board. |
-| Recipe Book | Stores discovered recipes and provides recipe planning features. |
+| [Recipe Book](/recipe-book/overview/) | Stores discovered recipes and provides recipe planning features. |
 | Cooking stations | Process or cook ingredients using station-specific modes, heat, time, or cookware. |
 
 Additional stations and cookware are documented on their own pages as their controls and recipe families are expanded.

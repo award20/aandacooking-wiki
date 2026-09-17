@@ -68,7 +68,7 @@ The jam recipe uses:
 - Powdered Sugar
 - 1 Glass Jar
 
-It cooks in a Saucepan for 12 seconds at 90 to 103 °C with no added water.
+It cooks in a [Saucepan](/cooking/saucepan/) for 12 seconds at 90 to 103 °C with no added water.
 
 ## Related pages
 

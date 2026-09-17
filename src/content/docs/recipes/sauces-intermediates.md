@@ -9,24 +9,24 @@ Many A & A Cooking dishes are built from prepared components instead of raw ingr
 
 | Recipe ID | Product | Station | Processing |
 |---|---|---|---|
-| `tomato_sauce` | Tomato Sauce | Saucepan | 12 seconds after reducing, gentle boil |
-| `tomato_puree` | Tomato Puree | Blender | 1 Blend cycle |
-| `tomato_paste` | Tomato Paste | Saucepan | 16 seconds at 88 to 102 °C |
-| `tomato_ketchup` | Ketchup | Saucepan | 12 seconds at 82 to 96 °C |
-| `tomato_sauce_herb` | Herb Tomato Sauce | Saucepan | 10 seconds at 80 to 95 °C |
+| `tomato_sauce` | [Tomato Sauce](/recipes/details/tomato-sauce/) | [Saucepan](/cooking/saucepan/) | 12 seconds after reducing, gentle boil |
+| `tomato_puree` | Tomato Puree | [Blender](/stations/blender/) | 1 Blend cycle |
+| `tomato_paste` | Tomato Paste | [Saucepan](/cooking/saucepan/) | 16 seconds at 88 to 102 °C |
+| `tomato_ketchup` | Ketchup | [Saucepan](/cooking/saucepan/) | 12 seconds at 82 to 96 °C |
+| `tomato_sauce_herb` | Herb Tomato Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 80 to 95 °C |
 
-Tomato Sauce and its later derivatives are used across pasta, pizza, glazed dishes, and other savory recipes.
+[Tomato Sauce](/recipes/details/tomato-sauce/) and its later derivatives are used across pasta, pizza, glazed dishes, and other savory recipes.
 
 ## Condiments and dressings
 
 | Recipe ID | Product | Station | Processing |
 |---|---|---|---|
-| `salsa_fresh` | Fresh Salsa | Mixing Bowl | 8 Mix actions |
-| `egg_mayonnaise` | Mayonnaise | Mixing Bowl | 12 Whisk actions |
-| `onion_relish` | Onion Relish | Saucepan | 14 seconds at 90 to 103 °C, at least 45% reduction |
-| `sweet_berry_sauce` | Sweet Berry Sauce | Saucepan | 10 seconds at 75 to 90 °C |
-| `apple_vinegar_dressing_herb` | Herb Apple Vinaigrette | Mixing Bowl | 8 Whisk actions |
-| `soybean_sauce_sweet` | Sweet Soy Glaze | Saucepan | 8 seconds at 70 to 90 °C |
+| `salsa_fresh` | Fresh Salsa | [Mixing Bowl](/stations/mixing-bowl/) | 8 Mix actions |
+| `egg_mayonnaise` | Mayonnaise | [Mixing Bowl](/stations/mixing-bowl/) | 12 Whisk actions |
+| `onion_relish` | Onion Relish | [Saucepan](/cooking/saucepan/) | 14 seconds at 90 to 103 °C, at least 45% reduction |
+| `sweet_berry_sauce` | Sweet Berry Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 75 to 90 °C |
+| `apple_vinegar_dressing_herb` | Herb Apple Vinaigrette | [Mixing Bowl](/stations/mixing-bowl/) | 8 Whisk actions |
+| `soybean_sauce_sweet` | Sweet Soy Glaze | [Saucepan](/cooking/saucepan/) | 8 seconds at 70 to 90 °C |
 
 Soy Sauce itself is fermented and is documented under [Fermentation & Preservation](/recipes/fermentation-preservation/).
 
@@ -34,10 +34,10 @@ Soy Sauce itself is fermented and is documented under [Fermentation & Preservati
 
 | Recipe ID | Product | Station | Processing |
 |---|---|---|---|
-| `mushroom_sauce_creamy` | Creamy Mushroom Sauce | Saucepan | 14 seconds on low heat |
-| `onion_gravy` | Onion Gravy | Saucepan | 16 seconds at a gentle simmer |
-| `milk_cheese_sauce` | Cheese Sauce | Saucepan | 10 seconds at 72 to 88 °C |
-| `garlic_paste` | Garlic Paste | Mortar and Pestle | 10 Grind actions |
+| `mushroom_sauce_creamy` | Creamy Mushroom Sauce | [Saucepan](/cooking/saucepan/) | 14 seconds on low heat |
+| `onion_gravy` | Onion Gravy | [Saucepan](/cooking/saucepan/) | 16 seconds at a gentle simmer |
+| `milk_cheese_sauce` | Cheese Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 72 to 88 °C |
+| `garlic_paste` | Garlic Paste | [Mortar and Pestle](/stations/mortar-and-pestle/) | 10 Grind actions |
 
 These components can feed later meals without requiring each final recipe to repeat the full preparation chain.
 
@@ -45,12 +45,12 @@ These components can feed later meals without requiring each final recipe to rep
 
 | Recipe ID | Product | Station |
 |---|---|---|
-| `tomato_puree` | Tomato Puree | Blender |
-| `carrot_puree` | Carrot Puree | Blender |
-| `beetroot_puree` | Beetroot Puree | Blender |
-| `pumpkin_puree` | Pumpkin Puree | Blender |
-| `apple_puree` | Apple Puree | Blender |
-| `soybean_puree` | Soybean Puree | Blender |
+| `tomato_puree` | Tomato Puree | [Blender](/stations/blender/) |
+| `carrot_puree` | Carrot Puree | [Blender](/stations/blender/) |
+| `beetroot_puree` | Beetroot Puree | [Blender](/stations/blender/) |
+| `pumpkin_puree` | Pumpkin Puree | [Blender](/stations/blender/) |
+| `apple_puree` | Apple Puree | [Blender](/stations/blender/) |
+| `soybean_puree` | Soybean Puree | [Blender](/stations/blender/) |
 
 A recipe that calls for a puree requires the processed ingredient, not merely the original produce.
 
@@ -59,7 +59,7 @@ A recipe that calls for a puree requires the processed ingredient, not merely th
 Current dry intermediates include:
 
 - `cocoa_powder` (Cocoa Powder)
-- `wheat_flour` (Wheat Flour)
+- `wheat_flour` ([Wheat Flour](/recipes/details/wheat-flour/))
 - `garlic_powder` (Garlic Powder)
 - `onion_powder` (Onion Powder)
 - `kelp_powder` (Kelp Powder)
@@ -69,7 +69,7 @@ Current dry intermediates include:
 - `breadcrumbs` (Breadcrumbs)
 - `breadcrumbs_seasoned` (Seasoned Breadcrumbs)
 
-Garlic Powder, Onion Powder, and Kelp Powder are combined in the Mixing Bowl to produce Savory Seasoning.
+Garlic Powder, Onion Powder, and Kelp Powder are combined in the [Mixing Bowl](/stations/mixing-bowl/) to produce Savory Seasoning.
 
 ## Oils, butter, and dairy components
 
@@ -82,13 +82,13 @@ Garlic Powder, Onion Powder, and Kelp Powder are combined in the Mixing Bowl to 
 | `milk_cream` | Cream | Dairy prerequisite |
 | `egg_beaten` | Beaten Egg | Mixed and baking prerequisite |
 
-Seed Oil is produced in the Blender using Pulse mode.
+Seed Oil is produced in the [Blender](/stations/blender/) using Pulse mode.
 
 ## Doughs, batters, and mixtures
 
 | Item ID | Product | Role |
 |---|---|---|
-| `wheat_bread_dough` | Bread Dough | Bread prerequisite |
+| `wheat_bread_dough` | [Bread Dough](/recipes/details/bread-dough/) | Bread prerequisite |
 | `wheat_pancake_batter` | Pancake Batter | Pancake prerequisite |
 | `sugar_cookie_dough` | Sugar Cookie Dough | Cookie prerequisite |
 | `chocolate_cookie_dough` | Chocolate Cookie Dough | Cookie prerequisite |
@@ -123,7 +123,7 @@ A recipe chain can involve several stages:
 4. load the final recipe at its cooking station
 5. cook, bake, fry, ferment, or assemble the final dish
 
-The Recipe Book prerequisite planner makes those dependency chains easier to follow. When a required intermediate is missing, the pinned recipe system can expose the earlier preparation work instead of only reporting that the final ingredient is absent.
+The [Recipe Book](/recipe-book/overview/) prerequisite planner makes those dependency chains easier to follow. When a required intermediate is missing, the pinned recipe system can expose the earlier preparation work instead of only reporting that the final ingredient is absent.
 
 ## Related pages
 

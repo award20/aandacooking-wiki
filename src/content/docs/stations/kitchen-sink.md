@@ -26,7 +26,7 @@ Recipes can require an exact ingredient state. That means a recipe may distingui
 - a washed whole ingredient
 - a washed sliced, diced, minced, julienned, or shredded ingredient
 
-The Cutting Board also checks the ingredient state before allowing normal preparation, so washing is commonly the first preparation step.
+The [Cutting Board](/stations/cutting-board/) also checks the ingredient state before allowing normal preparation, so washing is commonly the first preparation step.
 
 ## Water buckets
 

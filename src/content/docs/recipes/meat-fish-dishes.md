@@ -3,20 +3,20 @@ title: Meat & Fish Dishes
 description: Chicken, beef, pork, rabbit, mutton, cod, and salmon dishes across the Skillet, Wok, Oven, Saucepan, and other cooking systems.
 ---
 
-Meat and fish recipes in A & A Cooking span several stations rather than belonging to one cooking method. Proteins can be seared in a Skillet, tossed in a Wok, baked or roasted in the Oven, coated with sauces, or combined with Rice, noodles, soups, stews, and sandwiches.
+Meat and fish recipes in A & A Cooking span several stations rather than belonging to one cooking method. Proteins can be seared in a [Skillet](/cooking/skillet/), tossed in a [Wok](/cooking/wok/), baked or roasted in the Oven, coated with sauces, or combined with Rice, noodles, soups, stews, and sandwiches.
 
 ## Seared proteins
 
-The Skillet supports a core group of direct heat protein recipes:
+The [Skillet](/cooking/skillet/) supports a core group of direct heat protein recipes:
 
 | Recipe ID | Dish | Station | Time | Cooking condition |
 |---|---|---|---:|---|
-| `beef_steak_seared` | Seared Steak | Skillet | 16 seconds | High heat |
-| `salmon_seared` | Seared Salmon | Skillet | 14 seconds | Medium high heat |
-| `porkchop_seared` | Seared Porkchop | Skillet | 18 seconds | Medium high heat |
-| `rabbit_seared` | Seared Rabbit | Skillet | 17 seconds | Medium high heat |
-| `mutton_seared` | Seared Mutton | Skillet | 18 seconds | High heat |
-| `chicken_seared_herb` | Herb Seared Chicken | Skillet | 18 seconds | 180 to 215 °C |
+| `beef_steak_seared` | Seared Steak | [Skillet](/cooking/skillet/) | 16 seconds | High heat |
+| `salmon_seared` | Seared Salmon | [Skillet](/cooking/skillet/) | 14 seconds | Medium high heat |
+| `porkchop_seared` | Seared Porkchop | [Skillet](/cooking/skillet/) | 18 seconds | Medium high heat |
+| `rabbit_seared` | Seared Rabbit | [Skillet](/cooking/skillet/) | 17 seconds | Medium high heat |
+| `mutton_seared` | Seared Mutton | [Skillet](/cooking/skillet/) | 18 seconds | High heat |
+| `chicken_seared_herb` | Herb Seared Chicken | [Skillet](/cooking/skillet/) | 18 seconds | 180 to 215 °C |
 
 See [Skillet](/cooking/skillet/) for the shared direct heat mechanics.
 
@@ -30,11 +30,11 @@ The Oven provides another branch for meat and fish:
 | `cod_baked` | Baked Cod | 28 seconds | Medium high oven |
 | `salmon_baked` | Baked Salmon | 30 seconds | Medium high oven |
 
-These recipes use the Stovetop/Oven system and applicable oven bakeware. See [Oven Bakeware](/cooking/oven-bakeware/) and [Stovetop/Oven](/stations/stovetop-oven/) for the shared oven rules.
+These recipes use the [Stovetop/Oven](/stations/stovetop-oven/) system and applicable oven bakeware. See [Oven Bakeware](/cooking/oven-bakeware/) and [Stovetop/Oven](/stations/stovetop-oven/) for the shared oven rules.
 
 ## Breaded and seasoned skillet dishes
 
-Prepared coatings and seasoning chains can become prerequisites before the protein reaches the Skillet.
+Prepared coatings and seasoning chains can become prerequisites before the protein reaches the [Skillet](/cooking/skillet/).
 
 | Recipe ID | Dish | Time | Cooking condition |
 |---|---|---:|---|
@@ -50,17 +50,17 @@ Sauces and condiments can become direct cooking inputs rather than only toppings
 
 | Recipe ID | Dish | Station | Time | Cooking condition |
 |---|---|---|---:|---|
-| `chicken_glazed_tomato` | Tomato Glazed Chicken | Skillet | 20 seconds | 175 to 210 °C |
-| `chicken_glazed_soy_sauce` | Soy Glazed Chicken | Skillet | 15 seconds | 155 to 185 °C |
-| `salmon_glazed_soy_sauce` | Soy Glazed Salmon | Skillet | 13 seconds | 150 to 180 °C |
+| `chicken_glazed_tomato` | Tomato Glazed Chicken | [Skillet](/cooking/skillet/) | 20 seconds | 175 to 210 °C |
+| `chicken_glazed_soy_sauce` | Soy Glazed Chicken | [Skillet](/cooking/skillet/) | 15 seconds | 155 to 185 °C |
+| `salmon_glazed_soy_sauce` | Soy Glazed Salmon | [Skillet](/cooking/skillet/) | 13 seconds | 150 to 180 °C |
 
 The Soy Glazed dishes depend on the fermentation and Soy Sauce chain. See [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) and [Fermentation & Preservation](/recipes/fermentation-preservation/).
 
 ## Wok dishes
 
-Chicken, beef, pork, salmon, rabbit, and mutton also appear in Wok recipes. These include basic stir fries, seasoned stir fries, Soy Sauce variants, and noodle or Rice dishes.
+Chicken, beef, pork, salmon, rabbit, and mutton also appear in [Wok](/cooking/wok/) recipes. These include basic stir fries, seasoned stir fries, Soy Sauce variants, and noodle or Rice dishes.
 
-Wok recipes can require:
+[Wok](/cooking/wok/) recipes can require:
 
 - the correct heat zone
 - manual toss actions
@@ -69,7 +69,7 @@ Wok recipes can require:
 - oils, seasonings, or sauces
 - already cooked Rice or noodles for applicable dishes
 
-See [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) for the Wok focused catalog and [Wok](/cooking/wok/) for the shared mechanics.
+See [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) for the [Wok](/cooking/wok/) focused catalog and [Wok](/cooking/wok/) for the shared mechanics.
 
 ## Soups, stews, Rice, and pasta
 

@@ -97,7 +97,19 @@ export default defineConfig({
                         { label: 'Drinks', slug: 'recipes/drinks' },
                         { label: 'Herbs & Seasonings', slug: 'recipes/herbs-seasonings' },
                         { label: 'Sauces & Intermediates', slug: 'recipes/sauces-intermediates' },
-                        { label: 'Fermentation & Preservation', slug: 'recipes/fermentation-preservation' }
+                        { label: 'Fermentation & Preservation', slug: 'recipes/fermentation-preservation' },
+                        {
+                            label: 'Recipe Details',
+                            items: [
+                                { label: 'Tomato Soup', slug: 'recipes/details/tomato-soup' },
+                                { label: 'Tomato Sauce', slug: 'recipes/details/tomato-sauce' },
+                                { label: 'Wheat Flour', slug: 'recipes/details/wheat-flour' },
+                                { label: 'Bread Dough', slug: 'recipes/details/bread-dough' },
+                                { label: 'Wheat Bread', slug: 'recipes/details/wheat-bread' },
+                                { label: 'Cooked Rice', slug: 'recipes/details/cooked-rice' },
+                                { label: 'Fresh Tofu', slug: 'recipes/details/fresh-tofu' }
+                            ]
+                        }
                     ]
                 },
                 {

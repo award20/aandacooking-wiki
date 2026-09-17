@@ -52,9 +52,9 @@ Canonical Stockpot recipes can require:
 - a valid cooking-temperature range
 - cooking duration and finished-dish state
 
-These requirements are shared with the Recipe Book preparation-plan system so the pinned HUD can work backward from a final requirement to raw or intermediate ingredients.
+These requirements are shared with the [Recipe Book](/recipe-book/overview/) preparation-plan system so the pinned HUD can work backward from a final requirement to raw or intermediate ingredients.
 
-For example, a prepared requirement such as Diced Tomato can be traced through washing and Cutting Board preparation when the final prepared item is not already available.
+For example, a prepared requirement such as Diced Tomato can be traced through washing and [Cutting Board](/stations/cutting-board/) preparation when the final prepared item is not already available.
 
 ## Freeform cooking
 
@@ -116,7 +116,7 @@ These effects communicate the state of the cookware without replacing the underl
 
 ## Recipe Book integration
 
-Stockpot recipes participate in the pinned Recipe Book workflow.
+Stockpot recipes participate in the pinned [Recipe Book](/recipe-book/overview/) workflow.
 
 The preparation plan can expose:
 

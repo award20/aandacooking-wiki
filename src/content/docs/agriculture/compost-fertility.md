@@ -3,11 +3,11 @@ title: Compost & Fertility
 description: Crafting Compost, restoring Cultivated Soil fertility, fertility growth effects, and compostable ingredients.
 ---
 
-**Compost** restores fertility to Cultivated Soil. Fertility is separate from moisture: a field can be perfectly hydrated while still losing growth performance because its nutrient level has been depleted.
+**Compost** restores fertility to [Cultivated Soil](/agriculture/cultivated-soil/). Fertility is separate from moisture: a field can be perfectly hydrated while still losing growth performance because its nutrient level has been depleted.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Compost is craftable, applies directly to Cultivated Soil, and raises the stored fertility level by 2 up to the maximum of 7.</p>
+    <p>Compost is craftable, applies directly to [Cultivated Soil](/agriculture/cultivated-soil/), and raises the stored fertility level by 2 up to the maximum of 7.</p>
 </div>
 
 ## Crafting Compost
@@ -21,7 +21,7 @@ This produces **2 Compost**.
 
 ## Applying Compost
 
-Use Compost on Cultivated Soil to increase fertility by **2 levels**.
+Use Compost on [Cultivated Soil](/agriculture/cultivated-soil/) to increase fertility by **2 levels**.
 
 Fertility is clamped at the maximum level of **7**, so a Compost item will not be consumed when the soil is already full.
 

@@ -7,7 +7,7 @@ The **Iron Wok** is A & A Cooking's high-heat stovetop cookware. Unlike cookware
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
-    <p>The Wok currently supports five ingredient slots, explicit heat zones, manual tossing, toss counts, toss streaks, visible toss animation, shared heated-recipe execution, and Recipe Book integration.</p>
+    <p>The Wok currently supports five ingredient slots, explicit heat zones, manual tossing, toss counts, toss streaks, visible toss animation, shared heated-recipe execution, and [Recipe Book](/recipe-book/overview/) integration.</p>
 </div>
 
 ## Capacity
@@ -30,7 +30,7 @@ The Wok divides its current temperature into named technique zones:
 
 These zones let recipes express intended technique directly instead of relying only on a broad numeric temperature check.
 
-The Stovetop/Oven presets line up intentionally with the important Wok ranges:
+The [Stovetop/Oven](/stations/stovetop-oven/) presets line up intentionally with the important Wok ranges:
 
 - **Med High: 180 °C** falls inside the Stir Fry zone
 - **High: 230 °C** falls inside the Searing zone

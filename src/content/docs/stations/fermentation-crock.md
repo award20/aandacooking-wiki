@@ -22,7 +22,7 @@ The exact slot count, all recipe durations, and some presentation details are st
 The Fermentation Crock integrates with:
 
 - **Load Pinned**
-- the Recipe Book prerequisite planner
+- the [Recipe Book](/recipe-book/overview/) prerequisite planner
 - the connected kitchen storage network
 - queued/bulk recipe execution infrastructure
 
@@ -30,7 +30,7 @@ Queued fermentation still processes one valid execution at a time and must satis
 
 ## Ingredient admission
 
-Recipe only intermediates must be accepted when an executable Fermentation Crock recipe explicitly requires them. This prevents a mismatch where Recipe Book autofill can insert an intermediate but manual insertion rejects the same valid recipe ingredient.
+Recipe only intermediates must be accepted when an executable Fermentation Crock recipe explicitly requires them. This prevents a mismatch where [Recipe Book](/recipe-book/overview/) autofill can insert an intermediate but manual insertion rejects the same valid recipe ingredient.
 
 ## Output blocking
 

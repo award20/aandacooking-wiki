@@ -13,11 +13,11 @@ The established wheat bread chain includes:
 
 | Item ID | Display name | Role |
 |---|---|---|
-| `wheat_flour` | Wheat Flour | Dry intermediate |
-| `wheat_bread_dough` | Bread Dough | Bread intermediate |
-| `wheat_bread` | Wheat Bread | Finished bread |
+| `wheat_flour` | [Wheat Flour](/recipes/details/wheat-flour/) | Dry intermediate |
+| `wheat_bread_dough` | [Bread Dough](/recipes/details/bread-dough/) | Bread intermediate |
+| `wheat_bread` | [Wheat Bread](/recipes/details/wheat-bread/) | Finished bread |
 
-This structure allows the Recipe Book to treat Bread Dough as a real prerequisite rather than collapsing flour preparation, dough mixing, and baking into one step.
+This structure allows the [Recipe Book](/recipe-book/overview/) to treat [Bread Dough](/recipes/details/bread-dough/) as a real prerequisite rather than collapsing flour preparation, dough mixing, and baking into one step.
 
 ## Pancakes and cookies
 
@@ -31,7 +31,7 @@ Confirmed batter and dough based foods include:
 | `chocolate_cookie_dough` | Chocolate Cookie Dough | Cookie intermediate |
 | `pumpkin_bread_batter` | Pumpkin Bread Batter | Pumpkin Bread intermediate |
 
-The current catalog also contains the finished foods associated with these preparation chains. Their exact station actions and batch sizes will be documented from the current Recipe Book definitions rather than inferred from the item names alone.
+The current catalog also contains the finished foods associated with these preparation chains. Their exact station actions and batch sizes will be documented from the current [Recipe Book](/recipe-book/overview/) definitions rather than inferred from the item names alone.
 
 ## Toast and prepared bread
 
@@ -73,7 +73,7 @@ These dishes use the same larger cooking framework as other recipes, with recipe
 
 ## Oven bakeware
 
-A baked recipe can require a specific rack arrangement or piece of cookware. The Stovetop/Oven supports three oven racks, while the current bakeware system includes the Iron Baking Sheet and Iron Baking Dish.
+A baked recipe can require a specific rack arrangement or piece of cookware. The [Stovetop/Oven](/stations/stovetop-oven/) supports three oven racks, while the current bakeware system includes the [Iron Baking Sheet](/cooking/oven-bakeware/) and [Iron Baking Dish](/cooking/oven-bakeware/).
 
 See [Oven Bakeware](/cooking/oven-bakeware/) for the shared rack and bakeware behavior. Individual recipe pages will list their specific bakeware requirements.
 

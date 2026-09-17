@@ -20,7 +20,7 @@ The current content can be browsed through several broad families:
 | Herbs and seasonings | Fresh herbs, crushed/ground herbs, herb blends, Salt and powdered ingredients |
 | Liquids and sauces | Juices, Seed Oil, Salt Brine, sauces, purees, pastes and fermented liquids |
 | Doughs and batters | Bread doughs, pancake batters, cookie doughs, focaccia dough and similar intermediates |
-| Cooked components | Cooked Rice, noodles, seared foods, tofu, sauces and other prerequisites used by larger dishes |
+| Cooked components | [Cooked Rice](/recipes/details/cooked-rice/), noodles, seared foods, tofu, sauces and other prerequisites used by larger dishes |
 | Finished dishes | Soups, stews, stir fries, pasta, rice dishes, baked foods, drinks and desserts |
 
 These are documentation groups rather than hard technical registry categories. A single ingredient can participate in several systems.

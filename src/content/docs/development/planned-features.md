@@ -22,7 +22,7 @@ The current [Jar Sealer](/stations/jar-sealer/) can seal compatible filled jars 
 
 ## Ideas Under Consideration
 
-The current agriculture and environment systems already include crop profiles, Cultivated Soil, seasons, solar time, seasonal daylight, temperature, and local weather. Greenhouse behavior remains future work and will be designed around those existing environmental inputs rather than replacing them.
+The current agriculture and environment systems already include crop profiles, [Cultivated Soil](/agriculture/cultivated-soil/), seasons, solar time, seasonal daylight, temperature, and local weather. Greenhouse behavior remains future work and will be designed around those existing environmental inputs rather than replacing them.
 
 Specific future crops, livestock, food states, processing times, and release dates will be documented when those systems are designed and verified.
 

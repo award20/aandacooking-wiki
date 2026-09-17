@@ -3,7 +3,7 @@ title: Mortar and Pestle
 description: Mortar and Pestle slots, Crush and Grind modes, manual processing, and freshness handling.
 ---
 
-The **Mortar and Pestle** is a manual processing station for crushing and grinding ingredients into recipe-specific preparations. It is suited to smaller ingredient sets than the Mixing Bowl and is used for preparations such as ground, crushed, or powdered components.
+The **Mortar and Pestle** is a manual processing station for crushing and grinding ingredients into recipe-specific preparations. It is suited to smaller ingredient sets than the [Mixing Bowl](/stations/mixing-bowl/) and is used for preparations such as ground, crushed, or powdered components.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>

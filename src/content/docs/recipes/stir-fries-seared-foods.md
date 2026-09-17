@@ -3,7 +3,7 @@ title: Stir Fries & Seared Foods
 description: Stir fries, seasoned wok dishes, seared meats, seafood, and other direct heat foods represented in A & A Cooking.
 ---
 
-Stir fries and seared foods are the main direct heat recipe families in A & A Cooking. They make use of the Skillet and Wok systems, prepared ingredients, temperature ranges, and, for applicable Wok recipes, manual tossing.
+Stir fries and seared foods are the main direct heat recipe families in A & A Cooking. They make use of the [Skillet](/cooking/skillet/) and [Wok](/cooking/wok/) systems, prepared ingredients, temperature ranges, and, for applicable [Wok](/cooking/wok/) recipes, manual tossing.
 
 This page records the current direct heat food families. Exact quantities, temperatures, cooking durations, and toss requirements will be added as individual recipes receive dedicated documentation.
 
@@ -15,7 +15,7 @@ Confirmed early direct heat foods include:
 - `vegetable_stir_fry` (Vegetable Stir Fry)
 - `mushroom_stir_fry` (Mushroom Stir Fry)
 
-These recipes demonstrate the difference between smaller Skillet style foods and larger Wok focused stir fries. Individual recipe pages provide the exact station requirement for each output.
+These recipes demonstrate the difference between smaller [Skillet](/cooking/skillet/) style foods and larger [Wok](/cooking/wok/) focused stir fries. Individual recipe pages provide the exact station requirement for each output.
 
 ## Seared meats and seafood
 
@@ -33,7 +33,7 @@ The catalog also includes `chicken_seared_herb` (Herb Seared Chicken), which con
 
 ## Seasoned stir fries
 
-Seasoned variants expand the Wok family beyond the basic Vegetable and Mushroom Stir Fries:
+Seasoned variants expand the [Wok](/cooking/wok/) family beyond the basic Vegetable and Mushroom Stir Fries:
 
 - `vegetable_stir_fry_seasoned` (Seasoned Vegetable Stir Fry)
 - `mushroom_stir_fry_seasoned` (Seasoned Mushroom Stir Fry)
@@ -58,7 +58,7 @@ Soy Sauce and preserved ingredient recipes also feed into several glazed, fried 
 
 ## Wok heat and tossing
 
-The Wok has its own heat zone and toss systems. Applicable recipes can care about:
+The [Wok](/cooking/wok/) has its own heat zone and toss systems. Applicable recipes can care about:
 
 - ingredient temperature
 - the active heat zone
@@ -70,7 +70,7 @@ The [Wok](/cooking/wok/) page documents those shared mechanics. Exact toss count
 
 ## Skillet cooking
 
-The Skillet provides fast response direct heat cooking with four ingredient slots. It is used by applicable seared, sauteed, egg, and other pan cooked foods.
+The [Skillet](/cooking/skillet/) provides fast response direct heat cooking with four ingredient slots. It is used by applicable seared, sauteed, egg, and other pan cooked foods.
 
 See [Skillet](/cooking/skillet/) for its thermal behavior and ingredient cooking state system.
 
@@ -84,7 +84,7 @@ Direct heat foods frequently depend on earlier preparation steps:
 - Soy Sauce or pickled ingredients can introduce fermentation dependencies
 - noodle and Rice variants can require already cooked starches
 
-This is why the Recipe Book exposes prerequisite chains instead of treating each finished dish as one flat recipe.
+This is why the [Recipe Book](/recipe-book/overview/) exposes prerequisite chains instead of treating each finished dish as one flat recipe.
 
 ## Documentation coverage
 

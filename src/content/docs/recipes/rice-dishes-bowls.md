@@ -13,7 +13,7 @@ Several Rice products act as prerequisites for later dishes rather than only as 
 
 | ID | Display name | Role |
 |---|---|---|
-| `rice_cooked` | Cooked Rice | Base for larger Rice dishes |
+| `rice_cooked` | [Cooked Rice](/recipes/details/cooked-rice/) | Base for larger Rice dishes |
 | `rice_flour` | Rice Flour | Processed grain ingredient |
 | `rice_pancake_batter` | Rice Pancake Batter | Pancake intermediate |
 | `rice_cake_dough` | Rice Cake Dough | Rice cake intermediate |
@@ -53,7 +53,7 @@ The established fried Rice family includes:
 | `rice_fried_mushroom` | Mushroom Fried Rice |
 | `rice_fried_salmon` | Salmon Fried Rice |
 
-These dishes reuse Cooked Rice as a prepared base and combine it with produce, egg, meat, mushrooms, or fish.
+These dishes reuse [Cooked Rice](/recipes/details/cooked-rice/) as a prepared base and combine it with produce, egg, meat, mushrooms, or fish.
 
 ## Soy Sauce fried Rice
 
@@ -75,11 +75,11 @@ The Soy Sauce branch also includes two Rice bowls:
 | `rice_bowl_chicken_soy_sauce` | Soy Chicken Rice Bowl |
 | `rice_bowl_salmon_soy_sauce` | Soy Salmon Rice Bowl |
 
-The bowl branch is useful for showing how one finished meal can depend on several earlier systems, including Cooked Rice, prepared protein, and a Soybean sauce prerequisite.
+The bowl branch is useful for showing how one finished meal can depend on several earlier systems, including [Cooked Rice](/recipes/details/cooked-rice/), prepared protein, and a Soybean sauce prerequisite.
 
 ## Recipe Book behavior
 
-Rice dishes use the same Recipe Book dependency and station loading systems as the rest of the catalog. When a dish depends on Cooked Rice, a batter, dough, sauce, or another intermediate, that prerequisite can be represented as part of the preparation plan instead of forcing the final recipe to duplicate every earlier step.
+Rice dishes use the same [Recipe Book](/recipe-book/overview/) dependency and station loading systems as the rest of the catalog. When a dish depends on [Cooked Rice](/recipes/details/cooked-rice/), a batter, dough, sauce, or another intermediate, that prerequisite can be represented as part of the preparation plan instead of forcing the final recipe to duplicate every earlier step.
 
 ## Recipe detail status
 

@@ -54,7 +54,7 @@ Sweet Berries are used across several sweet recipe branches. The current catalog
 - `sweet_berry_juice` (Sweet Berry Juice)
 - `sweet_berry_smoothie` (Sweet Berry Smoothie)
 
-Sweet Berry Jam is cooked in a Saucepan from Sweet Berry Compote, Powdered Sugar, and a Glass Jar. It is produced as a filled open jar and uses the Sugared preservation method. The jar can then be sealed at the [Jar Sealer](/stations/jar-sealer/) for an additional preservation effect.
+Sweet Berry Jam is cooked in a [Saucepan](/cooking/saucepan/) from Sweet Berry Compote, Powdered Sugar, and a Glass Jar. It is produced as a filled open jar and uses the Sugared preservation method. The jar can then be sealed at the [Jar Sealer](/stations/jar-sealer/) for an additional preservation effect.
 
 The drinks are covered on the [Drinks](/recipes/drinks/) page.
 

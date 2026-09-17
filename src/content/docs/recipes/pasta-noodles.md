@@ -34,7 +34,7 @@ Confirmed pasta outputs include:
 | `tomato_pasta_basil` | Basil Tomato Pasta | Basil pasta |
 | `chicken_pasta_tomato` | Tomato Chicken Pasta | Chicken pasta |
 
-These dishes demonstrate why sauces and intermediates have their own recipe layer. A pasta recipe can depend on an already prepared Tomato Sauce, creamy component, shredded cheese, herbs, or cooked protein before the final station step begins.
+These dishes demonstrate why sauces and intermediates have their own recipe layer. A pasta recipe can depend on an already prepared [Tomato Sauce](/recipes/details/tomato-sauce/), creamy component, shredded cheese, herbs, or cooked protein before the final station step begins.
 
 ## Noodle stir fries
 
@@ -53,8 +53,8 @@ The Soy Sauce variants connect the noodle catalog directly to the [Rice & Soybea
 
 Pasta and noodles can draw from several established prerequisite groups:
 
-- Wheat Flour and noodle intermediates
-- Tomato Sauce and other savory sauces
+- [Wheat Flour](/recipes/details/wheat-flour/) and noodle intermediates
+- [Tomato Sauce](/recipes/details/tomato-sauce/) and other savory sauces
 - Cream and cheese products
 - prepared mushrooms, vegetables, and meats
 - Basil and other herb ingredients
@@ -77,9 +77,9 @@ Exact station assignments are documented on individual recipe pages.
 
 ## Relationship to recipe planning
 
-Pasta and noodle dishes are good examples of why the Recipe Book prerequisite planner exists. A finished dish may require several earlier outputs, such as boiled noodles, sauce, cheese, or a fermented condiment.
+Pasta and noodle dishes are good examples of why the [Recipe Book](/recipe-book/overview/) prerequisite planner exists. A finished dish may require several earlier outputs, such as boiled noodles, sauce, cheese, or a fermented condiment.
 
-When those prerequisites are missing, the Recipe Book can expose the dependency chain rather than reducing the recipe to one flat ingredient list.
+When those prerequisites are missing, the [Recipe Book](/recipe-book/overview/) can expose the dependency chain rather than reducing the recipe to one flat ingredient list.
 
 ## Documentation coverage
 
