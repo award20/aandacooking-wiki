@@ -34,7 +34,7 @@ Confirmed pasta outputs include:
 | `tomato_pasta_basil` | Basil Tomato Pasta | Basil pasta |
 | `chicken_pasta_tomato` | Tomato Chicken Pasta | Chicken pasta |
 
-These dishes demonstrate why sauces and intermediates have their own recipe layer. A pasta recipe can depend on an already prepared [Tomato Sauce](/recipes/details/tomato-sauce/), creamy component, shredded cheese, herbs, or cooked protein before the final station step begins.
+These dishes demonstrate why sauces and intermediates have their own recipe layer. A pasta recipe can depend on an already prepared [Tomato Sauce](/recipes/details/tomato-sauce/), creamy component, [Shredded Cheese](/recipes/details/shredded-cheese/), herbs, or cooked protein before the final station step begins.
 
 ## Noodle stir fries
 
@@ -55,7 +55,7 @@ Pasta and noodles can draw from several established prerequisite groups:
 
 - [Wheat Flour](/recipes/details/wheat-flour/) and noodle intermediates
 - [Tomato Sauce](/recipes/details/tomato-sauce/) and other savory sauces
-- Cream and cheese products
+- [Cream](/recipes/details/cream/) and cheese products
 - prepared mushrooms, vegetables, and meats
 - Basil and other herb ingredients
 - Soy Sauce and fermented Soybean products

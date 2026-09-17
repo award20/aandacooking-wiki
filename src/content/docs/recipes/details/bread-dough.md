@@ -10,15 +10,15 @@ Bread Dough is a foundational baking intermediate prepared in the [Mixing Bowl](
 | Requirement | Amount |
 |---|---:|
 | [Wheat Flour](/recipes/details/wheat-flour/) | 2 |
-| Cream | 1 |
-| Butter | 1 |
+| [Cream](/recipes/details/cream/) | 1 |
+| [Butter](/recipes/details/butter/) | 1 |
 
 **Station:** [Mixing Bowl](/stations/mixing-bowl/)  
 **Mode:** Mix  
 **Processing:** 8 mix actions  
 **Output:** 1 Bread Dough
 
-Prepare the [Wheat Flour](/recipes/details/wheat-flour/), Cream, and Butter first, then combine them in the [Mixing Bowl](/stations/mixing-bowl/) using Mix mode until the dough completes.
+Prepare the [Wheat Flour](/recipes/details/wheat-flour/), [Cream](/recipes/details/cream/), and [Butter](/recipes/details/butter/) first, then combine them in the [Mixing Bowl](/stations/mixing-bowl/) using Mix mode until the dough completes.
 
 ## Item and recipe ID
 

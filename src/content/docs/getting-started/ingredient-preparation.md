@@ -19,11 +19,11 @@ The Oak [Cutting Board](/stations/cutting-board/) holds one item at a time. See 
 
 1. Wash the ingredient first when its profile requires washing.
 2. Use the washed ingredient on an empty board. One item is placed on the board and one item is removed from the held stack, except in Creative mode.
-3. With the ingredient on the board, sneak-use a kitchen knife to cycle through the cut styles registered for that ingredient.
+3. With the ingredient on the board, sneak use a kitchen knife to cycle through the cut styles registered for that ingredient.
 4. Use the kitchen knife normally to advance the selected preparation. Each knife use advances one required action and damages the knife by one point.
 5. When the required actions are complete, the board replaces the input with the prepared item.
 
-Use an empty hand to retrieve the held item. Sneaking with an empty hand also retrieves it. If the ingredient has a registered peeling preparation, normal empty-hand use peels it instead of retrieving it.
+Use an empty hand to retrieve the held item. Sneaking with an empty hand also retrieves it. If the ingredient has a registered peeling preparation, normal empty hand use peels it instead of retrieving it.
 
 ## Registered preparation paths
 
@@ -42,12 +42,12 @@ The following preparation paths are currently available. The values in the last 
 | Sliced Onion | `aandacooking:onion_sliced` | Mince | Minced Onion | `aandacooking:onion_minced` | 4 knife uses |
 | Sliced Onion | `aandacooking:onion_sliced` | Julienne | Julienned Onion | `aandacooking:onion_julienned` | 2 knife uses |
 | Diced Onion | `aandacooking:onion_diced` | Mince | Minced Onion | `aandacooking:onion_minced` | 2 knife uses |
-| Garlic | `aandacooking:garlic` | Peel | Peeled Garlic | `aandacooking:garlic_peeled` | 1 empty-hand use |
+| Garlic | `aandacooking:garlic` | Peel | Peeled Garlic | `aandacooking:garlic_peeled` | 1 empty hand use |
 | Peeled Garlic | `aandacooking:garlic_peeled` | Slice | Sliced Garlic | `aandacooking:garlic_sliced` | 2 knife uses |
 | Peeled Garlic | `aandacooking:garlic_peeled` | Mince | Minced Garlic | `aandacooking:garlic_minced` | 4 knife uses |
 | Sliced Garlic | `aandacooking:garlic_sliced` | Mince | Minced Garlic | `aandacooking:garlic_minced` | 2 knife uses |
-| A & A Cooking Egg | `aandacooking:egg` | Crack | Cracked Egg | `aandacooking:egg_cracked` | 1 cutting-board-edge use |
-| Fresh Cheese | `aandacooking:milk_cheese_fresh` | Shred | Shredded Cheese | `aandacooking:milk_cheese_shredded` | 4 knife uses |
+| A & A Cooking Egg | `aandacooking:egg` | Crack | Cracked Egg | `aandacooking:egg_cracked` | 1 cutting board edge use |
+| [Fresh Cheese](/recipes/details/fresh-cheese/) | `aandacooking:milk_cheese_fresh` | Shred | [Shredded Cheese](/recipes/details/shredded-cheese/) | `aandacooking:milk_cheese_shredded` | 4 knife uses |
 
 Additional preparation actions can be used by other stations, but only the paths listed above are [Cutting Board](/stations/cutting-board/) preparations. Processing recipes such as grinding or mixing are documented with their station rather than treated as [Cutting Board](/stations/cutting-board/) actions.
 

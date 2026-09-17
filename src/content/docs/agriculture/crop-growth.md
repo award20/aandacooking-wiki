@@ -19,7 +19,7 @@ The current growth equation is:
 where:
 
 - `Sf` is the season factor
-- `Mf` is the soil-moisture factor
+- `Mf` is the soil moisture factor
 - `Lf` is the light factor
 - `Ff` is the fertility factor
 - `Pf` is the pollination factor

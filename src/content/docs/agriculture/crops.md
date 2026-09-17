@@ -7,7 +7,7 @@ A & A Cooking currently includes dedicated crop profiles for **Tomato** and **On
 
 <div class="page-summary">
     <p><strong>Status: Implemented crop profiles</strong></p>
-    <p>Tomato and Onion currently have distinct season, soil, light, pollination, fertility-consumption, yield, and regrowth settings.</p>
+    <p>Tomato and Onion currently have distinct season, soil, light, pollination, fertility consumption, yield, and regrowth settings.</p>
 </div>
 
 ## Tomato
@@ -29,10 +29,10 @@ Tomato progresses through eight semantic stages:
 | Flood penalty | 0.90 |
 | Minimum light | 8 |
 | Optimal light | 13 |
-| Fertility-consumption chance after growth | 45% |
+| Fertility consumption chance after growth | 45% |
 | Base harvest range | 2–5 tomatoes |
 
-Tomato uses **beneficial pollination** in a 5-block horizontal radius, with a maximum configured pollination boost of 25% before diminishing-return calculations.
+Tomato uses **beneficial pollination** in a 5-block horizontal radius, with a maximum configured pollination boost of 25% before diminishing return calculations.
 
 ### Regrowth
 
@@ -59,7 +59,7 @@ Onion uses five semantic stages:
 | Flood penalty | 0.85 |
 | Minimum light | 7 |
 | Optimal light | 12 |
-| Fertility-consumption chance after growth | 30% |
+| Fertility consumption chance after growth | 30% |
 | Base harvest range | 1–3 onions |
 
 Onion does **not** use pollination.
@@ -70,7 +70,7 @@ Onion does not regrow after harvest. A mature harvested plant also drops its see
 
 ## Crop tint and visible stress
 
-Crop rendering uses vigor and lifecycle condition to communicate stress. Healthy crops interpolate from a stressed brownish tint toward the normal full-color texture as vigor improves, while Dying and Dead crops use dedicated darker tints.
+Crop rendering uses vigor and lifecycle condition to communicate stress. Healthy crops interpolate from a stressed brownish tint toward the normal full color texture as vigor improves, while Dying and Dead crops use dedicated darker tints.
 
 ## Calendar integration
 

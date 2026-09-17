@@ -25,7 +25,7 @@ The [Ingredient Preparation](/getting-started/ingredient-preparation/) guide des
 | Oak [Cutting Board](/stations/cutting-board/) | Holds one ingredient while it is cut, peeled, shredded, or otherwise prepared by a registered preparation. |
 | Kitchen Knife | Advances registered cutting or shredding preparations and selects the cut style on an occupied board. |
 | [Recipe Book](/recipe-book/overview/) | Stores discovered recipes and provides recipe planning features. |
-| Cooking stations | Process or cook ingredients using station-specific modes, heat, time, or cookware. |
+| Cooking stations | Process or cook ingredients using station specific modes, heat, time, or cookware. |
 
 Additional stations and cookware are documented on their own pages as their controls and recipe families are expanded.
 

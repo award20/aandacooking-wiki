@@ -3,7 +3,7 @@ title: Soups & Stews
 description: Soup, stew, chowder, and creamy stockpot dishes currently represented in A & A Cooking.
 ---
 
-Soups and stews are one of the largest established food groups in A & A Cooking. They are primarily associated with the [Stockpot](/cooking/stockpot/), which supports liquid cooking, recipe matching, freeform outcomes, serving, and finished-dish quality.
+Soups and stews are one of the largest established food groups in A & A Cooking. They are primarily associated with the [Stockpot](/cooking/stockpot/), which supports liquid cooking, recipe matching, freeform outcomes, serving, and finished dish quality.
 
 This page records the current soup and stew families. Exact ingredient quantities and cooking times will be added as individual recipes receive dedicated documentation.
 
@@ -45,17 +45,17 @@ Several soups and stews have creamy variants, including:
 - Creamy Pumpkin Soup
 - Creamy Chicken Stew
 
-Cream is an established intermediate item in the current food catalog. The wiki will document the exact cream requirement for each dish when its current [Recipe Book](/recipe-book/overview/) entry is checked.
+[Cream](/recipes/details/cream/) is an established intermediate item in the current food catalog. The wiki will document the exact cream requirement for each dish when its current [Recipe Book](/recipe-book/overview/) entry is checked.
 
 ## Stockpot behavior
 
 Soup and stew recipes benefit from the [Stockpot](/cooking/stockpot/) systems documented on the [Stockpot](/cooking/stockpot/) page, including:
 
-- liquid-based recipe matching
+- liquid based recipe matching
 - ingredient temperature simulation
 - serving finished dishes
 - freeform cooking when no exact recipe matches
-- finished-dish quality calculations where supported
+- finished dish quality calculations where supported
 - pinned [Recipe Book](/recipe-book/overview/) integration
 
 The exact recipe still determines which prepared ingredients, liquids, temperature range, and cooking duration are required.

@@ -67,6 +67,20 @@ A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft.
 | [Wheat Bread](/recipes/details/wheat-bread/) | [Stovetop/Oven](/stations/stovetop-oven/) recipe using [Bread Dough](/recipes/details/bread-dough/) and an [iron baking dish](/cooking/oven-bakeware/) |
 | [Cooked Rice](/recipes/details/cooked-rice/) | Foundational [Saucepan](/cooking/saucepan/) starch used by many Rice dishes |
 | [Fresh Tofu](/recipes/details/fresh-tofu/) | Soy Milk and Apple Vinegar tofu recipe |
+| [Beaten Egg](/recipes/details/beaten-egg/) | Two cracked Eggs whisked in the [Mixing Bowl](/stations/mixing-bowl/) |
+| [Seed Oil](/recipes/details/seed-oil/) | Wheat Seeds processed in the [Blender](/stations/blender/) using Pulse mode |
+| [Tomato Paste](/recipes/details/tomato-paste/) | Concentrated [Tomato Puree](/recipes/details/tomato-puree/) cooked in the [Saucepan](/cooking/saucepan/) |
+| [Ketchup](/recipes/details/ketchup/) | [Tomato Paste](/recipes/details/tomato-paste/), Sugar, and [Onion Powder](/recipes/details/onion-powder/) condiment |
+| [Mayonnaise](/recipes/details/mayonnaise/) | [Beaten Egg](/recipes/details/beaten-egg/) and [Seed Oil](/recipes/details/seed-oil/) whisked in the [Mixing Bowl](/stations/mixing-bowl/) |
+| [Fresh Cheese](/recipes/details/fresh-cheese/) | [Cream](/recipes/details/cream/) heated into cheese with a shredding path on the [Cutting Board](/stations/cutting-board/) |
+| [Cheese Sauce](/recipes/details/cheese-sauce/) | [Shredded Cheese](/recipes/details/shredded-cheese/), [Cream](/recipes/details/cream/), and [Butter](/recipes/details/butter/) cooked in the [Saucepan](/cooking/saucepan/) |
+| [Tomato Puree](/recipes/details/tomato-puree/) | Diced Tomatoes blended into a smooth tomato intermediate |
+| [Garlic Powder](/recipes/details/garlic-powder/) | Minced Garlic ground in the [Mortar and Pestle](/stations/mortar-and-pestle/) |
+| [Onion Powder](/recipes/details/onion-powder/) | Diced Onion ground in the [Mortar and Pestle](/stations/mortar-and-pestle/) |
+| [Cream](/recipes/details/cream/) | Milk Bucket crafted into two portions of [Cream](/recipes/details/cream/) |
+| [Butter](/recipes/details/butter/) | [Cream](/recipes/details/cream/) whisked in the [Mixing Bowl](/stations/mixing-bowl/) |
+| [Shredded Cheese](/recipes/details/shredded-cheese/) | [Fresh Cheese](/recipes/details/fresh-cheese/) shredded on the [Cutting Board](/stations/cutting-board/) |
+| [Savory Seasoning](/recipes/details/savory-seasoning/) | Three dry powders mixed into a seasoning blend |
 | [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
 | [Configuration](/reference/configuration/) | Confirmed day length, daylight, latitude, temperature unit, and calendar settings |
 | [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |

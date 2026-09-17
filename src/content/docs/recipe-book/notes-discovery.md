@@ -3,7 +3,7 @@ title: Recipe Notes & Discovery
 description: Discovering, copying, and sharing recipes with the generic Recipe Note system.
 ---
 
-Recipe discovery is a core part of A & A Cooking progression. The current forward-going system uses one generic **Recipe Note** item that stores the ID of the recipe it represents.
+Recipe discovery is a core part of A & A Cooking progression. The current system uses one generic **Recipe Note** item that stores the ID of the recipe it represents.
 
 ## Discovering a recipe
 
@@ -17,7 +17,7 @@ A player can create a note for a recipe their placed [Recipe Book](/recipe-book/
 
 In Survival mode, copying a recipe costs **1 Paper**. In Creative mode, the copy does not consume Paper.
 
-The server re-validates:
+The server validates again:
 
 - that the recipe exists
 - that the placed book knows the recipe
@@ -30,7 +30,7 @@ The current interaction uses an 8-block distance check from the placed [Recipe B
 
 Because the recipe ID is stored on the Recipe Note item, the note can be handed to another player. The receiving player can use it on their own [Recipe Book](/recipe-book/overview/) to discover the recipe without independently repeating the original discovery route.
 
-This makes Recipe Notes both a progression mechanic and a multiplayer knowledge-sharing system.
+This makes Recipe Notes both a progression mechanic and a multiplayer knowledge sharing system.
 
 ## Discovery routes
 
@@ -38,7 +38,7 @@ This makes Recipe Notes both a progression mechanic and a multiplayer knowledge-
 
 ## Compatibility items
 
-Older fixed per-recipe note items remain registered for save compatibility. They are not the forward-going documentation model; new content uses the generic `aandacooking:recipe_note` item.
+Older fixed per recipe note items remain registered for save compatibility. They are kept only for compatibility; new content uses the generic `aandacooking:recipe_note` item.
 
 ## Related pages
 

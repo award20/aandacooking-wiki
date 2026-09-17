@@ -3,7 +3,7 @@ title: Mortar and Pestle
 description: Mortar and Pestle slots, Crush and Grind modes, manual processing, and freshness handling.
 ---
 
-The **Mortar and Pestle** is a manual processing station for crushing and grinding ingredients into recipe-specific preparations. It is suited to smaller ingredient sets than the [Mixing Bowl](/stations/mixing-bowl/) and is used for preparations such as ground, crushed, or powdered components.
+The **Mortar and Pestle** is a manual processing station for crushing and grinding ingredients into recipe specific preparations. It is suited to smaller ingredient sets than the [Mixing Bowl](/stations/mixing-bowl/) and is used for preparations such as ground, crushed, or powdered components.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
@@ -30,7 +30,7 @@ The current station supports two manual processing modes:
 | Crush | 5 |
 | Grind | 10 |
 
-The action count is interaction-based rather than time-based. Recipes are matched against their required mode, so a Grind recipe does not complete from Crush actions and vice versa.
+The action count is interaction based rather than time based. Recipes are matched against their required mode, so a Grind recipe does not complete from Crush actions and vice versa.
 
 ## Progress behavior
 
@@ -46,15 +46,15 @@ When the required number of actions is reached, the station consumes the recipe 
 
 ## Freshness and spoilage
 
-Spoiled food ingredients are rejected by the shared processing rules when they are no longer valid recipe inputs. Food outputs inherit freshness from their ingredients through the current recipe-output freshness system.
+Spoiled food ingredients are rejected by the shared processing rules when they are no longer valid recipe inputs. Food outputs inherit freshness from their ingredients through the current recipe output freshness system.
 
 This is especially important for preparations that later become ingredients in another recipe, because food age can continue through the processing chain.
 
 ## Presentation
 
-The Mortar and Pestle uses a bright, vanilla-style station interface and represents its held ingredients visually. The presentation is intended to make manual pestle work visible rather than reducing the station to an invisible progress counter.
+The Mortar and Pestle uses a bright, vanilla style station interface and represents its held ingredients visually. The presentation is intended to make manual pestle work visible rather than reducing the station to an invisible progress counter.
 
-Individual recipe visuals and final animation polish may still change during pre-alpha development.
+Individual recipe visuals and final animation polish may still change during pre alpha development.
 
 ## Recipe Book integration
 

@@ -20,7 +20,7 @@ Kitchen storage in A & A Cooking is more than a collection of inventories. Compa
 | Small Stainless Steel Freezer | 18 slots | Frozen |
 | Paired cold storage | 36 slots | Determined by the physical half owning each slot |
 
-Two vertically paired cold-storage blocks open as one 36-slot appliance. See [Cold Storage](/storage/cold-storage/) for the supported layouts.
+Two vertically paired cold storage blocks open as one 36-slot appliance. See [Cold Storage](/storage/cold-storage/) for the supported layouts.
 
 ## Connected kitchen network
 
@@ -42,7 +42,7 @@ Recipe storage access uses the actual item stack state. It can distinguish prepa
 - whole vs. sliced
 - sliced vs. diced
 - minced vs. other preparation states
-- other recipe-relevant item components
+- other recipe relevant item components
 
 This prevents a raw or incorrectly prepared ingredient from silently satisfying an exact recipe requirement.
 

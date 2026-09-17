@@ -14,7 +14,7 @@ Confirmed egg preparations include:
 | Item ID | Display name | Role |
 |---|---|---|
 | `egg_cracked` | Cracked Egg | Basic egg preparation |
-| `beaten_egg` | Beaten Egg | Mixing and cooking prerequisite |
+| `egg_beaten` | [Beaten Egg](/recipes/details/beaten-egg/) | Mixing and cooking prerequisite |
 | `fried_egg` | Fried Egg | Finished direct heat food |
 | `egg_scrambled` | Scrambled Egg | Finished egg dish |
 
@@ -37,12 +37,12 @@ The established cheese line includes:
 
 | Item ID | Display name | Role |
 |---|---|---|
-| `milk_cheese_fresh` | Fresh Cheese | Base cheese ingredient |
-| `milk_cheese_shredded` | Shredded Cheese | Prepared cheese ingredient |
-| `milk_cheese_sauce` | Cheese Sauce | Sauce and dish prerequisite |
+| `milk_cheese_fresh` | [Fresh Cheese](/recipes/details/fresh-cheese/) | Base cheese ingredient |
+| `milk_cheese_shredded` | [Shredded Cheese](/recipes/details/shredded-cheese/) | Prepared cheese ingredient |
+| `milk_cheese_sauce` | [Cheese Sauce](/recipes/details/cheese-sauce/) | Sauce and dish prerequisite |
 | `milk_cheese_pasta` | Cheese Pasta | Finished pasta dish |
 
-Fresh Cheese can be shredded through the ingredient preparation system. The current [Cutting Board](/stations/cutting-board/) documentation records Fresh Cheese to Shredded Cheese as a supported preparation path.
+[Fresh Cheese](/recipes/details/fresh-cheese/) can be shredded through the ingredient preparation system. The current [Cutting Board](/stations/cutting-board/) documentation records [Fresh Cheese](/recipes/details/fresh-cheese/) to [Shredded Cheese](/recipes/details/shredded-cheese/) as a supported preparation path.
 
 Cheese also feeds into other established dishes, including:
 
@@ -54,20 +54,20 @@ Cheese also feeds into other established dishes, including:
 
 The raw and finished variants allow assembly and final heating to remain separate recipe steps.
 
-## Cream and butter
+## Cream and Butter
 
 Confirmed dairy intermediates include:
 
 | Item ID | Display name | Role |
 |---|---|---|
-| `milk_cream` | Cream | Creamy dishes and baking prerequisite |
-| `milk_butter` | Butter | Cooking and baking prerequisite |
+| `milk_cream` | [Cream](/recipes/details/cream/) | Creamy dishes and baking prerequisite |
+| `milk_butter` | [Butter](/recipes/details/butter/) | Cooking and baking prerequisite |
 | `milk_butter_garlic` | Garlic Butter | Flavored butter |
 | `milk_butter_herb` | Herb Butter | Flavored butter |
 | `milk_whipped_cream` | Whipped Cream | Sweet dairy preparation |
 | `milk_custard` | Custard | Dessert and baking preparation |
 
-Cream and butter are shared prerequisites rather than isolated foods. They connect this page with baked foods, creamy soups, pasta, sauces, and other production chains.
+[Cream](/recipes/details/cream/) and [Butter](/recipes/details/butter/) are shared prerequisites rather than isolated foods. They connect this page with baked foods, creamy soups, pasta, sauces, and other production chains.
 
 ## Dairy drinks
 

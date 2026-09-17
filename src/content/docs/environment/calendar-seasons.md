@@ -3,7 +3,7 @@ title: Calendar & Seasons
 description: The A & A Cooking game calendar, weekdays, seasons, year progress, and calendar diagnostics.
 ---
 
-A & A Cooking's newer environment system includes a dedicated **Game Calendar** instead of treating seasons as only a raw world-day counter. The calendar exposes dates, weekdays, seasons, day-of-year progress, and a selected calendar preset.
+A & A Cooking's newer environment system includes a dedicated **Game Calendar** instead of treating seasons as only a raw world day counter. The calendar exposes dates, weekdays, seasons, day of year progress, and a selected calendar preset.
 
 <div class="page-summary">
     <p><strong>Status: Implemented environment system</strong></p>
@@ -23,7 +23,7 @@ The current calendar tracks and reports:
 - world day
 - active calendar preset
 
-The exact season and year lengths depend on the active preset. The wiki therefore does not hard-code the earlier temporary 30-day-per-season value as the current calendar rule.
+The exact season and year lengths depend on the active preset. The wiki therefore does not hardcode the earlier temporary 30-day per season value as the current calendar rule.
 
 ## Seasons
 

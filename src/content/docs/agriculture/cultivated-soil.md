@@ -1,6 +1,6 @@
 ---
 title: Cultivated Soil
-description: Soil saturation, hydration targets, flooding, fertility, and crop-support behavior.
+description: Soil saturation, hydration targets, flooding, fertility, and crop support behavior.
 ---
 
 **Cultivated Soil** is A & A Cooking's expanded farming soil. It stores both a moisture level and a fertility level, allowing crops to respond to drought, normal hydration, oversaturation, flooding, and nutrient depletion.
@@ -31,7 +31,7 @@ Different crops choose their own preferred minimum moisture, maximum ideal moist
 
 Cultivated Soil checks water within a **4-block horizontal radius**, as well as rain, water directly above the block, and water directly adjacent on its four horizontal sides.
 
-The current target-level rules are:
+The current target level rules are:
 
 | Condition | Target behavior |
 |---|---|

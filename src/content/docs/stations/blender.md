@@ -6,7 +6,7 @@ description: Blender processing modes, recipe matching, stacked inputs, and Reci
 The **Blender** is a dedicated processing station for recipes that transform ingredients without using stovetop or oven heat.
 
 <div class="page-summary">
-    <p><strong>Status: Implemented, with pre-alpha behavior still subject to playtesting</strong></p>
+    <p><strong>Status: Implemented, with pre alpha behavior still subject to playtesting</strong></p>
     <p>The station, its processing modes, [Recipe Book](/recipe-book/overview/) integration, and stacked or surplus ingredient processing are currently implemented.</p>
 </div>
 
@@ -24,9 +24,9 @@ A recipe is matched against both its ingredient requirements and its required pr
 
 ## Recipe matching
 
-Blender recipes use the shared processing-station recipe matcher. Ingredient requirements can check the exact item, quantity, and preparation state required by the recipe.
+Blender recipes use the shared processing station recipe matcher. Ingredient requirements can check the exact item, quantity, and preparation state required by the recipe.
 
-The current batch-count behavior allows **surplus copies of ingredients already required by the recipe** while still rejecting unrelated extra ingredients.
+The current batch count behavior allows **surplus copies of ingredients already required by the recipe** while still rejecting unrelated extra ingredients.
 
 For example, if a recipe requires three of the same seed per execution, a larger compatible stack can remain in the station without making the recipe invalid.
 
@@ -54,7 +54,7 @@ This preserves exact recipe identity while allowing normal Minecraft stacks to b
 
 ## Recipe Book integration
 
-The Blender is part of the [Recipe Book](/recipe-book/overview/) preparation-plan and station-selection systems. A pinned Blender recipe can expose its exact ingredient requirements through the pinned HUD, and the selected recipe can be used by the station loading/autofill workflow.
+The Blender is part of the [Recipe Book](/recipe-book/overview/) preparation plan and station selection systems. A pinned Blender recipe can expose its exact ingredient requirements through the pinned HUD, and the selected recipe can be used by the station loading/autofill workflow.
 
 [Recipe Book](/recipe-book/overview/) quantities represent **recipe executions**, not the raw number of output items. When a bulk quantity is active, the queue stops after the requested number of executions even if additional compatible ingredients remain available.
 

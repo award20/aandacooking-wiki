@@ -17,7 +17,7 @@ A & A Cooking centralizes environment settings used by the solar clock, daylight
 | Real day length | Solar clock, `/aacooking time` | Controls how quickly 24,000 solar units advance in real time |
 | Seasonal daylight | Solar/daylight system | Enables or disables seasonally varying daylight calculations |
 | Climate latitude | Seasonal daylight, climate diagnostics | Changes solar declination/daylight behavior and is reported by climate commands |
-| Temperature unit | Climate and cooking-facing temperature displays | Selects the player-facing temperature format used by diagnostics |
+| Temperature unit | Climate and cooking facing temperature displays | Selects the player facing temperature format used by diagnostics |
 | Calendar preset | Game Calendar | Determines the active calendar structure used for dates, season lengths, and year length |
 
 ## Day length
@@ -26,7 +26,7 @@ The solar clock calculates its rate as:
 
 `solar units per tick = 24000 / (configured day length in seconds × 20)`
 
-This means the configured duration changes **real-time day speed** while keeping one complete solar cycle equal to 24,000 solar units.
+This means the configured duration changes **real time day speed** while keeping one complete solar cycle equal to 24,000 solar units.
 
 ### Duration syntax
 
@@ -38,7 +38,7 @@ Duration values accept:
 - `d`: days
 - `w`: weeks
 
-Values can contain decimals, and duration tokens can be combined after whitespace is removed. Examples of parser-compatible shapes include:
+Values can contain decimals, and duration tokens can be combined after whitespace is removed. Examples of parser compatible shapes include:
 
 ```text
 90s
@@ -47,7 +47,7 @@ Values can contain decimals, and duration tokens can be combined after whitespac
 1d12h
 ```
 
-The parser rejects empty, malformed, zero, and negative-total durations.
+The parser rejects empty, malformed, zero, and negative total durations.
 
 ## Seasonal daylight
 
@@ -72,7 +72,7 @@ The player facing config key and validated numeric range are not published here 
 
 ## Temperature unit
 
-A shared temperature-unit setting is used by environment diagnostics. The selected unit controls how temperatures and signed temperature offsets are formatted for the player.
+A shared temperature unit setting is used by environment diagnostics. The selected unit controls how temperatures and signed temperature offsets are formatted for the player.
 
 This matters because A & A Cooking is intended to use one coherent unit preference instead of having climate diagnostics and cooking interfaces disagree about temperature presentation.
 
@@ -85,7 +85,7 @@ The newer Game Calendar reports an active **calendar preset**, and the preset de
 - formatted date behavior
 - season lengths
 - total days in the year
-- resulting day-of-year and seasonal progress
+- resulting day of year and seasonal progress
 
 The complete preset catalog and exact configuration key are not published here yet.
 
@@ -102,7 +102,7 @@ The following commands are useful after changing environment settings:
 | Command | Useful for checking |
 |---|---|
 | `/aacooking calendar` | Active calendar preset and current calendar state |
-| `/aacooking time` | Configured day length, solar rate, seasonal-daylight state |
+| `/aacooking time` | Configured day length, solar rate, seasonal daylight state |
 | `/aacooking daylight` | Latitude, declination, sunrise, sunset, daylight duration |
 | `/aacooking temperature` | Temperature unit and full climate calculation |
 | `/aacooking weather` | Local atmospheric state and weather temperature contribution |

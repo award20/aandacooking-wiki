@@ -49,19 +49,19 @@ When a recipe completes, its required ingredients are consumed and the result is
 
 ## Freshness and spoilage
 
-The current processing pipeline rejects spoiled ingredients when a recipe requires food that must still be usable. Produced food inherits freshness through the shared recipe-output freshness rules rather than always starting at an unrelated fixed age.
+The current processing pipeline rejects spoiled ingredients when a recipe requires food that must still be usable. Produced food inherits freshness through the shared recipe output freshness rules rather than always starting at an unrelated fixed age.
 
-This allows multi-step preparations to carry food age forward through the recipe chain.
+This allows multi step preparations to carry food age forward through the recipe chain.
 
 ## Visual ingredients
 
 Ingredients placed into the Mixing Bowl are represented visually in the station. Their presentation shifts as the bowl is worked so the station reads as an active preparation surface instead of only an inventory screen.
 
-Exact animation timing and every recipe-specific presentation remain subject to pre-alpha polish.
+Exact animation timing and every recipe specific presentation remain subject to pre alpha polish.
 
 ## Recipe Book integration
 
-The Mixing Bowl participates in the [Recipe Book](/recipe-book/overview/) station-selection and preparation workflow. A pinned recipe can identify the Mixing Bowl as its required station and expose the exact input requirements needed for the selected recipe quantity.
+The Mixing Bowl participates in the [Recipe Book](/recipe-book/overview/) station selection and preparation workflow. A pinned recipe can identify the Mixing Bowl as its required station and expose the exact input requirements needed for the selected recipe quantity.
 
 Recipe quantities are counted as recipe executions. When bulk preparation is used, the station consumes one execution's requirements at a time while valid ingredients and output space remain available.
 

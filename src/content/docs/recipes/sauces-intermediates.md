@@ -10,9 +10,9 @@ Many A & A Cooking dishes are built from prepared components instead of raw ingr
 | Recipe ID | Product | Station | Processing |
 |---|---|---|---|
 | `tomato_sauce` | [Tomato Sauce](/recipes/details/tomato-sauce/) | [Saucepan](/cooking/saucepan/) | 12 seconds after reducing, gentle boil |
-| `tomato_puree` | Tomato Puree | [Blender](/stations/blender/) | 1 Blend cycle |
-| `tomato_paste` | Tomato Paste | [Saucepan](/cooking/saucepan/) | 16 seconds at 88 to 102 °C |
-| `tomato_ketchup` | Ketchup | [Saucepan](/cooking/saucepan/) | 12 seconds at 82 to 96 °C |
+| `tomato_puree` | [Tomato Puree](/recipes/details/tomato-puree/) | [Blender](/stations/blender/) | 1 Blend cycle |
+| `tomato_paste` | [Tomato Paste](/recipes/details/tomato-paste/) | [Saucepan](/cooking/saucepan/) | 16 seconds at 88 to 102 °C |
+| `tomato_ketchup` | [Ketchup](/recipes/details/ketchup/) | [Saucepan](/cooking/saucepan/) | 12 seconds at 82 to 96 °C |
 | `tomato_sauce_herb` | Herb Tomato Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 80 to 95 °C |
 
 [Tomato Sauce](/recipes/details/tomato-sauce/) and its later derivatives are used across pasta, pizza, glazed dishes, and other savory recipes.
@@ -22,7 +22,7 @@ Many A & A Cooking dishes are built from prepared components instead of raw ingr
 | Recipe ID | Product | Station | Processing |
 |---|---|---|---|
 | `salsa_fresh` | Fresh Salsa | [Mixing Bowl](/stations/mixing-bowl/) | 8 Mix actions |
-| `egg_mayonnaise` | Mayonnaise | [Mixing Bowl](/stations/mixing-bowl/) | 12 Whisk actions |
+| `egg_mayonnaise` | [Mayonnaise](/recipes/details/mayonnaise/) | [Mixing Bowl](/stations/mixing-bowl/) | 12 Whisk actions |
 | `onion_relish` | Onion Relish | [Saucepan](/cooking/saucepan/) | 14 seconds at 90 to 103 °C, at least 45% reduction |
 | `sweet_berry_sauce` | Sweet Berry Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 75 to 90 °C |
 | `apple_vinegar_dressing_herb` | Herb Apple Vinaigrette | [Mixing Bowl](/stations/mixing-bowl/) | 8 Whisk actions |
@@ -36,7 +36,7 @@ Soy Sauce itself is fermented and is documented under [Fermentation & Preservati
 |---|---|---|---|
 | `mushroom_sauce_creamy` | Creamy Mushroom Sauce | [Saucepan](/cooking/saucepan/) | 14 seconds on low heat |
 | `onion_gravy` | Onion Gravy | [Saucepan](/cooking/saucepan/) | 16 seconds at a gentle simmer |
-| `milk_cheese_sauce` | Cheese Sauce | [Saucepan](/cooking/saucepan/) | 10 seconds at 72 to 88 °C |
+| `milk_cheese_sauce` | [Cheese Sauce](/recipes/details/cheese-sauce/) | [Saucepan](/cooking/saucepan/) | 10 seconds at 72 to 88 °C |
 | `garlic_paste` | Garlic Paste | [Mortar and Pestle](/stations/mortar-and-pestle/) | 10 Grind actions |
 
 These components can feed later meals without requiring each final recipe to repeat the full preparation chain.
@@ -45,7 +45,7 @@ These components can feed later meals without requiring each final recipe to rep
 
 | Recipe ID | Product | Station |
 |---|---|---|
-| `tomato_puree` | Tomato Puree | [Blender](/stations/blender/) |
+| `tomato_puree` | [Tomato Puree](/recipes/details/tomato-puree/) | [Blender](/stations/blender/) |
 | `carrot_puree` | Carrot Puree | [Blender](/stations/blender/) |
 | `beetroot_puree` | Beetroot Puree | [Blender](/stations/blender/) |
 | `pumpkin_puree` | Pumpkin Puree | [Blender](/stations/blender/) |
@@ -60,29 +60,29 @@ Current dry intermediates include:
 
 - `cocoa_powder` (Cocoa Powder)
 - `wheat_flour` ([Wheat Flour](/recipes/details/wheat-flour/))
-- `garlic_powder` (Garlic Powder)
-- `onion_powder` (Onion Powder)
+- `garlic_powder` ([Garlic Powder](/recipes/details/garlic-powder/))
+- `onion_powder` ([Onion Powder](/recipes/details/onion-powder/))
 - `kelp_powder` (Kelp Powder)
 - `sugar_powdered` (Powdered Sugar)
-- `seasoning_savory` (Savory Seasoning)
+- `seasoning_savory` ([Savory Seasoning](/recipes/details/savory-seasoning/))
 - `herb_seasoning` (Herb Seasoning)
 - `breadcrumbs` (Breadcrumbs)
 - `breadcrumbs_seasoned` (Seasoned Breadcrumbs)
 
-Garlic Powder, Onion Powder, and Kelp Powder are combined in the [Mixing Bowl](/stations/mixing-bowl/) to produce Savory Seasoning.
+[Garlic Powder](/recipes/details/garlic-powder/), [Onion Powder](/recipes/details/onion-powder/), and Kelp Powder are combined in the [Mixing Bowl](/stations/mixing-bowl/) to produce [Savory Seasoning](/recipes/details/savory-seasoning/).
 
 ## Oils, butter, and dairy components
 
 | Item ID | Product | Role |
 |---|---|---|
-| `seed_oil` | Seed Oil | Cooking fat and recipe prerequisite |
-| `milk_butter` | Butter | Cooking and baking prerequisite |
+| `seed_oil` | [Seed Oil](/recipes/details/seed-oil/) | Cooking fat and recipe prerequisite |
+| `milk_butter` | [Butter](/recipes/details/butter/) | Cooking and baking prerequisite |
 | `milk_butter_garlic` | Garlic Butter | Savory spread and recipe prerequisite |
 | `milk_butter_herb` | Herb Butter | Herb spread and recipe prerequisite |
-| `milk_cream` | Cream | Dairy prerequisite |
-| `egg_beaten` | Beaten Egg | Mixed and baking prerequisite |
+| `milk_cream` | [Cream](/recipes/details/cream/) | Dairy prerequisite |
+| `egg_beaten` | [Beaten Egg](/recipes/details/beaten-egg/) | Mixed and baking prerequisite |
 
-Seed Oil is produced in the [Blender](/stations/blender/) using Pulse mode.
+[Seed Oil](/recipes/details/seed-oil/) is produced in the [Blender](/stations/blender/) using Pulse mode.
 
 ## Doughs, batters, and mixtures
 

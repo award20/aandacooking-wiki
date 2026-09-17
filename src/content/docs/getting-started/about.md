@@ -17,11 +17,11 @@ The following systems are currently part of A & A Cooking. Detailed rules and co
 | Cooking and processing | Cookware, heated cooking, oven processing, blending, mixing, and grinding |
 | [Recipe Book](/recipe-book/overview/) | Recipe entries, discovery, pinned recipe planning, and bulk cooking support |
 | [Recipe Notes](/recipe-book/notes-discovery/) | [Recipe Note](/recipe-book/notes-discovery/) items that identify recipes |
-| Kitchen storage | Counters, cabinets, fridge and freezer blocks, connected ingredient lookup, and pinned-recipe loading |
+| Kitchen storage | Counters, cabinets, fridge and freezer blocks, connected ingredient lookup, and pinned recipe loading |
 | Agriculture | [Cultivated Soil](/agriculture/cultivated-soil/), fertility, crop profiles, seasonal/environmental growth factors, pollination, vigor, yield, and harvest quality |
 | Freshness and spoilage | Perishable food aging, refrigerated storage, frozen storage, and recipe freshness propagation |
 | Fermentation | [Fermentation Crock](/stations/fermentation-crock/) recipes and timed processing |
-| Environment | Game Calendar, solar time, seasonal daylight, ambient/surface temperature, local weather, precipitation, wind, and snow-surface behavior |
+| Environment | Game Calendar, solar time, seasonal daylight, ambient/surface temperature, local weather, precipitation, wind, and snow surface behavior |
 
 ## Equipment
 

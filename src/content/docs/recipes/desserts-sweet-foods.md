@@ -64,8 +64,8 @@ Some sweet foods also use dairy preparations such as:
 
 - `milk_whipped_cream` (Whipped Cream)
 - `milk_custard` (Custard)
-- `milk_cream` (Cream)
-- `milk_butter` (Butter)
+- `milk_cream` ([Cream](/recipes/details/cream/))
+- `milk_butter` ([Butter](/recipes/details/butter/))
 
 See [Eggs & Dairy](/recipes/eggs-dairy/) for the wider dairy chain.
 

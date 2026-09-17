@@ -22,10 +22,10 @@ A & A Cooking includes a local weather and climate system that goes beyond Minec
 - wind speed in m/s
 - wind direction
 - weather temperature offset
-- weather-system travel rate in blocks per second
+- weather system travel rate in blocks per second
 - position
 
-Weather therefore varies spatially instead of being represented only by one world-wide rain boolean.
+Weather therefore varies spatially instead of being represented only by one worldwide rain boolean.
 
 ## Temperature model
 
@@ -41,17 +41,17 @@ The diagnostic output includes contributions from:
 - surface daily heating/cooling
 - surface weather contribution
 - solar heating
-- block-light heating
+- block light heating
 - solar exposure
 - cloud cover
 
-It also reports block light, whether the sky is visible, latitude, elevation and sea level in blocks, year progress, day progress, and the current snow-surface state.
+It also reports block light, whether the sky is visible, latitude, elevation and sea level in blocks, year progress, day progress, and the current snow surface state.
 
-The player-facing unit comes from the shared A & A Cooking temperature-unit configuration so climate and cooking diagnostics can use the same unit preference.
+The player facing unit comes from the shared A & A Cooking temperature unit configuration so climate and cooking diagnostics can use the same unit preference.
 
 ## Precipitation and snow
 
-The environment startup record confirms dedicated local precipitation and snow-surface controllers. Surface temperature is also converted into a named snow-surface state for diagnostics.
+The environment startup record confirms dedicated local precipitation and snow surface controllers. Surface temperature is also converted into a named snow surface state for diagnostics.
 
 Exact snow accumulation/sticking/melting thresholds are still changing and are therefore not frozen into this page yet.
 
@@ -77,7 +77,7 @@ Operators can search for and teleport to the nearest naturally matching weather 
 
 The current search:
 
-- is Overworld-only
+- is Overworld only
 - must be run by a player
 - checks outward in 256-block steps
 - searches up to 16,384 blocks from the player

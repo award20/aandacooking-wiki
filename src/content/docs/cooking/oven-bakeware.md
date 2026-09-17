@@ -3,7 +3,7 @@ title: Oven Bakeware
 description: Iron Baking Sheet and Iron Baking Dish usage, oven rack cookware requirements, and Recipe Book loading.
 ---
 
-A & A Cooking's oven can distinguish between food cooked directly on a rack and food cooked in dedicated bakeware. The current iron-tier bakeware consists of the **Iron Baking Sheet** and **Iron Baking Dish**.
+A & A Cooking's oven can distinguish between food cooked directly on a rack and food cooked in dedicated bakeware. The current iron tier bakeware consists of the **Iron Baking Sheet** and **Iron Baking Dish**.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
@@ -43,7 +43,7 @@ The cookware requirement is part of recipe matching. A recipe that explicitly re
 
 ## Recipe Book loading
 
-When an oven recipe is explicitly pinned, the station-loading system can source the exact missing ingredients from the connected kitchen network. If the recipe requires an Iron Baking Sheet or Iron Baking Dish, the loader can also pull the required bakeware and insert it into the appropriate oven cookware slot.
+When an oven recipe is explicitly pinned, the station loading system can source the exact missing ingredients from the connected kitchen network. If the recipe requires an Iron Baking Sheet or Iron Baking Dish, the loader can also pull the required bakeware and insert it into the appropriate oven cookware slot.
 
 This follows the same rule used by the rest of the station autofill system: the station uses the player's explicitly selected recipe rather than guessing from nearby ingredients.
 

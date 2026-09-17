@@ -36,7 +36,7 @@ Fertility contributes a growth multiplier from:
 
 The factor scales linearly between those values.
 
-Fertility also contributes **15%** of the crop's environmental target-vigor calculation.
+Fertility also contributes **15%** of the crop's environmental target vigor calculation.
 
 ## Fertility consumption
 
@@ -44,7 +44,7 @@ After a successful crop growth step, the crop may consume one fertility level. T
 
 Current values include:
 
-| Crop | Fertility-consumption chance |
+| Crop | Fertility consumption chance |
 |---|---:|
 | Tomato | 45% |
 | Onion | 30% |
@@ -62,7 +62,7 @@ Several A & A Cooking ingredients can also be used with Minecraft's composter:
 | Tomato Seeds | 30% |
 | Onion Seeds | 30% |
 
-These composter chances are separate from the direct-use Compost item described above.
+These composter chances are separate from the direct use Compost item described above.
 
 ## Related pages
 

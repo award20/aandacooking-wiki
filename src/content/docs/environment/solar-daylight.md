@@ -3,24 +3,24 @@ title: Solar Time & Daylight
 description: Configurable day length, solar time progression, seasonal daylight, latitude, sunrise, and sunset.
 ---
 
-A & A Cooking manages an exact **solar clock** for the Overworld and can vary daylight length seasonally. This separates real-time day duration from the normal assumption that one Minecraft day always advances at the vanilla rate.
+A & A Cooking manages an exact **solar clock** for the Overworld and can vary daylight length seasonally. This separates real time day duration from the normal assumption that one Minecraft day always advances at the vanilla rate.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The solar clock supports configurable real day length, fractional solar-time progression, external time changes, the daylight-cycle gamerule, and seasonal daylight diagnostics.</p>
+    <p>The solar clock supports configurable real day length, fractional solar time progression, external time changes, the daylight cycle gamerule, and seasonal daylight diagnostics.</p>
 </div>
 
 ## Configurable day length
 
-The solar-time rate is calculated from the configured real day length:
+The solar time rate is calculated from the configured real day length:
 
 `solar units per tick = 24000 / (day length in seconds × 20)`
 
 The system therefore still uses **24,000 solar units per full day**, but changes how quickly those units advance.
 
-The exact fractional solar position is tracked internally so long custom day lengths do not lose sub-tick progress.
+The exact fractional solar position is tracked internally so long custom day lengths do not lose fractional tick progress.
 
-## Daylight-cycle gamerule
+## Daylight cycle gamerule
 
 When `doDaylightCycle` is disabled, A & A Cooking does not advance the managed solar clock.
 

@@ -7,7 +7,7 @@ The Recipe Book is a placed block that stores discovered recipes, progression, a
 
 ## Placing and opening
 
-Place the Recipe Book on top of either a full solid support or a kitchen-connecting block. Use the placed book to open its recipe interface.
+Place the Recipe Book on top of either a full solid support or a kitchen connecting block. Use the placed book to open its recipe interface.
 
 The book stores its progress with the block. In Survival mode, breaking a placed book drops a book item carrying that progress. Crafting and acquisition details will be documented separately.
 
@@ -32,11 +32,11 @@ The Recipe Book interface provides:
 - Recipe pinning
 - Quantity controls
 
-The details view is the reference for a specific recipe. It can show the station, ingredients, preparation steps, cooking information, and instructions stored in the recipe-book entry.
+The details view is the reference for a specific recipe. It can show the station, ingredients, preparation steps, cooking information, and instructions stored in the recipe book entry.
 
 ## Pinning and quantity
 
-Select a recipe and use **Pin Recipe** to keep it available for the pinned-recipe HUD and compatible station features. A pinned recipe can also be selected for station autofill where the station and its current contents support it.
+Select a recipe and use **Pin Recipe** to keep it available for the pinned recipe HUD and compatible station features. A pinned recipe can also be selected for station autofill where the station and its current contents support it.
 
 Recipe quantity means the number of recipe executions, not the number of output items. The interface accepts quantities from 1 through 64. The quantity button cycles through 1, 5, 10, 20, 32, and 64; the increment and decrement controls can adjust the value between those limits.
 

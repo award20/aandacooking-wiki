@@ -18,7 +18,7 @@ The current content can be browsed through several broad families:
 | Grains and legumes | Wheat, Rice, Soybean and their processed derivatives |
 | Eggs and dairy | Egg preparations, milk products, cream, butter, cheese, custard and related foods |
 | Herbs and seasonings | Fresh herbs, crushed/ground herbs, herb blends, Salt and powdered ingredients |
-| Liquids and sauces | Juices, Seed Oil, Salt Brine, sauces, purees, pastes and fermented liquids |
+| Liquids and sauces | Juices, [Seed Oil](/recipes/details/seed-oil/), Salt Brine, sauces, purees, pastes and fermented liquids |
 | Doughs and batters | Bread doughs, pancake batters, cookie doughs, focaccia dough and similar intermediates |
 | Cooked components | [Cooked Rice](/recipes/details/cooked-rice/), noodles, seared foods, tofu, sauces and other prerequisites used by larger dishes |
 | Finished dishes | Soups, stews, stir fries, pasta, rice dishes, baked foods, drinks and desserts |

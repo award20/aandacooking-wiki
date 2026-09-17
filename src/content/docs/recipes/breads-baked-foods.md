@@ -82,7 +82,7 @@ See [Oven Bakeware](/cooking/oven-bakeware/) for the shared rack and bakeware be
 Baking commonly depends on other parts of the kitchen:
 
 - [Mixing Bowl](/stations/mixing-bowl/) for applicable doughs, batters, and mixtures
-- [Sauces & Intermediates](/recipes/sauces-intermediates/) for flour, butter, cream, egg preparations, purees, doughs, and batters
+- [Sauces & Intermediates](/recipes/sauces-intermediates/) for flour, [Butter](/recipes/details/butter/), [Cream](/recipes/details/cream/), egg preparations, purees, doughs, and batters
 - [Ingredient Preparation](/getting-started/ingredient-preparation/) when produce needs washing or cutting before assembly
 - [Recipe Book](/recipe-book/overview/) for prerequisite planning and pinned recipe loading
 

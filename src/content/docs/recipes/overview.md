@@ -73,6 +73,13 @@ Dedicated recipe pages currently include:
 - [Wheat Bread](/recipes/details/wheat-bread/)
 - [Cooked Rice](/recipes/details/cooked-rice/)
 - [Fresh Tofu](/recipes/details/fresh-tofu/)
+- [Beaten Egg](/recipes/details/beaten-egg/)
+- [Seed Oil](/recipes/details/seed-oil/)
+- [Tomato Paste](/recipes/details/tomato-paste/)
+- [Ketchup](/recipes/details/ketchup/)
+- [Mayonnaise](/recipes/details/mayonnaise/)
+- [Fresh Cheese](/recipes/details/fresh-cheese/)
+- [Cheese Sauce](/recipes/details/cheese-sauce/)
 
 More recipe names will become links as dedicated pages are added.
 

@@ -19,7 +19,7 @@ The fine controls support both small and large adjustments:
 - **±1 °C** for precise changes
 - **±10 °C** for faster adjustment
 
-Internally, the temperature system keeps Celsius values at hundredth-degree precision even though the player-facing controls use normal whole-degree adjustments.
+Internally, the temperature system keeps Celsius values at hundredth degree precision even though the player facing controls use normal whole degree adjustments.
 
 ## Temperature ranges
 
@@ -52,7 +52,7 @@ Cookware placed on the stovetop does not simply become its target temperature in
 
 That thermal state is then used by heated recipes to determine whether the current cookware is within the recipe's valid temperature range.
 
-Detailed cookware-specific capacities, heat response, liquid rules, and serving behavior will be documented on the dedicated cookware pages.
+Detailed cookware specific capacities, heat response, liquid rules, and serving behavior will be documented on the dedicated cookware pages.
 
 ## Oven preheating
 
@@ -79,11 +79,11 @@ The **[Iron Baking Sheet](/cooking/oven-bakeware/)** and **[Iron Baking Dish](/c
 
 Once a valid heated recipe is underway, the cooking system tracks its recipe state and doneness rather than continuously swapping to a different result because another recipe happens to become temporarily matchable.
 
-This recipe-locking behavior keeps a cooking process associated with the recipe that actually began it while its requirements remain valid.
+This recipe locking behavior keeps a cooking process associated with the recipe that actually began it while its requirements remain valid.
 
 ## Freshness and spoilage
 
-Heated recipes reject spoiled ingredients when those ingredients are no longer valid food inputs. Completed food inherits freshness through the current recipe-output freshness rules so cooking does not automatically reset every ingredient to an unrelated fresh state.
+Heated recipes reject spoiled ingredients when those ingredients are no longer valid food inputs. Completed food inherits freshness through the current recipe output freshness rules so cooking does not automatically reset every ingredient to an unrelated fresh state.
 
 ## Kitchen storage network
 
@@ -91,7 +91,7 @@ The Stovetop/Oven can act as a transparent bridge in the connected kitchen stora
 
 `Counter → Stovetop/Oven → Cabinet → Sink → Counter`
 
-can remain one connected ingredient-search network instead of being broken into separate groups by the functional stations between the storage blocks.
+can remain one connected ingredient search network instead of being broken into separate groups by the functional stations between the storage blocks.
 
 ## Recipe Book loading
 

@@ -42,7 +42,7 @@ Prepared coatings and seasoning chains can become prerequisites before the prote
 | `cod_breaded_crispy` | Crispy Breaded Cod | 18 seconds | Medium high heat |
 | `chicken_cutlet_seasoned` | Seasoned Chicken Cutlet | 20 seconds | Medium high heat |
 
-Crispy breaded dishes depend on breadcrumb preparation. The seasoned Chicken Cutlet uses Seed Oil and Savory Seasoning, so one finished dish can depend on several earlier preparation stations.
+Crispy breaded dishes depend on breadcrumb preparation. The seasoned Chicken Cutlet uses [Seed Oil](/recipes/details/seed-oil/) and [Savory Seasoning](/recipes/details/savory-seasoning/), so one finished dish can depend on several earlier preparation stations.
 
 ## Glazed proteins
 

@@ -107,7 +107,21 @@ export default defineConfig({
                                 { label: 'Bread Dough', slug: 'recipes/details/bread-dough' },
                                 { label: 'Wheat Bread', slug: 'recipes/details/wheat-bread' },
                                 { label: 'Cooked Rice', slug: 'recipes/details/cooked-rice' },
-                                { label: 'Fresh Tofu', slug: 'recipes/details/fresh-tofu' }
+                                { label: 'Fresh Tofu', slug: 'recipes/details/fresh-tofu' },
+                                { label: 'Beaten Egg', slug: 'recipes/details/beaten-egg' },
+                                { label: 'Seed Oil', slug: 'recipes/details/seed-oil' },
+                                { label: 'Tomato Paste', slug: 'recipes/details/tomato-paste' },
+                                { label: 'Ketchup', slug: 'recipes/details/ketchup' },
+                                { label: 'Mayonnaise', slug: 'recipes/details/mayonnaise' },
+                                { label: 'Fresh Cheese', slug: 'recipes/details/fresh-cheese' },
+                                { label: 'Cheese Sauce', slug: 'recipes/details/cheese-sauce' },
+                                { label: 'Tomato Puree', slug: 'recipes/details/tomato-puree' },
+                                { label: 'Garlic Powder', slug: 'recipes/details/garlic-powder' },
+                                { label: 'Onion Powder', slug: 'recipes/details/onion-powder' },
+                                { label: 'Cream', slug: 'recipes/details/cream' },
+                                { label: 'Butter', slug: 'recipes/details/butter' },
+                                { label: 'Shredded Cheese', slug: 'recipes/details/shredded-cheese' },
+                                { label: 'Savory Seasoning', slug: 'recipes/details/savory-seasoning' }
                             ]
                         }
                     ]

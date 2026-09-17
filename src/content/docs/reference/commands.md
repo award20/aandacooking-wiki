@@ -1,10 +1,10 @@
 ---
 title: Commands
 
-description: A reference for A & A Cooking diagnostic and weather-control commands.
+description: A reference for A & A Cooking diagnostic and weather control commands.
 ---
 
-A & A Cooking provides `/aacooking` commands for inspecting the calendar, solar clock, daylight, temperature, and local weather systems. Most diagnostic commands are available without operator-level checks in the current command implementation, while weather-changing and weather-teleport commands require permission level 2.
+A & A Cooking provides `/aacooking` commands for inspecting the calendar, solar clock, daylight, temperature, and local weather systems. Most diagnostic commands are available without operator level checks in the current command implementation, while weather changing and weather teleport commands require permission level 2.
 
 <div class="page-summary">
     <p><strong>Status: Implemented development commands</strong></p>
@@ -15,11 +15,11 @@ A & A Cooking provides `/aacooking` commands for inspecting the calendar, solar 
 
 | Command | Purpose | Permission |
 |---|---|---|
-| `/aacooking season` | Show the current season and season-day progress | Normal command access |
+| `/aacooking season` | Show the current season and season day progress | Normal command access |
 | `/aacooking calendar` | Show the full Game Calendar state | Normal command access |
 | `/aacooking time` | Inspect solar time and the configured day rate | Normal command access |
 | `/aacooking daylight` | Inspect seasonal sunrise, sunset, and daylight length | Normal command access |
-| `/aacooking temperature` | Inspect ambient and surface-temperature calculations at the command position | Normal command access |
+| `/aacooking temperature` | Inspect ambient and surface temperature calculations at the command position | Normal command access |
 | `/aacooking weather` | Inspect the local weather field at the command position | Normal command access |
 | `/aacooking weather set <condition>` | Force a weather condition for the current local region | Permission level 2 |
 | `/aacooking weather clear` | Remove the weather override from the current local region | Permission level 2 |
@@ -36,7 +36,7 @@ Reports:
 - total days in the current season
 - world day
 
-The newer command implementation reads this information from the shared **Game Calendar** rather than the earlier fixed-season counter.
+The newer command implementation reads this information from the shared **Game Calendar** rather than the earlier fixed season counter.
 
 ## Calendar
 
@@ -81,7 +81,7 @@ Reports:
 - sunrise
 - sunset
 
-This is useful for checking the seasonal-light calculations used by the environment system.
+This is useful for checking the seasonal light calculations used by the environment system.
 
 ## Temperature
 
@@ -94,7 +94,7 @@ It reports:
 - configured display unit
 - ambient air temperature
 - surface temperature
-- snow-surface state
+- snow surface state
 - biome base temperature
 - seasonal temperature offset
 - daily air offset
@@ -103,7 +103,7 @@ It reports:
 - weather air offset
 - surface weather contribution
 - solar heating
-- block-light heating
+- block light heating
 - solar exposure
 - block light level
 - whether the sky is visible
