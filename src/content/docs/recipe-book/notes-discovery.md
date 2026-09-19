@@ -7,7 +7,9 @@ A & A Cooking uses a generic **Recipe Note** item (`aandacooking:recipe_note`) t
 
 ## Discovering a recipe
 
-Use a valid Recipe Note on a placed [Recipe Book](/recipe-book/overview/) to discover the stored recipe. A successfully used note is consumed. A recipe already known by the book is not added a second time.
+Recipes can be discovered through successful experimentation at A & A Cooking stations or by using a Recipe Note. See the [Recipe Book](/recipe-book/overview/) guide for experimental discovery behavior.
+
+To use a Recipe Note, use a valid note on a placed Recipe Book to discover the stored recipe. A successfully used note is consumed. A recipe already known by the book is not added a second time.
 
 ## Structure discovery
 

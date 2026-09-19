@@ -59,7 +59,15 @@ Supported station loading preserves existing valid inputs and pulls only missing
 
 ## Discovery
 
-A valid [Recipe Note](/recipe-book/notes-discovery/) discovers its stored recipe when used on a Recipe Book. Recipe Notes are found in Villages, Shipwrecks, and Stronghold libraries and can also be copied from known recipes for sharing.
+Recipes can be discovered through experimentation or by using a valid [Recipe Note](/recipe-book/notes-discovery/).
+
+When a valid A & A Cooking recipe finishes at a cooking or processing station and the recipe is not already known, the nearest Recipe Book on the connected kitchen network learns it automatically. If no connected book is found, a Recipe Book within 8 blocks can receive the discovery instead.
+
+The closest player within 8 blocks of the station receives an action bar message such as **Recipe Discovered: Fried Egg** when a new recipe is added. Recipes that are already known do not show the message again.
+
+Experimental discovery works with the Skillet, Wok, Saucepan, Stockpot, Oven, Blender, Mixing Bowl, Mortar and Pestle, and Fermentation Crock. The crafted Cream recipe also uses the same discovery behavior.
+
+Recipe Notes remain another discovery path. They are found in Villages, Shipwrecks, and Stronghold libraries and can also be copied from known recipes for sharing.
 
 See [Recipe Notes & Discovery](/recipe-book/notes-discovery/) for exact structure chances and category pools.
 
