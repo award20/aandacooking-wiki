@@ -1,29 +1,27 @@
 ---
 title: Commands
-
-description: A reference for A & A Cooking diagnostic and weather control commands.
+description: Complete A & A Cooking command reference for calendar, climate, Recipe Book administration, and local weather.
 ---
 
-A & A Cooking provides `/aacooking` commands for inspecting the calendar, solar clock, daylight, temperature, and local weather systems. Most diagnostic commands are available without operator level checks in the current command implementation, while weather changing and weather teleport commands require permission level 2.
-
-<div class="page-summary">
-    <p><strong>Status: Implemented development commands</strong></p>
-    <p>The command reference includes the Game Calendar, climate diagnostics, local weather overrides, and weather searching.</p>
-</div>
+A & A Cooking provides `/aacooking` commands for diagnostics, playtest administration, Recipe Book testing, and local weather control.
 
 ## Command overview
 
 | Command | Purpose | Permission |
 |---|---|---|
-| `/aacooking season` | Show the current season and season day progress | Normal command access |
+| `/aacooking season` | Show the current season and season progress | Normal command access |
 | `/aacooking calendar` | Show the full Game Calendar state | Normal command access |
-| `/aacooking time` | Inspect solar time and the configured day rate | Normal command access |
+| `/aacooking time` | Inspect solar time and configured day rate | Normal command access |
 | `/aacooking daylight` | Inspect seasonal sunrise, sunset, and daylight length | Normal command access |
-| `/aacooking temperature` | Inspect ambient and surface temperature calculations at the command position | Normal command access |
-| `/aacooking weather` | Inspect the local weather field at the command position | Normal command access |
-| `/aacooking weather set <condition>` | Force a weather condition for the current local region | Permission level 2 |
-| `/aacooking weather clear` | Remove the weather override from the current local region | Permission level 2 |
-| `/aacooking weather tp <condition>` | Search for and teleport to the nearest naturally matching weather region | Permission level 2 |
+| `/aacooking temperature` | Inspect ambient and surface temperature calculations | Normal command access |
+| `/aacooking weather` | Inspect the local weather field | Normal command access |
+| `/aacooking recipebook tier <tier>` | Set the targeted Recipe Book tier and matching appearance | Permission level 2 |
+| `/aacooking recipebook discover <recipe>` | Discover one recipe in the targeted Recipe Book | Permission level 2 |
+| `/aacooking recipebook discover_all` | Discover every Recipe Book entry | Permission level 2 |
+| `/aacooking recipebook reset` | Reset the targeted Recipe Book to empty Iron progress | Permission level 2 |
+| `/aacooking weather set <condition>` | Force a local weather condition | Permission level 2 |
+| `/aacooking weather clear` | Remove the current local weather override | Permission level 2 |
+| `/aacooking weather tp <condition>` | Find and teleport to naturally matching weather | Permission level 2 |
 
 ## Season
 
@@ -36,8 +34,6 @@ Reports:
 - total days in the current season
 - world day
 
-The newer command implementation reads this information from the shared **Game Calendar** rather than the earlier fixed season counter.
-
 ## Calendar
 
 `/aacooking calendar`
@@ -47,12 +43,12 @@ Reports:
 - formatted date
 - weekday
 - season
-- season day and total days in that season
-- day of year and total days in the year
+- season day and season length
+- day of year and year length
 - world day
 - active calendar preset
 
-See [Calendar & Seasons](/environment/calendar-seasons/) for how this information connects to agriculture and environmental simulation.
+See [Calendar & Seasons](/environment/calendar-seasons/).
 
 ## Solar time
 
@@ -66,37 +62,31 @@ Reports:
 - solar units advanced per tick
 - whether seasonal daylight is enabled
 
-The command uses the Overworld solar clock as its reference.
-
 ## Daylight
 
 `/aacooking daylight`
 
 Reports:
 
-- whether seasonal daylight is enabled
-- configured climate latitude
+- seasonal daylight state
+- configured latitude
 - solar declination
-- daylight length
+- daylight duration
 - sunrise
 - sunset
-
-This is useful for checking the seasonal light calculations used by the environment system.
 
 ## Temperature
 
 `/aacooking temperature`
 
-The temperature diagnostic samples the command position and separates **ambient air** from **surface temperature**.
+Reports the current ambient and surface climate calculation, including:
 
-It reports:
-
-- configured display unit
+- display temperature unit
 - ambient air temperature
 - surface temperature
 - snow surface state
 - biome base temperature
-- seasonal temperature offset
+- seasonal offset
 - daily air offset
 - surface daily contribution
 - altitude offset
@@ -105,8 +95,8 @@ It reports:
 - solar heating
 - block light heating
 - solar exposure
-- block light level
-- whether the sky is visible
+- block light
+- sky visibility
 - cloud cover
 - biome temperature value
 - latitude
@@ -116,18 +106,58 @@ It reports:
 - day progress
 - sampled position
 
-See [Weather & Climate](/environment/weather-climate/) for the environmental model behind these values.
+## Recipe Book commands
+
+Recipe Book administration commands act on the **Recipe Book block the player is looking at within 8 blocks**. They must be run by a player.
+
+### Set tier
+
+`/aacooking recipebook tier <tier>`
+
+Accepted tiers:
+
+- `iron`
+- `stainless_steel`
+- `diamond_coated`
+- `netherite`
+- `culinary_compendium`
+
+Setting the tier also switches the book to the matching default appearance.
+
+### Discover one recipe
+
+`/aacooking recipebook discover <recipe>`
+
+The recipe argument accepts the Recipe Book recipe ID. Command suggestions expose registered recipe IDs.
+
+Examples:
+
+`/aacooking recipebook discover tomato_soup`
+
+`/aacooking recipebook discover aandacooking:tomato_soup`
+
+### Discover all
+
+`/aacooking recipebook discover_all`
+
+Adds all **233** current Recipe Book entries to the targeted book and advances it to the tier earned by full completion.
+
+### Reset
+
+`/aacooking recipebook reset`
+
+Clears discovered recipes and restores the Recipe Book to empty Iron progress.
 
 ## Weather report
 
 `/aacooking weather`
 
-Reports the effective local weather sample at the command position:
+Reports:
 
 - pressure in hPa
 - relative humidity
 - cloud cover
-- precipitation intensity and precipitation state
+- precipitation intensity and state
 - storm energy
 - wind speed in m/s
 - wind direction
@@ -139,45 +169,48 @@ Reports the effective local weather sample at the command position:
 
 `/aacooking weather set <condition>`
 
-Forces the selected weather condition in the local weather region containing the command position.
+Accepted condition names:
 
-Current command behavior:
+- `dry`
+- `drizzle`
+- `light`
+- `moderate`
+- `heavy`
+- `rumbling`
+- `thunderstorm`
+- `severe`
+- `extreme`
 
-- requires permission level 2
-- only works in the Overworld
-- uses command suggestions from the current `WeatherCondition` registry
-- reports the selected condition, region size, and region center after applying the override
+The command is restricted to the Overworld and requires permission level 2.
 
-The exact condition catalog is not published here yet because weather conditions are still expanding.
+See [Weather Reference](/environment/weather-reference/) for the values represented by each condition.
 
 ## Clear local weather
 
 `/aacooking weather clear`
 
-Removes the local override for the region containing the command position.
-
-The command returns an error when that region has no active override.
+Removes the weather override from the current local region. The command reports an error if that region has no override.
 
 ## Find natural weather
 
 `/aacooking weather tp <condition>`
 
-Searches outward from the player for naturally generated weather matching the requested condition and teleports the player to the nearest valid match found by the search.
+Searches outward from the player for naturally generated weather matching the requested condition and teleports the player to the nearest valid match.
 
-Current behavior:
+The search:
 
-- requires permission level 2
-- only works in the Overworld
-- must be executed by a player
-- checks outward in 256-block steps
+- is Overworld only
+- must be run by a player
+- checks outward in 256 block steps
 - searches up to 16,384 blocks away
-- checks the atmospheric weather field and verifies the resolved surface position before accepting a target
-
-This is primarily a development/testing tool for reaching a naturally generated weather state without forcing that weather locally.
+- verifies the atmospheric field and resolved surface position before accepting a target
 
 ## Related pages
 
 - [Configuration](/reference/configuration/)
+- [Recipe Book](/recipe-book/overview/)
+- [Complete Recipe Index](/recipes/complete-index/)
 - [Calendar & Seasons](/environment/calendar-seasons/)
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Weather & Climate](/environment/weather-climate/)
+- [Weather Reference](/environment/weather-reference/)

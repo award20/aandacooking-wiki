@@ -37,13 +37,13 @@ The [Stovetop/Oven](/stations/stovetop-oven/) currently exposes these temperatur
 
 | Preset | Temperature |
 |---|---:|
-| Low | 95 °C |
-| Low Med | 120 °C |
-| Med | 150 °C |
-| Med High | 180 °C |
-| High | 230 °C |
+| Low | 80 °C |
+| Low Med | 95 °C |
+| Med | 160 °C |
+| Med High | 190 °C |
+| High | 225 °C |
 
-Heated recipes can define their own acceptable temperature range. The [Stovetop/Oven](/stations/stovetop-oven/) and heated cookware pages will document the interaction between presets, heat sources, cookware, liquids, and recipe ranges as those rules are verified in game.
+Heated recipes can define their own acceptable temperature range. The [Stovetop/Oven](/stations/stovetop-oven/) and [Cookware Overview](/cooking/cookware/) document the heat source and cookware behavior. Exact recipe ranges are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Freshness and spoilage
 
@@ -55,4 +55,4 @@ This matters most for multi step recipes, where an ingredient can move through p
 
 Each recipe page should list the station, item quantities, preparation states, temperature, duration, mode, output, and any special control. Central mechanics belong on this page so individual recipes can link to them without repeating the full explanation.
 
-See [Cookware Overview](/cooking/cookware/) for the shared cookware model and [First Steps](/getting-started/first-steps/) for the basic workflow, [Ingredient Preparation](/getting-started/ingredient-preparation/) for preparation paths, and the dedicated [Kitchen Sink](/stations/kitchen-sink/), [Cutting Board](/stations/cutting-board/), [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), [Stovetop/Oven](/stations/stovetop-oven/), and [Fermentation Crock](/stations/fermentation-crock/) guides for station specific behavior. See [Recipe Catalog](/recipes/overview/) for the growing content reference.
+See [Cookware Overview](/cooking/cookware/) for the shared cookware model and [First Steps](/getting-started/first-steps/) for the basic workflow, [Ingredient Preparation](/getting-started/ingredient-preparation/) for preparation paths, and the dedicated [Kitchen Sink](/stations/kitchen-sink/), [Cutting Board](/stations/cutting-board/), [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), [Stovetop/Oven](/stations/stovetop-oven/), and [Fermentation Crock](/stations/fermentation-crock/) guides for station specific behavior. See [Recipe Catalog](/recipes/overview/) for category guides and [Complete Recipe Index](/recipes/complete-index/) for all 233 entries.

@@ -1,63 +1,51 @@
 ---
 title: Documentation Coverage
-description: What the A & A Cooking wiki currently covers and which areas still need more detail.
+description: What the A & A Cooking wiki covers for the private alpha playtest build.
 ---
 
-A & A Cooking is still in pre alpha development, so the wiki grows alongside the mod. Implemented systems are documented separately from features that are still being developed or planned for later.
+This wiki is aligned to the **final private alpha playtest candidate** supplied for A & A Cooking. The goal of this documentation pass is to cover every current player facing system and provide exhaustive indexes for content that does not need its own page.
 
-## Version Coverage
+## Coverage summary
 
-| Field | Current coverage |
-|---|---|
-| Minecraft target | 1.21.10 |
-| Mod loader | Fabric |
-| Development stage | Pre alpha |
-| Public release version | Not published yet |
+The current wiki covers:
 
-Installation requirements, release downloads, and migration notes will be added when public builds are available.
+- **233 Recipe Book entries** through the [Complete Recipe Index](/recipes/complete-index/)
+- **40 registered blocks** and the current item catalog through the [Complete Content Index](/reference/content-index/)
+- equipment and block crafting through [Equipment & Crafting](/reference/equipment-crafting/)
+- all four cookware families and all four cookware material tiers
+- Stovetop/Oven and oven bakeware
+- Blender, Mixing Bowl, Mortar and Pestle, Fermentation Crock, Jar Sealer, Kitchen Sink, and Cutting Board
+- connected Counters, Cabinets, Fridges, and Freezers
+- freshness, spoilage, preservation, refrigeration, and freezing
+- all nine current crops, Cultivated Soil, fertility, vigor, pollination, climate response, and storm damage
+- Game Calendar, solar time, seasonal daylight, climate, local weather, snow, lightning, and Weather Chart
+- Recipe Book discovery, tiers, appearances, notes, pinning, prerequisite planning, bulk quantities, and station loading
+- Salt and Recipe Note structure loot
+- `/aacooking` commands and both current configuration files
+- Stockpot freeform cooking, serving, quality, potion infusion, and Elixirs
 
-## Feature Status
+## Exhaustive references
 
-| Label | Meaning |
-|---|---|
-| Implemented | Available in the currently documented version of the mod |
-| In development | Present or actively being built, but still subject to changes |
-| Planned | Intended for a future update and not currently available |
-| Needs verification | A detail exists, but the wiki does not yet publish an exact value or behavior for it |
+Use these pages when a subject does not have a dedicated guide:
 
-An implemented feature can still receive balance changes, visual improvements, bug fixes, or additional recipes while the mod remains in pre alpha development.
+- [Complete Recipe Index](/recipes/complete-index/) for every discoverable recipe
+- [Complete Content Index](/reference/content-index/) for registered player facing blocks and items
+- [Equipment & Crafting](/reference/equipment-crafting/) for current equipment crafting recipes
+- [Weather Reference](/environment/weather-reference/) for named weather conditions
+- [Current Crops](/agriculture/crops/) for all crop profiles
 
-## Current Coverage
+## Planned content
 
-The wiki currently documents the main cooking and agriculture systems, including:
+Future ideas remain separate on [Planned Features](/development/planned-features/). A feature listed there should not be read as part of the current playtest build.
 
-- ingredient washing, cutting, peeling, and preparation states
-- [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), [Fermentation Crock](/stations/fermentation-crock/), [Jar Sealer](/stations/jar-sealer/), and other kitchen stations
-- [Stockpot](/cooking/stockpot/), [Saucepan](/cooking/saucepan/), [Skillet](/cooking/skillet/), [Wok](/cooking/wok/), oven bakeware, and [Stovetop/Oven](/stations/stovetop-oven/) behavior
-- connected Cabinets, Counters, Fridges, Freezers, freshness handling, and jar sealing
-- [Recipe Book](/recipe-book/overview/) progression, pinning, prerequisite planning, [Recipe Notes](/recipe-book/notes-discovery/), and discovery
-- [Cultivated Soil](/agriculture/cultivated-soil/), fertility, crop vigor, pollination, harvest quality, and current crops
-- calendar, seasons, solar time, seasonal daylight, temperature, weather, and climate systems
-- commands and player facing configuration areas
-- ingredient families, [Fermentation & Preservation](/recipes/fermentation-preservation/), [Rice & Soybean](/ingredients/rice-soybean/) production chains, and the growing [Recipe Catalog](/recipes/overview/)
+## Playtest changes
 
-Recipe catalog pages are organized by food family so new dishes can be added without turning the wiki into one very large table. Dedicated recipe references currently cover [Tomato Soup](/recipes/details/tomato-soup/), [Tomato Sauce](/recipes/details/tomato-sauce/), [Wheat Flour](/recipes/details/wheat-flour/), [Bread Dough](/recipes/details/bread-dough/), [Wheat Bread](/recipes/details/wheat-bread/), [Cooked Rice](/recipes/details/cooked-rice/), [Fresh Tofu](/recipes/details/fresh-tofu/), [Beaten Egg](/recipes/details/beaten-egg/), [Seed Oil](/recipes/details/seed-oil/), [Tomato Paste](/recipes/details/tomato-paste/), [Ketchup](/recipes/details/ketchup/), [Mayonnaise](/recipes/details/mayonnaise/), [Fresh Cheese](/recipes/details/fresh-cheese/), [Cheese Sauce](/recipes/details/cheese-sauce/), [Tomato Puree](/recipes/details/tomato-puree/), [Garlic Powder](/recipes/details/garlic-powder/), [Onion Powder](/recipes/details/onion-powder/), [Cream](/recipes/details/cream/), [Butter](/recipes/details/butter/), [Shredded Cheese](/recipes/details/shredded-cheese/), and [Savory Seasoning](/recipes/details/savory-seasoning/).
+Values and behavior can still change in response to playtesting. When the mod changes, the wiki should be updated from the implementation rather than leaving older playtest values in place.
 
-## Areas Still Expanding
+## Related pages
 
-Some sections are intentionally broader than individual recipe pages. Future documentation work will continue adding:
-
-- exact ingredient quantities and output counts for more recipes
-- cooking temperatures, processing times, toss requirements, and bakeware requirements
-- additional crop and ingredient pages as agriculture expands
-- more detailed weather condition and climate references
-- finalized configuration keys and defaults once those settings are stable for players
-- release, installation, and upgrade information when public builds are available
-
-If a detail is still changing or has not been fully documented, the page will say so instead of presenting a guessed value as final.
-
-## Corrections
-
-If something in the wiki does not match the mod, include the page name, the build you are using, and what you observed. Screenshots or relevant log messages can also help identify whether the issue is in the documentation or the mod.
-
-- [World Generation & Discovery](/development/world-generation-discovery/) documents current structure loot and planned world integration
+- [About A & A Cooking](/getting-started/about/)
+- [First Steps](/getting-started/first-steps/)
+- [Complete Recipe Index](/recipes/complete-index/)
+- [Complete Content Index](/reference/content-index/)
+- [Planned Features](/development/planned-features/)

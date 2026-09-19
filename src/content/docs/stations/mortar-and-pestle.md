@@ -54,7 +54,7 @@ This is especially important for preparations that later become ingredients in a
 
 The Mortar and Pestle uses a bright, vanilla style station interface and represents its held ingredients visually. The presentation is intended to make manual pestle work visible rather than reducing the station to an invisible progress counter.
 
-Individual recipe visuals and final animation polish may still change during pre alpha development.
+Visual presentation may still receive playtest polish without changing the documented processing rules.
 
 ## Recipe Book integration
 

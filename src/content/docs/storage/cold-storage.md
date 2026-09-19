@@ -98,3 +98,7 @@ Exact prepared state matching still applies to items in cold storage.
 - [Kitchen Storage](/storage/overview/)
 - [Cabinets & Counters](/storage/cabinets-counters/)
 - [Recipe Book](/recipe-book/overview/)
+
+## See also
+
+- [Freshness & Spoilage](/storage/freshness-spoilage/)

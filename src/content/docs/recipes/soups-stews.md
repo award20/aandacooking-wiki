@@ -5,7 +5,7 @@ description: Soup, stew, chowder, and creamy stockpot dishes currently represent
 
 Soups and stews are one of the largest established food groups in A & A Cooking. They are primarily associated with the [Stockpot](/cooking/stockpot/), which supports liquid cooking, recipe matching, freeform outcomes, serving, and finished dish quality.
 
-This page records the current soup and stew families. Exact ingredient quantities and cooking times will be added as individual recipes receive dedicated documentation.
+This page groups the current soup and stew families. Exact ingredient quantities, water requirements, temperatures, and cooking times are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Current soup and stew outputs
 

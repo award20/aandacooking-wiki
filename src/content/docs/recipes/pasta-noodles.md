@@ -5,7 +5,7 @@ description: Pasta, boiled noodles, creamy pasta, herb pasta, and noodle stir fr
 
 Pasta and noodle dishes connect several A & A Cooking systems. A finished dish can depend on flour or noodles, a prepared sauce, vegetables or meat, herbs, cheese, and a final heated cooking step.
 
-This page records the current pasta and noodle families. Exact quantities, cooking temperatures, and processing times will be added as individual recipes receive dedicated documentation.
+This page records the current pasta and noodle families. Exact inputs, quantities, station requirements, processing times, and heat details are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Noodle foundation
 
@@ -83,7 +83,7 @@ When those prerequisites are missing, the [Recipe Book](/recipe-book/overview/) 
 
 ## Documentation coverage
 
-This page covers the established pasta and noodle families and their preparation chains. Exact quantities, station assignments, temperatures, durations, and output counts will be added as individual recipes receive dedicated documentation.
+This page covers the established pasta and noodle families and their preparation chains. Exact inputs, quantities, station requirements, processing times, and heat details are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

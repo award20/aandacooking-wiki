@@ -1,67 +1,53 @@
 ---
 title: World Generation & Discovery
-description: Current structure loot and planned world integration for recipe discovery and pantry ingredients in A & A Cooking.
+description: Structure loot, Salt distribution, Recipe Note discovery, and future world integration in A & A Cooking.
 ---
 
-A & A Cooking uses exploration as part of recipe discovery and ingredient progression. Some structure loot is already implemented, while broader world integration is planned for future development.
+Exploration is part of A & A Cooking progression. The current playtest build adds **Salt** and **Recipe Notes** to selected vanilla structure loot tables.
 
-## Current structure loot
+## Salt distribution
 
-### Salt
-
-Salt currently appears as pantry loot in selected vanilla structure chests.
+Each successful Salt roll adds one `aandacooking:salt` item.
 
 | Structure chest | Chance |
 |---|---:|
-| Shipwreck Supply | 65% |
+| Village Butcher | 75% |
+| Village Fisher | 75% |
+| Other selected Village chests | 40% |
+| Abandoned Mineshaft | 50% |
+| Shipwreck Supply | 45% |
 | Shipwreck Treasure | 45% |
-| Buried Treasure | 75% |
-| Village Fisher | 35% |
-| Village Butcher | 25% |
+| Simple Dungeon | 30% |
+| Pillager Outpost | 20% |
+| Stronghold Corridor | 20% |
+| Stronghold Crossing | 20% |
+| Stronghold Library | 20% |
 
-Each successful Salt loot roll currently adds one Salt item.
+The selected 40% Village group includes Armorer, Cartographer, Desert House, Fletcher, Mason, Plains House, Savanna House, Shepherd, Snowy House, Taiga House, Tannery, Temple, Toolsmith, and Weaponsmith chests.
 
-Salt is intended to be an exploration and pantry resource rather than something produced from [Kitchen Sink](/stations/kitchen-sink/) water.
+Salt is an exploration and pantry ingredient. The [Kitchen Sink](/stations/kitchen-sink/) provides water, not Salt.
 
-### Recipe Notes
+## Recipe Notes
 
-[Recipe Notes](/recipe-book/notes-discovery/) currently appear in Villages, Shipwrecks, and Stronghold libraries.
+[Recipe Notes](/recipe-book/notes-discovery/) are also added to structure loot. The structure type controls which Recipe Book categories can be selected.
 
-| Structure group | Chance | Recipe focus |
+| Structure group | Chance | Recipe categories |
 |---|---:|---|
-| Villages | 45% | Meals, sides, baking, desserts, sauces and condiments, and other general recipes |
-| Shipwrecks | 55% | Soups, stews, and drinks |
-| Stronghold libraries | 80% | Any Recipe Book category |
+| Villages | 45% | Meals, Sides, Baking, Desserts, Sauces & Condiments, Other |
+| Shipwrecks | 55% | Soups & Stews, Drinks |
+| Stronghold Library | 80% | Any category |
 
-Shipwreck Recipe Notes can appear in map, supply, and treasure chests.
+Village Recipe Notes can appear in the same broad set of Village chest types used by the discovery system. Shipwreck notes can appear in Map, Supply, and Treasure chests.
 
-## Planned Salt distribution
+The [Recipe Book](/recipe-book/overview/) currently contains **233 discoverable recipes**, so the note placed into a chest is selected from the eligible recipes for that structure group.
 
-The Salt loot system is planned to expand into a wider set of structures so exploration routes feel less dependent on only a few chest types.
+## Shipwreck cargo direction
 
-The current target distribution is:
+Salt currently appears directly in Shipwreck Supply and Treasure chests. A future presentation pass may replace the loose chest item with a sealed **Spice Crate** or similar protected trade cargo container.
 
-| Structure | Planned role | Target chance |
-|---|---|---:|
-| Village Butcher and Fisher chests | Most reliable village source | 75% |
-| Other selected Village chests | General pantry source | 40% |
-| Mineshafts | Moderate exploration source | 50% |
-| Shipwreck Supply and Treasure | Moderate trade cargo source | 45% |
-| Dungeons | Occasional source | 30% |
-| Pillager Outposts | Rare source | 20% |
-| Strongholds | Rare source | 20% |
+That future change is about presentation and world storytelling. Shipwreck Salt itself is already implemented.
 
-The planned version uses one Salt item per successful roll. Buried Treasure is intended to be removed from the long term Salt distribution once the broader structure set is implemented.
-
-Witch Huts remain a possible thematic source, but they are deferred because the vanilla structure does not provide a normal loot chest to extend in the same way.
-
-## Shipwreck cargo rework
-
-Loose Salt appearing directly in an underwater Shipwreck chest is a temporary abstraction. The intended long term presentation is a sealed **Spice Crate** or similar protected trade cargo container.
-
-This gives Shipwreck Salt a more believable explanation: the cargo was sealed for transport instead of sitting exposed to seawater.
-
-The future Shipwreck theme is broader than Salt. Structure specific discovery is intended to emphasize foods that fit maritime exploration, including:
+The intended Shipwreck theme can continue to emphasize:
 
 - seafood recipes
 - preserved foods
@@ -69,18 +55,16 @@ The future Shipwreck theme is broader than Salt. Structure specific discovery is
 - chowders and other ship appropriate soups
 - pantry and trade cargo ingredients
 
-The exact Spice Crate block, loot behavior, appearance, and generation rules will be documented when that world generation work is implemented.
+## Future world integration
 
-## Broader world integration
+Possible later additions include natural Salt generation such as Rock Salt deposits and more structure specific pantry presentation. Witch Huts remain a thematic possibility, but vanilla Witch Huts do not provide a standard chest to extend through the current loot table approach.
 
-Future structure loot is intended to become more thematic instead of drawing every recipe from the same generic pool. Different structures can favor different food traditions, ingredients, or preparation styles while the [Recipe Book](/recipe-book/overview/) and [Recipe Notes](/recipe-book/notes-discovery/) remain the main discovery system.
-
-Rock Salt deposits or other natural Salt generation are also being considered for a later world generation pass. They are not part of the current documented implementation.
+These ideas are not part of the current playtest build.
 
 ## Related pages
 
 - [Recipe Notes & Discovery](/recipe-book/notes-discovery/)
 - [Recipe Book](/recipe-book/overview/)
+- [Complete Recipe Index](/recipes/complete-index/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
 - [Planned Features](/development/planned-features/)
-- [Documentation Coverage](/reference/documentation-status/)

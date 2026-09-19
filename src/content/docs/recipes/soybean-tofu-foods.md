@@ -52,7 +52,7 @@ The established fermentation branch includes:
 - Soy Sauce
 - `soybean_sauce_sweet` (Sweet Soy Glaze)
 
-The first three outputs are established parts of the Soybean chain, but their exact item IDs are not published on this page yet. Sweet Soy Glaze is registered as `soybean_sauce_sweet`.
+Their registered item IDs are available in the [Complete Content Index](/reference/content-index/), and their exact recipes are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 The fermentation branch is important because its outputs become prerequisites for multiple recipe families instead of remaining isolated preserved foods.
 
@@ -84,9 +84,9 @@ See [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) and [Pasta & Noodles](/re
 
 The Soybean chain is a strong example of [Recipe Book](/recipe-book/overview/) prerequisites. A final dish can depend on an earlier Soybean preparation, a fermented product, cooked Rice or noodles, and another prepared ingredient. The preparation planner can represent those dependencies instead of treating the final dish as a single isolated recipe.
 
-## Recipe detail status
+## Exact recipe reference
 
-This page covers the established Soybean food families and published item IDs. Exact quantities, fermentation times, cooking temperatures, action counts, and a few remaining item IDs will be added as those recipes receive dedicated documentation.
+See [Complete Recipe Index](/recipes/complete-index/) for quantities, fermentation times, temperatures, actions, and station requirements throughout the Soybean chain.
 
 ## Related pages
 

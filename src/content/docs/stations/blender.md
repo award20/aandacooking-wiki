@@ -6,7 +6,7 @@ description: Blender processing modes, recipe matching, stacked inputs, and Reci
 The **Blender** is a dedicated processing station for recipes that transform ingredients without using stovetop or oven heat.
 
 <div class="page-summary">
-    <p><strong>Status: Implemented, with pre alpha behavior still subject to playtesting</strong></p>
+    <p><strong>Status: Implemented</strong></p>
     <p>The station, its processing modes, [Recipe Book](/recipe-book/overview/) integration, and stacked or surplus ingredient processing are currently implemented.</p>
 </div>
 

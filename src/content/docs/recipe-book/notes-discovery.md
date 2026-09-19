@@ -1,48 +1,51 @@
 ---
 title: Recipe Notes & Discovery
-description: Discovering, copying, and sharing recipes with the generic Recipe Note system.
+description: Recipe Note loot, category pools, copying, sharing, and Recipe Book discovery.
 ---
 
-Recipe discovery is a core part of A & A Cooking progression. The current system uses one generic **Recipe Note** item that stores the ID of the recipe it represents.
+A & A Cooking uses a generic **Recipe Note** item (`aandacooking:recipe_note`) that stores one Recipe Book recipe ID.
 
 ## Discovering a recipe
 
-Using a valid Recipe Note on a placed [Recipe Book](/recipe-book/overview/) adds that recipe to the book's discovered set when it is not already known. Successful discovery consumes the note.
+Use a valid Recipe Note on a placed [Recipe Book](/recipe-book/overview/) to discover the stored recipe. A successfully used note is consumed. A recipe already known by the book is not added a second time.
 
-The server validates that the referenced recipe exists before adding it to the book.
+## Structure discovery
 
-## Generating a Recipe Note
+Recipe Notes appear in selected vanilla structure chests.
 
-A player can create a note for a recipe their placed [Recipe Book](/recipe-book/overview/) already knows.
+| Structure group | Chance | Eligible Recipe Book categories |
+|---|---:|---|
+| Villages | 45% | Meals, Sides, Baking, Desserts, Sauces & Condiments, Other |
+| Shipwrecks | 55% | Soups & Stews, Drinks |
+| Stronghold Library | 80% | All categories |
 
-In Survival mode, copying a recipe costs **1 Paper**. In Creative mode, the copy does not consume Paper.
+Village notes can appear in Armorer, Butcher, Cartographer, Desert House, Fisher, Fletcher, Mason, Plains House, Savanna House, Shepherd, Snowy House, Taiga House, Tannery, Temple, Toolsmith, and Weaponsmith chests.
 
-The server validates again:
+Shipwreck notes can appear in Map, Supply, and Treasure chests.
 
-- that the recipe exists
-- that the placed book knows the recipe
-- that the player is close enough to the book
-- that the player can pay the Paper cost when required
+The note recipe is selected from the current **233 Recipe Book entries** eligible for that structure group.
 
-The current interaction uses an 8-block distance check from the placed [Recipe Book](/recipe-book/overview/).
+## Copying a known recipe
 
-## Sharing recipes
+A player near the Recipe Book can copy a discovered recipe onto a generic Recipe Note.
 
-Because the recipe ID is stored on the Recipe Note item, the note can be handed to another player. The receiving player can use it on their own [Recipe Book](/recipe-book/overview/) to discover the recipe without independently repeating the original discovery route.
+- In Survival, copying costs **1 Paper**.
+- In Creative, Paper is not consumed.
+- The player must remain within **8 blocks** of the Recipe Book.
 
-This makes Recipe Notes both a progression mechanic and a multiplayer knowledge sharing system.
+The resulting note stores the selected recipe ID and can be given to another player.
 
-## Discovery routes
+## Sharing
 
-[Recipe Book](/recipe-book/overview/) recipes can use survival discovery routes organized by category. Current structure locations and the planned expansion are documented under [World Generation & Discovery](/development/world-generation-discovery/).
+Recipe Notes are ordinary items, so copied discoveries can be shared through normal Minecraft inventory and multiplayer interactions. Using the note on another Recipe Book transfers that recipe into the receiving book's progress.
 
-## Compatibility items
+## Compatibility notes
 
-Older fixed per recipe note items remain registered for save compatibility. They are kept only for compatibility; new content uses the generic `aandacooking:recipe_note` item.
+Older fixed recipe note items remain registered for save compatibility. New discovery and copied notes use the generic `aandacooking:recipe_note` item.
 
 ## Related pages
 
 - [Recipe Book](/recipe-book/overview/)
-- [Recipe Catalog](/recipes/overview/)
+- [Complete Recipe Index](/recipes/complete-index/)
 - [World Generation & Discovery](/development/world-generation-discovery/)
-- [Documentation Coverage](/reference/documentation-status/)
+- [Commands](/reference/commands/)

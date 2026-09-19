@@ -1,14 +1,27 @@
 ---
 title: Stockpot
-description: Large volume soups, stews, freeform dishes, potion infused foods, and serving in the Iron Stockpot.
+description: Tiered Stockpot cooking for large volume soups, stews, freeform cooking, potion infusion, and serving.
 ---
 
-The **Iron Stockpot** is A & A Cooking's large volume stovetop vessel. It is used for soups, stews, liquid heavy recipes, freeform cooking, potion infused foods, and finished dish serving.
+The **Stockpot** family is A & A Cooking's large volume stovetop vessel. It is used for soups, stews, liquid heavy recipes, freeform cooking, potion infused foods, and finished dish serving.
+
+## Material tiers
+
+This cookware is available in **Iron, Stainless Steel, Diamond Coated, and Netherite**. Recipes and capacity stay within the same cookware family; higher tiers change heating and cooling response. See [Cookware Tiers](/cooking/cookware-tiers/).
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
     <p>The Stockpot has the most developed cookware specific cooking path in the current system, including canonical recipes, freeform outcomes, potion handling, thermal simulation, visual ingredient motion, and serving behavior.</p>
 </div>
+
+## Capacity
+
+| Capacity | Amount |
+|---|---:|
+| Solid ingredients | 8 slots |
+| Liquid | 4000 mB |
+| Water Bucket | 1000 mB |
+| Potion bottle | 250 mB |
 
 ## Role
 
@@ -72,7 +85,7 @@ This allows experimentation without requiring every possible ingredient combinat
 
 The Stockpot also supports potion based cooking.
 
-Potion effects can be incorporated into food instead of being duplicated without cost. Potion only cooking can produce **Elixirs**, while potion plus food ingredients can create infused freeform dishes.
+Potion effects can be incorporated into food instead of being duplicated without cost. Potion only cooking can produce **Elixirs**, while potion plus food ingredients can create infused freeform dishes. See [Potion Infusion & Elixirs](/cooking/potion-infusion/).
 
 The Stockpot keeps potion effects separate from ordinary canonical matching so a canonical food recipe does not silently match when actual potion effects are present.
 
@@ -100,7 +113,7 @@ cook dish
 serve finished portions
 ```
 
-The serving container catalog can expand with new recipes, so individual recipe pages document serving expectations where they matter.
+Serving behavior is driven by the completed Stockpot dish and its available portions.
 
 ## Visual behavior
 

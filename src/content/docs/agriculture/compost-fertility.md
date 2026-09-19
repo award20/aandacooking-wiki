@@ -42,12 +42,19 @@ Fertility also contributes **15%** of the crop's environmental target vigor calc
 
 After a successful crop growth step, the crop may consume one fertility level. This chance belongs to the crop profile.
 
-Current values include:
+Current values are:
 
 | Crop | Fertility consumption chance |
 |---|---:|
 | Tomato | 45% |
 | Onion | 30% |
+| Basil | 22% |
+| Rosemary | 18% |
+| Thyme | 16% |
+| Parsley | 20% |
+| Mint | 24% |
+| Rice | 35% |
+| Soybean | 28% |
 
 ## Composting compatibility
 

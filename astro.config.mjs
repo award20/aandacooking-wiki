@@ -32,11 +32,13 @@ export default defineConfig({
                     items: [
                         { label: 'Cooking Overview', slug: 'cooking/overview' },
                         { label: 'Cookware Overview', slug: 'cooking/cookware' },
+                        { label: 'Cookware Tiers', slug: 'cooking/cookware-tiers' },
                         { label: 'Stockpot', slug: 'cooking/stockpot' },
                         { label: 'Saucepan', slug: 'cooking/saucepan' },
                         { label: 'Skillet', slug: 'cooking/skillet' },
                         { label: 'Wok', slug: 'cooking/wok' },
-                        { label: 'Oven Bakeware', slug: 'cooking/oven-bakeware' }
+                        { label: 'Oven Bakeware', slug: 'cooking/oven-bakeware' },
+                        { label: 'Potion Infusion & Elixirs', slug: 'cooking/potion-infusion' }
                     ]
                 },
                 {
@@ -57,7 +59,8 @@ export default defineConfig({
                     items: [
                         { label: 'Storage Overview', slug: 'storage/overview' },
                         { label: 'Cabinets & Counters', slug: 'storage/cabinets-counters' },
-                        { label: 'Cold Storage', slug: 'storage/cold-storage' }
+                        { label: 'Cold Storage', slug: 'storage/cold-storage' },
+                        { label: 'Freshness & Spoilage', slug: 'storage/freshness-spoilage' }
                     ]
                 },
                 {
@@ -75,7 +78,9 @@ export default defineConfig({
                     items: [
                         { label: 'Calendar & Seasons', slug: 'environment/calendar-seasons' },
                         { label: 'Solar Time & Daylight', slug: 'environment/solar-daylight' },
-                        { label: 'Weather & Climate', slug: 'environment/weather-climate' }
+                        { label: 'Weather & Climate', slug: 'environment/weather-climate' },
+                        { label: 'Weather Reference', slug: 'environment/weather-reference' },
+                        { label: 'Weather Chart', slug: 'environment/weather-chart' }
                     ]
                 },
                 {
@@ -84,6 +89,7 @@ export default defineConfig({
                         { label: 'Ingredients Overview', slug: 'ingredients/overview' },
                         { label: 'Rice & Soybean', slug: 'ingredients/rice-soybean' },
                         { label: 'Recipe Catalog', slug: 'recipes/overview' },
+                        { label: 'Complete Recipe Index', slug: 'recipes/complete-index' },
                         { label: 'Soups & Stews', slug: 'recipes/soups-stews' },
                         { label: 'Breads & Baked Foods', slug: 'recipes/breads-baked-foods' },
                         { label: 'Desserts & Sweet Foods', slug: 'recipes/desserts-sweet-foods' },
@@ -149,7 +155,11 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference & Support',
-                    items: [{ label: 'Documentation Coverage', slug: 'reference/documentation-status' }]
+                    items: [
+                        { label: 'Complete Content Index', slug: 'reference/content-index' },
+                        { label: 'Equipment & Crafting', slug: 'reference/equipment-crafting' },
+                        { label: 'Documentation Coverage', slug: 'reference/documentation-status' }
+                    ]
                 },
                 {
                     label: 'Development & Roadmap',

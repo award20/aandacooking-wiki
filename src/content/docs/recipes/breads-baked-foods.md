@@ -5,7 +5,7 @@ description: Bread, toast, pancakes, cookies, focaccia, baked produce, and other
 
 A & A Cooking separates baking into preparation stages instead of treating every baked food as a single crafting recipe. Flour, doughs, batters, toppings, and other intermediates can be prepared before the final food reaches the oven.
 
-This page records the current baked foods and baking intermediates. Exact quantities, oven temperatures, bake times, and bakeware requirements will be added as individual recipes receive dedicated documentation.
+This page records the current baked foods and baking intermediates. Exact inputs, quantities, station requirements, processing times, and heat details are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Bread and dough chain
 
@@ -31,7 +31,7 @@ Confirmed batter and dough based foods include:
 | `chocolate_cookie_dough` | Chocolate Cookie Dough | Cookie intermediate |
 | `pumpkin_bread_batter` | Pumpkin Bread Batter | Pumpkin Bread intermediate |
 
-The current catalog also contains the finished foods associated with these preparation chains. Their exact station actions and batch sizes will be documented from the current [Recipe Book](/recipe-book/overview/) definitions rather than inferred from the item names alone.
+The current catalog also contains the finished foods associated with these preparation chains. Their exact station actions and output sizes are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Toast and prepared bread
 
@@ -90,7 +90,7 @@ The exact recipe remains authoritative. This page does not assign an unverified 
 
 ## Documentation coverage
 
-This page covers the established baked food families and preparation chains. Exact quantities, temperatures, cooking times, output counts, and bakeware requirements will be added as individual recipes receive dedicated documentation.
+This page covers the established baked food families and preparation chains. Exact inputs, quantities, station requirements, processing times, and heat details are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

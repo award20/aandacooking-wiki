@@ -1,51 +1,58 @@
 ---
 title: Fermentation Crock
-description: Timed fermentation station behavior and Recipe Book integration.
+description: Four slot timed fermentation, output handling, freshness, connected storage, and Recipe Book integration.
 ---
 
-The Fermentation Crock is A & A Cooking's dedicated timed fermentation station. Unlike direct processing stations, it is intended for recipes that must remain in progress over time before producing their output.
+The **Fermentation Crock** is A & A Cooking's timed fermentation station.
+
+## Inventory
+
+The Crock has:
+
+- **4 input slots**
+- **1 output slot**
+- maximum **1 item per input slot**
+
+The input restriction makes each fermentation execution explicit rather than allowing one input slot to hold an entire stack.
 
 ## Processing behavior
 
-The Fermentation Crock:
+Fermentation progress:
 
-- tracks fermentation progress persistently
-- resumes after save and load
-- pauses instead of discarding work when its output is blocked
-- uses executable fermentation recipes
-- participates in the shared station recipe selection infrastructure
+- persists through save and load
+- pauses when the output slot cannot accept the result
+- resumes when the output becomes available
+- preserves input freshness through the shared output inheritance system
+- can continue through queued recipe executions when the required ingredients are available
 
-The exact slot count, all recipe durations, and some presentation details are still **Needs verification** and will be added as the Fermentation Crock guide is expanded.
+## Current fermentation recipes
+
+| Product | Inputs | Time |
+|---|---|---:|
+| Apple Vinegar | 2 Apple Juice, 1 Sugar | 5 minutes |
+| Fermented Soybeans | 2 Roasted Soybean, 1 Salt | 6 minutes 40 seconds |
+| Soy Sauce | 1 Soy Sauce Mash | 10 minutes |
+| Pickled Carrots | 2 washed Carrots, 1 Salt Brine, 1 Glass Jar | 5 minutes |
+| Pickled Beetroot | 2 washed Beetroot, 1 Salt Brine, 1 Glass Jar | 5 minutes |
+| Pickled Onion | 2 washed Sliced Onion, 1 Salt Brine, 1 Glass Jar | 5 minutes |
+
+See [Fermentation & Preservation](/recipes/fermentation-preservation/) for preservation multipliers and downstream recipe uses.
 
 ## Recipe Book integration
 
-The Fermentation Crock integrates with:
+The Fermentation Crock supports:
 
 - **Load Pinned**
-- the [Recipe Book](/recipe-book/overview/) prerequisite planner
-- the connected kitchen storage network
-- queued/bulk recipe execution infrastructure
+- [Recipe Book](/recipe-book/overview/) prerequisite planning
+- connected [Kitchen Storage](/storage/overview/)
+- bulk recipe quantity processing
 
-Queued fermentation still processes one valid execution at a time and must satisfy the full fermentation duration for each run.
-
-## Ingredient admission
-
-Recipe only intermediates must be accepted when an executable Fermentation Crock recipe explicitly requires them. This prevents a mismatch where [Recipe Book](/recipe-book/overview/) autofill can insert an intermediate but manual insertion rejects the same valid recipe ingredient.
-
-## Output blocking
-
-If a completed result cannot be placed into the output destination, fermentation pauses rather than overwriting or deleting existing output. Processing can resume when the destination becomes available.
-
-## Current product families
-
-Implemented fermentation content includes Apple Vinegar, Fermented Soybeans, Soy Sauce, and brine fermented vegetables. Salt Brine and Soy Sauce Mash are prerequisite intermediates in those preservation chains.
-
-See [Fermentation & Preservation](/recipes/fermentation-preservation/) for the content overview.
+Manual ingredient admission and Recipe Book loading use the executable Fermentation Crock recipe set, so valid recipe intermediates are accepted consistently.
 
 ## Related pages
 
+- [Fermentation & Preservation](/recipes/fermentation-preservation/)
 - [Recipe Book](/recipe-book/overview/)
 - [Kitchen Storage](/storage/overview/)
-- [Rice & Soybean](/ingredients/rice-soybean/)
-- [Fermentation & Preservation](/recipes/fermentation-preservation/)
+- [Freshness & Spoilage](/storage/freshness-spoilage/)
 - [Jar Sealer](/stations/jar-sealer/)

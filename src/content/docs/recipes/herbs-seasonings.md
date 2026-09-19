@@ -15,7 +15,7 @@ The current herb family includes:
 - Parsley
 - Mint
 
-These ingredients appear across savory foods, breads, pasta, drinks, and seasoning recipes. Their current crop growth profiles will be documented separately when the latest agriculture definitions are verified.
+These ingredients appear across savory foods, breads, pasta, drinks, and seasoning recipes. Their full crop profiles are listed on [Current Crops](/agriculture/crops/).
 
 ## Seeds
 
@@ -27,7 +27,7 @@ The established herb content also includes seed items for the herb crops:
 - Parsley Seeds
 - Mint Seeds
 
-The complete planting, season preference, vigor, and harvest values are not published on this page yet. Those details will be added with the dedicated herb crop documentation.
+Planting, season preference, climate ranges, yield, vigor, pollination, and regrowth values are documented on [Current Crops](/agriculture/crops/).
 
 ## Processed herb forms
 
@@ -41,7 +41,7 @@ Several herbs have prepared forms used by later recipes:
 | `mint_crushed` | Crushed Mint | Crushed herb |
 | `herb_seasoning` | [Herb Seasoning](/recipes/details/herb-seasoning/) | Seasoning blend |
 
-The [Mortar and Pestle](/stations/mortar-and-pestle/) is the primary reference page for Crush and Grind processing. Exact action counts for each herb preparation will be added as the herb recipes receive dedicated documentation.
+The [Mortar and Pestle](/stations/mortar-and-pestle/) handles Crush and Grind processing. Exact herb recipe inputs and actions are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Herb drinks
 
@@ -78,9 +78,9 @@ This list shows how herbs feed multiple recipe families rather than forming an i
 
 [Herb Seasoning](/recipes/details/herb-seasoning/) acts as a reusable intermediate for recipes that call for a prepared herb blend. It belongs with the broader [Sauces & Intermediates](/recipes/sauces-intermediates/) system because the blend can sit between raw herbs and the finished dish.
 
-## Recipe detail status
+## Exact recipe reference
 
-The item families and outputs on this page are established content. Exact ingredient quantities, herb combinations, action counts, processing times, and cooking requirements will be added as the latest individual recipe definitions are verified.
+See [Complete Recipe Index](/recipes/complete-index/) for ingredient quantities, stations, processing actions, times, and heat requirements across the herb recipe line.
 
 ## Related pages
 

@@ -1,34 +1,61 @@
 ---
 title: First Steps
-description: A basic preparation and cooking workflow for A & A Cooking.
+description: A practical starting workflow for preparing ingredients, discovering recipes, cooking, storing food, and farming.
 ---
 
-A & A Cooking uses preparation steps, dedicated stations, and recipe requirements. Not every recipe uses every step in the workflow below.
+The private alpha playtest build is designed around a preparation and station workflow rather than putting every food into the vanilla crafting grid.
 
-## Basic workflow
+## 1. Build the core kitchen
 
-1. Obtain the ingredients for a recipe.
-2. Wash ingredients that require washing at an **Oak [Kitchen Sink](/stations/kitchen-sink/)**.
-3. Prepare the washed ingredients on an **Oak [Cutting Board](/stations/cutting-board/)** when the recipe requires a particular cut or preparation state.
-4. Place the prepared ingredients in a compatible cooking or processing station.
-5. Set the required mode, temperature, cookware, or other station control.
-6. Use the [Recipe Book](/recipe-book/overview/) to check requirements, discover recipes, and plan prerequisites when the recipe is known to the book.
-7. Collect or serve the result when processing finishes.
+Useful early blocks include:
 
-The [Ingredient Preparation](/getting-started/ingredient-preparation/) guide describes washing, cutting, peeling, shredding, and cracking. [Cooking Overview](/cooking/overview/) explains how stations match ingredients and how their controls differ.
+- [Kitchen Sink](/stations/kitchen-sink/) for washing and water
+- [Cutting Board](/stations/cutting-board/) and a Kitchen Knife for preparation
+- [Stovetop/Oven](/stations/stovetop-oven/) plus [cookware](/cooking/cookware/)
+- [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), and [Mortar and Pestle](/stations/mortar-and-pestle/) for processing
+- [Counters and Cabinets](/storage/cabinets-counters/) for connected storage
+- [Recipe Book](/recipe-book/overview/) for discovery and planning
 
-## Equipment used in the workflow
+See [Equipment & Crafting](/reference/equipment-crafting/) for the current crafting recipes.
 
-| Equipment | Role |
-|---|---|
-| Oak [Kitchen Sink](/stations/kitchen-sink/) | Washes ingredients that have a washable ingredient profile. It also exchanges buckets and water buckets. |
-| Oak [Cutting Board](/stations/cutting-board/) | Holds one ingredient while it is cut, peeled, shredded, or otherwise prepared by a registered preparation. |
-| Kitchen Knife | Advances registered cutting or shredding preparations and selects the cut style on an occupied board. |
-| [Recipe Book](/recipe-book/overview/) | Stores discovered recipes and provides recipe planning features. |
-| Cooking stations | Process or cook ingredients using station specific modes, heat, time, or cookware. |
+## 2. Prepare ingredients
 
-Additional stations and cookware are documented on their own pages as their controls and recipe families are expanded.
+Produce generally begins unwashed. Wash it at the [Kitchen Sink](/stations/kitchen-sink/), then use the [Cutting Board](/stations/cutting-board/) when a recipe requires slicing, dicing, mincing, julienning, peeling, shredding, or another preparation state.
 
-## Current release status
+See [Ingredient Preparation](/getting-started/ingredient-preparation/).
 
-A & A Cooking is in pre alpha development for Minecraft 1.21.10 on Fabric. Public installation steps and packaged playtest information will be added when those builds are available. See [Documentation Coverage](/reference/documentation-status/) for the current wiki scope.
+## 3. Discover and pin recipes
+
+Explore Villages, Shipwrecks, and Strongholds for [Recipe Notes](/recipe-book/notes-discovery/). Use a note on the [Recipe Book](/recipe-book/overview/) to discover its recipe.
+
+Pin a recipe to display its requirements and enable compatible **Load Pinned** station behavior.
+
+## 4. Follow prerequisite chains
+
+Many recipes need intermediates such as sauces, doughs, seasonings, cooked Rice, boiled noodles, or fermented products. The Recipe Book can expose those prerequisite steps.
+
+The [Complete Recipe Index](/recipes/complete-index/) lists all 233 current recipes.
+
+## 5. Cook with the correct station
+
+Heated recipes use the [Stovetop/Oven](/stations/stovetop-oven/) and the appropriate cookware. Processing recipes use their specified station and mode. Exact ingredients, time, and heat are listed in the [Complete Recipe Index](/recipes/complete-index/).
+
+## 6. Watch freshness
+
+Perishable food ages over time. Refrigerators slow aging and Freezers stop it while food remains frozen. Preservation methods can reduce the rate further.
+
+See [Freshness & Spoilage](/storage/freshness-spoilage/).
+
+## 7. Grow ingredients
+
+A & A Cooking crops use [Cultivated Soil](/agriculture/cultivated-soil/) and respond to seasons, moisture, fertility, light, temperature, humidity, wind, storms, soil temperature, pollination, and vigor.
+
+See [Agriculture Overview](/agriculture/overview/) and [Current Crops](/agriculture/crops/).
+
+## Reference pages
+
+- [Complete Content Index](/reference/content-index/)
+- [Complete Recipe Index](/recipes/complete-index/)
+- [Equipment & Crafting](/reference/equipment-crafting/)
+- [Commands](/reference/commands/)
+- [Configuration](/reference/configuration/)

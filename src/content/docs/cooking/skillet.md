@@ -1,9 +1,13 @@
 ---
 title: Skillet
-description: Fast response dry heat cooking and direct contact recipes in the Iron Skillet.
+description: Tiered Skillet cooking for direct contact pan cooking.
 ---
 
-The **Iron Skillet** is A & A Cooking's fast response, direct contact stovetop cookware. It is intended for foods that cook primarily through dry heat rather than through a large liquid volume.
+The **Skillet** family is A & A Cooking's fast response, direct contact stovetop cookware. It is intended for foods that cook primarily through dry heat rather than through a large liquid volume.
+
+## Material tiers
+
+This cookware is available in **Iron, Stainless Steel, Diamond Coated, and Netherite**. Recipes and capacity stay within the same cookware family; higher tiers change heating and cooling response. See [Cookware Tiers](/cooking/cookware-tiers/).
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
@@ -61,7 +65,7 @@ Autofill is tied to the explicitly pinned or selected recipe rather than allowin
 
 ## Recipe catalog
 
-The shared Skillet framework is already in place and the content catalog is being expanded independently of that infrastructure. Exact temperatures, cook times, and doneness targets belong on the individual recipe pages as those entries are documented.
+Exact Skillet recipe ingredients, temperatures, cooking times, and outputs are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

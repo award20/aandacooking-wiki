@@ -1,40 +1,47 @@
 ---
 title: Planned Features
-description: Future development areas for A & A Cooking, separate from the currently documented systems.
+description: Future development areas for A & A Cooking, separate from the current private alpha playtest build.
 ---
 
-The following areas are planned for future development. They describe the intended direction of the mod, not features available in the current documented version. Scope and implementation may change.
+The current playtest build already includes the core cooking, agriculture, weather, storage, preservation, Recipe Book, discovery, and structure loot systems documented throughout this wiki. The items below remain future directions rather than current features.
 
-## Planned Development Areas
+## Planned development areas
 
 | Area | Direction |
 |---|---|
 | Preservation expansion | Broader drying, smoking, salting, and additional jarred food systems |
 | Livestock | Additional animals, meat sources, milk types, and distinct dairy or cheese chains |
 | Horticulture | Fruit trees, bushes, vines, root crops, orchards, perennial plants, and later greenhouse support |
-| Cold storage expansion | Additional presentation, equipment progression, and balancing around the existing fridge/freezer freshness system |
-| World integration | Broader structure loot, themed recipe discovery, expanded Salt distribution, Shipwreck cargo, and later natural Salt generation |
+| Cold storage expansion | Additional presentation, equipment progression, and balancing around the existing fridge/freezer system |
+| World presentation | Shipwreck Spice Crates or similar trade cargo, later natural Salt generation, and more thematic pantry presentation |
 
-Core food freshness, spoilage, refrigerated aging, frozen storage, and modular Fridge/Freezer inventories are already implemented. See [Cold Storage](/storage/cold-storage/) for the documented behavior.
+## Already implemented
 
-Fermentation, pickling, sugared preserves, and sealed jars already exist. Future preservation work would expand the number of techniques, foods, and production chains rather than introducing the first preservation system.
+These systems are **not** future items anymore:
 
-The current [Jar Sealer](/stations/jar-sealer/) can seal compatible filled jars with Glass Jar Lids. Drying, smoking, additional salting mechanics, and broader jarred food support remain possible future expansions.
+- food freshness and spoilage
+- refrigerator and freezer storage
+- fermentation and pickling
+- sugared preserves and jar sealing
+- full Salt structure distribution across Villages, Mineshafts, Shipwrecks, Dungeons, Outposts, and Strongholds
+- structure based Recipe Note discovery
+- nine crop profiles with climate and storm response
+- local weather, snow accumulation and melting, and the [Weather Chart](/environment/weather-chart/)
+- tiered Stockpots, Saucepans, Skillets, and Woks
 
-See [World Generation & Discovery](/development/world-generation-discovery/) for the current structure loot and the planned Shipwreck, Salt, and structure discovery expansion.
+See [Documentation Coverage](/reference/documentation-status/) for the current playtest feature map.
 
-## Ideas Under Consideration
+## Ideas under consideration
 
-The current agriculture and environment systems already include crop profiles, [Cultivated Soil](/agriculture/cultivated-soil/), seasons, solar time, seasonal daylight, temperature, and local weather. Greenhouse behavior remains future work and will be designed around those existing environmental inputs rather than replacing them.
+The existing agriculture model already uses soil saturation, fertility, season, temperature, humidity, wind, storms, light, soil temperature, pollination, and crop vigor. A future greenhouse system would build on those environmental inputs rather than replace them.
 
-Specific future crops, livestock, food states, processing times, and release dates will be documented when those systems are designed and verified.
+Future content, balance targets, and release timing can change as playtesting identifies what the mod needs next.
 
-## Related Pages
+## Related pages
 
-- [About A & A Cooking](/getting-started/about/) describes the current systems.
-- [Kitchen Storage](/storage/overview/) covers the connected storage network.
-- [Cold Storage](/storage/cold-storage/) covers current Fridge and Freezer behavior.
-- [Jar Sealer](/stations/jar-sealer/) covers the implemented sealing station.
-- [Fermentation & Preservation](/recipes/fermentation-preservation/) covers current preservation methods.
-- [World Generation & Discovery](/development/world-generation-discovery/) covers current and planned structure integration.
-- [Documentation Coverage](/reference/documentation-status/) explains how feature status is recorded.
+- [Documentation Coverage](/reference/documentation-status/)
+- [World Generation & Discovery](/development/world-generation-discovery/)
+- [Freshness & Spoilage](/storage/freshness-spoilage/)
+- [Fermentation & Preservation](/recipes/fermentation-preservation/)
+- [Current Crops](/agriculture/crops/)
+- [Weather Reference](/environment/weather-reference/)

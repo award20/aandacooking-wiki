@@ -57,7 +57,7 @@ This allows multi step preparations to carry food age forward through the recipe
 
 Ingredients placed into the Mixing Bowl are represented visually in the station. Their presentation shifts as the bowl is worked so the station reads as an active preparation surface instead of only an inventory screen.
 
-Exact animation timing and every recipe specific presentation remain subject to pre alpha polish.
+Visual presentation may still receive playtest polish without changing the documented processing rules.
 
 ## Recipe Book integration
 

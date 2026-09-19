@@ -1,49 +1,19 @@
 ---
 title: Recipe Catalog
-description: Structure and current scope of the A & A Cooking recipe catalog.
+description: Recipe families, the complete 233 recipe index, prerequisite chains, and detailed recipe references.
 ---
 
-A & A Cooking uses a large and growing [Recipe Book](/recipe-book/overview/) catalog built around preparation chains and specialized kitchen stations. Recipes are organized by food family so the wiki can expand without becoming one enormous list.
+The private alpha playtest build contains **233 discoverable Recipe Book entries**. This page organizes the catalog into readable food families, while [Complete Recipe Index](/recipes/complete-index/) provides the exact entry by entry reference.
 
-## Catalog sections
+## Complete reference
 
-Current recipe references include:
+[Complete Recipe Index](/recipes/complete-index/) lists every Recipe Book entry with:
 
-- [Soups & Stews](/recipes/soups-stews/)
-- [Breads & Baked Foods](/recipes/breads-baked-foods/)
-- [Desserts & Sweet Foods](/recipes/desserts-sweet-foods/)
-- [Pasta & Noodles](/recipes/pasta-noodles/)
-- [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/)
-- [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/)
-- [Potato & Vegetable Dishes](/recipes/potato-vegetable-dishes/)
-- [Eggs & Dairy](/recipes/eggs-dairy/)
-- [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/)
-- [Meat & Fish Dishes](/recipes/meat-fish-dishes/)
-- [Drinks](/recipes/drinks/)
-- [Herbs & Seasonings](/recipes/herbs-seasonings/)
-- [Sauces & Intermediates](/recipes/sauces-intermediates/)
-- [Fermentation & Preservation](/recipes/fermentation-preservation/)
-
-The [Rice & Soybean](/ingredients/rice-soybean/) page documents the ingredient foundation behind many Rice, tofu, Soy Sauce, fermentation, and bowl recipes.
-
-## Preparation chains
-
-Recipes can depend on other recipes and preparation actions. A finished dish may require:
-
-- washed produce
-- a specific cut such as diced, minced, sliced, or julienned
-- a sauce, puree, dough, batter, or seasoning prepared earlier
-- a cooked starch such as Rice or noodles
-- fermented or pickled ingredients
-- specific cookware, temperature, or station modes
-
-The [Recipe Book](/recipe-book/overview/) can show these dependencies as prerequisites rather than forcing players to memorize every intermediate step.
-
-## Recipe executions and quantities
-
-A recipe execution is one complete run of a recipe. Some recipes can produce more than one output item per execution, so requested recipe quantity and final output count are not always the same thing.
-
-Compatible repeated processing is handled as sequential recipe executions so normal station behavior remains intact. Output capacity, station conditions, and ingredient availability can pause or stop continued processing.
+- recipe ID
+- ingredients and preparation states
+- station
+- processing or cooking time
+- mode, heat range, heat zone, or bakeware requirement
 
 ## Major recipe families
 
@@ -55,41 +25,31 @@ The current catalog includes broad families such as:
 - [pasta, noodles, and noodle stir fries](/recipes/pasta-noodles/)
 - [dairy, cheese, egg, and omelette dishes](/recipes/eggs-dairy/)
 - [meat and fish dishes](/recipes/meat-fish-dishes/) across the [Skillet](/cooking/skillet/), [Wok](/cooking/wok/), [Stovetop/Oven](/stations/stovetop-oven/), soups, Rice, and pasta
-- [vegetable sides, potato dishes, and vegetable meals](/recipes/potato-vegetable-dishes/) alongside [stir fries and seared foods](/recipes/stir-fries-seared-foods/)
-- [herb foods and seasonings](/recipes/herbs-seasonings/) alongside [teas, juices, smoothies, and other drinks](/recipes/drinks/)
-- [Rice, porridge, pancakes, rice cakes, fried Rice, and bowls](/recipes/rice-dishes-bowls/)
-- [Soybean, tofu, Soy Sauce, glazed foods, and related dishes](/recipes/soybean-tofu-foods/)
+- [vegetable sides, potato dishes, and vegetable meals](/recipes/potato-vegetable-dishes/)
+- [stir fries and seared foods](/recipes/stir-fries-seared-foods/)
+- [herb foods and seasonings](/recipes/herbs-seasonings/), plus [drinks](/recipes/drinks/)
+- [Rice dishes, porridge, pancakes, rice cakes, fried Rice, and bowls](/recipes/rice-dishes-bowls/)
+- [Soybean, tofu, Soy Sauce, glazed foods, and preserved ingredients](/recipes/soybean-tofu-foods/)
 - [fermentation, brines, pickled foods, sugared preserves, and sealed jars](/recipes/fermentation-preservation/)
-- [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), and other processing intermediates
+- [sauces and processing intermediates](/recipes/sauces-intermediates/) produced through the [Blender](/stations/blender/), [Mixing Bowl](/stations/mixing-bowl/), [Mortar and Pestle](/stations/mortar-and-pestle/), and other stations
 
-## Detailed recipe references
+## Recipe executions and outputs
 
-Dedicated recipe pages currently include:
+Recipe Book quantity means the number of recipe executions. A recipe can output more than one item or serving per execution, so requested recipe quantity and final output count are not always the same.
 
-- [Tomato Soup](/recipes/details/tomato-soup/)
-- [Tomato Sauce](/recipes/details/tomato-sauce/)
-- [Wheat Flour](/recipes/details/wheat-flour/)
-- [Bread Dough](/recipes/details/bread-dough/)
-- [Wheat Bread](/recipes/details/wheat-bread/)
-- [Cooked Rice](/recipes/details/cooked-rice/)
-- [Fresh Tofu](/recipes/details/fresh-tofu/)
-- [Beaten Egg](/recipes/details/beaten-egg/)
-- [Seed Oil](/recipes/details/seed-oil/)
-- [Tomato Paste](/recipes/details/tomato-paste/)
-- [Ketchup](/recipes/details/ketchup/)
-- [Mayonnaise](/recipes/details/mayonnaise/)
-- [Fresh Cheese](/recipes/details/fresh-cheese/)
-- [Cheese Sauce](/recipes/details/cheese-sauce/)
+## Prerequisite chains
 
-More recipe names will become links as dedicated pages are added.
+Recipes can depend on other recipes. Examples include sauces, doughs, prepared herbs, cooked Rice, boiled noodles, fermented products, and cut ingredients. The Recipe Book planner can expose those dependencies and help load missing requirements into supported stations.
 
-## Recipe discovery
+## Detailed recipe pages
 
-Recipes are intended to be discovered rather than exposed as a fully unlocked catalog from the start. The [Recipe Notes & Discovery](/recipe-book/notes-discovery/) page explains [Recipe Notes](/recipe-book/notes-discovery/) and sharing behavior.
+Dedicated pages exist for selected foundation recipes and intermediates. Those pages are linked automatically throughout the wiki wherever the exact subject has its own page.
+
+Recipes without their own dedicated page remain fully represented in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 
+- [Complete Recipe Index](/recipes/complete-index/)
+- [Complete Content Index](/reference/content-index/)
+- [Cooking Overview](/cooking/overview/)
 - [Recipe Book](/recipe-book/overview/)
-- [Ingredients Overview](/ingredients/overview/)
-- [Rice & Soybean](/ingredients/rice-soybean/)
-- [Recipe Notes & Discovery](/recipe-book/notes-discovery/)

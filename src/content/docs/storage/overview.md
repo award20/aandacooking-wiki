@@ -81,3 +81,7 @@ Mixed fridge/freezer appliances keep the storage condition of the physical half 
 - [Cold Storage](/storage/cold-storage/)
 - [Recipe Book](/recipe-book/overview/)
 - [Stovetop/Oven](/stations/stovetop-oven/)
+
+## See also
+
+- [Freshness & Spoilage](/storage/freshness-spoilage/)

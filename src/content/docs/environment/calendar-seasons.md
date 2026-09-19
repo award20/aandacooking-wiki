@@ -1,29 +1,35 @@
 ---
 title: Calendar & Seasons
-description: The A & A Cooking game calendar, weekdays, seasons, year progress, and calendar diagnostics.
+description: Game Calendar presets, dates, weekdays, seasons, and agriculture integration.
 ---
 
-A & A Cooking's newer environment system includes a dedicated **Game Calendar** instead of treating seasons as only a raw world day counter. The calendar exposes dates, weekdays, seasons, day of year progress, and a selected calendar preset.
+A & A Cooking uses a persistent **Game Calendar** for seasons and long term environmental progression. The calendar is based on Overworld world time and the configured calendar preset.
 
-<div class="page-summary">
-    <p><strong>Status: Implemented environment system</strong></p>
-    <p>The Game Calendar uses Spring, Summer, Autumn, and Winter and provides both compact season information and full calendar diagnostics.</p>
-</div>
+## Calendar presets
+
+| Preset | Behavior |
+|---|---|
+| `GAMEPLAY` | 10 days per month, 120 days per year |
+| `REALISTIC` | Real month lengths with Gregorian leap year rules |
+| `CUSTOM` | Every month uses `customDaysPerMonth` from configuration |
+
+The default preset is `GAMEPLAY`, beginning on **March 1, Year 1**.
+
+See [Configuration](/reference/configuration/) for all calendar keys and accepted values.
 
 ## Calendar information
 
-The current calendar tracks and reports:
+The calendar tracks:
 
-- formatted date
+- year
+- month and day
 - weekday
-- current season
+- season
 - day within the season
-- day of the year
+- day of year
 - total days in the year
 - world day
-- active calendar preset
-
-The exact season and year lengths depend on the active preset. The wiki therefore does not hardcode the earlier temporary 30-day per season value as the current calendar rule.
+- active preset
 
 ## Seasons
 
@@ -34,44 +40,26 @@ The four seasons are:
 3. Autumn
 4. Winter
 
-Agriculture crop profiles use these seasons as growth multipliers. Other environment systems can also use year progress for seasonal effects.
+Season boundaries follow the active calendar instead of a fixed 30 day season rule.
 
 ## Commands
 
-### `/aacooking season`
+`/aacooking season` reports the season, season day, season length, and world day.
 
-Reports:
+`/aacooking calendar` reports the full date, weekday, season, season progress, day of year, world day, and preset.
 
-- current season
-- current day within the season
-- total days in that season
-- world day
-
-### `/aacooking calendar`
-
-Reports the fuller calendar state, including:
-
-- date
-- weekday
-- season
-- season day
-- day of year
-- world day
-- preset name
-
-These commands use the Overworld calendar as the shared reference.
+See [Commands](/reference/commands/) for the complete command reference.
 
 ## Agriculture connection
 
-Crop growth reads the current season and applies each crop's configured season multiplier. Tomato, for example, favors Summer, while Onion currently favors Spring.
+Every current crop profile has a multiplier for all four seasons. Season is only one part of crop growth; moisture, fertility, light, temperature, humidity, wind, storms, soil temperature, pollination, and vigor also contribute.
 
-Season is only one growth factor. Soil moisture, fertility, light, pollination, and vigor still participate independently.
+See [Current Crops](/agriculture/crops/) and [Crop Growth & Vigor](/agriculture/crop-growth/).
 
 ## Related pages
 
-- [Commands](/reference/commands/)
 - [Configuration](/reference/configuration/)
+- [Commands](/reference/commands/)
 - [Agriculture Overview](/agriculture/overview/)
-- [Current Crops](/agriculture/crops/)
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Weather & Climate](/environment/weather-climate/)

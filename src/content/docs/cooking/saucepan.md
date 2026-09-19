@@ -1,13 +1,17 @@
 ---
 title: Saucepan
-description: Small volume stovetop cooking, liquids, evaporation, and reduction in the Iron Saucepan.
+description: Tiered Saucepan cooking for smaller liquid cooking, sauces, reductions, and boiling.
 ---
 
-The **Iron Saucepan** is a smaller stovetop vessel focused on liquid cooking, reductions, and recipes that do not need the [Stockpot](/cooking/stockpot/)'s larger volume workflow.
+The **Saucepan** family is a smaller stovetop vessel focused on liquid cooking, reductions, and recipes that do not need the [Stockpot](/cooking/stockpot/)'s larger volume workflow.
+
+## Material tiers
+
+This cookware is available in **Iron, Stainless Steel, Diamond Coated, and Netherite**. Recipes and capacity stay within the same cookware family; higher tiers change heating and cooling response. See [Cookware Tiers](/cooking/cookware-tiers/).
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
-    <p>The Saucepan currently supports three solid ingredient slots, up to 1500 mB of water, medium thermal response, evaporation, persistent reduction tracking, shared heated recipe execution, and pinned recipe integration.</p>
+    <p>The Saucepan currently supports four solid ingredient slots, up to 1500 mB of water, medium thermal response, evaporation, persistent reduction tracking, shared heated recipe execution, and pinned recipe integration.</p>
 </div>
 
 ## Capacity
@@ -16,10 +20,10 @@ The current Saucepan provides:
 
 | Capacity | Amount |
 |---|---:|
-| Solid ingredients | 3 slots |
+| Solid ingredients | 4 slots |
 | Water | 1500 mB |
 
-Water can be loaded through Water Bucket handling. The liquid state is tracked independently from the three solid ingredient slots.
+Water can be loaded through Water Bucket handling. The liquid state is tracked independently from the four solid ingredient slots.
 
 ## Heat behavior
 
@@ -89,7 +93,7 @@ The recipe storage layer can account for ingredients already inserted into the S
 
 ## Recipe catalog
 
-The Saucepan supports a growing catalog of reduction and small volume recipes. Individual recipe pages provide exact ingredient, water, reduction, and temperature requirements.
+Exact Saucepan recipe ingredients, water requirements, temperatures, and cooking times are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

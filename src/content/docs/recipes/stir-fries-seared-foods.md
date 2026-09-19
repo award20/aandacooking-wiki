@@ -5,7 +5,7 @@ description: Stir fries, seasoned wok dishes, seared meats, seafood, and other d
 
 Stir fries and seared foods are the main direct heat recipe families in A & A Cooking. They make use of the [Skillet](/cooking/skillet/) and [Wok](/cooking/wok/) systems, prepared ingredients, temperature ranges, and, for applicable [Wok](/cooking/wok/) recipes, manual tossing.
 
-This page records the current direct heat food families. Exact quantities, temperatures, cooking durations, and toss requirements will be added as individual recipes receive dedicated documentation.
+This page records the current direct heat food families. Exact inputs, quantities, station requirements, processing times, and heat details are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Basic vegetable dishes
 
@@ -88,7 +88,7 @@ This is why the [Recipe Book](/recipe-book/overview/) exposes prerequisite chain
 
 ## Documentation coverage
 
-This page covers the established direct heat food families. Exact ingredients, quantities, heat targets, durations, toss requirements, and station assignments will be added as individual recipes receive dedicated documentation.
+Exact ingredients, quantities, heat targets, durations, toss requirements, and station assignments are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

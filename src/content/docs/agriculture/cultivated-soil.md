@@ -1,75 +1,84 @@
 ---
 title: Cultivated Soil
-description: Soil saturation, hydration targets, flooding, fertility, and crop support behavior.
+description: Soil saturation, precipitation, evaporation, snowmelt, soil temperature, fertility, and crop support.
 ---
 
-**Cultivated Soil** is A & A Cooking's expanded farming soil. It stores both a moisture level and a fertility level, allowing crops to respond to drought, normal hydration, oversaturation, flooding, and nutrient depletion.
+**Cultivated Soil** stores both saturation and fertility, allowing crops to respond to drought, normal hydration, flooding, nutrient depletion, rain, evaporation, freezing, and snowmelt.
 
-<div class="page-summary">
-    <p><strong>Status: Implemented</strong></p>
-    <p>Cultivated Soil stores saturation from 0 to 14 and fertility from 0 to 7. Saturation is exposed to crop logic as a normalized 0.0–2.0 value.</p>
-</div>
+## Stored values
 
-## Soil saturation
+| Property | Stored range | Crop facing range |
+|---|---:|---:|
+| Saturation | 0-14 | 0.0-2.0 |
+| Fertility | 0-7 | 0-7 |
 
-The stored saturation level is converted with:
+Saturation is calculated as `stored saturation / 7`, so level 7 is 1.0 and level 14 is 2.0.
 
-`soil saturation = stored level / 7`
+## Hydration targets
 
-That produces the following useful reference points:
+Cultivated Soil checks water within a **4 block horizontal radius** plus the block above and four directly adjacent horizontal blocks.
 
-| Stored level | Saturation | Meaning |
-|---:|---:|---|
-| 0 | 0.0 | Dry |
-| 7 | 1.0 | Saturated / normally hydrated |
-| ~10–11 | ~1.5 | Oversaturated |
-| 14 | 2.0 | Flooded |
+- nearby water establishes a target of at least level 7
+- water directly above targets level 14
+- each directly adjacent water source after the first adds 2 target levels
+- liquid precipitation contributes a target based on local precipitation intensity
+- snowmelt can raise the target above normal saturation
 
-Different crops choose their own preferred minimum moisture, maximum ideal moisture, and flood penalty.
+Liquid precipitation hydrates soil only when the sky is visible, precipitation is active, and ambient temperature is above 0 °C.
 
-## Hydration sources
+## Precipitation
 
-Cultivated Soil checks water within a **4-block horizontal radius**, as well as rain, water directly above the block, and water directly adjacent on its four horizontal sides.
+Precipitation intensity is converted to a hydration target from roughly level 2 at very light precipitation up to level 12 at full intensity. The soil uses whichever target is stronger between precipitation and nearby water, then applies adjacent water boosts.
 
-The current target level rules are:
+## Snowmelt
 
-| Condition | Target behavior |
-|---|---|
-| No nearby water and no rain | dries toward level 0 |
-| Nearby water or rain | starts from level 7 |
-| Rain | adds 2 levels |
-| Additional directly adjacent water after the first | adds 2 levels each |
-| Water directly above | targets level 14 immediately |
+Snow above the soil insulates the soil temperature. When the surface reaches at least **0.5 °C**, melting snow can contribute a hydration target between levels 8 and 11 depending on snow depth.
 
-The final target is clamped to the 0–14 range.
+## Frozen soil
 
-On each soil random tick, the stored level moves only **one step** toward that target. Moisture therefore changes gradually rather than instantly.
+If soil temperature is **-0.5 °C or colder**, the soil is Frozen and its random hydration update stops for that tick.
+
+Soil thermal state also affects crop growth directly:
+
+- Frozen: 0.00×
+- Thawing: 0.40×
+- Thawed: 1.00×
+
+See [Crop Growth & Vigor](/agriculture/crop-growth/).
+
+## Evaporation and drying
+
+When current saturation is above its target, drying is probabilistic rather than a fixed one level timer. Evaporation responds to:
+
+- surface temperature
+- relative humidity
+- wind speed
+- solar exposure
+- cloud cover
+- oversaturation
+
+High evaporation potential can remove **2 saturation levels** in one drying update. Oversaturated soil receives an additional drainage bonus.
 
 ## Crop moisture response
 
-A crop receives full moisture growth inside its ideal band. Below the crop's minimum requirement, growth falls smoothly toward zero as the soil dries.
+Each crop has its own minimum saturation, maximum ideal saturation, and flood penalty. Full growth is available inside the crop's preferred moisture band. Growth falls smoothly below the minimum and can be penalized above the ideal maximum.
 
-Above the crop's maximum ideal moisture, flood stress increases smoothly according to that crop's flood penalty. A crop that tolerates wet soil can therefore behave differently from a crop that is strongly penalized by flooding.
+See [Current Crops](/agriculture/crops/) for all nine crop moisture profiles.
 
 ## Fertility
 
-Cultivated Soil also stores fertility from **0 to 7**.
+Fertility ranges from 0-7. Its crop growth multiplier ranges from **0.25× at fertility 0** to **1.00× at fertility 7**.
 
-Fertility contributes a growth factor from **0.25× at empty fertility** to **1.00× at full fertility**. Empty soil therefore reduces growth heavily, but does not by itself make the fertility term zero.
+Successful crop growth can consume one fertility level according to the crop profile. [Compost](/agriculture/compost-fertility/) restores 2 fertility levels up to the maximum of 7.
 
-Crops can consume one fertility level after a successful growth step. The chance is defined by the crop profile.
+## Vanilla farmland
 
-Use [Compost](/agriculture/compost-fertility/) to restore fertility.
-
-## Vanilla farmland compatibility
-
-The agriculture calculations can also read vanilla farmland moisture. Vanilla moisture is normalized into a 0.0–1.0 saturation value.
-
-Cultivated Soil is still the system that provides the expanded 0.0–2.0 moisture range and stored fertility property.
+The crop environment system can also read vanilla farmland moisture, normalized to a 0.0-1.0 saturation range. Cultivated Soil provides the expanded 0.0-2.0 range plus stored fertility and the full weather driven soil model.
 
 ## Related pages
 
 - [Agriculture Overview](/agriculture/overview/)
-- [Crop Growth & Vigor](/agriculture/crop-growth/)
 - [Current Crops](/agriculture/crops/)
+- [Crop Growth & Vigor](/agriculture/crop-growth/)
 - [Compost & Fertility](/agriculture/compost-fertility/)
+- [Weather & Climate](/environment/weather-climate/)

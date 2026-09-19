@@ -15,7 +15,7 @@ The current drink catalog includes three established fruit and vegetable juices:
 | `apple_juice` | Apple Juice | Fruit juice |
 | `tomato_juice` | Tomato Juice | Vegetable juice |
 
-Juices are useful examples of ingredients becoming both finished consumables and possible prerequisites for later recipes. Exact processing steps will be added as individual drink recipes receive dedicated documentation.
+Juices can be finished consumables or prerequisites for later recipes. Exact processing steps are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Smoothies
 
@@ -65,9 +65,9 @@ Soy Milk also functions as part of the broader Soybean processing tree rather th
 
 Perishable beverages participate in the same freshness and storage systems used by other foods where supported by the current implementation. Refrigerated and frozen storage behavior is documented under [Cold Storage](/storage/cold-storage/).
 
-## Recipe detail status
+## Exact recipe reference
 
-The drink outputs on this page are part of the established content catalog. Exact quantities, temperatures, liquid amounts, processing times, and station modes will be added as the latest individual recipe definitions are verified.
+See [Complete Recipe Index](/recipes/complete-index/) for exact ingredient quantities, stations, modes, processing times, temperatures, toss requirements, bakeware, and output details.
 
 ## Related pages
 

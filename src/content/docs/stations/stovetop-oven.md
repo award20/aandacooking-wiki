@@ -38,11 +38,11 @@ The Stovetop/Oven also exposes shared cooking presets for quick setup:
 
 | Preset | Temperature |
 |---|---:|
-| Low | 95 °C |
-| Low Med | 120 °C |
-| Med | 150 °C |
-| Med High | 180 °C |
-| High | 230 °C |
+| Low | 80 °C |
+| Low Med | 95 °C |
+| Med | 160 °C |
+| Med High | 190 °C |
+| High | 225 °C |
 
 Presets provide convenient targets, but a recipe can still call for a different temperature inside the supported range.
 
@@ -52,7 +52,7 @@ Cookware placed on the stovetop does not simply become its target temperature in
 
 That thermal state is then used by heated recipes to determine whether the current cookware is within the recipe's valid temperature range.
 
-Detailed cookware specific capacities, heat response, liquid rules, and serving behavior will be documented on the dedicated cookware pages.
+See [Cookware Overview](/cooking/cookware/) and [Cookware Tiers](/cooking/cookware-tiers/) for capacities, heat response, liquid rules, and material tier behavior.
 
 ## Oven preheating
 

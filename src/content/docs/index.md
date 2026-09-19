@@ -1,101 +1,70 @@
 ---
 title: A & A Cooking Wiki
-description: Documentation for A & A Cooking, a Fabric cooking and agriculture mod for Minecraft 1.21.10.
+description: Player documentation for the A & A Cooking private alpha playtest candidate.
 ---
 
-A & A Cooking is a Fabric mod that expands cooking and agriculture in Minecraft. It includes ingredient preparation, cookware, kitchen stations, connected storage, freshness and spoilage, crop systems, and recipe discovery. The mod is currently in pre alpha development.
+A & A Cooking expands Minecraft cooking and agriculture with ingredient preparation, tiered cookware, dedicated kitchen stations, connected storage, food freshness and preservation, crop simulation, weather, and recipe discovery.
 
-<div class="page-summary">
-    <p><strong>Minecraft 1.21.10 · Fabric · Pre alpha</strong></p>
-    <p>This wiki grows alongside the mod. Current mechanics, features still in development, and planned systems are identified separately.</p>
-</div>
+The current documented build is the **final private alpha playtest candidate** for Minecraft 1.21.10 on Fabric.
 
-## Start Here
+## Start here
 
-| Page | Contents |
+| Guide | What it covers |
 |---|---|
-| [About A & A Cooking](/getting-started/about/) | Overview of the mod and its major systems |
-| [First Steps](/getting-started/first-steps/) | A basic sequence for washing, preparing, and cooking ingredients |
-| [Ingredient Preparation](/getting-started/ingredient-preparation/) | Preparation paths, ingredient states, and technical IDs |
-| [Kitchen Sink](/stations/kitchen-sink/) | Washing ingredients and bucket interaction |
-| [Cutting Board](/stations/cutting-board/) | Cutting, peeling, preparation progress, and retrieval |
-| [Blender](/stations/blender/) | Processing modes, stacked inputs, and [Recipe Book](/recipe-book/overview/) integration |
-| [Mixing Bowl](/stations/mixing-bowl/) | Mix, Whisk, and Fold processing with six ingredient inputs |
-| [Mortar and Pestle](/stations/mortar-and-pestle/) | Crush and Grind processing with manual pestle actions |
-| [Stovetop/Oven](/stations/stovetop-oven/) | Independent heat controls, oven racks, cookware, and autofill |
-| [Fermentation Crock](/stations/fermentation-crock/) | Persistent timed fermentation, blocked output handling, and [Recipe Book](/recipe-book/overview/) integration |
-| [Jar Sealer](/stations/jar-sealer/) | Seal filled food jars with Glass Jar Lids to extend preservation time |
-| [Cooking Overview](/cooking/overview/) | Recipe matching, station families, modes, and temperature presets |
-| [Cookware Overview](/cooking/cookware/) | Stovetop vessels, oven bakeware, thermal behavior, and cookware requirements |
-| [Stockpot](/cooking/stockpot/) | Soups, stews, freeform cooking, potions, serving, and quality |
-| [Saucepan](/cooking/saucepan/) | Small volume liquid cooking, evaporation, and reductions |
-| [Skillet](/cooking/skillet/) | Fast response direct heat cooking with four ingredient slots |
-| [Wok](/cooking/wok/) | High heat cooking, heat zones, tossing, and toss streaks |
-| [Oven Bakeware](/cooking/oven-bakeware/) | [Iron Baking Sheet](/cooking/oven-bakeware/), [Iron Baking Dish](/cooking/oven-bakeware/), rack requirements, and automatic loading |
-| [Kitchen Storage](/storage/overview/) | Connected storage, exact ingredient matching, autofill, and freshness conditions |
-| [Cabinets & Counters](/storage/cabinets-counters/) | Ambient storage capacities and kitchen network connectivity |
-| [Cold Storage](/storage/cold-storage/) | Small/Large Fridges and Freezers, mixed layouts, and freshness rates |
-| [Agriculture Overview](/agriculture/overview/) | Soil, crop profiles, vigor, pollination, and harvest quality |
-| [Cultivated Soil](/agriculture/cultivated-soil/) | 0.0–2.0 soil saturation, hydration targets, flooding, and fertility |
-| [Crop Growth & Vigor](/agriculture/crop-growth/) | Growth probability, vigor, lifecycle states, pollination, yield, and quality |
-| [Current Crops](/agriculture/crops/) | Tomato and Onion crop profiles, season preferences, yields, and regrowth |
-| [Compost & Fertility](/agriculture/compost-fertility/) | Restoring fertility and current composting behavior |
-| [Calendar & Seasons](/environment/calendar-seasons/) | Dates, weekdays, seasons, year progress, and calendar diagnostics |
-| [Solar Time & Daylight](/environment/solar-daylight/) | Configurable day length, seasonal daylight, latitude, sunrise, and sunset |
-| [Weather & Climate](/environment/weather-climate/) | Local weather fields, temperature, wind, precipitation, and snow surface behavior |
-| [Ingredients Overview](/ingredients/overview/) | Ingredient families, prepared states, intermediates, and naming structure |
-| [Rice & Soybean](/ingredients/rice-soybean/) | Rice, Soybean, tofu, Soy Sauce, and related production chains |
-| [Recipe Catalog](/recipes/overview/) | Scalable organization for the growing [Recipe Book](/recipe-book/overview/) catalog |
-| [Soups & Stews](/recipes/soups-stews/) | Current soup, stew, chowder, and creamy [Stockpot](/cooking/stockpot/) dish reference |
-| [Breads & Baked Foods](/recipes/breads-baked-foods/) | Bread, toast, focaccia, pancakes, and other oven foods |
-| [Desserts & Sweet Foods](/recipes/desserts-sweet-foods/) | Cookies, fruit desserts, sweet breads, jam, and dessert components |
-| [Pasta & Noodles](/recipes/pasta-noodles/) | Noodle foundations, pasta dishes, and noodle stir fries |
-| [Rice Dishes & Bowls](/recipes/rice-dishes-bowls/) | [Cooked Rice](/recipes/details/cooked-rice/), porridge, pancakes, rice cakes, fried Rice, and Rice bowls |
-| [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/) | Soybean processing, tofu, fermentation, Soy Sauce, and finished soy dishes |
-| [Potato & Vegetable Dishes](/recipes/potato-vegetable-dishes/) | Potato dishes, roasted and glazed vegetables, sauteed produce, and mixed vegetable foods |
-| [Eggs & Dairy](/recipes/eggs-dairy/) | Egg preparations, omelettes, cheese, cream, butter, custard, and dairy dishes |
-| [Stir Fries & Seared Foods](/recipes/stir-fries-seared-foods/) | Vegetable stir fries, seasoned [Wok](/cooking/wok/) dishes, seared proteins, and related direct heat foods |
-| [Meat & Fish Dishes](/recipes/meat-fish-dishes/) | Seared, baked, breaded, glazed, roasted, and mixed protein dishes |
-| [Drinks](/recipes/drinks/) | Juices, smoothies, teas, hot chocolate, and Soybean drinks |
-| [Herbs & Seasonings](/recipes/herbs-seasonings/) | Fresh herbs, processed herb forms, seasoning blends, teas, and herb foods |
-| [Sauces & Intermediates](/recipes/sauces-intermediates/) | Sauces, purees, powders, doughs, batters, and prerequisite foods |
-| [Fermentation & Preservation](/recipes/fermentation-preservation/) | Fermented ingredients, brines, preserved foods, and dependency chains |
-| [Tomato Soup](/recipes/details/tomato-soup/) | Detailed [Stockpot](/cooking/stockpot/) recipe with preparation, temperature, time, and servings |
-| [Tomato Sauce](/recipes/details/tomato-sauce/) | Detailed [Saucepan](/cooking/saucepan/) reduction recipe and prerequisite preparation |
-| [Wheat Flour](/recipes/details/wheat-flour/) | Foundational [Mortar and Pestle](/stations/mortar-and-pestle/) baking intermediate |
-| [Bread Dough](/recipes/details/bread-dough/) | [Mixing Bowl](/stations/mixing-bowl/) prerequisite for [Wheat Bread](/recipes/details/wheat-bread/) |
-| [Wheat Bread](/recipes/details/wheat-bread/) | [Stovetop/Oven](/stations/stovetop-oven/) recipe using [Bread Dough](/recipes/details/bread-dough/) and an [iron baking dish](/cooking/oven-bakeware/) |
-| [Cooked Rice](/recipes/details/cooked-rice/) | Foundational [Saucepan](/cooking/saucepan/) starch used by many Rice dishes |
-| [Fresh Tofu](/recipes/details/fresh-tofu/) | Soy Milk and Apple Vinegar tofu recipe |
-| [Beaten Egg](/recipes/details/beaten-egg/) | Two cracked Eggs whisked in the [Mixing Bowl](/stations/mixing-bowl/) |
-| [Seed Oil](/recipes/details/seed-oil/) | Wheat Seeds processed in the [Blender](/stations/blender/) using Pulse mode |
-| [Tomato Paste](/recipes/details/tomato-paste/) | Concentrated [Tomato Puree](/recipes/details/tomato-puree/) cooked in the [Saucepan](/cooking/saucepan/) |
-| [Ketchup](/recipes/details/ketchup/) | [Tomato Paste](/recipes/details/tomato-paste/), Sugar, and [Onion Powder](/recipes/details/onion-powder/) condiment |
-| [Mayonnaise](/recipes/details/mayonnaise/) | [Beaten Egg](/recipes/details/beaten-egg/) and [Seed Oil](/recipes/details/seed-oil/) whisked in the [Mixing Bowl](/stations/mixing-bowl/) |
-| [Fresh Cheese](/recipes/details/fresh-cheese/) | [Cream](/recipes/details/cream/) heated into cheese with a shredding path on the [Cutting Board](/stations/cutting-board/) |
-| [Cheese Sauce](/recipes/details/cheese-sauce/) | [Shredded Cheese](/recipes/details/shredded-cheese/), [Cream](/recipes/details/cream/), and [Butter](/recipes/details/butter/) cooked in the [Saucepan](/cooking/saucepan/) |
-| [Tomato Puree](/recipes/details/tomato-puree/) | Diced Tomatoes blended into a smooth tomato intermediate |
-| [Garlic Powder](/recipes/details/garlic-powder/) | Minced Garlic ground in the [Mortar and Pestle](/stations/mortar-and-pestle/) |
-| [Onion Powder](/recipes/details/onion-powder/) | Diced Onion ground in the [Mortar and Pestle](/stations/mortar-and-pestle/) |
-| [Cream](/recipes/details/cream/) | Milk Bucket crafted into two portions of [Cream](/recipes/details/cream/) |
-| [Butter](/recipes/details/butter/) | [Cream](/recipes/details/cream/) whisked in the [Mixing Bowl](/stations/mixing-bowl/) |
-| [Shredded Cheese](/recipes/details/shredded-cheese/) | [Fresh Cheese](/recipes/details/fresh-cheese/) shredded on the [Cutting Board](/stations/cutting-board/) |
-| [Savory Seasoning](/recipes/details/savory-seasoning/) | Three dry powders mixed into a seasoning blend |
-| [Commands](/reference/commands/) | Calendar, time, daylight, climate, and weather command reference |
-| [Configuration](/reference/configuration/) | Confirmed day length, daylight, latitude, temperature unit, and calendar settings |
-| [Recipe Book](/recipe-book/overview/) | Recipe discovery, planning, notes, pinning, quantities, and tiers |
-| [Recipe Notes & Discovery](/recipe-book/notes-discovery/) | Generic [Recipe Notes](/recipe-book/notes-discovery/), copying, sharing, and discovery validation |
-| [Documentation Coverage](/reference/documentation-status/) | What the wiki currently covers and the meaning of feature status labels |
-| [Planned Features](/development/planned-features/) | Future development areas and ideas under consideration |
+| [First Steps](/getting-started/first-steps/) | Basic kitchen, preparation, discovery, cooking, storage, and farming workflow |
+| [Complete Content Index](/reference/content-index/) | Current registered player facing blocks and items |
+| [Complete Recipe Index](/recipes/complete-index/) | All 233 discoverable Recipe Book entries |
+| [Equipment & Crafting](/reference/equipment-crafting/) | Current equipment and block crafting recipes |
+| [Documentation Coverage](/reference/documentation-status/) | What is covered for the playtest build |
 
-## Documentation Coverage
+## Cooking and stations
 
-The wiki currently covers the main player workflow, ingredient preparation, cooking behavior, [Recipe Book](/recipe-book/overview/), station guides, individual stovetop cookware, oven bakeware, connected kitchen storage, agriculture, seasons, weather, climate, commands, configuration, and an expanding ingredient and recipe reference.
+- [Cooking Overview](/cooking/overview/)
+- [Cookware Overview](/cooking/cookware/)
+- [Cookware Tiers](/cooking/cookware-tiers/)
+- [Stockpot](/cooking/stockpot/)
+- [Saucepan](/cooking/saucepan/)
+- [Skillet](/cooking/skillet/)
+- [Wok](/cooking/wok/)
+- [Potion Infusion & Elixirs](/cooking/potion-infusion/)
+- [Stovetop/Oven](/stations/stovetop-oven/)
+- [Oven Bakeware](/cooking/oven-bakeware/)
+- [Blender](/stations/blender/)
+- [Mixing Bowl](/stations/mixing-bowl/)
+- [Mortar and Pestle](/stations/mortar-and-pestle/)
+- [Fermentation Crock](/stations/fermentation-crock/)
+- [Jar Sealer](/stations/jar-sealer/)
 
-Recipe documentation is organized by food family, including soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, potato and vegetable dishes, eggs, dairy, stir fries, meat and fish, drinks, herbs, sauces, intermediates, fermentation, jar sealing, and preservation. This structure lets the catalog grow without turning the wiki into one large static list.
+## Storage and food life
 
-Exact recipe quantities, processing times, cooking temperatures, the complete weather condition catalog, finalized configuration keys/defaults, and more specialized production chains will be added as those details become ready for public documentation.
+- [Kitchen Storage](/storage/overview/)
+- [Cabinets & Counters](/storage/cabinets-counters/)
+- [Cold Storage](/storage/cold-storage/)
+- [Freshness & Spoilage](/storage/freshness-spoilage/)
 
-## Related Projects
+## Agriculture and environment
 
-The [Haxuslate website](https://haxuslate.com/) includes information about A & A Cooking and Server Xtils.
+- [Agriculture Overview](/agriculture/overview/)
+- [Current Crops](/agriculture/crops/)
+- [Cultivated Soil](/agriculture/cultivated-soil/)
+- [Crop Growth & Vigor](/agriculture/crop-growth/)
+- [Calendar & Seasons](/environment/calendar-seasons/)
+- [Solar Time & Daylight](/environment/solar-daylight/)
+- [Weather & Climate](/environment/weather-climate/)
+- [Weather Reference](/environment/weather-reference/)
+- [Weather Chart](/environment/weather-chart/)
+
+## Recipe Book and discovery
+
+- [Recipe Book](/recipe-book/overview/)
+- [Recipe Notes & Discovery](/recipe-book/notes-discovery/)
+- [World Generation & Discovery](/development/world-generation-discovery/)
+
+## Reference
+
+- [Commands](/reference/commands/)
+- [Configuration](/reference/configuration/)
+- [Complete Content Index](/reference/content-index/)
+- [Complete Recipe Index](/recipes/complete-index/)
+- [Equipment & Crafting](/reference/equipment-crafting/)
+- [Planned Features](/development/planned-features/)

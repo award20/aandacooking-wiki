@@ -1,111 +1,162 @@
 ---
 title: Configuration
-description: Confirmed A & A Cooking configuration areas for time, seasons, climate, and temperature display.
+description: Server and client configuration files, keys, defaults, accepted values, and validation rules for A & A Cooking.
 ---
 
-A & A Cooking centralizes environment settings used by the solar clock, daylight, calendar, temperature, and command systems.
+A & A Cooking uses a server/common configuration file for time, calendar, and climate behavior plus a separate client configuration file for Recipe Book sound.
 
-<div class="page-summary">
-    <p><strong>Status: Core configuration behavior documented, exact file schema still being finalized</strong></p>
-    <p>The exact configuration file path, property names, default values, and accepted calendar preset names are not published here yet because those details are still being finalized for player facing documentation.</p>
-</div>
+## Main configuration file
 
-## Confirmed configuration areas
+The main file is:
 
-| Setting area | Used by | Effect |
-|---|---|---|
-| Real day length | Solar clock, `/aacooking time` | Controls how quickly 24,000 solar units advance in real time |
-| Seasonal daylight | Solar/daylight system | Enables or disables seasonally varying daylight calculations |
-| Climate latitude | Seasonal daylight, climate diagnostics | Changes solar declination/daylight behavior and is reported by climate commands |
-| Temperature unit | Climate and cooking facing temperature displays | Selects the player facing temperature format used by diagnostics |
-| Calendar preset | Game Calendar | Determines the active calendar structure used for dates, season lengths, and year length |
+`config/aandacooking.json`
 
-## Day length
+When the file does not exist, A & A Cooking creates it with the defaults below.
 
-The solar clock calculates its rate as:
-
-`solar units per tick = 24000 / (configured day length in seconds × 20)`
-
-This means the configured duration changes **real time day speed** while keeping one complete solar cycle equal to 24,000 solar units.
-
-### Duration syntax
-
-Duration values accept:
-
-- `s`: seconds
-- `m`: minutes
-- `h`: hours
-- `d`: days
-- `w`: weeks
-
-Values can contain decimals, and duration tokens can be combined after whitespace is removed. Examples of parser compatible shapes include:
-
-```text
-90s
-2.5m
-1h30m
-1d12h
+```json
+{
+  "time": {
+    "dayLength": "20m",
+    "seasonalDaylight": true
+  },
+  "calendar": {
+    "preset": "GAMEPLAY",
+    "startingYear": 1,
+    "startingMonth": "MARCH",
+    "startingDay": 1,
+    "customDaysPerMonth": 10
+  },
+  "climate": {
+    "temperatureUnit": "F",
+    "latitude": 35.0
+  }
+}
 ```
 
-The parser rejects empty, malformed, zero, and negative total durations.
+## Time settings
 
-## Seasonal daylight
+### `time.dayLength`
 
-Seasonal daylight is exposed as an enabled/disabled configuration value.
+Default: `20m`
 
-When enabled, the daylight system calculates seasonal values such as:
+Controls the real time length of one full 24,000 unit Minecraft solar day.
 
-- solar declination
-- daylight length
-- sunrise
-- sunset
+Accepted duration units are:
 
-The configured state is shown by both `/aacooking time` and `/aacooking daylight`.
+- `s` for seconds
+- `m` for minutes
+- `h` for hours
+- `d` for days
+- `w` for weeks
 
-## Climate latitude
+Decimals and combined values are accepted. Examples include `30m`, `1.5h`, and `1h30m`.
 
-The environment system reads a configured **climate latitude** when calculating seasonal daylight and climate behavior.
+The duration must be greater than zero.
 
-`/aacooking daylight` displays the configured latitude directly. `/aacooking temperature` also reports the latitude used by the climate calculation at the sampled position.
+### `time.seasonalDaylight`
 
-The player facing config key and validated numeric range are not published here yet, so those details remain **Needs verification**.
+Default: `true`
 
-## Temperature unit
+When enabled, sunrise and sunset shift with the calendar season and configured latitude.
 
-A shared temperature unit setting is used by environment diagnostics. The selected unit controls how temperatures and signed temperature offsets are formatted for the player.
+## Calendar settings
 
-This matters because A & A Cooking is intended to use one coherent unit preference instead of having climate diagnostics and cooking interfaces disagree about temperature presentation.
+### `calendar.preset`
 
-The exact selectable unit names remain **Needs verification** until the player facing configuration format is finalized.
+Default: `GAMEPLAY`
 
-## Calendar preset
+Accepted values:
 
-The newer Game Calendar reports an active **calendar preset**, and the preset determines values such as:
+- `GAMEPLAY`
+- `REALISTIC`
+- `CUSTOM`
 
-- formatted date behavior
-- season lengths
-- total days in the year
-- resulting day of year and seasonal progress
+`GAMEPLAY` uses 10 days per month, for a 120 day year.
 
-The complete preset catalog and exact configuration key are not published here yet.
+`REALISTIC` uses real month lengths and Gregorian leap year rules.
 
-## Applying configuration changes
+`CUSTOM` uses the value from `customDaysPerMonth` for every month.
 
-A & A Cooking loads its configuration during mod initialization. The wiki does not yet promise which options can reload immediately, which require a world or server restart, or which are synchronized to clients.
+### `calendar.startingYear`
 
-Until the latest `AACookingConfig.java` is reviewed, treat restart/reload behavior as **Needs verification**.
+Default: `1`
+
+Must be at least `1`.
+
+### `calendar.startingMonth`
+
+Default: `MARCH`
+
+Accepted values are the twelve English month names written as their enum names, such as `JANUARY`, `MARCH`, or `DECEMBER`.
+
+### `calendar.startingDay`
+
+Default: `1`
+
+The value must be valid for the selected starting month, year, and calendar preset.
+
+### `calendar.customDaysPerMonth`
+
+Default: `10`
+
+Used by the `CUSTOM` preset. Accepted range: `1-365`.
+
+## Climate settings
+
+### `climate.temperatureUnit`
+
+Default: `F`
+
+Accepted values:
+
+- `F` or `FAHRENHEIT`
+- `C` or `CELSIUS`
+
+The normalized configuration value is written as `F` or `C`.
+
+### `climate.latitude`
+
+Default: `35.0`
+
+Accepted range: `-90.0` to `90.0` degrees.
+
+Latitude affects seasonal daylight and the climate temperature model.
+
+## Invalid configuration
+
+If the configuration cannot be parsed or fails validation, A & A Cooking logs the error and falls back to default configuration values for that launch.
+
+Older or incomplete files are normalized when possible. Missing `time`, `calendar`, or `climate` sections and several missing values are restored automatically and written back to disk.
+
+## Applying changes
+
+The main configuration is loaded during mod initialization. The current playtest build does not expose a command that reloads `aandacooking.json` while the game is running, so restart the game or server after editing it.
+
+## Client configuration
+
+The Recipe Book client setting is stored separately at:
+
+`config/aandacooking-client.json`
+
+Default:
+
+```json
+{
+  "recipeBookSounds": true
+}
+```
+
+The speaker button on the [Recipe Book](/recipe-book/overview/) toggles this setting and writes it immediately.
 
 ## Verification commands
 
-The following commands are useful after changing environment settings:
-
 | Command | Useful for checking |
 |---|---|
-| `/aacooking calendar` | Active calendar preset and current calendar state |
-| `/aacooking time` | Configured day length, solar rate, seasonal daylight state |
-| `/aacooking daylight` | Latitude, declination, sunrise, sunset, daylight duration |
-| `/aacooking temperature` | Temperature unit and full climate calculation |
-| `/aacooking weather` | Local atmospheric state and weather temperature contribution |
+| `/aacooking calendar` | Active calendar preset and current date |
+| `/aacooking time` | Day length, solar rate, and seasonal daylight |
+| `/aacooking daylight` | Latitude, declination, sunrise, sunset, and daylight duration |
+| `/aacooking temperature` | Temperature unit and climate calculation |
+| `/aacooking weather` | Local atmospheric state |
 
 ## Related pages
 
@@ -113,3 +164,4 @@ The following commands are useful after changing environment settings:
 - [Calendar & Seasons](/environment/calendar-seasons/)
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Weather & Climate](/environment/weather-climate/)
+- [Recipe Book](/recipe-book/overview/)

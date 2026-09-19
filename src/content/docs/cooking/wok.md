@@ -1,18 +1,22 @@
 ---
 title: Wok
-description: High heat cooking, heat zones, manual tossing, and toss streaks in the Iron Wok.
+description: Tiered Wok cooking for high heat cooking and toss based recipes.
 ---
 
-The **Iron Wok** is A & A Cooking's high heat stovetop cookware. Unlike cookware that mainly asks the player to maintain temperature, the Wok adds an active **toss** technique that recipes can require during cooking.
+The **Wok** family is A & A Cooking's high heat stovetop cookware. Unlike cookware that mainly asks the player to maintain temperature, the Wok adds an active **toss** technique that recipes can require during cooking.
+
+## Material tiers
+
+This cookware is available in **Iron, Stainless Steel, Diamond Coated, and Netherite**. Recipes and capacity stay within the same cookware family; higher tiers change heating and cooling response. See [Cookware Tiers](/cooking/cookware-tiers/).
 
 <div class="page-summary">
     <p><strong>Status: Implemented core system</strong></p>
-    <p>The Wok currently supports five ingredient slots, explicit heat zones, manual tossing, toss counts, toss streaks, visible toss animation, shared heated recipe execution, and [Recipe Book](/recipe-book/overview/) integration.</p>
+    <p>The Wok currently supports six ingredient slots, explicit heat zones, manual tossing, toss counts, toss streaks, visible toss animation, shared heated recipe execution, and [Recipe Book](/recipe-book/overview/) integration.</p>
 </div>
 
 ## Capacity
 
-The current Wok has **5 ingredient slots**.
+The current Wok has **6 ingredient slots**.
 
 It is designed for high heat recipes where both temperature and active handling matter.
 
@@ -23,17 +27,17 @@ The Wok divides its current temperature into named technique zones:
 | Heat zone | Temperature |
 |---|---:|
 | Cool | below 120 °C |
-| Low | 120–159.9 °C |
-| Stir Fry | 160–219.9 °C |
-| Searing | 220–259.9 °C |
+| Low | 120-159.9 °C |
+| Stir Fry | 160-219.9 °C |
+| Searing | 220-259.9 °C |
 | Extreme | 260 °C and above |
 
 These zones let recipes express intended technique directly instead of relying only on a broad numeric temperature check.
 
 The [Stovetop/Oven](/stations/stovetop-oven/) presets line up intentionally with the important Wok ranges:
 
-- **Med High: 180 °C** falls inside the Stir Fry zone
-- **High: 230 °C** falls inside the Searing zone
+- **Med High: 190 °C** falls inside the Stir Fry zone
+- **High: 225 °C** falls inside the Searing zone
 
 ## Manual tossing
 
@@ -82,7 +86,7 @@ Pinned recipe loading can preserve ingredients already present and request only 
 
 ## Recipe catalog
 
-The Wok infrastructure is built around a growing stir fry and searing recipe catalog. Because that catalog is still changing quickly, exact ingredients, toss requirements, temperature windows, and cook times will be documented on individual recipe pages rather than frozen into this cookware reference.
+Exact Wok recipe ingredients, toss requirements, temperature windows, and cooking times are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

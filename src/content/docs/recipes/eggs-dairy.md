@@ -5,7 +5,7 @@ description: Egg preparations, cheese, cream, butter, custard, dairy drinks, and
 
 Eggs and dairy form several connected preparation chains in A & A Cooking. Some outputs are finished foods, while others are prerequisites used by pasta, baking, sauces, sandwiches, and larger cooked dishes.
 
-This page records the current egg and dairy food families. Exact quantities, station assignments, temperatures, durations, and output counts will be added as individual recipes receive dedicated documentation.
+This page records the current egg and dairy food families. Exact inputs, quantities, station requirements, processing times, and heat details are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Egg preparation chain
 
@@ -92,7 +92,7 @@ Individual recipe pages provide the exact station, quantity, and time requiremen
 
 ## Documentation coverage
 
-This page covers the established egg and dairy families and their preparation chains. Exact ingredient counts, temperatures, durations, output counts, and station assignments will be added as individual recipes receive dedicated documentation.
+Exact ingredient counts, temperatures, durations, output counts, and station assignments are listed in the [Complete Recipe Index](/recipes/complete-index/).
 
 ## Related pages
 

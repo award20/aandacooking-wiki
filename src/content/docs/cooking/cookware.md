@@ -1,84 +1,65 @@
 ---
 title: Cookware Overview
-description: Heated cookware and oven bakeware used by A & A Cooking recipes.
+description: Tiered stovetop cookware and oven bakeware used by A & A Cooking recipes.
 ---
 
-A & A Cooking separates the **heat source** from the **cookware** that holds or supports a recipe. The [Stovetop/Oven](/stations/stovetop-oven/) provides controllable heat, while cookware defines where ingredients are held, how much can be loaded, and which cooking interactions are available.
+A & A Cooking separates the **heat source** from the **cookware** that holds or supports a recipe. The [Stovetop/Oven](/stations/stovetop-oven/) provides controllable heat, while cookware defines ingredient capacity, liquids, interactions, and thermal response.
 
 <div class="page-summary">
-    <p><strong>Status: Implemented core system</strong></p>
-    <p>The current cooking line includes stovetop cookware and oven bakeware. Exact recipe lists, vessel capacities, and material tier differences will be documented on their dedicated pages.</p>
+    <p><strong>Status: Implemented</strong></p>
+    <p>Stockpots, Saucepans, Skillets, and Woks are available in Iron, Stainless Steel, Diamond Coated, and Netherite tiers. Iron Baking Sheets and Iron Baking Dishes support oven recipes.</p>
 </div>
 
 ## Stovetop cookware
 
-The current heated cookware family includes:
+| Cookware | Capacity | General role |
+|---|---:|---|
+| [Stockpot](/cooking/stockpot/) | 8 ingredients, 4000 mB liquid | Soups, stews, freeform dishes, potion infusion, serving |
+| [Saucepan](/cooking/saucepan/) | 4 ingredients, 1500 mB water | Smaller liquid recipes, sauces, reductions, boiling |
+| [Skillet](/cooking/skillet/) | 4 ingredients | Direct contact pan cooking |
+| [Wok](/cooking/wok/) | 6 ingredients | High heat cooking with toss requirements and heat zones |
 
-| Cookware | General role |
-|---|---|
-| [Saucepan](/cooking/saucepan/) | Smaller volume heated recipes, liquids, evaporation, and reductions |
-| [Stockpot](/cooking/stockpot/) | Larger volume soups, stews, freeform cooking, potions, and serving |
-| [Skillet](/cooking/skillet/) | Fast response direct contact pan cooking |
-| [Wok](/cooking/wok/) | High heat cooking with heat zones and an ingredient toss interaction |
+All four cookware families are implemented in:
 
-These vessels use the shared heated cooking infrastructure while retaining station specific capacity and interaction rules.
+1. Iron
+2. Stainless Steel
+3. Diamond Coated
+4. Netherite
+
+See [Cookware Tiers](/cooking/cookware-tiers/) for the exact heating and cooling multipliers and the upgrade path.
 
 ## Temperature behavior
 
-Stovetop cookware responds to the target temperature provided by the [Stovetop/Oven](/stations/stovetop-oven/). The cookware temperature changes through the thermal simulation rather than instantly snapping to the selected value.
+Cookware follows the target temperature from the [Stovetop/Oven](/stations/stovetop-oven/) through thermal simulation instead of snapping instantly to the selected temperature. Higher cookware tiers heat faster and cool more slowly.
 
-Recipes can require their cookware to be within a defined temperature range before valid cooking progress is made.
+Recipes can require the cookware to remain inside a defined temperature range before valid cooking progress is made.
 
 ## Ingredients and recipe state
 
-Heated cookware recipes can distinguish exact ingredients, quantities, preparation states, heat ranges, and recipe specific interaction requirements.
+Heated cookware recipes can distinguish:
 
-The cooking system tracks the active recipe and doneness once cooking begins so the result is associated with the recipe that actually started instead of constantly changing because another possible match briefly appears.
+- exact ingredient items and quantities
+- washing and cut state
+- temperature range
+- liquid requirements
+- recipe duration
+- toss requirements for Wok recipes
+- oven cookware requirements for baked recipes
 
-Spoiled ingredients are rejected when they are no longer valid food inputs, and completed foods use the current recipe output freshness rules to carry freshness through multi step cooking chains.
-
-## Stockpot serving
-
-The [Stockpot](/cooking/stockpot/) supports serving completed dishes with compatible serving containers. Serving is separate from the recipe matching step: the recipe is cooked in the pot, then portions can be transferred into the supported container flow.
-
-Exact serving containers and portion behavior will be listed on the dedicated [Stockpot](/cooking/stockpot/) page.
-
-## Wok tossing
-
-The [Wok](/cooking/wok/) adds an active tossing interaction to its cooking flow. Recipes that depend on wok handling can therefore require more than simply placing ingredients over heat and waiting.
-
-Exact toss requirements belong on the individual recipe or [Wok](/cooking/wok/) reference page.
+Spoiled ingredients are rejected when they are no longer valid inputs. Finished foods inherit freshness through the shared food pipeline. See [Freshness & Spoilage](/storage/freshness-spoilage/).
 
 ## Oven bakeware
 
-The oven side of the [Stovetop/Oven](/stations/stovetop-oven/) supports cookware requirements separate from stovetop vessels. Current bakeware includes:
+The oven supports [Iron Baking Sheets and Iron Baking Dishes](/cooking/oven-bakeware/) as well as bare rack recipes. Each of the three oven racks has its own cookware and food position.
 
-- **[Iron Baking Sheet](/cooking/oven-bakeware/)**
-- **[Iron Baking Dish](/cooking/oven-bakeware/)**
+## Recipe reference
 
-An oven recipe can require a baking sheet, baking dish, a bare rack, or accept any supported rack arrangement. See [Oven Bakeware](/cooking/oven-bakeware/) for the dedicated [Iron Baking Sheet](/cooking/oven-bakeware/) and [Iron Baking Dish](/cooking/oven-bakeware/) guide, and [Stovetop/Oven](/stations/stovetop-oven/) for the oven controls and rack system.
-
-## Recipe Book integration
-
-Cookware requirements are part of the [Recipe Book](/recipe-book/overview/) loading workflow. When a selected oven recipe requires supported bakeware, the station autofill system can pull and insert that cookware along with the recipe ingredients from the connected kitchen network.
-
-The same recipe planning system can use cookware requirements when presenting the steps needed to prepare a selected dish.
-
-## Dedicated cookware guides
-
-The cookware wide behavior stays on this page, while the individual guides now cover the implemented vessel specific systems:
-
-- [Stockpot](/cooking/stockpot/) for canonical and freeform cooking, liquids, potions, quality, serving, and visual behavior
-- [Saucepan](/cooking/saucepan/) for its three solid slots, 1500 mB water capacity, evaporation, and reduction
-- [Skillet](/cooking/skillet/) for four slot dry heat cooking and fast thermal response
-- [Wok](/cooking/wok/) for five slot high heat cooking, heat zones, toss counts, and toss streaks
-
-- [Oven Bakeware](/cooking/oven-bakeware/) for [Iron Baking Sheet](/cooking/oven-bakeware/) and [Iron Baking Dish](/cooking/oven-bakeware/) requirements, rack placement, and [Recipe Book](/recipe-book/overview/) loading
+The [Complete Recipe Index](/recipes/complete-index/) lists all 233 Recipe Book entries with ingredients, station, time, and method or heat requirement.
 
 ## Related pages
 
-- [Cooking Overview](/cooking/overview/)
+- [Cookware Tiers](/cooking/cookware-tiers/)
 - [Stovetop/Oven](/stations/stovetop-oven/)
 - [Oven Bakeware](/cooking/oven-bakeware/)
-- [Kitchen Storage](/storage/overview/)
-- [Recipe Book](/recipe-book/overview/)
+- [Cooking Overview](/cooking/overview/)
+- [Complete Recipe Index](/recipes/complete-index/)

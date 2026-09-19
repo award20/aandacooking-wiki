@@ -13,10 +13,10 @@ Each preservation method applies a spoilage rate multiplier. Lower values mean s
 |---|---:|---|
 | Fermented | 0.50× | Apple Vinegar, Fermented Soybeans, Soy Sauce |
 | Pickled | 0.25× | Pickled Carrots, Pickled Beetroot, Pickled Onion |
-| Sugared | 0.40× | Sweet Berry Jam |
+| Sugared | 0.40× | Sweet Berry Jam, Apple Jam, Pumpkin Butter |
 | Sealed | 0.10× | Filled jars sealed with the [Jar Sealer](/stations/jar-sealer/) |
 
-The preservation framework also defines values for Salted, Dried, and Smoked food. Those methods are not yet documented as complete player systems.
+The preservation framework also defines Salted at 0.50×, Dried at 0.20×, and Smoked at 0.35×. No current default food registrations use those methods, so they remain framework support rather than a complete player production line.
 
 ## Combining preservation with storage
 
@@ -113,6 +113,7 @@ The [Recipe Book](/recipe-book/overview/) can expose these prerequisite chains w
 - [Fermentation Crock](/stations/fermentation-crock/)
 - [Jar Sealer](/stations/jar-sealer/)
 - [Cold Storage](/storage/cold-storage/)
+- [Freshness & Spoilage](/storage/freshness-spoilage/)
 - [Rice & Soybean](/ingredients/rice-soybean/)
 - [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/)
 - [Desserts & Sweet Foods](/recipes/desserts-sweet-foods/)

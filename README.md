@@ -2,41 +2,37 @@
 
 Documentation for A & A Cooking, a Fabric mod for Minecraft 1.21.10.
 
-The mod expands cooking and agriculture with ingredient preparation, cookware, dedicated kitchen stations, recipe discovery, storage, farming, fermentation, and related food production systems. A & A Cooking is currently in pre alpha development, so the wiki changes as the implementation changes.
+The current wiki is aligned to the final private alpha playtest candidate. It covers the mod's cooking, agriculture, storage, preservation, Recipe Book, weather, world discovery, commands, and configuration systems.
 
 The published wiki is available at [aandacooking.haxuslate.com](https://aandacooking.haxuslate.com).
 
-## Documentation coverage
+## Complete references
 
-Wiki pages use the following status categories:
+The wiki includes:
 
-- **Implemented**: available in the currently documented version of the mod
-- **In development**: active work is present, but behavior or presentation may still change
-- **Planned**: future content that is not currently available
+- a **Complete Recipe Index** covering all 233 discoverable Recipe Book entries
+- a **Complete Content Index** covering registered player facing blocks and items
+- an **Equipment & Crafting** reference for current equipment recipes
+- exact cookware tier behavior
+- exact freshness, spoilage, storage, and preservation rules
+- all nine crop profiles and their climate requirements
+- the full named weather condition reference and Weather Chart
+- the complete `/aacooking` command surface
+- exact server/common and Recipe Book client configuration
 
-Planned systems are kept separate from implemented mechanics. Details that are still changing or not yet fully documented are marked for verification.
+## Documentation approach
 
-## Wiki contents
+Cross references link to the relevant wiki page whenever a dedicated page exists. If an entry does not have its own page, it remains plain text until a page is added.
 
-The documentation is organized around:
+Public documentation describes the mod itself and keeps behind the scenes development terminology out of player facing pages.
 
-- Getting started and basic cooking workflow
-- Cooking stations, cookware, and processing
-- Recipe Book progression and recipe discovery
-- Ingredients, recipes, and preparation states
-- Agriculture, seasons, soil, and crop behavior
-- Kitchen storage and food production systems
-- Fermentation and other preservation systems
-- Commands, configuration, and technical information
-- Documentation coverage and planned features
-
-The current documentation includes the project overview, First Steps and Ingredient Preparation guides, core processing stations, Stovetop/Oven, dedicated Stockpot/Saucepan/Skillet/Wok guides, oven bakeware, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer layouts, Recipe Book coverage, Cultivated Soil, crop growth/vigor, Tomato and Onion profiles, Compost/fertility, the Game Calendar, solar time/daylight, and local weather/climate diagnostics. The wiki also includes a central `/aacooking` command reference, configuration guidance, an ingredient reference layer, Rice/Soybean production chain coverage, Recipe Notes and discovery, the Fermentation Crock, Jar Sealer, and preservation systems, plus category based recipe references for soups, baked foods, desserts, pasta, Rice dishes, Soybean foods, vegetables, eggs, dairy, stir fries, meat and fish, drinks, herbs, sauces, intermediates, fermentation, and preservation.
+Normal prose avoids unnecessary joined compounds. Technical IDs, commands, filenames, routes, and numeric ranges keep the punctuation required by their actual values.
 
 ## Development
 
 The site is built with [Astro](https://astro.build/) and [Starlight](https://starlight.astro.build/). Documentation pages are written in Markdown under `src/content/docs/`.
 
-The project uses Node.js 24. Install dependencies and start a local preview with:
+The project uses Node.js 24.
 
 ```text
 npm install
@@ -51,22 +47,6 @@ npm run build
 
 ## Deployment
 
-The workflow in `.github/workflows/deploy.yml` builds and publishes the wiki through GitHub Pages when changes are pushed to the `main` branch. The repository's Pages settings and custom domain configuration determine the public deployment.
+The workflow in `.github/workflows/deploy.yml` builds and publishes the wiki through GitHub Pages when changes are pushed to `main`.
 
-## Documentation approach
-
-The wiki is updated alongside A & A Cooking and keeps planned features separate from implemented mechanics. Exact release and installation information will be added when public playtest builds are available.
-
-Cross references should link to the relevant wiki page whenever a dedicated page exists. If an entry does not have its own page yet, it remains plain text until that page is added.
-
-Maintained by [Haxuslate](https://haxuslate.com).
-
-
-## Current system guides
-
-Dedicated reference pages are available for the Stockpot, Saucepan, Skillet, Wok, Iron oven bakeware, Fermentation Crock, connected kitchen storage, Cabinets/Counters, modular Fridge/Freezer cold storage, agriculture, Cultivated Soil, crop behavior, the calendar, solar/daylight behavior, weather/climate systems, ingredients, Rice/Soybean production chains, Soups & Stews, Breads & Baked Foods, Desserts & Sweet Foods, Pasta & Noodles, Rice Dishes & Bowls, Soybean & Tofu Foods, Potato & Vegetable Dishes, Eggs & Dairy, Stir Fries & Seared Foods, Meat & Fish Dishes, Drinks, Herbs & Seasonings, Sauces & Intermediates, Recipe Notes, fermentation and preservation, the Jar Sealer, `/aacooking` commands, and configuration areas in addition to the shared overview pages. Detailed recipe references currently include Tomato Soup, Tomato Sauce, Wheat Flour, Bread Dough, Wheat Bread, Cooked Rice, Fresh Tofu, Beaten Egg, Seed Oil, Tomato Paste, Ketchup, Mayonnaise, Fresh Cheese, Cheese Sauce, Tomato Puree, Garlic Powder, Onion Powder, Cream, Butter, Shredded Cheese, and Savory Seasoning.
-
-
-## World integration roadmap
-
-Current structure loot and planned Salt, Shipwreck cargo, and recipe discovery expansion are documented on the **World Generation & Discovery** wiki page.
+Maintained by [Haxuslate](https://haxuslate.com/).
