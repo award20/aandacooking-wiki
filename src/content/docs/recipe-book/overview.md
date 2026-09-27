@@ -7,7 +7,7 @@ The **Recipe Book** is a placed block that stores discovered recipes, progressio
 
 ## Current catalog
 
-The private alpha playtest build contains **233 discoverable Recipe Book entries** across eight categories.
+The alpha.2 playtest build contains **233 discoverable Recipe Book entries** across eight categories.
 
 | Category | Recipes |
 |---|---:|

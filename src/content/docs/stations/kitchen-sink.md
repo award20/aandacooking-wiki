@@ -1,14 +1,20 @@
 ---
 title: Kitchen Sink
-description: Washing ingredients and handling water with the Oak Kitchen Sink.
+description: Washing ingredients, handling water, and choosing from the twelve Kitchen Sink material variants.
 ---
 
-The **Oak Kitchen Sink** is the first preparation station used by many A & A Cooking ingredients. Its main role is to apply the washed ingredient state before food is cut or used by recipes that require washed produce.
+The **Kitchen Sink** is the first preparation station used by many A & A Cooking ingredients. Its main role is to apply the washed ingredient state before food is cut or used by recipes that require washed produce.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The washing interaction and bucket exchange described here are part of the current Kitchen Sink behavior.</p>
+    <p>All twelve Kitchen Sink variants share the same washing, bucket exchange, and kitchen network behavior.</p>
 </div>
+
+## Material variants
+
+Kitchen Sinks are available in Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Mangrove, Cherry, Pale Oak, Bamboo, Crimson, and Warped materials.
+
+Each variant uses matching slabs and planks around a Cauldron. See [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for the complete ID and crafting reference.
 
 ## Washing ingredients
 
@@ -39,6 +45,10 @@ The sink also supports bucket exchange:
 
 This interaction is separate from ingredient washing.
 
+## Kitchen network
+
+Every material variant is a compatible kitchen network block. A Sink can bridge nearby Counters, Cabinets, and other supported kitchen blocks regardless of which wood appearance is used.
+
 ## Recipe Book integration
 
 Pinned recipe preparation plans can identify the sink as a required preparation station when a recipe needs a washed ingredient. The pinned recipe HUD can therefore show washing as part of the preparation chain before later steps such as cutting.
@@ -47,6 +57,8 @@ Automatic ingredient pulling and recipe loading are documented with the [Recipe 
 
 ## Related pages
 
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Ingredient Preparation](/getting-started/ingredient-preparation/)
 - [Cutting Board](/stations/cutting-board/)
+- [Kitchen Storage](/storage/overview/)
 - [Cooking Overview](/cooking/overview/)

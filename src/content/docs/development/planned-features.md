@@ -1,9 +1,9 @@
 ---
 title: Planned Features
-description: Future development areas for A & A Cooking, separate from the current private alpha playtest build.
+description: Future development areas for A & A Cooking, separate from the current alpha.2 playtest build.
 ---
 
-The current playtest build already includes the core cooking, agriculture, weather, storage, preservation, Recipe Book, discovery, and structure loot systems documented throughout this wiki. The items below remain future directions rather than current features.
+The current alpha.2 build already includes the core cooking, agriculture, weather, storage, preservation, Recipe Book, discovery, and structure loot systems documented throughout this wiki. The items below remain future directions rather than current features.
 
 ## Planned development areas
 

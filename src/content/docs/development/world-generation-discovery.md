@@ -3,7 +3,7 @@ title: World Generation & Discovery
 description: Structure loot, Salt distribution, Recipe Note discovery, and future world integration in A & A Cooking.
 ---
 
-Exploration is part of A & A Cooking progression. The current playtest build adds **Salt** and **Recipe Notes** to selected vanilla structure loot tables.
+Exploration is part of A & A Cooking progression. The current alpha.2 build adds **Salt** and **Recipe Notes** to selected vanilla structure loot tables.
 
 ## Salt distribution
 
@@ -59,7 +59,7 @@ The intended Shipwreck theme can continue to emphasize:
 
 Possible later additions include natural Salt generation such as Rock Salt deposits and more structure specific pantry presentation. Witch Huts remain a thematic possibility, but vanilla Witch Huts do not provide a standard chest to extend through the current loot table approach.
 
-These ideas are not part of the current playtest build.
+These ideas are not part of the current alpha.2 build.
 
 ## Related pages
 

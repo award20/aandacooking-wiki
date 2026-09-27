@@ -1,11 +1,11 @@
 ---
 title: A & A Cooking Wiki
-description: Player documentation for the A & A Cooking private alpha playtest candidate.
+description: Player documentation for the A & A Cooking alpha.2 playtest build.
 ---
 
 A & A Cooking expands Minecraft cooking and agriculture with ingredient preparation, tiered cookware, dedicated kitchen stations, connected storage, food freshness and preservation, crop simulation, weather, and recipe discovery.
 
-The current documented build is the **final private alpha playtest candidate** for Minecraft 1.21.10 on Fabric.
+The current documented build is **alpha.2** for Minecraft 1.21.10 on Fabric.
 
 ## Start here
 
@@ -15,6 +15,7 @@ The current documented build is the **final private alpha playtest candidate** f
 | [Complete Content Index](/reference/content-index/) | Current registered player facing blocks and items |
 | [Complete Recipe Index](/recipes/complete-index/) | All 233 discoverable Recipe Book entries |
 | [Equipment & Crafting](/reference/equipment-crafting/) | Current equipment and block crafting recipes |
+| [Wood Kitchen Variants](/reference/wood-kitchen-variants/) | All Counter, Cabinet, Sink, and Cutting Board material variants |
 | [Documentation Coverage](/reference/documentation-status/) | What is covered for the playtest build |
 
 ## Cooking and stations
@@ -39,6 +40,7 @@ The current documented build is the **final private alpha playtest candidate** f
 
 - [Kitchen Storage](/storage/overview/)
 - [Cabinets & Counters](/storage/cabinets-counters/)
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Cold Storage](/storage/cold-storage/)
 - [Freshness & Spoilage](/storage/freshness-spoilage/)
 

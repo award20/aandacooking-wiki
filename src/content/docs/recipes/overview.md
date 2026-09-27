@@ -3,7 +3,7 @@ title: Recipe Catalog
 description: Recipe families, the complete 233 recipe index, prerequisite chains, and detailed recipe references.
 ---
 
-The private alpha playtest build contains **233 discoverable Recipe Book entries**. This page organizes the catalog into readable food families, while [Complete Recipe Index](/recipes/complete-index/) provides the exact entry by entry reference.
+The alpha.2 playtest build contains **233 discoverable Recipe Book entries**. This page organizes the catalog into readable food families, while [Complete Recipe Index](/recipes/complete-index/) provides the exact entry by entry reference.
 
 ## Complete reference
 

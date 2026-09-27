@@ -130,7 +130,7 @@ Older or incomplete files are normalized when possible. Missing `time`, `calenda
 
 ## Applying changes
 
-The main configuration is loaded during mod initialization. The current playtest build does not expose a command that reloads `aandacooking.json` while the game is running, so restart the game or server after editing it.
+The main configuration is loaded during mod initialization. The current alpha.2 build does not expose a command that reloads `aandacooking.json` while the game is running, so restart the game or server after editing it.
 
 ## Client configuration
 

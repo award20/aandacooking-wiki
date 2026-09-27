@@ -1,11 +1,11 @@
 ---
 title: About A & A Cooking
-description: What A & A Cooking adds to Minecraft and what is included in the private alpha playtest candidate.
+description: What A & A Cooking adds to Minecraft and what is included in the alpha.2 playtest build.
 ---
 
 A & A Cooking is a Fabric mod for **Minecraft 1.21.10** focused on deeper cooking, agriculture, food preservation, kitchen infrastructure, and environmental simulation.
 
-The current build is the **private alpha playtest candidate**.
+The current build is **alpha.2**.
 
 ## What the mod adds
 
@@ -16,6 +16,7 @@ Major systems include:
 - tiered Stockpots, Saucepans, Skillets, and Woks
 - a combined Stovetop/Oven with independent controls and three oven racks
 - Blender, Mixing Bowl, Mortar and Pestle, Fermentation Crock, Jar Sealer, Kitchen Sink, and Cutting Board stations
+- twelve material variants for Counters, Cabinets, Kitchen Sinks, and Cutting Boards
 - connected kitchen storage, Fridges, and Freezers
 - freshness, spoilage, preservation, refrigeration, and freezing
 - nine custom crop profiles and Cultivated Soil
@@ -42,4 +43,5 @@ See [First Steps](/getting-started/first-steps/) for the basic gameplay loop, th
 - [First Steps](/getting-started/first-steps/)
 - [Documentation Coverage](/reference/documentation-status/)
 - [Complete Content Index](/reference/content-index/)
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Complete Recipe Index](/recipes/complete-index/)

@@ -1,14 +1,20 @@
 ---
 title: Cutting Board
-description: Cutting, peeling, shredding, cracking, and retrieving prepared ingredients.
+description: Cutting, peeling, shredding, cracking, retrieving prepared ingredients, and the twelve Cutting Board material variants.
 ---
 
-The **Oak Cutting Board** is an in world preparation station that holds one ingredient at a time. It is used for registered cutting and preparation paths before ingredients move into cooking or processing stations.
+The **Cutting Board** is an in world preparation station that holds one ingredient at a time. It is used for registered cutting and preparation paths before ingredients move into cooking or processing stations.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The interaction flow below covers the current Cutting Board behavior. Individual preparation paths remain centralized on the [Ingredient Preparation](/getting-started/ingredient-preparation/) page.</p>
+    <p>All twelve Cutting Board variants share the same preparation behavior. Individual preparation paths remain centralized on the [Ingredient Preparation](/getting-started/ingredient-preparation/) page.</p>
 </div>
+
+## Material variants
+
+Cutting Boards are available in Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Mangrove, Cherry, Pale Oak, Bamboo, Crimson, and Warped materials.
+
+Each one is crafted from three matching slabs. See [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for every block ID.
 
 ## Placing an ingredient
 
@@ -66,6 +72,7 @@ The exact chain depends on the executable recipe requirement rather than a separ
 
 ## Related pages
 
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Kitchen Sink](/stations/kitchen-sink/)
 - [Ingredient Preparation](/getting-started/ingredient-preparation/)
 - [Recipe Book](/recipe-book/overview/)

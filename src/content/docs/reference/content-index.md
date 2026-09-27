@@ -1,21 +1,67 @@
 ---
 title: Complete Content Index
-description: Registered blocks, foods, ingredients, farming items, equipment, and utility content in the A & A Cooking private alpha playtest build.
+description: Registered blocks, foods, ingredients, farming items, equipment, and utility content in the A & A Cooking alpha.2 build.
 ---
 
-This page is the complete player facing content index for the current playtest build. Detailed guides are linked where a dedicated wiki page exists.
+This page is the complete player facing content index for the current alpha.2 build. Detailed guides are linked where a dedicated wiki page exists.
 
 ## Blocks
+
+The alpha.2 build registers **84 blocks**. The wooden kitchen families now include twelve matching material variants.
 
 | Block | Block ID | Guide |
 |---|---|---|
 | Oak Kitchen Counter | `aandacooking:oak_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
 | Oak Kitchen Cabinet | `aandacooking:oak_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Spruce Kitchen Counter | `aandacooking:spruce_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Spruce Kitchen Cabinet | `aandacooking:spruce_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Birch Kitchen Counter | `aandacooking:birch_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Birch Kitchen Cabinet | `aandacooking:birch_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Jungle Kitchen Counter | `aandacooking:jungle_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Jungle Kitchen Cabinet | `aandacooking:jungle_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Acacia Kitchen Counter | `aandacooking:acacia_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Acacia Kitchen Cabinet | `aandacooking:acacia_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Dark Oak Kitchen Counter | `aandacooking:dark_oak_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Dark Oak Kitchen Cabinet | `aandacooking:dark_oak_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Mangrove Kitchen Counter | `aandacooking:mangrove_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Mangrove Kitchen Cabinet | `aandacooking:mangrove_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Cherry Kitchen Counter | `aandacooking:cherry_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Cherry Kitchen Cabinet | `aandacooking:cherry_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Pale Oak Kitchen Counter | `aandacooking:pale_oak_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Pale Oak Kitchen Cabinet | `aandacooking:pale_oak_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Bamboo Kitchen Counter | `aandacooking:bamboo_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Bamboo Kitchen Cabinet | `aandacooking:bamboo_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Crimson Kitchen Counter | `aandacooking:crimson_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Crimson Kitchen Cabinet | `aandacooking:crimson_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
+| Warped Kitchen Counter | `aandacooking:warped_kitchen_counter` | [Guide](/storage/cabinets-counters/) |
+| Warped Kitchen Cabinet | `aandacooking:warped_kitchen_cabinet` | [Guide](/storage/cabinets-counters/) |
 | Oak Kitchen Sink | `aandacooking:oak_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Spruce Kitchen Sink | `aandacooking:spruce_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Birch Kitchen Sink | `aandacooking:birch_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Jungle Kitchen Sink | `aandacooking:jungle_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Acacia Kitchen Sink | `aandacooking:acacia_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Dark Oak Kitchen Sink | `aandacooking:dark_oak_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Mangrove Kitchen Sink | `aandacooking:mangrove_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Cherry Kitchen Sink | `aandacooking:cherry_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Pale Oak Kitchen Sink | `aandacooking:pale_oak_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Bamboo Kitchen Sink | `aandacooking:bamboo_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Crimson Kitchen Sink | `aandacooking:crimson_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
+| Warped Kitchen Sink | `aandacooking:warped_kitchen_sink` | [Guide](/stations/kitchen-sink/) |
 | Small Stainless Steel Fridge | `aandacooking:stainless_steel_fridge` | [Guide](/storage/cold-storage/) |
 | Small Stainless Steel Freezer | `aandacooking:stainless_steel_freezer` | [Guide](/storage/cold-storage/) |
 | Among Us | `aandacooking:among_us` |  |
 | Oak Cutting Board | `aandacooking:oak_cutting_board` | [Guide](/stations/cutting-board/) |
+| Spruce Cutting Board | `aandacooking:spruce_cutting_board` | [Guide](/stations/cutting-board/) |
+| Birch Cutting Board | `aandacooking:birch_cutting_board` | [Guide](/stations/cutting-board/) |
+| Jungle Cutting Board | `aandacooking:jungle_cutting_board` | [Guide](/stations/cutting-board/) |
+| Acacia Cutting Board | `aandacooking:acacia_cutting_board` | [Guide](/stations/cutting-board/) |
+| Dark Oak Cutting Board | `aandacooking:dark_oak_cutting_board` | [Guide](/stations/cutting-board/) |
+| Mangrove Cutting Board | `aandacooking:mangrove_cutting_board` | [Guide](/stations/cutting-board/) |
+| Cherry Cutting Board | `aandacooking:cherry_cutting_board` | [Guide](/stations/cutting-board/) |
+| Pale Oak Cutting Board | `aandacooking:pale_oak_cutting_board` | [Guide](/stations/cutting-board/) |
+| Bamboo Cutting Board | `aandacooking:bamboo_cutting_board` | [Guide](/stations/cutting-board/) |
+| Crimson Cutting Board | `aandacooking:crimson_cutting_board` | [Guide](/stations/cutting-board/) |
+| Warped Cutting Board | `aandacooking:warped_cutting_board` | [Guide](/stations/cutting-board/) |
 | Iron Stockpot | `aandacooking:iron_stockpot` | [Guide](/cooking/stockpot/) |
 | Stainless Steel Stockpot | `aandacooking:stainless_steel_stockpot` | [Guide](/cooking/stockpot/) |
 | Diamond Coated Stockpot | `aandacooking:diamond_coated_stockpot` | [Guide](/cooking/stockpot/) |
@@ -389,6 +435,7 @@ These all display as Recipe Note items but preserve older fixed recipe registrat
 
 ## Related pages
 
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Equipment & Crafting](/reference/equipment-crafting/)
 - [Complete Recipe Index](/recipes/complete-index/)
 - [Ingredients Overview](/ingredients/overview/)

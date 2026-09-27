@@ -3,7 +3,7 @@ title: First Steps
 description: A practical starting workflow for preparing ingredients, discovering recipes, cooking, storing food, and farming.
 ---
 
-The private alpha playtest build is designed around a preparation and station workflow rather than putting every food into the vanilla crafting grid.
+Alpha.2 is designed around a preparation and station workflow rather than putting every food into the vanilla crafting grid.
 
 ## 1. Build the core kitchen
 
@@ -16,7 +16,7 @@ Useful early blocks include:
 - [Counters and Cabinets](/storage/cabinets-counters/) for connected storage
 - [Recipe Book](/recipe-book/overview/) for discovery and planning
 
-See [Equipment & Crafting](/reference/equipment-crafting/) for the current crafting recipes.
+See [Equipment & Crafting](/reference/equipment-crafting/) for the current crafting recipes and [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for the full furniture set.
 
 ## 2. Prepare ingredients
 

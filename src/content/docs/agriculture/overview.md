@@ -7,7 +7,7 @@ A & A Cooking agriculture extends farming with crop specific seasons, moisture, 
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>The current playtest build includes nine A & A Cooking crop profiles: Tomato, Onion, Basil, Rosemary, Thyme, Parsley, Mint, Rice, and Soybean.</p>
+    <p>The current alpha.2 build includes nine A & A Cooking crop profiles: Tomato, Onion, Basil, Rosemary, Thyme, Parsley, Mint, Rice, and Soybean.</p>
 </div>
 
 ## Current crops

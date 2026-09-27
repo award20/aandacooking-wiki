@@ -157,6 +157,7 @@ export default defineConfig({
                     label: 'Reference & Support',
                     items: [
                         { label: 'Complete Content Index', slug: 'reference/content-index' },
+                        { label: 'Wood Kitchen Variants', slug: 'reference/wood-kitchen-variants' },
                         { label: 'Equipment & Crafting', slug: 'reference/equipment-crafting' },
                         { label: 'Documentation Coverage', slug: 'reference/documentation-status' }
                     ]

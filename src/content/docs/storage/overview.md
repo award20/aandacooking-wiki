@@ -14,11 +14,13 @@ Kitchen storage in A & A Cooking is more than a collection of inventories. Compa
 
 | Storage | Capacity | Storage condition |
 |---|---:|---|
-| [Oak Kitchen Counter](/storage/cabinets-counters/) | 18 slots | Ambient |
-| [Oak Kitchen Cabinet](/storage/cabinets-counters/) | 27 slots | Ambient |
+| [Kitchen Counter](/storage/cabinets-counters/) | 18 slots | Ambient |
+| [Kitchen Cabinet](/storage/cabinets-counters/) | 27 slots | Ambient |
 | Small Stainless Steel Fridge | 18 slots | Refrigerated |
 | Small Stainless Steel Freezer | 18 slots | Frozen |
 | Paired cold storage | 36 slots | Determined by the physical half owning each slot |
+
+Kitchen Counters and Cabinets are available in twelve matching material variants. See [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for the complete set.
 
 Two vertically paired cold storage blocks open as one 36-slot appliance. See [Cold Storage](/storage/cold-storage/) for the supported layouts.
 
@@ -78,6 +80,7 @@ Mixed fridge/freezer appliances keep the storage condition of the physical half 
 ## Related pages
 
 - [Cabinets & Counters](/storage/cabinets-counters/)
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Cold Storage](/storage/cold-storage/)
 - [Recipe Book](/recipe-book/overview/)
 - [Stovetop/Oven](/stations/stovetop-oven/)

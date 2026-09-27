@@ -2,7 +2,7 @@
 
 Documentation for A & A Cooking, a Fabric mod for Minecraft 1.21.10.
 
-The current wiki is aligned to the final private alpha playtest candidate. It covers the mod's cooking, agriculture, storage, preservation, Recipe Book, weather, world discovery, commands, and configuration systems.
+The current wiki is aligned to **A & A Cooking alpha.2**. It covers the mod's cooking, agriculture, storage, preservation, Recipe Book, weather, world discovery, commands, and configuration systems.
 
 The published wiki is available at [aandacooking.haxuslate.com](https://aandacooking.haxuslate.com).
 
@@ -11,7 +11,8 @@ The published wiki is available at [aandacooking.haxuslate.com](https://aandacoo
 The wiki includes:
 
 - a **Complete Recipe Index** covering all 233 discoverable Recipe Book entries
-- a **Complete Content Index** covering registered player facing blocks and items
+- a **Complete Content Index** covering all 84 registered blocks and the current item catalog
+- a **Wood Kitchen Variants** reference covering all Counter, Cabinet, Sink, and Cutting Board material variants
 - an **Equipment & Crafting** reference for current equipment recipes
 - exact cookware tier behavior
 - exact freshness, spoilage, storage, and preservation rules

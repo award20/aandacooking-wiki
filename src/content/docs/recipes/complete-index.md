@@ -1,6 +1,6 @@
 ---
 title: Complete Recipe Index
-description: Every Recipe Book entry currently included in the private alpha playtest build of A & A Cooking.
+description: Every Recipe Book entry currently included in the alpha.2 playtest build of A & A Cooking.
 ---
 
 The current Recipe Book contains **233 discoverable recipes**. This page is the complete index for the playtest build.

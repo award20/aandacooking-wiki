@@ -1,23 +1,42 @@
 ---
 title: Cabinets & Counters
-description: Oak Kitchen Cabinet and Counter capacities, connected storage behavior, and station access.
+description: Kitchen Cabinet and Counter capacities, wood variants, connected storage behavior, and station access.
 ---
 
-The **Oak Kitchen Cabinet** and **Oak Kitchen Counter** provide the main ambient ingredient storage for a connected A & A Cooking kitchen.
+**Kitchen Cabinets** and **Kitchen Counters** provide the main ambient ingredient storage for a connected A & A Cooking kitchen. Alpha.2 includes twelve material variants of each block.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
-    <p>Both inventories, their bright vanilla style storage screens, and their participation in the connected kitchen network are implemented.</p>
+    <p>All twelve Cabinet and Counter variants share the same inventories, storage screens, freshness behavior, and connected kitchen network support.</p>
 </div>
 
 ## Capacity
 
-| Block | Capacity |
+| Block family | Capacity |
 |---|---:|
-| Oak Kitchen Counter | 18 slots |
-| Oak Kitchen Cabinet | 27 slots |
+| Kitchen Counter | 18 slots |
+| Kitchen Cabinet | 27 slots |
 
-Both store normal item stacks and expose their contents to the kitchen storage network when connected.
+All variants store normal item stacks and expose their contents to the kitchen storage network when connected.
+
+## Material variants
+
+Counters and Cabinets are available in:
+
+- Oak
+- Spruce
+- Birch
+- Jungle
+- Acacia
+- Dark Oak
+- Mangrove
+- Cherry
+- Pale Oak
+- Bamboo
+- Crimson
+- Warped
+
+See [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for every block ID and the matching crafting layouts.
 
 ## Ambient storage
 
@@ -27,7 +46,9 @@ For food that needs longer term preservation, use [Cold Storage](/storage/cold-s
 
 ## Network connectivity
 
-Counters and Cabinets can connect to one another and to other kitchen compatible blocks. The network can traverse functional blocks such as the [Kitchen Sink](/stations/kitchen-sink/) instead of stopping whenever storage furniture is separated by a station.
+Counters and Cabinets can connect to one another and to other kitchen compatible blocks. Different material variants can be mixed freely in the same network.
+
+The network can traverse functional blocks such as the [Kitchen Sink](/stations/kitchen-sink/) instead of stopping whenever storage furniture is separated by a station.
 
 A simple connected run can look like:
 
@@ -43,7 +64,7 @@ Countertop processing stations can enter the kitchen network through the Counter
 
 [Skillet](/cooking/skillet/), [Wok](/cooking/wok/), and [Saucepan](/cooking/saucepan/) recipe loading can reach kitchen storage through the [Stovetop/Oven](/stations/stovetop-oven/) and adjacent compatible kitchen furniture.
 
-See the individual cookware guides for station specific behavior:
+See the individual cookware guides for station behavior:
 
 - [Skillet](/cooking/skillet/)
 - [Wok](/cooking/wok/)
@@ -57,6 +78,7 @@ The operation is atomic at the recipe storage layer: if the complete missing req
 
 ## Related pages
 
+- [Wood Kitchen Variants](/reference/wood-kitchen-variants/)
 - [Kitchen Storage](/storage/overview/)
 - [Cold Storage](/storage/cold-storage/)
 - [Kitchen Sink](/stations/kitchen-sink/)
