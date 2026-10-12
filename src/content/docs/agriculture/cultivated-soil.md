@@ -82,3 +82,8 @@ The crop environment system can also read vanilla farmland moisture, normalized 
 - [Crop Growth & Vigor](/agriculture/crop-growth/)
 - [Compost & Fertility](/agriculture/compost-fertility/)
 - [Weather & Climate](/environment/weather-climate/)
+
+
+## Vanilla crop support
+
+Cultivated Soil now also supports vanilla `CropBlock` plants as a planting surface. Farmer villagers can plant suitable seeds on either Farmland or Cultivated Soil.

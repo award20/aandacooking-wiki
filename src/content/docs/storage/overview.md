@@ -88,3 +88,7 @@ Mixed fridge/freezer appliances keep the storage condition of the physical half 
 ## See also
 
 - [Freshness & Spoilage](/storage/freshness-spoilage/)
+
+## Crates and market cargo
+
+The twelve wooden [Crates](/storage/crates-cargo/) have nine inventory slots each. Some generated market and merchant Crates use themed cargo contents. The [Spice Traders](/village/spice-traders/) guide explains merchant shipments.

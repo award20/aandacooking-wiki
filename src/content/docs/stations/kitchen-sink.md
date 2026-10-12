@@ -14,7 +14,7 @@ The **Kitchen Sink** is the first preparation station used by many A & A Cooking
 
 Kitchen Sinks are available in Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Mangrove, Cherry, Pale Oak, Bamboo, Crimson, and Warped materials.
 
-Each variant uses matching slabs and planks around a Cauldron. See [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for the complete ID and crafting reference.
+Each variant uses matching slabs and planks around a Bucket. See [Wood Kitchen Variants](/reference/wood-kitchen-variants/) for the complete ID and crafting reference.
 
 ## Washing ingredients
 

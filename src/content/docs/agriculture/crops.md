@@ -164,3 +164,12 @@ The current crop set uses dedicated seed items for Tomato, Onion, Basil, Rosemar
 - [Compost & Fertility](/agriculture/compost-fertility/)
 - [Weather & Climate](/environment/weather-climate/)
 - [Calendar & Seasons](/environment/calendar-seasons/)
+
+
+## Farmer villagers
+
+Farmer villagers can now recognize mature A & A Cooking crops as harvest targets. They can replant supported mod seeds from their inventories on Farmland or [Cultivated Soil](/agriculture/cultivated-soil/). Vanilla crops are also allowed to grow on Cultivated Soil.
+
+Villager farming follows the normal Minecraft mob interaction rules, including the **mobGriefing** game rule. The farmer needs access to the crop or an empty planting position.
+
+See [Villages & Markets](/village/overview/) for the new agricultural and trading areas.

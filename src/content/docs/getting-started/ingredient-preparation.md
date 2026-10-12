@@ -54,3 +54,7 @@ Additional preparation actions can be used by other stations, but only the paths
 ## Preparation and recipe matching
 
 When a recipe requires a prepared ingredient, it can check both the item and its ingredient state. For example, a recipe can require a washed item with the `DICED` cut style. See [Cooking Overview](/cooking/overview/) for the matching rules used by cooking and processing stations.
+
+## Choosing a Cutting Board mode
+
+A & A Cooking supports **Simple** and **Interactive** Cutting Board preparation. Press **J** to toggle modes, then use a [Kitchen Knife](/getting-started/kitchen-knives/) on a [Cutting Board](/stations/cutting-board/). Interactive preparation uses visible cutting guides; Simple preparation follows normal repeated cuts.

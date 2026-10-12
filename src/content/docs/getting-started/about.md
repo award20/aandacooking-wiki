@@ -1,11 +1,11 @@
 ---
 title: About A & A Cooking
-description: What A & A Cooking adds to Minecraft and what is included in the alpha.2 playtest build.
+description: What A & A Cooking adds to Minecraft and what is included in the current build.
 ---
 
 A & A Cooking is a Fabric mod for **Minecraft 1.21.10** focused on deeper cooking, agriculture, food preservation, kitchen infrastructure, and environmental simulation.
 
-The current build is **alpha.2**.
+The current build is **v0.4.0-alpha.1**.
 
 ## What the mod adds
 

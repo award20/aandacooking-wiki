@@ -1,9 +1,9 @@
 ---
 title: Planned Features
-description: Future development areas for A & A Cooking, separate from the current alpha.2 playtest build.
+description: Future development areas for A & A Cooking, separate from the current build.
 ---
 
-The current alpha.2 build already includes the core cooking, agriculture, weather, storage, preservation, Recipe Book, discovery, and structure loot systems documented throughout this wiki. The items below remain future directions rather than current features.
+The current v0.4.0-alpha.1 build already includes the core cooking, agriculture, weather, storage, preservation, Recipe Book, discovery, and structure loot systems documented throughout this wiki. The items below remain future directions rather than current features.
 
 ## Planned development areas
 
@@ -13,7 +13,7 @@ The current alpha.2 build already includes the core cooking, agriculture, weathe
 | Livestock | Additional animals, meat sources, milk types, and distinct dairy or cheese chains |
 | Horticulture | Fruit trees, bushes, vines, root crops, orchards, perennial plants, and later greenhouse support |
 | Cold storage expansion | Additional presentation, equipment progression, and balancing around the existing fridge/freezer system |
-| World presentation | Shipwreck Spice Crates or similar trade cargo, later natural Salt generation, and more thematic pantry presentation |
+| World presentation | Further Shipwreck cargo presentation, later natural Salt generation, and more thematic pantry expansion |
 
 ## Already implemented
 
@@ -45,3 +45,7 @@ Future content, balance targets, and release timing can change as playtesting id
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
 - [Current Crops](/agriculture/crops/)
 - [Weather Reference](/environment/weather-reference/)
+
+## Village features already available
+
+Plains Village Markets, Chef and Baker villagers, Spice Trader visits, Village Bands, and generated market Crates are implemented. See [Villages & Markets](/village/overview/) for the current systems.

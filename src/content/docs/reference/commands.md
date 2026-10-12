@@ -202,7 +202,7 @@ The search:
 - is Overworld only
 - must be run by a player
 - checks outward in 256 block steps
-- searches up to 16,384 blocks away
+- searches up to 16,3103 blocks away
 - verifies the atmospheric field and resolved surface position before accepting a target
 
 ## Related pages
@@ -214,3 +214,23 @@ The search:
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Weather & Climate](/environment/weather-climate/)
 - [Weather Reference](/environment/weather-reference/)
+
+## Markets, traders, and bands
+
+The `/aacooking market` command family works with the nearest registered market. Administrative commands require permission level 2.
+
+| Command | Description | Permission |
+|---|---|---|
+| `/aacooking market info` | View the nearby registered market | Normal command access |
+| `/aacooking market register <region>` | Register a market at the current location | Level 2 |
+| `/aacooking market remove` | Remove the nearby market | Level 2 |
+| `/aacooking market trader info` | View the trader's current visit or schedule | Normal command access |
+| `/aacooking market trader start` | Start a trader visit for testing | Level 2 |
+| `/aacooking market trader end` | End the current trader visit | Level 2 |
+| `/aacooking market band info` | View band membership and performance | Normal command access |
+| `/aacooking market band form` | Form a band | Level 2 |
+| `/aacooking market band dissolve` | Dissolve the nearby band | Level 2 |
+| `/aacooking market band song next` | Advance to the next song | Level 2 |
+| `/aacooking market band song skip` | Skip the current song | Level 2 |
+
+Accepted market region names are `generic`, `plains`, `desert`, `savanna`, `taiga`, and `snowy`. These commands are useful when preparing and testing a [Village Market](/village/overview/).

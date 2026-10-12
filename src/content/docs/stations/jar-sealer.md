@@ -77,3 +77,7 @@ It cooks in a [Saucepan](/cooking/saucepan/) for 12 seconds at 90 to 103 °C wit
 - [Saucepan](/cooking/saucepan/)
 - [Cold Storage](/storage/cold-storage/)
 - [Recipe Catalog](/recipes/overview/)
+
+## Placeable Glass Jars
+
+In addition to preserving filled jars, you can place empty [Glass Jar blocks](/storage/glass-jars/) and seal them with a Glass Jar Lid. Sneak use a sealed placed jar to open it and recover the lid.

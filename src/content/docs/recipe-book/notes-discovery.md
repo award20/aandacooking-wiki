@@ -51,3 +51,16 @@ Older fixed recipe note items remain registered for save compatibility. New disc
 - [Complete Recipe Index](/recipes/complete-index/)
 - [World Generation & Discovery](/development/world-generation-discovery/)
 - [Commands](/reference/commands/)
+
+## Village Recipe Note trades
+
+[Chefs and Bakers](/village/chefs-bakers/) can offer Recipe Notes among their higher tier trades, depending on their profession and kitchen capabilities. See also [Village Markets](/village/overview/) and [World Generation & Discovery](/development/world-generation-discovery/).
+
+
+## Reading a Recipe Note
+
+Hold a Recipe Note with an assigned recipe and **use it** to open a paper styled reading screen. This shows the recipe's ingredients, preparation steps, cooking station, cooking time, temperature information, and instructions. The screen supports scrolling and displays temperatures in the configured Celsius or Fahrenheit unit.
+
+You can also **hold Shift while viewing the note tooltip** to see a summary of the recipe's ingredients and instructions without opening the note. Recipe Note page sounds follow the Recipe Book sound setting.
+
+Reading a note does not itself consume it. To add its recipe to a placed Recipe Book, use the note on that book as described above.

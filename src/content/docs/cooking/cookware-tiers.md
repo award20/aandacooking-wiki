@@ -36,7 +36,7 @@ The current crafting progression is:
 3. Diamond Coated cookware
 4. Netherite cookware
 
-Stainless Steel versions use one Stainless Steel Ingot with the Iron vessel. Diamond Coated versions use one Diamond with the Stainless Steel vessel. Netherite versions use one Netherite Ingot with the Diamond Coated vessel.
+Stainless Steel upgrade costs vary by vessel: **3 Ingots for the Stockpot, 2 for the Saucepan, 2 for the Wok, and 1 for the Skillet**. Diamond Coated upgrades use one Diamond with the Stainless Steel vessel. Netherite upgrades use the Smithing Table with a Netherite Upgrade Template, Netherite Ingot, and Diamond Coated vessel. Direct crafting alternatives are also available for the earlier material tiers.
 
 See [Equipment & Crafting](/reference/equipment-crafting/) for the full crafting reference.
 

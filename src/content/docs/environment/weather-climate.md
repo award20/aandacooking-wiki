@@ -108,3 +108,7 @@ See [Current Crops](/agriculture/crops/) for the complete crop environment profi
 - [Calendar & Seasons](/environment/calendar-seasons/)
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Agriculture Overview](/agriculture/overview/)
+
+## Seasonal appearance
+
+Weather and the annual cycle also affect the appearance of the world. Seasonal foliage color changes, cloud coverage rendering, and environmental transitions are integrated with the newer climate systems. See [Calendar & Seasons](/environment/calendar-seasons/) and [Weather Reference](/environment/weather-reference/).

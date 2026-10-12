@@ -3,7 +3,7 @@ title: Cabinets & Counters
 description: Kitchen Cabinet and Counter capacities, wood variants, connected storage behavior, and station access.
 ---
 
-**Kitchen Cabinets** and **Kitchen Counters** provide the main ambient ingredient storage for a connected A & A Cooking kitchen. Alpha.2 includes twelve material variants of each block.
+**Kitchen Cabinets** and **Kitchen Counters** provide the main ambient ingredient storage for a connected A & A Cooking kitchen. v0.4.0-alpha.1 includes twelve material variants of each block.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
@@ -83,3 +83,7 @@ The operation is atomic at the recipe storage layer: if the complete missing req
 - [Cold Storage](/storage/cold-storage/)
 - [Kitchen Sink](/stations/kitchen-sink/)
 - [Recipe Book](/recipe-book/overview/)
+
+## Related market storage
+
+For nine slot wooden storage blocks and cargo generated in markets, kitchens, and merchant shipments, see [Crates & Cargo](/storage/crates-cargo/).

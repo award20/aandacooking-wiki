@@ -63,3 +63,7 @@ See [Current Crops](/agriculture/crops/) and [Crop Growth & Vigor](/agriculture/
 - [Agriculture Overview](/agriculture/overview/)
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Weather & Climate](/environment/weather-climate/)
+
+## Placeable Calendar
+
+The [Calendar block](/environment/calendar-block/) displays the current calendar in the world and can be placed on the side of a solid support block. It offers a decorative alternative to the calendar command.

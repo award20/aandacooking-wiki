@@ -3,7 +3,7 @@ title: Wood Kitchen Variants
 description: Material variants, block IDs, crafting layouts, and shared behavior for Counters, Cabinets, Kitchen Sinks, and Cutting Boards.
 ---
 
-A & A Cooking alpha.2 expands the wooden kitchen set so the main furniture and preparation blocks can match a much wider range of builds.
+A & A Cooking expands the wooden kitchen set so the main furniture and preparation blocks can match a much wider range of builds.
 
 <div class="page-summary">
     <p><strong>Status: Implemented</strong></p>
@@ -41,7 +41,7 @@ P   P
 P P P
 ```
 
-`S` is the matching slab and `P` is the matching planks.
+`S` is the matching slab and `P` is the matching planks. This recipe makes **2 Counters**.
 
 | Variant | Block ID |
 |---|---|
@@ -103,7 +103,7 @@ P C P
 P P P
 ```
 
-`S` is the matching slab, `P` is the matching planks, and `C` is a Cauldron.
+`S` is the matching slab, `P` is the matching planks, and `C` is a Bucket.
 
 | Variant | Block ID |
 |---|---|
@@ -149,6 +149,10 @@ S S S
 
 See [Cutting Board](/stations/cutting-board/) for preparation behavior and knife interactions.
 
+## Matching wooden Crates
+
+There are also twelve matching [Crate variants](/storage/crates-cargo/), each with nine inventory slots.
+
 ## Mixing variants in one kitchen
 
 The different appearances are cosmetic within each block family. A Spruce Cabinet can participate in the same kitchen network as an Oak Counter, a Warped Sink, a Cherry Counter, or any other compatible kitchen block.
@@ -163,3 +167,7 @@ This means a kitchen does not need to use one material throughout to keep connec
 - [Kitchen Storage](/storage/overview/)
 - [Equipment & Crafting](/reference/equipment-crafting/)
 - [Complete Content Index](/reference/content-index/)
+
+## Wooden Crates
+
+The same twelve wood materials are also available as nine slot [Crates](/storage/crates-cargo/), which are used for pantry storage and generated village cargo.

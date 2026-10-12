@@ -76,3 +76,18 @@ The exact chain depends on the executable recipe requirement rather than a separ
 - [Kitchen Sink](/stations/kitchen-sink/)
 - [Ingredient Preparation](/getting-started/ingredient-preparation/)
 - [Recipe Book](/recipe-book/overview/)
+
+## Simple and Interactive preparation
+
+The Cutting Board now supports two player preparation modes:
+
+- **Simple:** use the selected knife normally to advance the cutting preparation
+- **Interactive:** follow the displayed cutting guides and make the required strokes over the ingredient
+
+The default client mode is **Interactive**. Press **J** by default to toggle modes. A brief action bar message confirms the selected mode. The selection is saved in `config/aandacooking-preparation-client.json` and synchronized with the server when you join.
+
+Interactive cutting can have multiple phases and guide orientations. The mode does not change the output item for a successful registered preparation. The [Kitchen Knives](/getting-started/kitchen-knives/) guide lists all supported knife tiers.
+
+## Cracking Eggs on the board
+
+An Egg can be cracked against the edge of an empty Cutting Board. Use the Egg on an exposed side or the outer edge of its top surface to receive a Cracked Egg. This is a separate action from inserting a washed vegetable for cutting.

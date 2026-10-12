@@ -118,3 +118,7 @@ The [Recipe Book](/recipe-book/overview/) can expose these prerequisite chains w
 - [Soybean & Tofu Foods](/recipes/soybean-tofu-foods/)
 - [Desserts & Sweet Foods](/recipes/desserts-sweet-foods/)
 - [Recipe Catalog](/recipes/overview/)
+
+## Jar blocks
+
+See [Glass Jars & Sealing](/storage/glass-jars/) for open and sealed placeable Glass Jar blocks. Food preservation through filled jars continues to use the [Jar Sealer](/stations/jar-sealer/).

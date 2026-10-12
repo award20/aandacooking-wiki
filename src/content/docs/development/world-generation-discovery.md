@@ -3,7 +3,7 @@ title: World Generation & Discovery
 description: Structure loot, Salt distribution, Recipe Note discovery, and future world integration in A & A Cooking.
 ---
 
-Exploration is part of A & A Cooking progression. The current alpha.2 build adds **Salt** and **Recipe Notes** to selected vanilla structure loot tables.
+Exploration is part of A & A Cooking progression. The current v0.4.0-alpha.1 build adds **Salt** and **Recipe Notes** to selected vanilla structure loot tables.
 
 ## Salt distribution
 
@@ -59,7 +59,7 @@ The intended Shipwreck theme can continue to emphasize:
 
 Possible later additions include natural Salt generation such as Rock Salt deposits and more structure specific pantry presentation. Witch Huts remain a thematic possibility, but vanilla Witch Huts do not provide a standard chest to extend through the current loot table approach.
 
-These ideas are not part of the current alpha.2 build.
+These ideas are not part of the current v0.4.0-alpha.1 build.
 
 ## Related pages
 
@@ -68,3 +68,13 @@ These ideas are not part of the current alpha.2 build.
 - [Complete Recipe Index](/recipes/complete-index/)
 - [Fermentation & Preservation](/recipes/fermentation-preservation/)
 - [Planned Features](/development/planned-features/)
+
+## Plains Village Markets
+
+The mod also adds a generated [Plains Village Market](/village/plains-market/) structure with plazas, market stalls, kitchens, bakeries, gardens, merchant facilities, and gathering areas. It is separate from the normal structure chest loot described above.
+
+Market [Crates](/storage/crates-cargo/) can contain themed supplies. [Spice Traders](/village/spice-traders/) bring visiting merchants and shipments, while [Village Bands](/village/bands/) add music to the market.
+
+### Shipwreck cargo
+
+Generated crate cargo now includes a **Shipwreck** supply profile. The usable [Spice Box](/storage/crates-cargo/) is also implemented. Broader or more detailed Shipwreck trade cargo presentation may still be expanded later.

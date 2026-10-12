@@ -3,7 +3,7 @@ title: First Steps
 description: A practical starting workflow for preparing ingredients, discovering recipes, cooking, storing food, and farming.
 ---
 
-Alpha.2 is designed around a preparation and station workflow rather than putting every food into the vanilla crafting grid.
+v0.4.0-alpha.1 is designed around a preparation and station workflow rather than putting every food into the vanilla crafting grid.
 
 ## 1. Build the core kitchen
 
@@ -59,3 +59,7 @@ See [Agriculture Overview](/agriculture/overview/) and [Current Crops](/agricult
 - [Equipment & Crafting](/reference/equipment-crafting/)
 - [Commands](/reference/commands/)
 - [Configuration](/reference/configuration/)
+
+## Explore village markets
+
+A [Plains Village Market](/village/plains-market/) offers another way to encounter A & A Cooking equipment and supplies. Look for [Chefs and Bakers](/village/chefs-bakers/), [Spice Traders](/village/spice-traders/), and [Crates](/storage/crates-cargo/). For basic tools, see [Kitchen Knives](/getting-started/kitchen-knives/).

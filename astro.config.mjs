@@ -24,13 +24,25 @@ export default defineConfig({
                     items: [
                         { label: 'About A & A Cooking', slug: 'getting-started/about' },
                         { label: 'First Steps', slug: 'getting-started/first-steps' },
-                        { label: 'Ingredient Preparation', slug: 'getting-started/ingredient-preparation' }
+                        { label: 'Ingredient Preparation', slug: 'getting-started/ingredient-preparation' },
+                        { label: 'Kitchen Knives', slug: 'getting-started/kitchen-knives' }
+                    ]
+                },
+                {
+                    label: 'Villages & Markets',
+                    items: [
+                        { label: 'Overview', slug: 'village/overview' },
+                        { label: 'Plains Village Market', slug: 'village/plains-market' },
+                        { label: 'Chefs & Bakers', slug: 'village/chefs-bakers' },
+                        { label: 'Spice Traders', slug: 'village/spice-traders' },
+                        { label: 'Village Bands', slug: 'village/bands' }
                     ]
                 },
                 {
                     label: 'Cooking',
                     items: [
                         { label: 'Cooking Overview', slug: 'cooking/overview' },
+                        { label: 'Food Quality', slug: 'cooking/food-quality' },
                         { label: 'Cookware Overview', slug: 'cooking/cookware' },
                         { label: 'Cookware Tiers', slug: 'cooking/cookware-tiers' },
                         { label: 'Stockpot', slug: 'cooking/stockpot' },
@@ -58,6 +70,8 @@ export default defineConfig({
                     label: 'Kitchen Storage',
                     items: [
                         { label: 'Storage Overview', slug: 'storage/overview' },
+                        { label: 'Crates & Cargo', slug: 'storage/crates-cargo' },
+                        { label: 'Glass Jars & Sealing', slug: 'storage/glass-jars' },
                         { label: 'Cabinets & Counters', slug: 'storage/cabinets-counters' },
                         { label: 'Cold Storage', slug: 'storage/cold-storage' },
                         { label: 'Freshness & Spoilage', slug: 'storage/freshness-spoilage' }
@@ -77,6 +91,7 @@ export default defineConfig({
                     label: 'Environment',
                     items: [
                         { label: 'Calendar & Seasons', slug: 'environment/calendar-seasons' },
+                        { label: 'Placeable Calendar', slug: 'environment/calendar-block' },
                         { label: 'Solar Time & Daylight', slug: 'environment/solar-daylight' },
                         { label: 'Weather & Climate', slug: 'environment/weather-climate' },
                         { label: 'Weather Reference', slug: 'environment/weather-reference' },
@@ -159,6 +174,7 @@ export default defineConfig({
                         { label: 'Complete Content Index', slug: 'reference/content-index' },
                         { label: 'Wood Kitchen Variants', slug: 'reference/wood-kitchen-variants' },
                         { label: 'Equipment & Crafting', slug: 'reference/equipment-crafting' },
+                        { label: 'Crafting Recipe Index', slug: 'reference/crafting-index' },
                         { label: 'Documentation Coverage', slug: 'reference/documentation-status' }
                     ]
                 },

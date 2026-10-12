@@ -7,7 +7,7 @@ The **Recipe Book** is a placed block that stores discovered recipes, progressio
 
 ## Current catalog
 
-The alpha.2 playtest build contains **233 discoverable Recipe Book entries** across eight categories.
+The v0.4.0-alpha.1 playtest build contains **233 discoverable Recipe Book entries** across eight categories.
 
 | Category | Recipes |
 |---|---:|
@@ -114,3 +114,12 @@ See [Commands](/reference/commands/) for exact syntax.
 - [Cooking Overview](/cooking/overview/)
 - [Kitchen Storage](/storage/overview/)
 - [Commands](/reference/commands/)
+
+## Village kitchens and trading
+
+Some [Chef and Baker](/village/chefs-bakers/) trades can offer prepared food or [Recipe Notes](/recipe-book/notes-discovery/). The available trade candidates are influenced by the equipment installed around the villager's workstation. See [Villages & Markets](/village/overview/).
+
+
+## Connected kitchen capacity
+
+The Recipe Book can query the connected kitchen inventory capacity while you are using it nearby. It reports the total number of storage slots reachable by the kitchen network. Nearby [Cabinets and Counters](/storage/cabinets-counters/), [Cold Storage](/storage/cold-storage/), and other attached storage are part of the same connected kitchen system.

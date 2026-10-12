@@ -3,7 +3,7 @@ title: Weather Reference
 description: Weather conditions, Weather Chart behavior, precipitation thresholds, snow surfaces, and thunderstorm severity.
 ---
 
-A & A Cooking generates local weather from pressure, humidity, cloud cover, precipitation, storm energy, wind, and temperature offsets. The current alpha.2 playtest build exposes nine named weather conditions for commands and testing.
+A & A Cooking generates local weather from pressure, humidity, cloud cover, precipitation, storm energy, wind, and temperature offsets. The current v0.4.0-alpha.1 playtest build exposes nine named weather conditions for commands and testing.
 
 ## Named weather conditions
 

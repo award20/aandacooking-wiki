@@ -3,7 +3,7 @@ title: Configuration
 description: Server and client configuration files, keys, defaults, accepted values, and validation rules for A & A Cooking.
 ---
 
-A & A Cooking uses a server/common configuration file for time, calendar, and climate behavior plus a separate client configuration file for Recipe Book sound.
+A & A Cooking uses a server/common configuration file for time, calendar, and climate behavior plus separate client settings for Recipe Book sound and Cutting Board preparation mode.
 
 ## Main configuration file
 
@@ -130,7 +130,7 @@ Older or incomplete files are normalized when possible. Missing `time`, `calenda
 
 ## Applying changes
 
-The main configuration is loaded during mod initialization. The current alpha.2 build does not expose a command that reloads `aandacooking.json` while the game is running, so restart the game or server after editing it.
+The main configuration is loaded during mod initialization. The current v0.4.0-alpha.1 build does not expose a command that reloads `aandacooking.json` while the game is running, so restart the game or server after editing it.
 
 ## Client configuration
 
@@ -165,3 +165,7 @@ The speaker button on the [Recipe Book](/recipe-book/overview/) toggles this set
 - [Solar Time & Daylight](/environment/solar-daylight/)
 - [Weather & Climate](/environment/weather-climate/)
 - [Recipe Book](/recipe-book/overview/)
+
+## Preparation interaction setting
+
+The client creates `config/aandacooking-preparation-client.json` to save the selected Cutting Board interaction mode. Its `preparationInteraction` field accepts `SIMPLE` or `INTERACTIVE`, with **INTERACTIVE** as the default. Press **J** in game to toggle the mode. See [Cutting Board](/stations/cutting-board/) for the gameplay behavior.

@@ -1,11 +1,11 @@
 ---
 title: A & A Cooking Wiki
-description: Player documentation for the A & A Cooking alpha.2 playtest build.
+description: Player documentation for the A & A Cooking playtest build.
 ---
 
 A & A Cooking expands Minecraft cooking and agriculture with ingredient preparation, tiered cookware, dedicated kitchen stations, connected storage, food freshness and preservation, crop simulation, weather, and recipe discovery.
 
-The current documented build is **alpha.2** for Minecraft 1.21.10 on Fabric.
+The current documented build is **v0.4.0-alpha.1** for Minecraft 1.21.10 on Fabric.
 
 ## Start here
 
@@ -70,3 +70,12 @@ The current documented build is **alpha.2** for Minecraft 1.21.10 on Fabric.
 - [Complete Recipe Index](/recipes/complete-index/)
 - [Equipment & Crafting](/reference/equipment-crafting/)
 - [Planned Features](/development/planned-features/)
+
+## New in the current build
+
+- Explore the [Plains Village Market](/village/plains-market/), trade with [Chefs and Bakers](/village/chefs-bakers/), and meet visiting [Spice Traders](/village/spice-traders/)
+- Discover [Village Bands](/village/bands/) and teach them songs with music discs
+- Store supplies in [Crates](/storage/crates-cargo/), or use the new [Spice Box](/storage/crates-cargo/)
+- Try [Interactive Cutting](/stations/cutting-board/) and the expanded [Kitchen Knives](/getting-started/kitchen-knives/)
+- Place [Calendars](/environment/calendar-block/) and [Glass Jars](/storage/glass-jars/)
+- View the complete [Crafting Recipe Index](/reference/crafting-index/) and [Content Index](/reference/content-index/)
