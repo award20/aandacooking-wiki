@@ -27,6 +27,8 @@ Fertility is clamped at the maximum level of **7**, so a Compost item will not b
 
 Players in Creative mode do not consume the Compost item when applying it.
 
+Use Compost on farmland to convert it into [Cultivated Soil](/agriculture/cultivated-soil/).
+
 ## Fertility and growth
 
 Fertility contributes a growth multiplier from:
